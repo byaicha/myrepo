@@ -1,0 +1,487 @@
+2026-02-15 15:40:20,694 - INFO - ============================================================
+2026-02-15 15:40:20,694 - INFO - START B2B/B2C WEB SCRAPING
+2026-02-15 15:40:20,694 - INFO - ============================================================
+2026-02-15 15:40:20,694 - INFO - Alle Ordner wurden erstellt/geprüft.
+2026-02-15 15:40:20,784 - INFO - Excel-Datei geladen: 36 Unternehmen gefunden
+2026-02-15 15:40:20,785 - INFO - 
+========================================
+2026-02-15 15:40:20,785 - INFO - Verarbeite: SAP 
+2026-02-15 15:40:20,785 - INFO - ========================================
+2026-02-15 15:40:20,785 - INFO - Scrape: SAP - Homepage
+2026-02-15 15:40:24,489 - INFO - Dateien gespeichert: SAP_Homepage.html, SAP_Homepage.txt
+2026-02-15 15:40:24,490 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:40:24,490 - INFO - Scrape: SAP - Ueber_uns
+2026-02-15 15:40:27,112 - INFO - Dateien gespeichert: SAP_Ueber_uns.html, SAP_Ueber_uns.txt
+2026-02-15 15:40:27,112 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:40:27,112 - INFO - Scrape: SAP - Produktseite
+2026-02-15 15:40:29,633 - INFO - Dateien gespeichert: SAP_Produktseite.html, SAP_Produktseite.txt
+2026-02-15 15:40:29,634 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:40:29,634 - INFO - 
+========================================
+2026-02-15 15:40:29,634 - INFO - Verarbeite: Atlassian (Jira) 
+2026-02-15 15:40:29,634 - INFO - ========================================
+2026-02-15 15:40:29,635 - INFO - Scrape: Atlassian (Jira) - Homepage
+2026-02-15 15:40:33,851 - INFO - Dateien gespeichert: Atlassian_(Jira)_Homepage.html, Atlassian_(Jira)_Homepage.txt
+2026-02-15 15:40:33,851 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:40:33,851 - INFO - Scrape: Atlassian (Jira) - Ueber_uns
+2026-02-15 15:40:36,366 - INFO - Dateien gespeichert: Atlassian_(Jira)_Ueber_uns.html, Atlassian_(Jira)_Ueber_uns.txt
+2026-02-15 15:40:36,367 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:40:36,367 - INFO - Scrape: Atlassian (Jira) - Produktseite
+2026-02-15 15:40:39,575 - INFO - Dateien gespeichert: Atlassian_(Jira)_Produktseite.html, Atlassian_(Jira)_Produktseite.txt
+2026-02-15 15:40:39,575 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:40:39,576 - INFO - 
+========================================
+2026-02-15 15:40:39,576 - INFO - Verarbeite: Apple (Deutschland) 
+2026-02-15 15:40:39,576 - INFO - ========================================
+2026-02-15 15:40:39,576 - INFO - Scrape: Apple (Deutschland) - Homepage
+2026-02-15 15:40:43,188 - INFO - Dateien gespeichert: Apple_(Deutschland)_Homepage.html, Apple_(Deutschland)_Homepage.txt
+2026-02-15 15:40:43,188 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:40:43,188 - INFO - Scrape: Apple (Deutschland) - Ueber_uns
+2026-02-15 15:40:46,053 - INFO - Dateien gespeichert: Apple_(Deutschland)_Ueber_uns.html, Apple_(Deutschland)_Ueber_uns.txt
+2026-02-15 15:40:46,053 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:40:46,053 - INFO - Scrape: Apple (Deutschland) - Produktseite
+2026-02-15 15:40:49,141 - INFO - Dateien gespeichert: Apple_(Deutschland)_Produktseite.html, Apple_(Deutschland)_Produktseite.txt
+2026-02-15 15:40:49,141 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:40:49,141 - INFO - 
+========================================
+2026-02-15 15:40:49,142 - INFO - Verarbeite: Continental AG 
+2026-02-15 15:40:49,142 - INFO - ========================================
+2026-02-15 15:40:49,142 - INFO - Scrape: Continental AG - Homepage
+2026-02-15 15:40:52,614 - INFO - Dateien gespeichert: Continental_AG_Homepage.html, Continental_AG_Homepage.txt
+2026-02-15 15:40:52,614 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:40:52,614 - INFO - Scrape: Continental AG - Ueber_uns
+2026-02-15 15:40:55,514 - INFO - Dateien gespeichert: Continental_AG_Ueber_uns.html, Continental_AG_Ueber_uns.txt
+2026-02-15 15:40:55,515 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:40:55,515 - INFO - Scrape: Continental AG - Produktseite
+2026-02-15 15:40:57,920 - INFO - Dateien gespeichert: Continental_AG_Produktseite.html, Continental_AG_Produktseite.txt
+2026-02-15 15:40:57,921 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:40:57,921 - INFO - 
+========================================
+2026-02-15 15:40:57,922 - INFO - Verarbeite: Webasto 
+2026-02-15 15:40:57,922 - INFO - ========================================
+2026-02-15 15:40:57,922 - INFO - Scrape: Webasto - Homepage
+2026-02-15 15:41:01,529 - INFO - Dateien gespeichert: Webasto_Homepage.html, Webasto_Homepage.txt
+2026-02-15 15:41:01,530 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:41:01,530 - INFO - Scrape: Webasto - Ueber_uns
+2026-02-15 15:41:04,229 - INFO - Dateien gespeichert: Webasto_Ueber_uns.html, Webasto_Ueber_uns.txt
+2026-02-15 15:41:04,229 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:41:04,229 - INFO - Scrape: Webasto - Produktseite
+2026-02-15 15:41:07,419 - INFO - Dateien gespeichert: Webasto_Produktseite.html, Webasto_Produktseite.txt
+2026-02-15 15:41:07,420 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:41:07,424 - INFO - 
+========================================
+2026-02-15 15:41:07,424 - INFO - Verarbeite: GNT Group 
+2026-02-15 15:41:07,425 - INFO - ========================================
+2026-02-15 15:41:07,425 - INFO - Scrape: GNT Group - Homepage
+2026-02-15 15:41:11,034 - INFO - Dateien gespeichert: GNT_Group_Homepage.html, GNT_Group_Homepage.txt
+2026-02-15 15:41:11,034 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:41:11,034 - INFO - Scrape: GNT Group - Ueber_uns
+2026-02-15 15:41:14,251 - INFO - Dateien gespeichert: GNT_Group_Ueber_uns.html, GNT_Group_Ueber_uns.txt
+2026-02-15 15:41:14,251 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:41:14,251 - INFO - Scrape: GNT Group - Produktseite
+2026-02-15 15:41:17,730 - INFO - Dateien gespeichert: GNT_Group_Produktseite.html, GNT_Group_Produktseite.txt
+2026-02-15 15:41:17,730 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:41:17,731 - INFO - 
+========================================
+2026-02-15 15:41:17,731 - INFO - Verarbeite: Sympatex 
+2026-02-15 15:41:17,731 - INFO - ========================================
+2026-02-15 15:41:17,731 - INFO - Scrape: Sympatex - Homepage
+2026-02-15 15:41:24,373 - INFO - Dateien gespeichert: Sympatex_Homepage.html, Sympatex_Homepage.txt
+2026-02-15 15:41:24,374 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:41:24,374 - INFO - Scrape: Sympatex - Ueber_uns
+2026-02-15 15:41:29,305 - INFO - Dateien gespeichert: Sympatex_Ueber_uns.html, Sympatex_Ueber_uns.txt
+2026-02-15 15:41:29,305 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:41:29,305 - INFO - Scrape: Sympatex - Produktseite
+2026-02-15 15:41:34,117 - INFO - Dateien gespeichert: Sympatex_Produktseite.html, Sympatex_Produktseite.txt
+2026-02-15 15:41:34,117 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:41:34,118 - INFO - 
+========================================
+2026-02-15 15:41:34,118 - INFO - Verarbeite: Coca-Cola Deutschland 
+2026-02-15 15:41:34,118 - INFO - ========================================
+2026-02-15 15:41:34,118 - INFO - Scrape: Coca-Cola Deutschland - Homepage
+2026-02-15 15:41:37,673 - INFO - Dateien gespeichert: Coca-Cola_Deutschland_Homepage.html, Coca-Cola_Deutschland_Homepage.txt
+2026-02-15 15:41:37,674 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:41:37,674 - INFO - Scrape: Coca-Cola Deutschland - Ueber_uns
+2026-02-15 15:41:40,804 - INFO - Dateien gespeichert: Coca-Cola_Deutschland_Ueber_uns.html, Coca-Cola_Deutschland_Ueber_uns.txt
+2026-02-15 15:41:40,804 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:41:40,804 - INFO - Scrape: Coca-Cola Deutschland - Produktseite
+2026-02-15 15:41:44,046 - INFO - Dateien gespeichert: Coca-Cola_Deutschland_Produktseite.html, Coca-Cola_Deutschland_Produktseite.txt
+2026-02-15 15:41:44,046 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:41:44,046 - INFO - 
+========================================
+2026-02-15 15:41:44,046 - INFO - Verarbeite: Frosta 
+2026-02-15 15:41:44,046 - INFO - ========================================
+2026-02-15 15:41:44,047 - INFO - Scrape: Frosta - Homepage
+2026-02-15 15:41:47,304 - INFO - Dateien gespeichert: Frosta_Homepage.html, Frosta_Homepage.txt
+2026-02-15 15:41:47,304 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:41:47,304 - INFO - Scrape: Frosta - Ueber_uns
+2026-02-15 15:41:51,354 - INFO - Dateien gespeichert: Frosta_Ueber_uns.html, Frosta_Ueber_uns.txt
+2026-02-15 15:41:51,354 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:41:51,355 - INFO - Scrape: Frosta - Produktseite
+2026-02-15 15:41:54,023 - INFO - Dateien gespeichert: Frosta_Produktseite.html, Frosta_Produktseite.txt
+2026-02-15 15:41:54,023 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:41:54,024 - INFO - 
+========================================
+2026-02-15 15:41:54,024 - INFO - Verarbeite: Loxone 
+2026-02-15 15:41:54,024 - INFO - ========================================
+2026-02-15 15:41:54,024 - INFO - Scrape: Loxone - Homepage
+2026-02-15 15:41:59,215 - INFO - Dateien gespeichert: Loxone_Homepage.html, Loxone_Homepage.txt
+2026-02-15 15:41:59,216 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:41:59,216 - INFO - Scrape: Loxone - Ueber_uns
+2026-02-15 15:42:02,784 - INFO - Dateien gespeichert: Loxone_Ueber_uns.html, Loxone_Ueber_uns.txt
+2026-02-15 15:42:02,785 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:42:02,785 - INFO - Scrape: Loxone - Produktseite
+2026-02-15 15:42:07,265 - INFO - Dateien gespeichert: Loxone_Produktseite.html, Loxone_Produktseite.txt
+2026-02-15 15:42:07,265 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:42:07,268 - INFO - 
+========================================
+2026-02-15 15:42:07,268 - INFO - Verarbeite: Nubert 
+2026-02-15 15:42:07,268 - INFO - ========================================
+2026-02-15 15:42:07,268 - INFO - Scrape: Nubert - Homepage
+2026-02-15 15:42:10,902 - INFO - Dateien gespeichert: Nubert_Homepage.html, Nubert_Homepage.txt
+2026-02-15 15:42:10,903 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:42:10,903 - INFO - Scrape: Nubert - Ueber_uns
+2026-02-15 15:42:14,164 - INFO - Dateien gespeichert: Nubert_Ueber_uns.html, Nubert_Ueber_uns.txt
+2026-02-15 15:42:14,164 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:42:14,164 - INFO - Scrape: Nubert - Produktseite
+2026-02-15 15:42:17,789 - INFO - Dateien gespeichert: Nubert_Produktseite.html, Nubert_Produktseite.txt
+2026-02-15 15:42:17,789 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:42:17,789 - INFO - 
+========================================
+2026-02-15 15:42:17,789 - INFO - Verarbeite: Philips Hue 
+2026-02-15 15:42:17,789 - INFO - ========================================
+2026-02-15 15:42:17,790 - INFO - Scrape: Philips Hue - Homepage
+2026-02-15 15:42:20,547 - INFO - Dateien gespeichert: Philips_Hue_Homepage.html, Philips_Hue_Homepage.txt
+2026-02-15 15:42:20,547 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:42:20,547 - INFO - Scrape: Philips Hue - Ueber_uns
+2026-02-15 15:42:23,309 - INFO - Dateien gespeichert: Philips_Hue_Ueber_uns.html, Philips_Hue_Ueber_uns.txt
+2026-02-15 15:42:23,310 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:42:23,310 - INFO - Scrape: Philips Hue - Produktseite
+2026-02-15 15:42:26,424 - INFO - Dateien gespeichert: Philips_Hue_Produktseite.html, Philips_Hue_Produktseite.txt
+2026-02-15 15:42:26,425 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:42:26,426 - INFO - 
+========================================
+2026-02-15 15:42:26,426 - INFO - Verarbeite: Teufel 
+2026-02-15 15:42:26,426 - INFO - ========================================
+2026-02-15 15:42:26,426 - INFO - Scrape: Teufel - Homepage
+2026-02-15 15:42:30,246 - INFO - Dateien gespeichert: Teufel_Homepage.html, Teufel_Homepage.txt
+2026-02-15 15:42:30,246 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:42:30,246 - INFO - Scrape: Teufel - Ueber_uns
+2026-02-15 15:42:34,059 - INFO - Dateien gespeichert: Teufel_Ueber_uns.html, Teufel_Ueber_uns.txt
+2026-02-15 15:42:34,059 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:42:34,059 - INFO - Scrape: Teufel - Produktseite
+2026-02-15 15:42:37,520 - INFO - Dateien gespeichert: Teufel_Produktseite.html, Teufel_Produktseite.txt
+2026-02-15 15:42:37,520 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:42:37,522 - INFO - 
+========================================
+2026-02-15 15:42:37,522 - INFO - Verarbeite: Siemens AG 
+2026-02-15 15:42:37,522 - INFO - ========================================
+2026-02-15 15:42:37,522 - INFO - Scrape: Siemens AG - Homepage
+2026-02-15 15:42:44,649 - INFO - Dateien gespeichert: Siemens_AG_Homepage.html, Siemens_AG_Homepage.txt
+2026-02-15 15:42:44,650 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:42:44,650 - INFO - Scrape: Siemens AG - Ueber_uns
+2026-02-15 15:42:50,117 - INFO - Dateien gespeichert: Siemens_AG_Ueber_uns.html, Siemens_AG_Ueber_uns.txt
+2026-02-15 15:42:50,118 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:42:50,118 - INFO - Scrape: Siemens AG - Produktseite
+2026-02-15 15:42:55,365 - INFO - Dateien gespeichert: Siemens_AG_Produktseite.html, Siemens_AG_Produktseite.txt
+2026-02-15 15:42:55,365 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:42:55,366 - INFO - 
+========================================
+2026-02-15 15:42:55,366 - INFO - Verarbeite: Trumpf 
+2026-02-15 15:42:55,367 - INFO - ========================================
+2026-02-15 15:42:55,367 - INFO - Scrape: Trumpf - Homepage
+2026-02-15 15:42:58,747 - INFO - Dateien gespeichert: Trumpf_Homepage.html, Trumpf_Homepage.txt
+2026-02-15 15:42:58,747 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:42:58,747 - INFO - Scrape: Trumpf - Ueber_uns
+2026-02-15 15:43:01,152 - INFO - Dateien gespeichert: Trumpf_Ueber_uns.html, Trumpf_Ueber_uns.txt
+2026-02-15 15:43:01,152 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:43:01,152 - INFO - Scrape: Trumpf - Produktseite
+2026-02-15 15:43:03,615 - INFO - Dateien gespeichert: Trumpf_Produktseite.html, Trumpf_Produktseite.txt
+2026-02-15 15:43:03,615 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:43:03,616 - INFO - 
+========================================
+2026-02-15 15:43:03,616 - INFO - Verarbeite: Körber Supply Chain 
+2026-02-15 15:43:03,616 - INFO - ========================================
+2026-02-15 15:43:03,616 - INFO - Scrape: Körber Supply Chain - Homepage
+2026-02-15 15:43:07,450 - INFO - Dateien gespeichert: Körber_Supply_Chain_Homepage.html, Körber_Supply_Chain_Homepage.txt
+2026-02-15 15:43:07,450 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:43:07,450 - INFO - Scrape: Körber Supply Chain - Ueber_uns
+2026-02-15 15:43:10,654 - INFO - Dateien gespeichert: Körber_Supply_Chain_Ueber_uns.html, Körber_Supply_Chain_Ueber_uns.txt
+2026-02-15 15:43:10,654 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:43:10,655 - INFO - Scrape: Körber Supply Chain - Produktseite
+2026-02-15 15:43:13,432 - INFO - Dateien gespeichert: Körber_Supply_Chain_Produktseite.html, Körber_Supply_Chain_Produktseite.txt
+2026-02-15 15:43:13,433 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:43:13,433 - INFO - 
+========================================
+2026-02-15 15:43:13,433 - INFO - Verarbeite: Merck KGaA (Life Science) 
+2026-02-15 15:43:13,433 - INFO - ========================================
+2026-02-15 15:43:13,434 - INFO - Scrape: Merck KGaA (Life Science) - Homepage
+2026-02-15 15:43:25,754 - INFO - Dateien gespeichert: Merck_KGaA_(Life_Science)_Homepage.html, Merck_KGaA_(Life_Science)_Homepage.txt
+2026-02-15 15:43:25,755 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:43:25,755 - INFO - Scrape: Merck KGaA (Life Science) - Ueber_uns
+2026-02-15 15:43:38,086 - INFO - Dateien gespeichert: Merck_KGaA_(Life_Science)_Ueber_uns.html, Merck_KGaA_(Life_Science)_Ueber_uns.txt
+2026-02-15 15:43:38,086 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:43:38,087 - INFO - Scrape: Merck KGaA (Life Science) - Produktseite
+2026-02-15 15:43:49,012 - INFO - Dateien gespeichert: Merck_KGaA_(Life_Science)_Produktseite.html, Merck_KGaA_(Life_Science)_Produktseite.txt
+2026-02-15 15:43:49,013 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:43:49,014 - INFO - 
+========================================
+2026-02-15 15:43:49,015 - INFO - Verarbeite: Haribo 
+2026-02-15 15:43:49,015 - INFO - ========================================
+2026-02-15 15:43:49,015 - INFO - Scrape: Haribo - Homepage
+2026-02-15 15:43:51,877 - INFO - Dateien gespeichert: Haribo_Homepage.html, Haribo_Homepage.txt
+2026-02-15 15:43:51,877 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:43:51,877 - INFO - Scrape: Haribo - Ueber_uns
+2026-02-15 15:43:54,960 - INFO - Dateien gespeichert: Haribo_Ueber_uns.html, Haribo_Ueber_uns.txt
+2026-02-15 15:43:54,960 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:43:54,960 - INFO - Scrape: Haribo - Produktseite
+2026-02-15 15:43:58,051 - INFO - Dateien gespeichert: Haribo_Produktseite.html, Haribo_Produktseite.txt
+2026-02-15 15:43:58,052 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:43:58,052 - INFO - 
+========================================
+2026-02-15 15:43:58,052 - INFO - Verarbeite: GNT Group 
+2026-02-15 15:43:58,052 - INFO - ========================================
+2026-02-15 15:43:58,052 - INFO - Scrape: GNT Group - Homepage
+2026-02-15 15:44:01,962 - INFO - Dateien gespeichert: GNT_Group_Homepage.html, GNT_Group_Homepage.txt
+2026-02-15 15:44:01,962 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:44:01,962 - INFO - Scrape: GNT Group - Ueber_uns
+2026-02-15 15:44:05,188 - INFO - Dateien gespeichert: GNT_Group_Ueber_uns.html, GNT_Group_Ueber_uns.txt
+2026-02-15 15:44:05,188 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:44:05,188 - INFO - Scrape: GNT Group - Produktseite
+2026-02-15 15:44:09,037 - INFO - Dateien gespeichert: GNT_Group_Produktseite.html, GNT_Group_Produktseite.txt
+2026-02-15 15:44:09,037 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:44:09,039 - INFO - 
+========================================
+2026-02-15 15:44:09,039 - INFO - Verarbeite: IKEA 
+2026-02-15 15:44:09,039 - INFO - ========================================
+2026-02-15 15:44:09,039 - INFO - Scrape: IKEA - Homepage
+2026-02-15 15:44:13,295 - INFO - Dateien gespeichert: IKEA_Homepage.html, IKEA_Homepage.txt
+2026-02-15 15:44:13,295 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:44:13,295 - INFO - Scrape: IKEA - Ueber_uns
+2026-02-15 15:44:16,303 - INFO - Dateien gespeichert: IKEA_Ueber_uns.html, IKEA_Ueber_uns.txt
+2026-02-15 15:44:16,303 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:44:16,303 - INFO - Scrape: IKEA - Produktseite
+2026-02-15 15:44:19,966 - INFO - Dateien gespeichert: IKEA_Produktseite.html, IKEA_Produktseite.txt
+2026-02-15 15:44:19,967 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:44:19,967 - INFO - 
+========================================
+2026-02-15 15:44:19,967 - INFO - Verarbeite: MediaMarkt 
+2026-02-15 15:44:19,968 - INFO - ========================================
+2026-02-15 15:44:19,968 - INFO - Scrape: MediaMarkt - Homepage
+2026-02-15 15:44:23,598 - INFO - Dateien gespeichert: MediaMarkt_Homepage.html, MediaMarkt_Homepage.txt
+2026-02-15 15:44:23,598 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:44:23,598 - INFO - Scrape: MediaMarkt - Ueber_uns
+2026-02-15 15:44:26,524 - INFO - Dateien gespeichert: MediaMarkt_Ueber_uns.html, MediaMarkt_Ueber_uns.txt
+2026-02-15 15:44:26,524 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:44:26,524 - INFO - Scrape: MediaMarkt - Produktseite
+2026-02-15 15:44:33,374 - INFO - Dateien gespeichert: MediaMarkt_Produktseite.html, MediaMarkt_Produktseite.txt
+2026-02-15 15:44:33,375 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:44:33,375 - INFO - 
+========================================
+2026-02-15 15:44:33,375 - INFO - Verarbeite: BASF 
+2026-02-15 15:44:33,375 - INFO - ========================================
+2026-02-15 15:44:33,375 - INFO - Scrape: BASF - Homepage
+2026-02-15 15:44:37,172 - INFO - Dateien gespeichert: BASF_Homepage.html, BASF_Homepage.txt
+2026-02-15 15:44:37,172 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:44:37,172 - INFO - Scrape: BASF - Ueber_uns
+2026-02-15 15:44:42,481 - INFO - Dateien gespeichert: BASF_Ueber_uns.html, BASF_Ueber_uns.txt
+2026-02-15 15:44:42,484 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:44:42,484 - INFO - Scrape: BASF - Produktseite
+2026-02-15 15:44:47,547 - INFO - Dateien gespeichert: BASF_Produktseite.html, BASF_Produktseite.txt
+2026-02-15 15:44:47,548 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:44:47,550 - INFO - 
+========================================
+2026-02-15 15:44:47,550 - INFO - Verarbeite: Trumpf 
+2026-02-15 15:44:47,550 - INFO - ========================================
+2026-02-15 15:44:47,550 - INFO - Scrape: Trumpf - Homepage
+2026-02-15 15:44:50,282 - INFO - Dateien gespeichert: Trumpf_Homepage.html, Trumpf_Homepage.txt
+2026-02-15 15:44:50,282 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:44:50,283 - INFO - Scrape: Trumpf - Ueber_uns
+2026-02-15 15:44:53,515 - INFO - Dateien gespeichert: Trumpf_Ueber_uns.html, Trumpf_Ueber_uns.txt
+2026-02-15 15:44:53,515 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:44:53,515 - INFO - Scrape: Trumpf - Produktseite
+2026-02-15 15:44:58,181 - INFO - Dateien gespeichert: Trumpf_Produktseite.html, Trumpf_Produktseite.txt
+2026-02-15 15:44:58,181 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:44:58,182 - INFO - 
+========================================
+2026-02-15 15:44:58,182 - INFO - Verarbeite: Atlassian (Jira) 
+2026-02-15 15:44:58,182 - INFO - ========================================
+2026-02-15 15:44:58,182 - INFO - Scrape: Atlassian (Jira) - Homepage
+2026-02-15 15:45:02,607 - INFO - Dateien gespeichert: Atlassian_(Jira)_Homepage.html, Atlassian_(Jira)_Homepage.txt
+2026-02-15 15:45:02,608 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:45:02,608 - INFO - Scrape: Atlassian (Jira) - Ueber_uns
+2026-02-15 15:45:05,408 - INFO - Dateien gespeichert: Atlassian_(Jira)_Ueber_uns.html, Atlassian_(Jira)_Ueber_uns.txt
+2026-02-15 15:45:05,408 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:45:05,409 - INFO - Scrape: Atlassian (Jira) - Produktseite
+2026-02-15 15:45:09,958 - INFO - Dateien gespeichert: Atlassian_(Jira)_Produktseite.html, Atlassian_(Jira)_Produktseite.txt
+2026-02-15 15:45:09,958 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:45:09,959 - INFO - 
+========================================
+2026-02-15 15:45:09,959 - INFO - Verarbeite: EnBW (B2B) 
+2026-02-15 15:45:09,959 - INFO - ========================================
+2026-02-15 15:45:09,959 - INFO - Scrape: EnBW (B2B) - Homepage
+2026-02-15 15:45:12,754 - INFO - Dateien gespeichert: EnBW_(B2B)_Homepage.html, EnBW_(B2B)_Homepage.txt
+2026-02-15 15:45:12,755 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:45:12,755 - INFO - Scrape: EnBW (B2B) - Ueber_uns
+2026-02-15 15:45:15,381 - INFO - Dateien gespeichert: EnBW_(B2B)_Ueber_uns.html, EnBW_(B2B)_Ueber_uns.txt
+2026-02-15 15:45:15,381 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:45:15,381 - INFO - Scrape: EnBW (B2B) - Produktseite
+2026-02-15 15:45:18,197 - INFO - Dateien gespeichert: EnBW_(B2B)_Produktseite.html, EnBW_(B2B)_Produktseite.txt
+2026-02-15 15:45:18,197 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:45:18,198 - INFO - 
+========================================
+2026-02-15 15:45:18,198 - INFO - Verarbeite: Roland Berger 
+2026-02-15 15:45:18,198 - INFO - ========================================
+2026-02-15 15:45:18,198 - INFO - Scrape: Roland Berger - Homepage
+2026-02-15 15:45:21,223 - INFO - Dateien gespeichert: Roland_Berger_Homepage.html, Roland_Berger_Homepage.txt
+2026-02-15 15:45:21,224 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:45:21,224 - INFO - Scrape: Roland Berger - Ueber_uns
+2026-02-15 15:45:23,561 - INFO - Dateien gespeichert: Roland_Berger_Ueber_uns.html, Roland_Berger_Ueber_uns.txt
+2026-02-15 15:45:23,561 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:45:23,562 - INFO - Scrape: Roland Berger - Produktseite
+2026-02-15 15:45:26,531 - INFO - Dateien gespeichert: Roland_Berger_Produktseite.html, Roland_Berger_Produktseite.txt
+2026-02-15 15:45:26,531 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:45:26,531 - INFO - 
+========================================
+2026-02-15 15:45:26,531 - INFO - Verarbeite: Hugo Boss 
+2026-02-15 15:45:26,532 - INFO - ========================================
+2026-02-15 15:45:26,532 - INFO - Scrape: Hugo Boss - Homepage
+2026-02-15 15:45:30,200 - INFO - Dateien gespeichert: Hugo_Boss_Homepage.html, Hugo_Boss_Homepage.txt
+2026-02-15 15:45:30,200 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:45:30,200 - INFO - Scrape: Hugo Boss - Ueber_uns
+2026-02-15 15:45:33,163 - INFO - Dateien gespeichert: Hugo_Boss_Ueber_uns.html, Hugo_Boss_Ueber_uns.txt
+2026-02-15 15:45:33,164 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:45:33,164 - INFO - Scrape: Hugo Boss - Produktseite
+2026-02-15 15:45:36,390 - INFO - Dateien gespeichert: Hugo_Boss_Produktseite.html, Hugo_Boss_Produktseite.txt
+2026-02-15 15:45:36,391 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:45:36,391 - INFO - 
+========================================
+2026-02-15 15:45:36,391 - INFO - Verarbeite: Springer Nature 
+2026-02-15 15:45:36,391 - INFO - ========================================
+2026-02-15 15:45:36,392 - INFO - Scrape: Springer Nature - Homepage
+2026-02-15 15:45:39,189 - INFO - Dateien gespeichert: Springer_Nature_Homepage.html, Springer_Nature_Homepage.txt
+2026-02-15 15:45:39,190 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:45:39,190 - INFO - Scrape: Springer Nature - Ueber_uns
+2026-02-15 15:45:42,468 - INFO - Dateien gespeichert: Springer_Nature_Ueber_uns.html, Springer_Nature_Ueber_uns.txt
+2026-02-15 15:45:42,469 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:45:42,469 - INFO - Scrape: Springer Nature - Produktseite
+2026-02-15 15:45:45,748 - INFO - Dateien gespeichert: Springer_Nature_Produktseite.html, Springer_Nature_Produktseite.txt
+2026-02-15 15:45:45,748 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:45:45,751 - INFO - 
+========================================
+2026-02-15 15:45:45,751 - INFO - Verarbeite: FlixBus 
+2026-02-15 15:45:45,751 - INFO - ========================================
+2026-02-15 15:45:45,751 - INFO - Scrape: FlixBus - Homepage
+2026-02-15 15:45:48,623 - INFO - Dateien gespeichert: FlixBus_Homepage.html, FlixBus_Homepage.txt
+2026-02-15 15:45:48,623 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:45:48,624 - INFO - Scrape: FlixBus - Ueber_uns
+2026-02-15 15:45:51,984 - INFO - Dateien gespeichert: FlixBus_Ueber_uns.html, FlixBus_Ueber_uns.txt
+2026-02-15 15:45:51,985 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:45:51,985 - INFO - Scrape: FlixBus - Produktseite
+2026-02-15 15:45:54,812 - INFO - Dateien gespeichert: FlixBus_Produktseite.html, FlixBus_Produktseite.txt
+2026-02-15 15:45:54,812 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:45:54,813 - INFO - 
+========================================
+2026-02-15 15:45:54,813 - INFO - Verarbeite: Deutsche Bahn Netz 
+2026-02-15 15:45:54,813 - INFO - ========================================
+2026-02-15 15:45:54,813 - INFO - Scrape: Deutsche Bahn Netz - Homepage
+2026-02-15 15:45:57,848 - INFO - Dateien gespeichert: Deutsche_Bahn_Netz_Homepage.html, Deutsche_Bahn_Netz_Homepage.txt
+2026-02-15 15:45:57,849 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:45:57,849 - INFO - Scrape: Deutsche Bahn Netz - Ueber_uns
+2026-02-15 15:46:00,505 - INFO - Dateien gespeichert: Deutsche_Bahn_Netz_Ueber_uns.html, Deutsche_Bahn_Netz_Ueber_uns.txt
+2026-02-15 15:46:00,505 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:46:00,505 - INFO - Scrape: Deutsche Bahn Netz - Produktseite
+2026-02-15 15:46:04,602 - INFO - Dateien gespeichert: Deutsche_Bahn_Netz_Produktseite.html, Deutsche_Bahn_Netz_Produktseite.txt
+2026-02-15 15:46:04,603 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:46:04,603 - INFO - 
+========================================
+2026-02-15 15:46:04,604 - INFO - Verarbeite: Gymshark 
+2026-02-15 15:46:04,604 - INFO - ========================================
+2026-02-15 15:46:04,604 - INFO - Scrape: Gymshark - Homepage
+2026-02-15 15:46:08,576 - INFO - Dateien gespeichert: Gymshark_Homepage.html, Gymshark_Homepage.txt
+2026-02-15 15:46:08,577 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:46:08,577 - INFO - Scrape: Gymshark - Ueber_uns
+2026-02-15 15:46:13,050 - INFO - Dateien gespeichert: Gymshark_Ueber_uns.html, Gymshark_Ueber_uns.txt
+2026-02-15 15:46:13,050 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:46:13,050 - INFO - Scrape: Gymshark - Produktseite
+2026-02-15 15:46:20,231 - INFO - Dateien gespeichert: Gymshark_Produktseite.html, Gymshark_Produktseite.txt
+2026-02-15 15:46:20,232 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:46:20,233 - INFO - 
+========================================
+2026-02-15 15:46:20,233 - INFO - Verarbeite: Moleskine 
+2026-02-15 15:46:20,233 - INFO - ========================================
+2026-02-15 15:46:20,233 - INFO - Scrape: Moleskine - Homepage
+2026-02-15 15:46:24,500 - INFO - Dateien gespeichert: Moleskine_Homepage.html, Moleskine_Homepage.txt
+2026-02-15 15:46:24,500 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:46:24,500 - INFO - Scrape: Moleskine - Ueber_uns
+2026-02-15 15:46:27,300 - INFO - Dateien gespeichert: Moleskine_Ueber_uns.html, Moleskine_Ueber_uns.txt
+2026-02-15 15:46:27,300 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:46:27,301 - INFO - Scrape: Moleskine - Produktseite
+2026-02-15 15:46:30,548 - INFO - Dateien gespeichert: Moleskine_Produktseite.html, Moleskine_Produktseite.txt
+2026-02-15 15:46:30,550 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:46:30,550 - INFO - 
+========================================
+2026-02-15 15:46:30,550 - INFO - Verarbeite: Qualcomm 
+2026-02-15 15:46:30,550 - INFO - ========================================
+2026-02-15 15:46:30,550 - INFO - Scrape: Qualcomm - Homepage
+2026-02-15 15:46:34,263 - INFO - Dateien gespeichert: Qualcomm_Homepage.html, Qualcomm_Homepage.txt
+2026-02-15 15:46:34,263 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:46:34,263 - INFO - Scrape: Qualcomm - Ueber_uns
+2026-02-15 15:46:37,189 - INFO - Dateien gespeichert: Qualcomm_Ueber_uns.html, Qualcomm_Ueber_uns.txt
+2026-02-15 15:46:37,190 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:46:37,190 - INFO - Scrape: Qualcomm - Produktseite
+2026-02-15 15:46:40,914 - INFO - Dateien gespeichert: Qualcomm_Produktseite.html, Qualcomm_Produktseite.txt
+2026-02-15 15:46:40,914 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:46:40,915 - INFO - 
+========================================
+2026-02-15 15:46:40,915 - INFO - Verarbeite: NEW YORKER  
+2026-02-15 15:46:40,915 - INFO - ========================================
+2026-02-15 15:46:40,915 - INFO - Scrape: NEW YORKER  - Homepage
+2026-02-15 15:46:44,120 - INFO - Dateien gespeichert: NEW_YORKER_Homepage.html, NEW_YORKER_Homepage.txt
+2026-02-15 15:46:44,120 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:46:44,120 - INFO - Scrape: NEW YORKER  - Ueber_uns
+2026-02-15 15:46:46,837 - INFO - Dateien gespeichert: NEW_YORKER_Ueber_uns.html, NEW_YORKER_Ueber_uns.txt
+2026-02-15 15:46:46,837 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:46:46,837 - INFO - Scrape: NEW YORKER  - Produktseite
+2026-02-15 15:46:49,285 - INFO - Dateien gespeichert: NEW_YORKER_Produktseite.html, NEW_YORKER_Produktseite.txt
+2026-02-15 15:46:49,285 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:46:49,286 - INFO - 
+========================================
+2026-02-15 15:46:49,286 - INFO - Verarbeite: SEPHORA  
+2026-02-15 15:46:49,286 - INFO - ========================================
+2026-02-15 15:46:49,286 - INFO - Scrape: SEPHORA  - Homepage
+2026-02-15 15:46:52,712 - INFO - Dateien gespeichert: SEPHORA_Homepage.html, SEPHORA_Homepage.txt
+2026-02-15 15:46:52,713 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:46:52,713 - INFO - Scrape: SEPHORA  - Ueber_uns
+2026-02-15 15:46:56,333 - INFO - Dateien gespeichert: SEPHORA_Ueber_uns.html, SEPHORA_Ueber_uns.txt
+2026-02-15 15:46:56,333 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:46:56,334 - INFO - Scrape: SEPHORA  - Produktseite
+2026-02-15 15:46:59,773 - INFO - Dateien gespeichert: SEPHORA_Produktseite.html, SEPHORA_Produktseite.txt
+2026-02-15 15:46:59,773 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:46:59,774 - INFO - 
+========================================
+2026-02-15 15:46:59,774 - INFO - Verarbeite: AOK 
+2026-02-15 15:46:59,774 - INFO - ========================================
+2026-02-15 15:46:59,774 - INFO - Scrape: AOK - Homepage
+2026-02-15 15:47:03,820 - INFO - Dateien gespeichert: AOK_Homepage.html, AOK_Homepage.txt
+2026-02-15 15:47:03,820 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-02-15 15:47:03,820 - INFO - Scrape: AOK - Ueber_uns
+2026-02-15 15:47:06,902 - INFO - Dateien gespeichert: AOK_Ueber_uns.html, AOK_Ueber_uns.txt
+2026-02-15 15:47:06,902 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-02-15 15:47:06,902 - INFO - Scrape: AOK - Produktseite
+2026-02-15 15:47:10,281 - INFO - Dateien gespeichert: AOK_Produktseite.html, AOK_Produktseite.txt
+2026-02-15 15:47:10,281 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-02-15 15:47:10,283 - INFO - 
+============================================================
+2026-02-15 15:47:10,284 - INFO - SCRAPING ZUSAMMENFASSUNG
+2026-02-15 15:47:10,284 - INFO - ============================================================
+2026-02-15 15:47:10,284 - INFO - Gesamtseiten: 108
+2026-02-15 15:47:10,284 - INFO - Erfolgreich: 108
+2026-02-15 15:47:10,284 - INFO - Fehlgeschlagen: 0
+2026-02-15 15:47:10,285 - INFO - 
+Daten gespeichert in:
+2026-02-15 15:47:10,285 - INFO -   - Roh-HTML: ../03_Data/raw_html
+2026-02-15 15:47:10,285 - INFO -   - Saubere Texte: ../03_Data/cleaned_text
+2026-02-15 15:47:10,285 - INFO -   - Logs: ../03_Data/logs
+2026-02-15 15:47:10,285 - INFO - 
+Scraping abgeschlossen!
