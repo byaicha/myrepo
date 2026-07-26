@@ -1,0 +1,3564 @@
+<!DOCTYPE HTML>
+<html lang="de" dir="ltr" data-brand-evolution="true">
+    <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Eine Investition in die Zukunft der Gesundheit</title>
+    
+    <meta name="robots" content="index, follow"/>
+    <meta name="description" content="Die offizielle Website der Carl Zeiss Meditec AG - Die Carl Zeiss Meditec AG ist eines der weltweit führenden Medizintechnik-Unternehmen. Das Unternehmen ist im TecDAX der deutschen Börse notiert."/>
+    <meta name="template" content="all_home_002"/>
+    <meta name="page_context_language" content="de"/>
+    <meta name="page_context_country" content="INT"/>
+    <meta name="page_context_locale" content="de_xi"/>
+    <meta name="page_context_sbu" content="MED-AG"/>
+    
+    
+    
+        <meta name="content-page-ref" content="3J0i36QheEdRdzO0O1q5XWYATSZrSkUrkaKwIk4RPsnOBy4BHOd6XvgR3bzUnr8yWP_Up1kKcONlRPIpQNWjJX1EvT5QsEfIeW33RQkBuFA"/>
+<script defer="defer" type="text/javascript" src="/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js"></script>
+<link rel="alternate" href="https://www.zeiss.com/meditec-ag/en/home.html" hreflang="x-default"/>
+    
+    
+        <link rel="alternate" href="https://www.zeiss.com/meditec-ag/de/home.html" hreflang="de"/>
+    
+    
+    
+
+
+    
+    
+
+  <link rel="preload" href="/bin/core/services/userdataprovider/datalayer.json/content/med-ag/international/website/de/home" as="fetch"/>
+  <link rel="preload" href="/bin/core/cached/services/crisis/content.json?context=/content/med-ag/international/website/de/home" as="fetch"/>
+
+  <link rel="preload" href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.all.lc-46fdb7a7ed2ed340c0104cf26e130c58-lc.js" as="script"/>
+
+  
+
+  <link rel="preload" href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/fonts/zeiss_text/ZEISSTextUIVF-Italic.ttf" as="font" type="font/ttf" crossorigin="anonymous"/>
+  <link rel="preload" href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/fonts/zeiss_text/ZEISSTextUIVF-Upright.ttf" as="font" type="font/ttf" crossorigin="anonymous"/>
+  <link rel="preload" href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/fonts/zeiss_head/ZEISSHeadUIVFWeb.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
+
+
+
+    
+    
+
+
+    
+    
+  <!-- OneTrust Cookies Consent (SSR Mode) Notice start -->
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="8993cba0-8683-43f1-9904-d63a3e023a9c"></script>
+<script type="text/javascript">
+  function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent (SSR Mode) Notice end -->
+
+
+
+    
+    <script>
+  class UserContext {
+    static #instance
+    #data;
+    constructor() {
+      if (UserContext.#instance) return UserContext.#instance;
+      UserContext.#instance = this;
+      this.#data = UserContext.#fetch();
+    }
+
+    static #fetch() {
+      try {
+        return fetch(
+          "\/bin\/core\/services\/userdataprovider\/datalayer.json\/content\/med\u002Dag\/international\/website\/de\/home",
+          { credentials: 'include', mode: 'no-cors' })
+          .then((resp) => this.#handleResponse(resp));
+      } catch (e) {
+        console.error('fetching url userdata. Error was: ' + e)
+      }
+    }
+    static #handleResponse(response) {
+      if (!response.ok) throw new Error('non-success status code ' + response.status + 'received.');
+      return response.json();
+    }
+
+    getData() { return this.#data; }
+
+    get data() { return this.getData(); }
+  }
+
+  window.userContext = new UserContext().getData();
+  Object.freeze(window.userContext);
+</script>
+ 
+    <script>
+  class PageContext {
+    static #instance;
+    #data = {
+  "country" : "XI",
+  "language" : "de",
+  "locale" : "de_XI",
+  "sbu" : "MED-AG",
+  "auth" : {
+    "enabled" : false
+  }
+};
+    #resolveHeaderPromise;
+
+    constructor() {
+      if (PageContext.#instance ) return PageContext.#instance;
+      PageContext.#instance = this;
+      this.header = new Promise((resolve, reject) => this.#resolveHeaderPromise = resolve );
+      this.#attachHeaderEventListener();
+      Object.freeze(this.#data);
+    }
+
+    #appendQueryToUrl(
+      given_url,
+      query=new URLSearchParams(window.location.search)
+    ) {
+      const url = new URL(given_url);
+      query.forEach(
+        (value, param) => url.searchParams.append(param, value)
+      );
+      return url;
+    }
+
+    #attachHeaderEventListener() {
+      document.addEventListener("header\u002Dloaded", (e) => this.#resolveHeader(e));
+    }
+
+    #resolveHeader(e) {
+      this.#resolveHeaderPromise(e.detail);
+    }
+
+    #getLoginUrlAem(keepQuery) {
+      const url = new URL(this.#data.auth.loginUrl.url);
+      return keepQuery ? this.#appendQueryToUrl(url) : url;
+    }
+
+    #getLoginUrlCustomAuth(keepQuery) {
+      const pattern = this.#data.auth.loginUrl.pattern;
+      let returnUrl = this.#data.auth.loginUrl.returnUrl;
+      if ( keepQuery ) returnUrl = this.#appendQueryToUrl(returnUrl);
+
+      return new URL(
+        pattern.replace(
+          "{login_return_url}",
+          encodeURIComponent(returnUrl)
+        )
+      );
+   }
+
+    #getLogoutUrl(keepQuery=true) {
+      if ( !this.#data.auth.enabled ) return undefined;
+      return keepQuery ? this.#appendQueryToUrl(this.#data.auth.logoutUrl) : new URL(this.#data.auth.logoutUrl);
+  }
+
+    #getLoginUrl(keepQuery=true) {
+      if ( !this.#data.auth.enabled ) return undefined;
+
+      if ( this.#data.auth.type == "AEM" ) {
+        return this.#getLoginUrlAem(keepQuery);
+      }
+      if ( this.#data.auth.type == "CUSTOM_AUTH_HANDLER" ) {
+        return this.#getLoginUrlCustomAuth(keepQuery);
+      }
+    }
+    get country() { return this.#data.country }
+    get language() { return this.#data.language }
+    get locale() { return this.#data.locale }
+    get logoutUrl() {return this.#getLogoutUrl()}
+    get loginUrl() {return this.#getLoginUrl()}
+    get sbu() { return this.#data.sbu }
+  }
+
+  window.pageContext = new PageContext();
+  Object.freeze(window.pageContext);
+</script>
+ 
+    
+  
+
+
+  
+  <script>const loadSolutionAppJS = async () => {}</script>
+
+ 
+    <script>
+
+  const createGtmPageLoadEvent = (userdata) => {
+    if (!userdata) throw 'Cannot create page load event, userdata missing';
+
+    const loggedIn = Boolean(userdata?.accountid);
+    const plEvent = {
+      ...{
+  "pageArea" : "web",
+  "pageCountry" : "INT",
+  "pageEnvironment" : "prod_publish",
+  "pageIdentifier" : "main",
+  "pageLanguage" : "de",
+  "pageLocation" : "ALL_Home_002",
+  "pageName" : "home",
+  "pagePool" : "medag",
+  "productName" : "",
+  "pageTags" : "",
+  "contentHierarchy1" : "home"
+},
+      event: 'Page load',
+      userLoginState: loggedIn.toString(),
+      language: userdata?.language,
+      country: userdata?.country
+    };
+
+    if (loggedIn) {
+      plEvent.userId = userdata.accountid;
+      plEvent.zeissid = {};
+      if (userdata.zeissid?.organization) plEvent.zeissid.organisation = userdata.zeissid.organization;
+      if (userdata.zeissid?.organization?.zeisscustomerno) plEvent.zeissid.organisation.zeisscustomerno = userdata.zeissid.organization.zeisscustomerno;
+      if (userdata?.mkto_med_myzeiss) plEvent.mkto_med_myzeiss = userdata.mkto_med_myzeiss;
+    }
+
+    return plEvent;
+  }
+
+  const loadGTM = () => {
+    const delay = 0;
+
+    setTimeout(() => {
+      console.info(`adding GTM after delay of 0ms.`);
+
+      const w = window, d = document, s = "script", l = "dataLayer", i = "GTM-PMTCS9RP";
+
+      w[l] = w[l] || [];
+      w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != "dataLayer" ? "&l=" + l : "";
+      j.async = true;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+
+      f.parentNode.insertBefore(j, f)
+    }, delay);
+  };
+
+  userContext.then((userdata) => {
+    const pageLoadEvent = createGtmPageLoadEvent(userdata);
+    Array.isArray(window.dataLayer) ? window.dataLayer.push(pageLoadEvent) : window.dataLayer = [pageLoadEvent];
+    loadGTM();
+  });
+
+</script>
+
+
+
+ 
+    
+  <script>
+    const ENDPOINT_CRISIS_CONFIG = "\/bin\/core\/cached\/services\/crisis\/content.json?context=\/content\/med\u002Dag\/international\/website\/de\/home";
+    const URL_JUPITER_JS_LIBS = ["\/etc.clientlibs\/zeiss\u002Daem\u002Dapp\/jupiter\/clientlibs\/jupiter\u002Dcomponents.all.lc\u002D46fdb7a7ed2ed340c0104cf26e130c58\u002Dlc.js"];
+
+    const loadCrisisConfig = async () => {
+      try {
+        const response = await fetch(ENDPOINT_CRISIS_CONFIG, {credentials: 'include', mode: 'no-cors'});
+
+        if (!response.ok) throw new Error('non-success status code ' + response.status + ' received.');
+
+        return response.json();
+      }
+      catch (e) {
+        console.error('fetching url' + ENDPOINT_CRISIS_CONFIG + ' failed: ' + e)
+      }
+    }
+
+    const executeJS = async ( url, async=false ) => {
+      const SCRIPT_TAG_NAME = 'script';
+      const ref_node = document.getElementsByTagName(SCRIPT_TAG_NAME)[0];
+
+      let script_node = document.createElement(SCRIPT_TAG_NAME);
+
+      script_node.async = async;
+      script_node.src = url;
+
+      ref_node.parentNode.insertBefore(script_node, ref_node);
+    }
+
+    const loadInitialJupiterJS = async () => {
+      URL_JUPITER_JS_LIBS.forEach( async (js_url)  => { executeJS(js_url, false); } )
+    }
+
+    const bootstrapJS = async () => {
+      const data = await Promise.all([userContext, loadCrisisConfig()]);
+
+      window.userdata = data[0];
+      window.crisisConfig = data[1];
+    }
+
+    bootstrapJS().then(() => {
+      loadInitialJupiterJS();
+      loadSolutionAppJS();
+    });
+  </script>
+
+ 
+
+    
+    <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.zeiss.com/meditec-ag/de/home.html"}]}
+    </script>
+
+    
+    
+
+
+    
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","@id":"https://www.zeiss.com","url":"https://www.zeiss.com","logo":"https://www.zeiss.com/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols/zeiss-logo.svg"}</script>
+
+    
+    
+
+    <meta property="og:url" content="https://www.zeiss.com/meditec-ag/de/home.html"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Eine Investition in die Zukunft der Gesundheit"/>
+<meta property="og:description" content="Die offizielle Website der Carl Zeiss Meditec AG - Die Carl Zeiss Meditec AG ist eines der weltweit führenden Medizintechnik-Unternehmen. Das Unternehmen ist im TecDAX der deutschen Börse notiert."/>
+<meta property="og:locale" content="de_XI"/>
+<meta property="og:image" content="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss_meditec_ag_default_press_information_image.jpg"/>
+<meta property="og:image:alt" content="Das Unternehmen"/>
+
+
+
+    
+    
+
+    
+  <link rel="apple-touch-icon" sizes="180x180" href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/favicons/apple-touch-icon.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/favicons/favicon-32x32.png"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/favicons/favicon-16x16.png"/>
+  <link rel="manifest" href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/favicons/site.webmanifest"/>
+  <link rel="mask-icon" href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/favicons/safari-pinned-tab.svg" color="#0f2db3"/>
+  <meta name="msapplication-TileColor" content="#ffffff"/>
+  <meta name="msapplication-square150x150logo" content="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/favicons/mstile-150x150.png"/>
+  <meta name="theme-color" content="#ffffff"/>
+
+    <link rel="canonical" href="https://www.zeiss.com/meditec-ag/de/home.html"/>
+    
+
+  
+<link href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.all.lc-50cbbac2512381d7db3550b845625d74-lc.css" rel="stylesheet" type="text/css">
+
+  
+
+
+
+
+
+
+
+
+
+
+    <link media="print" rel="stylesheet" href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.print.lc-73db7cd60bc53c7dbc630f239b325af1-lc.css" type="text/css">
+
+
+
+    
+    
+    
+
+    
+
+    
+    
+    
+
+</head>
+    <body class="page basicpage no-js
+                 ">
+        <script>document.body.classList.remove('no-js');</script>
+        
+        
+        
+            <noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMTCS9RP" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+
+            
+
+
+
+<header class="main-header header exclude-site-search
+               
+               
+                header--no-campaign" data-module="Header">
+    <a href="#content" class="header__skip-link" data-js-select="Header_skip-link" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Skip Navigation&#34;,&#34;detail&#34;:&#34;&#34;,&#34;moduleSection&#34;:&#34;Header&#34;,&#34;moduleType&#34;:&#34;Navigation&#34;}">
+        <p class="header__skip-link__text">Zum Hauptinhalt wechseln</p>
+    </a>
+    
+    
+
+    
+    
+
+    <div class="header__meta grid__container grid__container--full-bleed" data-js-select="Header_meta">
+        <div class="grid__structure">
+            <div class="grid__column grid__column--100 ">
+                <div class="grid__background-column"></div>
+                <div class="header__flex__container ">
+                    <div class="header__flex__structure">
+                        
+                        <div class="header__website-area-name visible-from-s">
+                            Carl Zeiss Meditec AG
+                            
+                        </div>
+
+                        
+                        <ul class="header__first-level-links-list header__utility-links visible-from-m">
+
+    
+    
+    <li class="header__first-level-links-list-item">
+        
+        <a data-tracking-id="Country Switch" class="header__first-level-link header__first-level-link__country-switch" data-js-select="Header__country-switch-jumpmark" title="Land wechseln" aria-label="Wechseln Sie zur Länderauswahl in der Fußzeile." data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;&#34;,&#34;action&#34;:&#34;Open&#34;,&#34;value&#34;:&#34;Open Country Switch&#34;,&#34;detail&#34;:&#34;&#34;,&#34;moduleSection&#34;:&#34;Header&#34;,&#34;moduleType&#34;:&#34;Country Switch&#34;}" href="#countrySwitch">
+          Internationale Website (Deutsch)
+          <span class="header__first-level-link__country-switch__icon">
+            
+  <span class="icon icon-inline-beyond/16px/Language">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_870_5604)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8.72982 15.9672C12.8061 15.5985 16 12.1723 16 8.00001C16 3.84374 12.8305 0.427758 8.77663 0.0372306C8.5 0 8.30374 8.90015e-06 8.00017 1.8468e-07C7.7148 -8.00797e-06 7.5 0.000109799 7.27018 0.0328572C3.19394 0.401492 0 3.82776 0 8.00001C0 12.1563 3.16951 15.5723 7.22337 15.9628C7.5 16 7.5 16 7.99985 16C8.5 16 8.5 16 8.72982 15.9672ZM12.9919 12.9073C12.1167 13.7975 11.0051 14.4547 9.75895 14.7772C10.3975 13.9683 10.9811 13.0794 11.4441 12.1399C11.9938 12.3512 12.5134 12.6095 12.9919 12.9073ZM13.6464 12.1382C13.0924 11.7813 12.4887 11.4736 11.849 11.2244C12.1941 10.3428 12.422 9.42725 12.4834 8.50001H14.9824C14.8867 9.85574 14.405 11.1049 13.6464 12.1382ZM14.9824 7.50001C14.8877 6.15861 14.4151 4.92156 13.6704 3.8947C13.1346 4.27488 12.5689 4.58098 11.9694 4.81981C12.2603 5.66523 12.4402 6.55863 12.4875 7.50001H14.9824ZM11.486 7.50001C11.4397 6.67451 11.2792 5.88627 11.0199 5.13512C10.0933 5.38552 9.09064 5.50015 8.00009 5.50015C7.00216 5.50015 6.02362 5.35689 5.10043 5.09455C4.78739 5.88324 4.58075 6.69212 4.51922 7.50001H11.486ZM11.4808 8.50001H4.51397C4.56029 9.32553 4.72078 10.1138 4.98008 10.8649C5.90674 10.6145 6.90944 10.4999 8.00003 10.4999C8.99792 10.4999 9.97643 10.6431 10.8996 10.9054C11.2126 10.1168 11.4192 9.30789 11.4808 8.50001ZM3.51664 7.50001C3.57797 6.57277 3.80588 5.65719 4.15099 4.7756C3.51134 4.52635 2.9076 4.21865 2.3536 3.86181C1.59503 4.8951 1.11326 6.14426 1.01758 7.50001H3.51664ZM1.01758 8.50001C1.11225 9.84144 1.58489 11.0785 2.32964 12.1054C2.8654 11.7252 3.43111 11.4191 4.03057 11.1803C3.7397 10.3348 3.55976 9.44142 3.5125 8.50001H1.01758ZM13.0245 3.12618C12.5768 3.43628 12.103 3.69009 11.5977 3.89138C11.1677 2.9526 10.5995 2.07833 9.92693 1.26858C11.1204 1.6096 12.1836 2.25945 13.0245 3.12618ZM10.6388 4.20138C10.0904 3.04101 9.30215 1.97683 8.33836 1.00805C8.22625 1.00271 8.11344 1.00001 8 1.00001C7.91073 1.00001 7.82185 1.00168 7.7334 1.005C6.87855 1.95188 6.09792 3.03073 5.51793 4.1724C6.31001 4.3843 7.14669 4.50015 8.00009 4.50015C8.96612 4.50015 9.83991 4.40453 10.6388 4.20138ZM8.26661 14.995C9.12146 14.0481 9.90209 12.9693 10.4821 11.8276C9.69003 11.6157 8.85339 11.4999 8.00003 11.4999C7.03396 11.4999 6.16013 11.5955 5.36121 11.7987C5.90959 12.959 6.69786 14.0232 7.66164 14.992C7.77375 14.9973 7.88656 15 8 15C8.08927 15 8.17815 14.9983 8.26661 14.995ZM6.24105 1.22285C4.99487 1.54537 3.88338 2.20252 3.00817 3.0927C3.48663 3.39044 4.00621 3.64882 4.55594 3.86005C5.01892 2.92062 5.60246 2.03169 6.24105 1.22285ZM4.40233 12.1087C3.89698 12.31 3.42323 12.5638 2.97553 12.8739C3.81642 13.7406 4.87959 14.3904 6.07307 14.7314C5.40055 13.9217 4.83232 13.0475 4.40233 12.1087Z" fill="#FF00CD"/>
+</g>
+<defs>
+<clipPath id="clip0_870_5604">
+<rect width="16" height="16" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+
+    </span>
+   </span>
+
+          </span>
+        </a>
+    </li>
+
+
+    
+</ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid__container">
+        <div class="grid__structure">
+            <div class="header__navigation-area">
+                <span id="external-link-description" class="visually-hidden" aria-hidden="true">
+                    Öffnet sich in einem neuen Tab
+                </span>
+                
+                <a href="https://www.zeiss.com/meditec-ag/de/home.html" aria-label="Homepage von Carl Zeiss Meditec AG " data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Logo&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Logo&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/meditec-ag/de/home.html&#34;,&#34;moduleSection&#34;:&#34;Header&#34;,&#34;moduleType&#34;:&#34;Navigation&#34;}" data-js-select="Header_Logo" class="header__logo">
+                    
+  <span class="icon icon-symbols-zeiss-logo icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-zeiss-logo"/>
+      </svg>
+    </span>
+  </span>
+
+                </a>
+
+                
+                <a href="#" aria-label="Klicken Sie hier, um zur letzten Navigationsebene zurückzukehren" title="Klicken Sie hier, um zur letzten Navigationsebene zurückzukehren" data-js-select="Header_Back-link" class="plain-link header__backlink">
+                    
+  <span class="icon icon-symbols-chevron-left icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-chevron-left"/>
+      </svg>
+    </span>
+  </span>
+
+                    Zurück
+                </a>
+
+                <div class="header__navigation visible-from-l" data-js-select="Header_navigation" data-tracking-id="Navigation">
+                    
+
+                    <div class="header__first-level-container header__first-level-container--main-navigation" data-js-select="Header_first-level">
+                        
+                        <nav aria-label="Hauptnavigation"><ul class="header__first-level-links-list">
+    <li class="header__first-level-links-list-item">
+    <a class="header__first-level-link     header__first-level-link--lazy" data-track-auto="false" aria-controls="content-med-ag-international-website-de-investor-relations" aria-haspopup="true" aria-expanded="false" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;&#34;,&#34;action&#34;:&#34;Expand&#34;,&#34;value&#34;:&#34;Investor Relations&#34;,&#34;detail&#34;:&#34;&#34;,&#34;moduleSection&#34;:&#34;Header&#34;,&#34;moduleType&#34;:&#34;Navigation&#34;}" data-megamenu="content-med-ag-international-website-de-investor-relations" data-megamenu-fetch-url="https://www.zeiss.com/meditec-ag/de/investor-relations/_jcr_content/megaMenu.fetch.html" href="https://www.zeiss.com/meditec-ag/de/investor-relations.html" aria-label="Investor Relations">
+        
+        <span class="header__first-level-link__label">Investor Relations</span>
+        
+        <span class="header__first-level-link__child-indication" aria-hidden="true">
+  <span class="icon icon-inline-beyond/16px/ChevronExpand">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13.3536 5.85353L8.00004 11.2071L2.64648 5.85353L3.35359 5.14643L8.00004 9.79287L12.6465 5.14643L13.3536 5.85353Z" fill="#FF00CD"/>
+</svg>
+
+    </span>
+   </span>
+</span>
+    </a>
+</li>
+
+    <li class="header__first-level-links-list-item">
+    <a class="header__first-level-link     header__first-level-link--lazy" data-track-auto="false" aria-controls="content-med-ag-international-website-de-media-news" aria-haspopup="true" aria-expanded="false" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;&#34;,&#34;action&#34;:&#34;Expand&#34;,&#34;value&#34;:&#34;Presse und Aktuelles&#34;,&#34;detail&#34;:&#34;&#34;,&#34;moduleSection&#34;:&#34;Header&#34;,&#34;moduleType&#34;:&#34;Navigation&#34;}" data-megamenu="content-med-ag-international-website-de-media-news" data-megamenu-fetch-url="https://www.zeiss.com/meditec-ag/de/presse-und-aktuelles/_jcr_content/megaMenu.fetch.html" href="https://www.zeiss.com/meditec-ag/de/presse-und-aktuelles.html" aria-label="Presse und Aktuelles">
+        
+        <span class="header__first-level-link__label">Presse und Aktuelles</span>
+        
+        <span class="header__first-level-link__child-indication" aria-hidden="true">
+  <span class="icon icon-inline-beyond/16px/ChevronExpand">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13.3536 5.85353L8.00004 11.2071L2.64648 5.85353L3.35359 5.14643L8.00004 9.79287L12.6465 5.14643L13.3536 5.85353Z" fill="#FF00CD"/>
+</svg>
+
+    </span>
+   </span>
+</span>
+    </a>
+</li>
+
+    <li class="header__first-level-links-list-item">
+    <a class="header__first-level-link     header__first-level-link--lazy" data-track-auto="false" aria-controls="content-med-ag-international-website-de-product-portfolio" aria-haspopup="true" aria-expanded="false" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;&#34;,&#34;action&#34;:&#34;Expand&#34;,&#34;value&#34;:&#34;Produkte&#34;,&#34;detail&#34;:&#34;&#34;,&#34;moduleSection&#34;:&#34;Header&#34;,&#34;moduleType&#34;:&#34;Navigation&#34;}" data-megamenu="content-med-ag-international-website-de-product-portfolio" data-megamenu-fetch-url="https://www.zeiss.com/meditec-ag/de/produkte/_jcr_content/megaMenu.fetch.html" href="https://www.zeiss.com/meditec-ag/de/produkte.html" aria-label="Produkte">
+        
+        <span class="header__first-level-link__label">Produkte</span>
+        
+        <span class="header__first-level-link__child-indication" aria-hidden="true">
+  <span class="icon icon-inline-beyond/16px/ChevronExpand">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13.3536 5.85353L8.00004 11.2071L2.64648 5.85353L3.35359 5.14643L8.00004 9.79287L12.6465 5.14643L13.3536 5.85353Z" fill="#FF00CD"/>
+</svg>
+
+    </span>
+   </span>
+</span>
+    </a>
+</li>
+
+    <li class="header__first-level-links-list-item">
+    <a class="header__first-level-link     header__first-level-link--lazy" data-track-auto="false" aria-controls="content-med-ag-international-website-de-about-us" aria-haspopup="true" aria-expanded="false" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;&#34;,&#34;action&#34;:&#34;Expand&#34;,&#34;value&#34;:&#34;Über Uns&#34;,&#34;detail&#34;:&#34;&#34;,&#34;moduleSection&#34;:&#34;Header&#34;,&#34;moduleType&#34;:&#34;Navigation&#34;}" data-megamenu="content-med-ag-international-website-de-about-us" data-megamenu-fetch-url="https://www.zeiss.com/meditec-ag/de/ueber-uns/_jcr_content/megaMenu.fetch.html" href="https://www.zeiss.com/meditec-ag/de/ueber-uns.html" aria-label="Über Uns">
+        
+        <span class="header__first-level-link__label">Über Uns</span>
+        
+        <span class="header__first-level-link__child-indication" aria-hidden="true">
+  <span class="icon icon-inline-beyond/16px/ChevronExpand">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13.3536 5.85353L8.00004 11.2071L2.64648 5.85353L3.35359 5.14643L8.00004 9.79287L12.6465 5.14643L13.3536 5.85353Z" fill="#FF00CD"/>
+</svg>
+
+    </span>
+   </span>
+</span>
+    </a>
+</li>
+
+</ul>
+</nav>
+                        
+                        
+                        
+                        
+                        <nav class="header__my-zeiss-area" data-js-select="Header_my-zeiss-area" aria-label="Zusätzliche Navigation">
+                            <ul class="header__first-level-links-list" data-tracking-id="Primary utility links">
+    
+    
+
+    
+    
+        <li class="header__first-level-links-list-item">
+    <a class="header__first-level-link     " data-track-auto="true" aria-describedby="external-link-description" data-track-event="{&#34;name&#34;:&#34;CTA&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;MyZEISS&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/meditec/myzeiss&#34;,&#34;moduleSection&#34;:&#34;Header&#34;,&#34;moduleType&#34;:&#34;Primary Utility Links&#34;}" href="https://www.zeiss.com/meditec/myzeiss" target="_blank" title="MyZEISS" aria-label="MyZEISS">
+        
+        <span class="header__first-level-link__label">MyZEISS</span>
+        
+        
+    </a>
+</li>
+    
+        <li class="header__first-level-links-list-item">
+    <a class="header__first-level-link     " data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;CTA&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Kontakt&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/meditec-ag/de/presse-und-aktuelles.html#kontakt&#34;,&#34;moduleSection&#34;:&#34;Header&#34;,&#34;moduleType&#34;:&#34;Primary Utility Links&#34;}" href="https://www.zeiss.com/meditec-ag/de/presse-und-aktuelles.html#kontakt" title="Kontakt" aria-label="Kontakt">
+        
+        <span class="header__first-level-link__label">Kontakt</span>
+        
+        
+    </a>
+</li>
+    
+
+    
+    
+    
+
+</ul>
+                        </nav>
+                    </div>
+
+                    <!--googleoff: all-->
+                    
+                    <nav class="header__first-level-container header__my-zeiss-area--mobile hide-from-l" data-js-select="Header_my-zeiss-area--mobile" aria-label="Zusätzliche Navigation">
+                        <ul class="header__first-level-links-list">
+                            
+    
+    
+
+    
+    
+        <li class="header__first-level-links-list-item">
+    <a class="header__first-level-link     " data-track-auto="true" aria-describedby="external-link-description" data-track-event="{&#34;name&#34;:&#34;CTA&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;MyZEISS&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/meditec/myzeiss&#34;,&#34;moduleSection&#34;:&#34;Header&#34;,&#34;moduleType&#34;:&#34;Primary Utility Links&#34;}" href="https://www.zeiss.com/meditec/myzeiss" target="_blank" title="MyZEISS" aria-label="MyZEISS">
+        
+        <span class="header__first-level-link__label">MyZEISS</span>
+        
+        
+    </a>
+</li>
+    
+        <li class="header__first-level-links-list-item">
+    <a class="header__first-level-link     " data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;CTA&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Kontakt&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/meditec-ag/de/presse-und-aktuelles.html#kontakt&#34;,&#34;moduleSection&#34;:&#34;Header&#34;,&#34;moduleType&#34;:&#34;Primary Utility Links&#34;}" href="https://www.zeiss.com/meditec-ag/de/presse-und-aktuelles.html#kontakt" title="Kontakt" aria-label="Kontakt">
+        
+        <span class="header__first-level-link__label">Kontakt</span>
+        
+        
+    </a>
+</li>
+    
+
+    
+    
+    
+
+
+                            
+                        </ul>
+                    </nav>
+                    
+                    <div class="header__first-level-container header__utility-links-in-navigation hide-from-m" data-js-select="Header_utility-links-mobile">
+                        <ul class="header__first-level-links-list">
+                            
+                        </ul>
+                    </div>
+                    <!--googleon: all-->
+
+                    
+                    <div class="header__first-level-container header__related-websites hide-from-l" data-js-select="Header_related-websites">
+                        <ul class="related-websites">
+                            <li class="header__first-level-links-list-item">
+                                <h3 class="related-websites__headline hl-s">Verwandte ZEISS Websites</h3>
+                            </li>
+                            
+                                <li class="header__first-level-links-list-item">
+    <a class="header__first-level-link     " data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Header&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Related ZEISS Websites - Für medizinisches Fachpersonal&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/med&#34;,&#34;moduleSection&#34;:null,&#34;moduleType&#34;:null}" href="https://www.zeiss.de/med" title="Für medizinisches Fachpersonal" aria-label="Für medizinisches Fachpersonal">
+        
+        <span class="header__first-level-link__label">Für medizinisches Fachpersonal</span>
+        
+        
+    </a>
+</li>
+                            
+                                <li class="header__first-level-links-list-item">
+    <a class="header__first-level-link     " data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Header&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Related ZEISS Websites - ZEISS Gruppe&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de&#34;,&#34;moduleSection&#34;:null,&#34;moduleType&#34;:null}" href="https://www.zeiss.de" title="ZEISS Gruppe" aria-label="ZEISS Gruppe">
+        
+        <span class="header__first-level-link__label">ZEISS Gruppe</span>
+        
+        
+    </a>
+</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+                
+                <div class="header__first-level-links-list header__first-level-links-list--action-area">
+                    <div class="header__first-level-links-list-item-group">
+                        
+                        
+                        
+                        <div class="header__first-level-links-list-item">
+    <a class="header__first-level-link header__action-area__search header__first-level-link--icon header__first-level-link--no-label  " data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Header&#34;,&#34;action&#34;:&#34;NavigationClick&#34;,&#34;value&#34;:&#34;Search&#34;,&#34;detail&#34;:&#34;&#34;,&#34;moduleSection&#34;:null,&#34;moduleType&#34;:null}" href="#search" title="Auf Website suchen" aria-label="Auf Website suchen">
+        
+  <span class="icon icon-symbols-search icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-search"/>
+      </svg>
+    </span>
+  </span>
+
+        <span class="header__first-level-link__label"></span>
+        
+        
+    </a>
+
+</div>
+                        
+                        <div class="header__first-level-links-list-item header__first-level-links-list-item--mobile-menu"><button aria-label="Menü öffnen / schließen" type="button" class="main-menu-toggle" data-track-auto="false" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;&#34;,&#34;action&#34;:&#34;Open&#34;,&#34;value&#34;:&#34;Open Mega Menu&#34;,&#34;detail&#34;:&#34;&#34;,&#34;moduleSection&#34;:&#34;Header&#34;,&#34;moduleType&#34;:&#34;Navigation&#34;}" href="#" title="Menü öffnen / schließen">
+  <span class="main-menu-toggle__icon icon">
+    <span class="svg-scale-wrapper">
+      <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <polygon class="top-line" fill="#000000" fill-rule="nonzero" points="3 6 3 8 21 8 21 6"></polygon>
+        <polygon class="center-line__1" fill="#000000" fill-rule="nonzero" points="3 13 21 13 21 11 3 11"></polygon>
+        <polygon class="center-line__2" fill="#000000" fill-rule="nonzero" points="3 13 21 13 21 11 3 11"></polygon>
+        <polygon class="bottom-line" fill="#000000" fill-rule="nonzero" points="3 18 21 18 21 16 3 16"></polygon>
+      </svg>
+    </span>
+  </span>
+</button>
+</div>
+                    </div>
+                    
+                    
+                </div>
+
+                
+                <div class="header__megamenu" data-module="HeaderMegamenu" tabindex="-1">
+    <div class="header__megamenu__backdrop" data-js-select="HeaderMegamenu_backdrop"></div>
+
+    <div class="header__megamenu__menu-container" data-js-select="HeaderMegamenu_menu-container">
+        
+        <div class="grid__container header__megamenu__close-button-container">
+            <div class="grid__structure">
+                <div class="grid__column grid__column--100">
+                    <a aria-label="Mega-Menü mit diesem Link schließen" class="plain-link header__megamenu__close-button" data-js-select="HeaderMegamenu_additional_close" href="#">
+  <span class="icon icon-symbols-close icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-close"/>
+      </svg>
+    </span>
+  </span>
+</a>
+                </div>
+            </div>
+        </div>
+
+        
+        
+            
+
+  <nav class="grid__container header__megamenu__menu" aria-label="Main navigation" data-js-select="HeaderMegamenu_menu" data-megamenu-mode="manual" id="content-med-ag-international-website-de-investor-relations">
+    
+  </nav>
+
+
+        
+            
+
+  <nav class="grid__container header__megamenu__menu" aria-label="Main navigation" data-js-select="HeaderMegamenu_menu" data-megamenu-mode="manual" id="content-med-ag-international-website-de-media-news">
+    
+  </nav>
+
+
+        
+            
+
+  <nav class="grid__container header__megamenu__menu" aria-label="Main navigation" data-js-select="HeaderMegamenu_menu" data-megamenu-mode="manual" id="content-med-ag-international-website-de-product-portfolio">
+    
+  </nav>
+
+
+        
+            
+
+  <nav class="grid__container header__megamenu__menu" aria-label="Main navigation" data-js-select="HeaderMegamenu_menu" data-megamenu-mode="manual" id="content-med-ag-international-website-de-about-us">
+    
+  </nav>
+
+
+        
+
+        
+        
+
+
+    </div>
+</div>
+
+            </div>
+        </div>
+
+        
+
+    </div>
+
+    
+    <div class="headerSearch">
+  
+  <div class="search-mindbreeze search--is-loading" data-module="Search" data-tracking-id="Search">
+    <div data-app></div>
+    <script data-search-config type="application/json">
+      {
+        "api_base_path": "https://enterprise-search.prd.core-services.zeiss.com/search/aem/prod/publish/api/v2/",
+        "client_js_url": "https://enterprise-search.prd.core-services.zeiss.com/search/aem/prod/publish/apps/scripts-min/client.js",
+        "suggestion_count": "10",
+        "constraints": "{\"and\":[ {\"or\":[ {\"label\":\"page_context_sbu\",\"regex\":\"^MED-AG$\"}, {\"label\":\"page_context_sbu\",\"regex\":\"^CLP\"}, {\"label\":\"page_context_sbu\",\"regex\":\"^CHR$\"} ]}, {\"not\":[ {\"label\":\"page_context_sbu\",\"regex\":\"^DOC-EXA$\"} ]}, {\"or\":[ {\"label\":\"page_context_locale\",\"regex\":\"^de_xi$\"}, {\"label\":\"page_context_locale\",\"regex\":\"^de_xi$\"}\t]} ]}",
+        "module_section": "",
+        "module_type": "",
+        "form_url": "https://www.zeiss.com/meditec-ag/de/z/suche.html",
+        "input_placeholder": "Was dürfen wir heute für Sie finden?",
+        "view_name": "oss-default-sbu-scope-restricted"
+      }
+    </script>
+  </div>
+
+  
+
+</div>
+
+</header>
+
+
+
+<main id="content">
+    
+    
+    
+    
+
+    
+    <div class="root responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    <div id="container-64820a52e6" class="cmp-container">
+        
+        <div class="metadata container panelcontainer">
+
+
+
+
+</div>
+
+        
+    </div>
+
+</div>
+<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    <div id="container-bd701f3687" class="cmp-container">
+        
+        <div class="stage background-media-wrapper--ratio-16_9 stage--text-right stage--content-dark">
+  
+  
+    
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  <div data-module="BackgroundMedia" class="background-media
+              background-media--ratio-16_9
+              
+              background-media--has-fallback-image
+              stage__background" data-target-id="stage-111765439" data-tracking-id="stage-1072653640">
+    <div class="background-medias">
+      
+      <figure class="background-media-image
+                     background-media-image--ratio-1_1
+                     background-media-image--desktop-ratio-16_9
+                     ">
+        
+        
+        
+        
+        
+        <noscript>
+          <img class="background-media-image__image" alt="Carl Zeiss Meditec AG" title="" src="https://www.zeiss.com/content/dam/med-ag/home/home-stage-general-02.png/_jcr_content/renditions/original.image_file.1511.850.156,337,1667,1187.file/home-stage-general-02.png"/>
+        </noscript>
+        <img class="background-media-image__image
+                    background-media-image__target-image
+                    background-media-image__image--mobile-center
+                    background-media-image__image--mobile-middle
+                    background-media-image__image--desktop-right
+                    background-media-image__image--desktop-top" data-js-select="BackgroundMedia_image" alt="Carl Zeiss Meditec AG" title="" data-src="{&#34;xsmall&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/home-stage-general-02.png/_jcr_content/renditions/original.image_file.100.56.156,337,1667,1187.file/home-stage-general-02.png&#34;,&#34;small&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/home-stage-general-02.png/_jcr_content/renditions/original.image_file.360.203.156,337,1667,1187.file/home-stage-general-02.png&#34;,&#34;medium&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/home-stage-general-02.png/_jcr_content/renditions/original.image_file.768.432.156,337,1667,1187.file/home-stage-general-02.png&#34;,&#34;large&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/home-stage-general-02.png/_jcr_content/renditions/original.image_file.1024.576.156,337,1667,1187.file/home-stage-general-02.png&#34;,&#34;xlarge&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/home-stage-general-02.png/_jcr_content/renditions/original.image_file.1280.720.156,337,1667,1187.file/home-stage-general-02.png&#34;,&#34;xxlarge&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/home-stage-general-02.png/_jcr_content/renditions/original.image_file.1440.810.156,337,1667,1187.file/home-stage-general-02.png&#34;,&#34;max&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/home-stage-general-02.png/_jcr_content/renditions/original.image_file.1511.850.156,337,1667,1187.file/home-stage-general-02.png&#34;}" data-src-fallback="{&#34;xsmall&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/home-stage-general-01.jpg/_jcr_content/renditions/original.image_file.100.100.422,52,1525,1155.file/home-stage-general-01.jpg&#34;,&#34;small&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/home-stage-general-01.jpg/_jcr_content/renditions/original.image_file.360.360.422,52,1525,1155.file/home-stage-general-01.jpg&#34;,&#34;medium&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/home-stage-general-01.jpg/_jcr_content/renditions/original.image_file.768.768.422,52,1525,1155.file/home-stage-general-01.jpg&#34;,&#34;large&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/home-stage-general-01.jpg/_jcr_content/renditions/original.image_file.1024.1024.422,52,1525,1155.file/home-stage-general-01.jpg&#34;,&#34;xlarge&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/home-stage-general-01.jpg/_jcr_content/renditions/original.image_file.1103.1103.422,52,1525,1155.file/home-stage-general-01.jpg&#34;,&#34;xxlarge&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/home-stage-general-01.jpg/_jcr_content/renditions/original.image_file.1103.1103.422,52,1525,1155.file/home-stage-general-01.jpg&#34;,&#34;max&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/home-stage-general-01.jpg/_jcr_content/renditions/original.image_file.1103.1103.422,52,1525,1155.file/home-stage-general-01.jpg&#34;}"/>
+        
+  
+  
+  <figcaption class="text--body-s text--caption background-media-image__figcaption--hide-default-on-mobile">
+    
+    
+
+    
+    
+  </figcaption>
+
+      </figure>
+
+      
+      
+    </div>
+    
+    <div class="background-media-content">
+      
+  <div class="stage__container grid__container" data-target-id="content-741030697">
+    <div class="stage__grid-structure grid__structure ">
+      <div class="stage__column grid__column grid__column--50">
+        <div class="stage__content">
+          
+          <div class="stage__headline">
+            <div class="headline hl-xxl hl--sub-xxl hl--typo-head spacing--m">
+  <div class="headline__inner" data-target-id="headline-1658503388">
+    
+    
+    
+    <h1>
+      <span class="headline__main" data-js-select="Headline_main">
+        <span id="headline-1658503388">
+          Innovations that matter
+        </span>
+        
+      </span>
+      
+    </h1>
+    
+    
+  </div>
+
+
+
+    
+
+</div>
+
+          </div>
+          
+          
+          
+          <div class="stage__text">
+            <div class="text text--body-l">
+    <p>Mit medizinischen Spitzenprodukten und integrierten Workflowlösungen setzen wir neue Maßstäbe für die Augenheilkunde und die Mikrochirurgie. Unsere innovativen Technologien unterstützen Ärztinnen und Ärzte etwa dabei, Sehkraft bis ins hohe Alter zu erhalten und Gehirntumore zu bekämpfen. Dass wir mit unserem Tun einen direkten Einfluss auf das Wohl der Menschen haben, ist unser tägliche Motivation.</p>
+
+
+
+
+    
+
+</div>
+
+          </div>
+          
+          
+          
+          
+  
+
+          
+          
+          
+          
+          
+        </div>
+      </div>
+
+      
+      
+    </div>
+    
+    
+  </div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+    
+    
+  
+
+  
+  
+
+</div>
+
+        
+    </div>
+
+</div>
+<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    <div id="container-a09ecb908c" class="cmp-container">
+        
+        
+        
+    </div>
+
+</div>
+<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    <div id="container-03597eecfb" class="cmp-container">
+        
+        <div class="grid-and-tiles-module grid__container">
+  
+  
+
+  
+  <div class="grid-and-tiles-module__grid-wrapper grid__structure" data-target-id="gridAndTiles-273762489" data-tracking-id="gridAndTiles-1564545639">
+  <div class="grid__column grid__column--100">
+    
+    <div class="module-headline spacing--l"><div class="grid__structure">
+  <div class="grid__column module-headline--column">
+    
+  
+  
+  
+  
+  
+  <div class="headline hl-l headline--align-center    hl--sub-xs ">
+  <div class="headline__inner">
+    
+    
+    
+    <h2>
+      <span class="headline__main" data-js-select="Headline_main">
+        <span>
+          Carl Zeiss Meditec AG
+        </span>
+        
+      </span>
+      
+    </h2>
+    
+    
+  </div>
+</div>
+
+
+  </div>
+</div>
+
+    
+</div>
+
+
+    
+    
+
+
+	
+
+
+  <div class="grid-and-tiles
+              grid-and-tiles--count-3
+              grid-and-tiles--cta-enabled" data-module="GridAndTiles">
+    
+    <div data-js-select="grid-and-tiles-tile" data-module="GridAndTilesTile" class="grid-and-tiles-tile grid-and-tiles-tile--background-image-color-dark">
+    
+	
+
+    <div class="grid-and-tiles-tile__content" data-target-id="tile-1433885787">
+
+        
+        
+
+        
+        
+            
+  
+  
+  <div data-module="LazyBackgroundImage" data-src="{&#34;xsmall&#34;:&#34;https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss_meditec_ag_default_press_information_image.jpg/_jcr_content/renditions/original.image_file.100.67.file/zeiss_meditec_ag_default_press_information_image.jpg&#34;,&#34;small&#34;:&#34;https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss_meditec_ag_default_press_information_image.jpg/_jcr_content/renditions/original.image_file.360.240.file/zeiss_meditec_ag_default_press_information_image.jpg&#34;,&#34;medium&#34;:&#34;https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss_meditec_ag_default_press_information_image.jpg/_jcr_content/renditions/original.image_file.768.512.file/zeiss_meditec_ag_default_press_information_image.jpg&#34;,&#34;large&#34;:&#34;https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss_meditec_ag_default_press_information_image.jpg/_jcr_content/renditions/original.image_file.1024.683.file/zeiss_meditec_ag_default_press_information_image.jpg&#34;,&#34;xlarge&#34;:&#34;https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss_meditec_ag_default_press_information_image.jpg/_jcr_content/renditions/original.image_file.1280.853.file/zeiss_meditec_ag_default_press_information_image.jpg&#34;,&#34;xxlarge&#34;:&#34;https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss_meditec_ag_default_press_information_image.jpg/_jcr_content/renditions/original.image_file.1440.960.file/zeiss_meditec_ag_default_press_information_image.jpg&#34;,&#34;max&#34;:&#34;https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss_meditec_ag_default_press_information_image.jpg/_jcr_content/renditions/original./zeiss_meditec_ag_default_press_information_image.jpg&#34;}" class="lazy-background-image lazy-background-image--center lazy-background-image--middle" title="Das Unternehmen" aria-label="Das Unternehmen">
+    
+    
+    
+  </div>
+
+
+        
+
+        
+        
+
+        
+        
+
+        
+        
+        
+          
+          
+            
+          
+    
+        <a class="plain-link grid-and-tiles-tile__link" href="https://www.zeiss.com/meditec-ag/de/ueber-uns/unternehmensgeschichte.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;CTA&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Das Unternehmen&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/meditec-ag/de/ueber-uns/unternehmensgeschichte.html&#34;,&#34;moduleSection&#34;:&#34;gridAndTiles-1564545639&#34;,&#34;moduleType&#34;:&#34;Grid Tiles&#34;}">
+    
+    
+
+    
+    <div class="grid-and-tiles-tile__text-box"><div class="headline hl-s headline--inverted">
+  <div class="headline__inner" data-target-id="headline-425384992">
+    
+    
+    
+    <span>
+      <span class="headline__main" data-js-select="Headline_main">
+        <span>
+          Das Unternehmen
+        </span>
+        
+      </span>
+      
+    </span>
+    
+    
+  </div>
+
+
+
+    
+
+</div>
+</div>
+  
+    
+    
+  
+    
+    
+</a>
+    
+
+        
+    </div>
+</div>
+<div data-js-select="grid-and-tiles-tile" data-module="GridAndTilesTile" class="grid-and-tiles-tile grid-and-tiles-tile--background-image-color-bright grid-and-tiles-tile--text-box-width-s-full grid-and-tiles-tile--text-box-width-m-full grid-and-tiles-tile--text-box-width-l-3-4 grid-and-tiles-tile--text-box-width-xl-2-3">
+    
+	
+
+    <div class="grid-and-tiles-tile__content" data-target-id="tile-1433885786">
+
+        
+        
+
+        
+        
+            
+  
+  
+  <div data-module="LazyBackgroundImage" data-src="{&#34;xsmall&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/about-us/gf_hp.jpg/_jcr_content/renditions/original.image_file.100.63.file/gf_hp.jpg&#34;,&#34;small&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/about-us/gf_hp.jpg/_jcr_content/renditions/original.image_file.360.225.file/gf_hp.jpg&#34;,&#34;medium&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/about-us/gf_hp.jpg/_jcr_content/renditions/original.image_file.768.480.file/gf_hp.jpg&#34;,&#34;large&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/about-us/gf_hp.jpg/_jcr_content/renditions/original.image_file.1024.640.file/gf_hp.jpg&#34;,&#34;xlarge&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/about-us/gf_hp.jpg/_jcr_content/renditions/original.image_file.1280.800.file/gf_hp.jpg&#34;,&#34;xxlarge&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/about-us/gf_hp.jpg/_jcr_content/renditions/original.image_file.1440.900.file/gf_hp.jpg&#34;,&#34;max&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/about-us/gf_hp.jpg/_jcr_content/renditions/original.image_file.1920.1200.file/gf_hp.jpg&#34;}" class="lazy-background-image lazy-background-image--center lazy-background-image--middle" aria-label="Management">
+    
+    
+    
+  </div>
+
+
+        
+
+        
+        
+
+        
+        
+
+        
+        
+        
+          
+          
+            
+          
+    
+        <a class="plain-link grid-and-tiles-tile__link" href="https://www.zeiss.com/meditec-ag/de/ueber-uns/vorstand-und-aufsichtsrat.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;CTA&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Management&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/meditec-ag/de/ueber-uns/vorstand-und-aufsichtsrat.html&#34;,&#34;moduleSection&#34;:&#34;gridAndTiles-1564545639&#34;,&#34;moduleType&#34;:&#34;Grid Tiles&#34;}">
+    
+    
+
+    
+    <div class="grid-and-tiles-tile__text-box"><div class="headline hl-s">
+  <div class="headline__inner" data-target-id="headline-621898497">
+    
+    
+    
+    <span>
+      <span class="headline__main" data-js-select="Headline_main">
+        <span>
+          Management
+        </span>
+        
+      </span>
+      
+    </span>
+    
+    
+  </div>
+
+
+
+    
+
+</div>
+</div>
+  
+    
+    
+  
+    
+    
+</a>
+    
+
+        
+    </div>
+</div>
+<div data-js-select="grid-and-tiles-tile" data-module="GridAndTilesTile" class="grid-and-tiles-tile grid-and-tiles-tile--headline-bottom">
+    
+	
+
+    <div class="grid-and-tiles-tile__content" data-target-id="tile-320876152">
+
+        
+        
+
+        
+        
+            
+  
+  
+  <div data-module="LazyBackgroundImage" data-src="{&#34;xsmall&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/tile_unternehmensverantwortung.jpg/_jcr_content/renditions/original.image_file.100.67.file/tile_unternehmensverantwortung.jpg&#34;,&#34;small&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/tile_unternehmensverantwortung.jpg/_jcr_content/renditions/original.image_file.360.240.file/tile_unternehmensverantwortung.jpg&#34;,&#34;medium&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/tile_unternehmensverantwortung.jpg/_jcr_content/renditions/original.image_file.768.512.file/tile_unternehmensverantwortung.jpg&#34;,&#34;large&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/tile_unternehmensverantwortung.jpg/_jcr_content/renditions/original.image_file.1024.682.file/tile_unternehmensverantwortung.jpg&#34;,&#34;xlarge&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/tile_unternehmensverantwortung.jpg/_jcr_content/renditions/original.image_file.1280.853.file/tile_unternehmensverantwortung.jpg&#34;,&#34;xxlarge&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/tile_unternehmensverantwortung.jpg/_jcr_content/renditions/original.image_file.1440.960.file/tile_unternehmensverantwortung.jpg&#34;,&#34;max&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/tile_unternehmensverantwortung.jpg/_jcr_content/renditions/original.image_file.1920.1280.file/tile_unternehmensverantwortung.jpg&#34;}" class="lazy-background-image lazy-background-image--center lazy-background-image--middle" aria-label="Unternehmensverantwortung">
+    
+    
+    
+  </div>
+
+
+        
+
+        
+        
+
+        
+        
+
+        
+        
+        
+          
+          
+            
+          
+    
+        <a class="plain-link grid-and-tiles-tile__link" href="https://www.zeiss.com/meditec-ag/de/ueber-uns/unternehmensverantwortung.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;CTA&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Unternehmensverantwortung&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/meditec-ag/de/ueber-uns/unternehmensverantwortung.html&#34;,&#34;moduleSection&#34;:&#34;gridAndTiles-1564545639&#34;,&#34;moduleType&#34;:&#34;Grid Tiles&#34;}">
+    
+    
+
+    
+    <div class="grid-and-tiles-tile__text-box"><div class="headline hl-s">
+  <div class="headline__inner" data-target-id="headline-600840867">
+    
+    
+    
+    <span>
+      <span class="headline__main" data-js-select="Headline_main">
+        <span>
+          Unternehmensverantwortung
+        </span>
+        
+      </span>
+      
+    </span>
+    
+    
+  </div>
+
+
+
+    
+
+</div>
+</div>
+  
+    
+    
+  
+    
+    
+</a>
+    
+
+        
+    </div>
+</div>
+
+
+    
+    <div class="grid-and-tiles-cta"><div class="button-link button-link--link grid-and-tiles-cta__button">
+
+     
+     
+     
+     
+  
+    
+      <a class=" button-link--icon    button-link--internal" href="https://www.zeiss.com/meditec-ag/de/presse-und-aktuelles.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;CTA&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Presse und Aktuelles&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/meditec-ag/de/presse-und-aktuelles.html&#34;,&#34;moduleSection&#34;:&#34;gridAndTiles-1564545639&#34;,&#34;moduleType&#34;:&#34;Grid Tiles&#34;}" title="Presse und Aktuelles" aria-label="Presse und Aktuelles">
+        <span class="button-link__content">
+          
+          
+          <span class="button__text">Presse und Aktuelles</span>
+          
+    
+    
+    
+    
+  <span class="icon icon-symbols-internal-link icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-internal-link"/>
+      </svg>
+    </span>
+  </span>
+
+
+		</span>
+      </a>
+  
+
+
+
+
+    
+
+</div>
+</div>
+  </div>
+
+
+  </div>
+</div>
+
+
+</div>
+<div class="grid-and-tiles-module grid__container">
+  
+  
+
+  
+  <div class="grid-and-tiles-module__grid-wrapper grid__structure" data-target-id="gridAndTiles-1786211378" data-tracking-id="gridAndTiles-1106327476">
+  <div class="grid__column grid__column--100">
+    
+    <div class="module-headline spacing--l"><div class="grid__structure">
+  <div class="grid__column module-headline--column">
+    
+  
+  
+  
+  
+  
+  <div class="headline hl-l headline--align-center    hl--sub-xs ">
+  <div class="headline__inner">
+    
+    
+    
+    <h2>
+      <span class="headline__main" data-js-select="Headline_main">
+        <span>
+          Investor Relations
+        </span>
+        
+      </span>
+      
+    </h2>
+    
+    
+  </div>
+</div>
+
+
+  </div>
+</div>
+
+    
+</div>
+
+
+    
+    
+
+
+	
+
+
+  <div class="grid-and-tiles
+              grid-and-tiles--count-5
+              " data-module="GridAndTiles">
+    
+    <div data-js-select="grid-and-tiles-tile" data-module="GridAndTilesTile" class="grid-and-tiles-tile grid-and-tiles-tile--background-image-color-dark grid-and-tiles-tile--text-box-width-xl-1-2">
+    
+	
+
+    <div class="grid-and-tiles-tile__content" data-target-id="tile-1277841424">
+
+        
+        
+
+        
+        
+            
+  
+  
+  <div data-module="LazyBackgroundImage" data-src="{&#34;xsmall&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/investor_relations_tile.jpg/_jcr_content/renditions/original.image_file.100.33.file/investor_relations_tile.jpg&#34;,&#34;small&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/investor_relations_tile.jpg/_jcr_content/renditions/original.image_file.360.120.file/investor_relations_tile.jpg&#34;,&#34;medium&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/investor_relations_tile.jpg/_jcr_content/renditions/original.image_file.768.256.file/investor_relations_tile.jpg&#34;,&#34;large&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/investor_relations_tile.jpg/_jcr_content/renditions/original.image_file.1024.342.file/investor_relations_tile.jpg&#34;,&#34;xlarge&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/investor_relations_tile.jpg/_jcr_content/renditions/original.image_file.1280.427.file/investor_relations_tile.jpg&#34;,&#34;xxlarge&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/investor_relations_tile.jpg/_jcr_content/renditions/original.image_file.1440.480.file/investor_relations_tile.jpg&#34;,&#34;max&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/investor_relations_tile.jpg/_jcr_content/renditions/original.image_file.1920.640.file/investor_relations_tile.jpg&#34;}" class="lazy-background-image lazy-background-image--center lazy-background-image--middle" aria-label="Investor Relation">
+    
+    
+    
+  </div>
+
+
+        
+
+        
+        
+
+        
+        
+
+        
+        
+        
+          
+          
+            
+          
+    
+        <a class="plain-link grid-and-tiles-tile__link" href="https://www.zeiss.com/meditec-ag/de/investor-relations.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;CTA&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Investor Relations&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/meditec-ag/de/investor-relations.html&#34;,&#34;moduleSection&#34;:&#34;gridAndTiles-1106327476&#34;,&#34;moduleType&#34;:&#34;Grid Tiles&#34;}">
+    
+    
+
+    
+    <div class="grid-and-tiles-tile__text-box"><div class="headline hl-s headline--inverted">
+  <div class="headline__inner" data-target-id="headline-53002283">
+    
+    
+    
+    <span>
+      <span class="headline__main" data-js-select="Headline_main">
+        <span>
+          Investor Relations
+        </span>
+        
+      </span>
+      
+    </span>
+    
+    
+  </div>
+
+
+
+    
+
+</div>
+</div>
+  
+    
+    
+  
+    
+    
+</a>
+    
+
+        
+    </div>
+</div>
+<div data-js-select="grid-and-tiles-tile" data-module="GridAndTilesTile" class="grid-and-tiles-tile grid-and-tiles-tile--background-image-color-bright grid-and-tiles-tile--text-box-width-s-full grid-and-tiles-tile--text-box-width-m-full grid-and-tiles-tile--text-box-width-l-3-4 grid-and-tiles-tile--text-box-width-xl-2-3">
+    
+	
+
+    <div class="grid-and-tiles-tile__content" data-target-id="tile-1277841425">
+
+        
+        
+
+        
+        
+            
+  
+  
+  <div data-module="LazyBackgroundImage" data-src="{&#34;xsmall&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/investor-relations/share/zeiss-share-stage.jpg/_jcr_content/renditions/original.image_file.100.64.file/zeiss-share-stage.jpg&#34;,&#34;small&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/investor-relations/share/zeiss-share-stage.jpg/_jcr_content/renditions/original.image_file.360.230.file/zeiss-share-stage.jpg&#34;,&#34;medium&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/investor-relations/share/zeiss-share-stage.jpg/_jcr_content/renditions/original.image_file.768.492.file/zeiss-share-stage.jpg&#34;,&#34;large&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/investor-relations/share/zeiss-share-stage.jpg/_jcr_content/renditions/original.image_file.1024.655.file/zeiss-share-stage.jpg&#34;,&#34;xlarge&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/investor-relations/share/zeiss-share-stage.jpg/_jcr_content/renditions/original.image_file.1280.819.file/zeiss-share-stage.jpg&#34;,&#34;xxlarge&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/investor-relations/share/zeiss-share-stage.jpg/_jcr_content/renditions/original.image_file.1440.922.file/zeiss-share-stage.jpg&#34;,&#34;max&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/investor-relations/share/zeiss-share-stage.jpg/_jcr_content/renditions/original.image_file.1920.1229.file/zeiss-share-stage.jpg&#34;}" class="lazy-background-image lazy-background-image--center lazy-background-image--middle" aria-label="Carl Zeiss Meditec Aktie">
+    
+    
+    
+  </div>
+
+
+        
+
+        
+        
+
+        
+        
+
+        
+        
+        
+          
+          
+            
+          
+    
+        <a class="plain-link grid-and-tiles-tile__link" href="https://www.zeiss.com/meditec-ag/de/investor-relations/carl-zeiss-meditec-aktie.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;CTA&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Carl Zeiss Meditec Aktie&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/meditec-ag/de/investor-relations/carl-zeiss-meditec-aktie.html&#34;,&#34;moduleSection&#34;:&#34;gridAndTiles-1106327476&#34;,&#34;moduleType&#34;:&#34;Grid Tiles&#34;}">
+    
+    
+
+    
+    <div class="grid-and-tiles-tile__text-box"><div class="headline hl-s">
+  <div class="headline__inner" data-target-id="headline-249515788">
+    
+    
+    
+    <span>
+      <span class="headline__main" data-js-select="Headline_main">
+        <span>
+          Carl Zeiss Meditec Aktie
+        </span>
+        
+      </span>
+      
+    </span>
+    
+    
+  </div>
+
+
+
+    
+
+</div>
+</div>
+  
+    
+    
+  
+    
+    
+</a>
+    
+
+        
+    </div>
+</div>
+<div data-js-select="grid-and-tiles-tile" data-module="GridAndTilesTile" class="grid-and-tiles-tile grid-and-tiles-tile--background-image-color-bright grid-and-tiles-tile--text-box-width-s-full grid-and-tiles-tile--text-box-width-m-full grid-and-tiles-tile--text-box-width-l-3-4 grid-and-tiles-tile--text-box-width-xl-2-3">
+    
+	
+
+    <div class="grid-and-tiles-tile__content" data-target-id="tile-77152910">
+
+        
+        
+
+        
+        
+            
+  
+  
+  <div data-module="LazyBackgroundImage" data-src="{&#34;xsmall&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/tile_investor-kit.jpg/_jcr_content/renditions/original.image_file.100.67.file/tile_investor-kit.jpg&#34;,&#34;small&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/tile_investor-kit.jpg/_jcr_content/renditions/original.image_file.360.240.file/tile_investor-kit.jpg&#34;,&#34;medium&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/tile_investor-kit.jpg/_jcr_content/renditions/original.image_file.768.512.file/tile_investor-kit.jpg&#34;,&#34;large&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/tile_investor-kit.jpg/_jcr_content/renditions/original.image_file.1024.682.file/tile_investor-kit.jpg&#34;,&#34;xlarge&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/tile_investor-kit.jpg/_jcr_content/renditions/original.image_file.1280.853.file/tile_investor-kit.jpg&#34;,&#34;xxlarge&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/tile_investor-kit.jpg/_jcr_content/renditions/original.image_file.1440.960.file/tile_investor-kit.jpg&#34;,&#34;max&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/tile_investor-kit.jpg/_jcr_content/renditions/original.image_file.1920.1280.file/tile_investor-kit.jpg&#34;}" class="lazy-background-image lazy-background-image--center lazy-background-image--middle" aria-label="Investor Kit">
+    
+    
+    
+  </div>
+
+
+        
+
+        
+        
+
+        
+        
+
+        
+        
+        
+          
+          
+            
+          
+    
+        <a class="plain-link grid-and-tiles-tile__link" href="https://www.zeiss.com/meditec-ag/de/investor-relations/investoren-kit.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;CTA&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Investor Kit&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/meditec-ag/de/investor-relations/investoren-kit.html&#34;,&#34;moduleSection&#34;:&#34;gridAndTiles-1106327476&#34;,&#34;moduleType&#34;:&#34;Grid Tiles&#34;}">
+    
+    
+
+    
+    <div class="grid-and-tiles-tile__text-box"><div class="headline hl-s">
+  <div class="headline__inner" data-target-id="headline-2053292211">
+    
+    
+    
+    <span>
+      <span class="headline__main" data-js-select="Headline_main">
+        <span>
+          Investor Kit
+        </span>
+        
+      </span>
+      
+    </span>
+    
+    
+  </div>
+
+
+
+    
+
+</div>
+</div>
+  
+    
+    
+  
+    
+    
+</a>
+    
+
+        
+    </div>
+</div>
+<div data-js-select="grid-and-tiles-tile" data-module="GridAndTilesTile" class="grid-and-tiles-tile grid-and-tiles-tile--background-image-color-dark">
+    
+	
+
+    <div class="grid-and-tiles-tile__content" data-target-id="tile-77119464">
+
+        
+        
+
+        
+        
+            
+  
+  
+  <div data-module="LazyBackgroundImage" data-src="{&#34;xsmall&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/tile_corporate-governance.jpg/_jcr_content/renditions/original.image_file.100.56.file/tile_corporate-governance.jpg&#34;,&#34;small&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/tile_corporate-governance.jpg/_jcr_content/renditions/original.image_file.360.203.file/tile_corporate-governance.jpg&#34;,&#34;medium&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/tile_corporate-governance.jpg/_jcr_content/renditions/original.image_file.768.432.file/tile_corporate-governance.jpg&#34;,&#34;large&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/tile_corporate-governance.jpg/_jcr_content/renditions/original.image_file.1024.576.file/tile_corporate-governance.jpg&#34;,&#34;xlarge&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/tile_corporate-governance.jpg/_jcr_content/renditions/original.image_file.1280.720.file/tile_corporate-governance.jpg&#34;,&#34;xxlarge&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/tile_corporate-governance.jpg/_jcr_content/renditions/original.image_file.1440.810.file/tile_corporate-governance.jpg&#34;,&#34;max&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/tile_corporate-governance.jpg/_jcr_content/renditions/original.image_file.1920.1080.file/tile_corporate-governance.jpg&#34;}" class="lazy-background-image lazy-background-image--center lazy-background-image--middle" aria-label="Corporate Governance">
+    
+    
+    
+  </div>
+
+
+        
+
+        
+        
+
+        
+        
+
+        
+        
+        
+          
+          
+            
+          
+    
+        <a class="plain-link grid-and-tiles-tile__link" href="https://www.zeiss.com/meditec-ag/de/investor-relations/corporate-governance.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;CTA&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Corporate Governance&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/meditec-ag/de/investor-relations/corporate-governance.html&#34;,&#34;moduleSection&#34;:&#34;gridAndTiles-1106327476&#34;,&#34;moduleType&#34;:&#34;Grid Tiles&#34;}">
+    
+    
+
+    
+    <div class="grid-and-tiles-tile__text-box"><div class="headline hl-s headline--inverted">
+  <div class="headline__inner" data-target-id="headline-762566861">
+    
+    
+    
+    <span>
+      <span class="headline__main" data-js-select="Headline_main">
+        <span>
+          Corporate Governance
+        </span>
+        
+      </span>
+      
+    </span>
+    
+    
+  </div>
+
+
+
+    
+
+</div>
+</div>
+  
+    
+    
+  
+    
+    
+</a>
+    
+
+        
+    </div>
+</div>
+<div data-js-select="grid-and-tiles-tile" data-module="GridAndTilesTile" class="grid-and-tiles-tile grid-and-tiles-tile--background-image-color-bright grid-and-tiles-tile--text-box-width-s-full grid-and-tiles-tile--text-box-width-m-full grid-and-tiles-tile--text-box-width-l-3-4 grid-and-tiles-tile--text-box-width-xl-2-3">
+    
+	
+
+    <div class="grid-and-tiles-tile__content" data-target-id="tile-535077451">
+
+        
+        
+
+        
+        
+            
+  
+  
+  <div data-module="LazyBackgroundImage" data-src="{&#34;xsmall&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/med-ag-home-calendar.jpg/_jcr_content/renditions/original.image_file.100.33.file/med-ag-home-calendar.jpg&#34;,&#34;small&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/med-ag-home-calendar.jpg/_jcr_content/renditions/original.image_file.360.120.file/med-ag-home-calendar.jpg&#34;,&#34;medium&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/med-ag-home-calendar.jpg/_jcr_content/renditions/original.image_file.768.256.file/med-ag-home-calendar.jpg&#34;,&#34;large&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/med-ag-home-calendar.jpg/_jcr_content/renditions/original.image_file.1024.342.file/med-ag-home-calendar.jpg&#34;,&#34;xlarge&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/med-ag-home-calendar.jpg/_jcr_content/renditions/original.image_file.1280.427.file/med-ag-home-calendar.jpg&#34;,&#34;xxlarge&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/med-ag-home-calendar.jpg/_jcr_content/renditions/original.image_file.1440.480.file/med-ag-home-calendar.jpg&#34;,&#34;max&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/med-ag-home-calendar.jpg/_jcr_content/renditions/original.image_file.1920.640.file/med-ag-home-calendar.jpg&#34;}" class="lazy-background-image lazy-background-image--right lazy-background-image--middle" title="Finanzkalender" aria-label="Finanzkalender">
+    
+    
+    
+  </div>
+
+
+        
+
+        
+        
+
+        
+        
+
+        
+        
+        
+          
+          
+            
+          
+    
+        <a class="plain-link grid-and-tiles-tile__link" href="https://www.zeiss.com/meditec-ag/de/investor-relations/finanzkalender.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;CTA&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Finanzkalender&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/meditec-ag/de/investor-relations/finanzkalender.html&#34;,&#34;moduleSection&#34;:&#34;gridAndTiles-1106327476&#34;,&#34;moduleType&#34;:&#34;Grid Tiles&#34;}">
+    
+    
+
+    
+    <div class="grid-and-tiles-tile__text-box"><div class="headline hl-s">
+  <div class="headline__inner" data-target-id="headline-1981463504">
+    
+    
+    
+    <span>
+      <span class="headline__main" data-js-select="Headline_main">
+        <span>
+          Finanzkalender
+        </span>
+        
+      </span>
+      
+    </span>
+    
+    
+  </div>
+
+
+
+    
+
+</div>
+</div>
+  
+    
+    
+  
+    
+    
+</a>
+    
+
+        
+    </div>
+</div>
+
+
+    
+    
+  </div>
+
+
+  </div>
+</div>
+
+
+</div>
+
+        
+    </div>
+
+</div>
+<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    <div id="container-2401ae153c" class="cmp-container">
+        
+        
+        
+    </div>
+
+</div>
+<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    <div id="container-47827663c4" class="cmp-container">
+        
+        
+        
+    </div>
+
+</div>
+<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    <div id="container-a0ddab1e5d" class="cmp-container">
+        
+        <div class="grid-and-tiles-module grid__container">
+  
+  
+
+  
+  <div class="grid-and-tiles-module__grid-wrapper grid__structure" data-target-id="gridAndTiles-221662903" data-tracking-id="gridAndTiles-1604214295">
+  <div class="grid__column grid__column--100">
+    
+    <div class="module-headline spacing--l"><div class="grid__structure">
+  <div class="grid__column module-headline--column">
+    
+  
+  
+  
+  
+  
+  <div class="headline hl-l headline--align-center    hl--sub-xs ">
+  <div class="headline__inner">
+    
+    
+    
+    <h2>
+      <span class="headline__main" data-js-select="Headline_main">
+        <span>
+          Ihre Karriere bei ZEISS
+        </span>
+        
+      </span>
+      
+    </h2>
+    
+    <span class="headline__sub hl--sub">Erleben Sie außergewöhnliche Möglichkeiten</span>
+  </div>
+</div>
+
+
+  </div>
+</div>
+
+    
+</div>
+
+
+    
+    
+
+
+	
+
+
+  <div class="grid-and-tiles
+              grid-and-tiles--count-4
+              grid-and-tiles--cta-enabled" data-module="GridAndTiles">
+    
+    <div data-js-select="grid-and-tiles-tile" data-module="GridAndTilesTile" class="grid-and-tiles-tile grid-and-tiles-tile--background-image-color-bright grid-and-tiles-tile--text-box-width-xl-1-2">
+    
+	
+
+    <div class="grid-and-tiles-tile__content" data-target-id="tile-1471714069">
+
+        
+        
+
+        
+        
+            
+  
+  
+  <div data-module="LazyBackgroundImage" data-src="{&#34;xsmall&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/alexandra-von-rueden-h1.jpg/_jcr_content/renditions/original.image_file.100.33.file/alexandra-von-rueden-h1.jpg&#34;,&#34;small&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/alexandra-von-rueden-h1.jpg/_jcr_content/renditions/original.image_file.360.120.file/alexandra-von-rueden-h1.jpg&#34;,&#34;medium&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/alexandra-von-rueden-h1.jpg/_jcr_content/renditions/original.image_file.768.256.file/alexandra-von-rueden-h1.jpg&#34;,&#34;large&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/alexandra-von-rueden-h1.jpg/_jcr_content/renditions/original.image_file.1024.341.file/alexandra-von-rueden-h1.jpg&#34;,&#34;xlarge&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/alexandra-von-rueden-h1.jpg/_jcr_content/renditions/original.image_file.1280.427.file/alexandra-von-rueden-h1.jpg&#34;,&#34;xxlarge&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/alexandra-von-rueden-h1.jpg/_jcr_content/renditions/original.image_file.1440.480.file/alexandra-von-rueden-h1.jpg&#34;,&#34;max&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/alexandra-von-rueden-h1.jpg/_jcr_content/renditions/original./alexandra-von-rueden-h1.jpg&#34;}" class="lazy-background-image lazy-background-image--center lazy-background-image--middle" title="Alexandra" aria-label="Alexandra">
+    
+    
+    
+  </div>
+
+
+        
+
+        
+        
+
+        
+        
+
+        
+        
+        
+          
+          
+            
+          
+    
+        <a class="plain-link grid-and-tiles-tile__link" href="https://www.zeiss.de/corporate/karriere/projektmanagement-bei-zeiss/zeiss-stories_alexandra.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;CTA&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Systeme weiterentwickeln, damit andere besser sehen&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/corporate/karriere/projektmanagement-bei-zeiss/zeiss-stories_alexandra.html&#34;,&#34;moduleSection&#34;:&#34;gridAndTiles-1604214295&#34;,&#34;moduleType&#34;:&#34;Grid Tiles&#34;}">
+    
+    
+
+    
+    <div class="grid-and-tiles-tile__text-box"><div class="headline hl-s">
+  <div class="headline__inner" data-target-id="headline-252940912">
+    
+    
+    
+    <span>
+      <span class="headline__main" data-js-select="Headline_main">
+        <span>
+          Systeme weiterentwickeln, damit andere besser sehen
+        </span>
+        
+      </span>
+      
+    </span>
+    
+    
+  </div>
+
+
+
+    
+
+</div>
+</div>
+  
+    
+    
+  
+    
+    
+</a>
+    
+
+        
+    </div>
+</div>
+<div data-js-select="grid-and-tiles-tile" data-module="GridAndTilesTile" class="grid-and-tiles-tile grid-and-tiles-tile--background-image-color-bright grid-and-tiles-tile--text-box-width-s-full grid-and-tiles-tile--text-box-width-m-full grid-and-tiles-tile--text-box-width-l-3-4 grid-and-tiles-tile--text-box-width-xl-2-3">
+    
+	
+
+    <div class="grid-and-tiles-tile__content" data-target-id="tile-1471714070">
+
+        
+        
+
+        
+        
+            
+  
+  
+  <div data-module="LazyBackgroundImage" data-src="{&#34;xsmall&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/philipp_smt_6-2.jpg/_jcr_content/renditions/original.image_file.100.67.file/philipp_smt_6-2.jpg&#34;,&#34;small&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/philipp_smt_6-2.jpg/_jcr_content/renditions/original.image_file.360.240.file/philipp_smt_6-2.jpg&#34;,&#34;medium&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/philipp_smt_6-2.jpg/_jcr_content/renditions/original.image_file.768.512.file/philipp_smt_6-2.jpg&#34;,&#34;large&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/philipp_smt_6-2.jpg/_jcr_content/renditions/original.image_file.1024.683.file/philipp_smt_6-2.jpg&#34;,&#34;xlarge&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/philipp_smt_6-2.jpg/_jcr_content/renditions/original.image_file.1280.853.file/philipp_smt_6-2.jpg&#34;,&#34;xxlarge&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/philipp_smt_6-2.jpg/_jcr_content/renditions/original.image_file.1440.960.file/philipp_smt_6-2.jpg&#34;,&#34;max&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/philipp_smt_6-2.jpg/_jcr_content/renditions/original./philipp_smt_6-2.jpg&#34;}" class="lazy-background-image lazy-background-image--center lazy-background-image--middle" aria-label="Fortschritt mit Sinn: Die Menschen im Blick">
+    
+    
+    
+  </div>
+
+
+        
+
+        
+        
+
+        
+        
+
+        
+        
+        
+          
+          
+            
+          
+    
+        <a class="plain-link grid-and-tiles-tile__link" href="https://www.zeiss.de/corporate/karriere/projektmanagement-bei-zeiss/zeiss-stories-philipp.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;CTA&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Fortschritt mit Sinn: Die Menschen im Blick&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/corporate/karriere/projektmanagement-bei-zeiss/zeiss-stories-philipp.html&#34;,&#34;moduleSection&#34;:&#34;gridAndTiles-1604214295&#34;,&#34;moduleType&#34;:&#34;Grid Tiles&#34;}">
+    
+    
+
+    
+    <div class="grid-and-tiles-tile__text-box"><div class="headline hl-s">
+  <div class="headline__inner" data-target-id="headline-56427407">
+    
+    
+    
+    <span>
+      <span class="headline__main" data-js-select="Headline_main">
+        <span>
+          Fortschritt mit Sinn: Die Menschen im Blick
+        </span>
+        
+      </span>
+      
+    </span>
+    
+    
+  </div>
+
+
+
+    
+
+</div>
+</div>
+  
+    
+    
+  
+    
+    
+</a>
+    
+
+        
+    </div>
+</div>
+<div data-js-select="grid-and-tiles-tile" data-module="GridAndTilesTile" class="grid-and-tiles-tile grid-and-tiles-tile--text-box-width-xl-1-2 grid-and-tiles-tile--text-box-width-l-1-2 grid-and-tiles-tile--text-box-width-m-1-2 grid-and-tiles-tile--headline-bottom">
+    
+	
+
+    <div class="grid-and-tiles-tile__content" data-target-id="tile-616690611">
+
+        
+        
+
+        
+        
+            
+  
+  
+  <div data-module="LazyBackgroundImage" data-src="{&#34;xsmall&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/patrick_news_career.jpg/_jcr_content/renditions/original.image_file.100.67.file/patrick_news_career.jpg&#34;,&#34;small&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/patrick_news_career.jpg/_jcr_content/renditions/original.image_file.360.240.file/patrick_news_career.jpg&#34;,&#34;medium&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/patrick_news_career.jpg/_jcr_content/renditions/original.image_file.768.512.file/patrick_news_career.jpg&#34;,&#34;large&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/patrick_news_career.jpg/_jcr_content/renditions/original.image_file.1024.683.file/patrick_news_career.jpg&#34;,&#34;xlarge&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/patrick_news_career.jpg/_jcr_content/renditions/original.image_file.1280.854.file/patrick_news_career.jpg&#34;,&#34;xxlarge&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/patrick_news_career.jpg/_jcr_content/renditions/original.image_file.1440.961.file/patrick_news_career.jpg&#34;,&#34;max&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/patrick_news_career.jpg/_jcr_content/renditions/original./patrick_news_career.jpg&#34;}" class="lazy-background-image lazy-background-image--center lazy-background-image--middle" title="inkeri" aria-label="inkeri">
+    
+    
+    
+  </div>
+
+
+        
+
+        
+        
+
+        
+        
+
+        
+        
+        
+          
+          
+            
+          
+    
+        <a class="plain-link grid-and-tiles-tile__link" href="https://www.zeiss.com/career/de/arbeitsbereiche/servicetechnik/stories-patrick.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;CTA&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Ich bin stolz auf meinen Job&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/career/de/arbeitsbereiche/servicetechnik/stories-patrick.html&#34;,&#34;moduleSection&#34;:&#34;gridAndTiles-1604214295&#34;,&#34;moduleType&#34;:&#34;Grid Tiles&#34;}">
+    
+    
+
+    
+    <div class="grid-and-tiles-tile__text-box"><div class="headline hl-s">
+  <div class="headline__inner" data-target-id="headline-736756626">
+    
+    
+    
+    <span>
+      <span class="headline__main" data-js-select="Headline_main">
+        <span>
+          Ich bin stolz auf meinen Job
+        </span>
+        
+      </span>
+      
+    </span>
+    
+    
+  </div>
+
+
+
+    
+
+</div>
+</div>
+  
+    
+    
+  
+    
+    
+</a>
+    
+
+        
+    </div>
+</div>
+<div data-js-select="grid-and-tiles-tile" data-module="GridAndTilesTile" class="grid-and-tiles-tile grid-and-tiles-tile--background-image-color-dark">
+    
+	
+
+    <div class="grid-and-tiles-tile__content" data-target-id="tile-616745271">
+
+        
+        
+  <div class="lazy-background-video" data-module="LazyBackgroundVideo">
+    
+    
+    
+
+    
+    <div class="lazy-background-image-wrapper">
+      
+  
+  
+  <div data-module="LazyBackgroundImage" data-src="{&#34;xsmall&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/fallback_motion_realtalk.jpg/_jcr_content/renditions/original.image_file.100.33.file/fallback_motion_realtalk.jpg&#34;,&#34;small&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/fallback_motion_realtalk.jpg/_jcr_content/renditions/original.image_file.360.120.file/fallback_motion_realtalk.jpg&#34;,&#34;medium&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/fallback_motion_realtalk.jpg/_jcr_content/renditions/original.image_file.768.256.file/fallback_motion_realtalk.jpg&#34;,&#34;large&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/fallback_motion_realtalk.jpg/_jcr_content/renditions/original.image_file.1024.341.file/fallback_motion_realtalk.jpg&#34;,&#34;xlarge&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/fallback_motion_realtalk.jpg/_jcr_content/renditions/original.image_file.1280.427.file/fallback_motion_realtalk.jpg&#34;,&#34;xxlarge&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/fallback_motion_realtalk.jpg/_jcr_content/renditions/original.image_file.1440.480.file/fallback_motion_realtalk.jpg&#34;,&#34;max&#34;:&#34;https://www.zeiss.com/content/dam/med-ag/home/fallback_motion_realtalk.jpg/_jcr_content/renditions/original./fallback_motion_realtalk.jpg&#34;}" class="lazy-background-image lazy-background-image--center lazy-background-image--middle">
+    
+    
+    
+  </div>
+
+    </div>
+    
+    
+    <video muted data-js-select="LazyBackgroundVideo_video" data-src="https://www.zeiss.com/content/dam/med-ag/home/zeiss_career_motion_realtalk.mp4/_jcr_content/renditions/original./zeiss_career_motion_realtalk.mp4" data-stop-auto-play="true" data-no-fall-back="true" class="lazy-background-video__video
+                  lazy-background-video__video--hide
+                  lazy-background-video__video--center
+                  lazy-background-video__video--middle
+                  lazy-background-video__video--loop" playsinline></video>
+
+    <button class="lazy-background-video__video-controls" data-js-select="LazyBackgroundVideo_video_controller">
+      <span class="lazy-background-video__video-controls__resume-button" aria-label="resume video" data-js-select="LazyBackgroundVideo_video_controller_resume">
+        
+  <span class="icon icon-symbols-play-arrow icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-play-arrow"/>
+      </svg>
+    </span>
+  </span>
+
+      </span>
+      <span class="lazy-background-video__video-controls__pause-button" aria-label="pause video" data-js-select="LazyBackgroundVideo_video_controller_pause">
+        
+  <span class="icon icon-symbols-pause icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-pause"/>
+      </svg>
+    </span>
+  </span>
+
+      </span>
+      <span class="lazy-background-video__video-controls__replay-button" aria-label="replay video" data-js-select="LazyBackgroundVideo_video_controller_replay">
+        
+  <span class="icon icon-symbols-replay icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-replay"/>
+      </svg>
+    </span>
+  </span>
+
+      </span>
+    </button>
+  </div>
+
+
+        
+        
+            
+        
+
+        
+        
+
+        
+        
+
+        
+        
+        
+          
+          
+            
+          
+    
+        <a class="plain-link grid-and-tiles-tile__link" href="https://www.zeiss.de/corporate/karriere/realtalk.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;CTA&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;ZEISS RealTalk&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/corporate/karriere/realtalk.html&#34;,&#34;moduleSection&#34;:&#34;gridAndTiles-1604214295&#34;,&#34;moduleType&#34;:&#34;Grid Tiles&#34;}">
+    
+    
+
+    
+    <div class="grid-and-tiles-tile__text-box"><div class="headline hl-s headline--inverted">
+  <div class="headline__inner" data-target-id="headline-1021780622">
+    
+    
+    
+    <span>
+      <span class="headline__main" data-js-select="Headline_main">
+        <span>
+          ZEISS RealTalk
+        </span>
+        
+      </span>
+      
+    </span>
+    
+    
+  </div>
+
+
+
+    
+
+</div>
+</div>
+  
+    
+    
+  
+    
+    
+</a>
+    
+
+        
+    </div>
+</div>
+
+
+    
+    <div class="grid-and-tiles-cta"><div class="button-link button-link--link grid-and-tiles-cta__button">
+
+     
+     
+     
+     
+  
+    
+      <a class=" button-link--icon    " href="https://www.zeiss.de/karriere" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;CTA&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Außergewöhnliche Möglichkeiten erleben&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/karriere&#34;,&#34;moduleSection&#34;:&#34;gridAndTiles-1604214295&#34;,&#34;moduleType&#34;:&#34;Grid Tiles&#34;}" title="Außergewöhnliche Möglichkeiten erleben" aria-label="Außergewöhnliche Möglichkeiten erleben">
+        <span class="button-link__content">
+          
+          
+          <span class="button__text">Außergewöhnliche Möglichkeiten erleben</span>
+          
+    
+    
+    
+    
+  <span class="icon icon-symbols-external-link icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-external-link"/>
+      </svg>
+    </span>
+  </span>
+
+
+		</span>
+      </a>
+  
+
+
+
+
+    
+
+</div>
+</div>
+  </div>
+
+
+  </div>
+</div>
+
+
+</div>
+
+        
+    </div>
+
+</div>
+<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    <div id="container-da0eb6f3ce" class="cmp-container">
+        
+        
+        
+    </div>
+
+</div>
+<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    <div id="container-ed77271134" class="cmp-container">
+        
+        
+        
+    </div>
+
+</div>
+<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    <div id="container-4ace208dcb" class="cmp-container">
+        
+        
+        
+    </div>
+
+</div>
+<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    <div id="container-85daa38b79" class="cmp-container">
+        
+        
+        
+    </div>
+
+</div>
+
+    
+</div>
+</div>
+
+</main>
+
+
+<footer data-module="Footer" class="footer exclude-site-search">
+
+    
+    
+
+    
+    
+
+
+
+    
+    
+
+
+
+    
+    
+
+
+
+    
+    <section class="grid__container footer__disclaimer">
+        <div class="grid__structure">
+            <div class="grid__column grid__column--100">
+                <div class="footer-disclaimer">
+                    <div class="footer-disclaimer__content">
+                        Es sind nicht alle Produkte, Dienstleistungen oder Angebote in jedem Markt zugelassen bzw. werden dort angeboten, und die zulassungsgemäßen Beschriftungen und Hinweise können sich in verschiedenen Ländern unterscheiden. Bezüglich länderspezifischen Produktinformationen besuchen Sie bitte die Website für das jeweilige Land.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="grid__container footer__to-top">
+        <div class="grid__structure">
+            <div class="grid__column grid__column--100"><div class="to-top" data-module="ToTop">
+    <a href="#to-top" class="to-top__link" data-js-select="TopTop_link" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;CTA&#34;,&#34;type&#34;:&#34;&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Back to top&#34;,&#34;detail&#34;:&#34;&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Back to top&#34;}">
+        
+        <span class="to-top__link-text">Zurück nach oben</span>
+        
+        
+  <span class="icon icon-symbols-arrow-upward icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-arrow-upward"/>
+      </svg>
+    </span>
+  </span>
+
+    </a>
+</div>
+</div>
+        </div>
+    </section>
+
+    
+    <section class="footer__related-websites grid__container grid__container--full-bleed visible-from-l">
+        <div class="grid__structure">
+            <div class="grid__column grid__column--100">
+                <div class="footer__background-column"></div>
+
+                <div class="grid__container">
+                    <div class="grid__structure">
+                        <div class="grid__column grid__column--100"><div class="related-websites" data-tracking-id="Related websites">
+    
+    <div class="related-websites__headline hl-s">Verwandte ZEISS Websites</div>
+    
+    
+         
+    <a aria-label="Für medizinisches Fachpersonal" class="header__first-level-link    " data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Related websites - Für medizinisches Fachpersonal&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/med&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Related Websites&#34;}" href="https://www.zeiss.de/med" target="_blank" title="Für medizinisches Fachpersonal">
+        
+        Für medizinisches Fachpersonal
+    </a>
+
+    
+         
+    <a aria-label="ZEISS Gruppe" class="header__first-level-link    " data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Related websites - ZEISS Gruppe&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Related Websites&#34;}" href="https://www.zeiss.de" target="_blank" title="ZEISS Gruppe">
+        
+        ZEISS Gruppe
+    </a>
+
+    
+
+</div>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="footer__main-footer grid__container grid__container--full-bleed">
+        <div class="grid__structure">
+            <div class="grid__column grid__column--100">
+                <div class="footer__background-column"></div>
+
+                <div class="grid__container">
+                    
+                    <div class="grid__structure footer__navigation">
+                        
+                        <div class="grid__column grid__column--33"><div class="accordion" data-tracking-id="Frequently used websites">
+
+    <ul data-breakpoint-max="small" data-module="Accordion" data-js-select="Accordion">
+        
+        
+    <li class="accordion__item
+               " data-js-select="Accordion_item">
+        
+        <button class="accordion__button
+                       " data-js-select="Accordion_button" data-gtm-event-value="Frequently used websites" data-module-section="Footer" data-module-type="Frequently used websites">
+            <span class="accordion__button-container">
+                <span class="accordion__header_info">
+                    
+                    <span class="accordion__header-text">
+                        <p class="accordion__headline hl-xs">Häufig verwendet</p>
+                        
+                    </span>
+                </span>
+                <span data-js-select="Accordion_expand_button" class="accordion__icon">
+  <span class="icon icon-symbols-expand-more icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-expand-more"/>
+      </svg>
+    </span>
+  </span>
+</span>
+            </span>
+        </button>
+
+        
+        <div class="accordion__content-container
+                    
+                    
+                    " data-js-select="Accordion_content">
+            
+            
+    <div class="accordion-links">
+        
+    
+        <a class="plain-link " href="https://www.zeiss.com/meditec/de/produkte.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Frequently used websites - Produkte &amp;amp; Lösungen&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/meditec/de/produkte.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Frequently used websites&#34;}" title="Produkte &amp; Lösungen" aria-label="Produkte &amp; Lösungen">Produkte &amp; Lösungen</a>
+    
+
+    
+        
+    
+        <a class="plain-link " href="https://www.zeiss.com/meditec/myzeiss" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Frequently used websites - MyZEISS&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/meditec/myzeiss&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Frequently used websites&#34;}" title="MyZEISS" aria-label="MyZEISS">MyZEISS</a>
+    
+
+    
+        
+    
+        <a class="plain-link " href="https://www.zeiss.com/meditec-ag/de/home.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Frequently used websites - Carl Zeiss Meditec AG&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/meditec-ag/de/home.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Frequently used websites&#34;}" title="Carl Zeiss Meditec AG" aria-label="Carl Zeiss Meditec AG">Carl Zeiss Meditec AG</a>
+    
+
+    
+        
+    
+        <a class="plain-link " href="https://www.zeiss.com/meditec-ag/de/investor-relations.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Frequently used websites - Investor Relations&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/meditec-ag/de/investor-relations.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Frequently used websites&#34;}" title="Investor Relations" aria-label="Investor Relations">Investor Relations</a>
+    
+
+    </div>
+
+            
+            
+        </div>
+    </li>
+
+    </ul>
+
+</div>
+</div>
+
+                        
+                        <div class="grid__column grid__column--33"><div class="accordion" data-tracking-id="About ZEISS">
+
+    <ul data-breakpoint-max="small" data-module="Accordion" data-js-select="Accordion">
+        
+        
+    <li class="accordion__item
+               " data-js-select="Accordion_item">
+        
+        <button class="accordion__button
+                       " data-js-select="Accordion_button" data-gtm-event-value="About ZEISS" data-module-section="Footer" data-module-type="About ZEISS">
+            <span class="accordion__button-container">
+                <span class="accordion__header_info">
+                    
+                    <span class="accordion__header-text">
+                        <p class="accordion__headline hl-xs">Über ZEISS</p>
+                        
+                    </span>
+                </span>
+                <span data-js-select="Accordion_expand_button" class="accordion__icon">
+  <span class="icon icon-symbols-expand-more icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-expand-more"/>
+      </svg>
+    </span>
+  </span>
+</span>
+            </span>
+        </button>
+
+        
+        <div class="accordion__content-container
+                    
+                    
+                    " data-js-select="Accordion_content">
+            
+            
+    <div class="accordion-links">
+        
+    
+        <a class="plain-link " href="https://www.zeiss.de/about" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;About ZEISS - ZEISS im Überblick&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/about&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;About ZEISS&#34;}" title="ZEISS im Überblick" aria-label="ZEISS im Überblick">ZEISS im Überblick</a>
+    
+
+    
+        
+    
+        <a class="plain-link " href="https://www.zeiss.de/karriere" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;About ZEISS - Karriere&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/karriere&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;About ZEISS&#34;}" title="Karriere" aria-label="Karriere">Karriere</a>
+    
+
+    
+        
+    
+        <a class="plain-link " href="https://www.zeiss.de/newsroom" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;About ZEISS - Newsroom&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/newsroom&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;About ZEISS&#34;}" title="Newsroom" aria-label="Newsroom">Newsroom</a>
+    
+
+    
+        
+    
+        <a class="plain-link " href="https://www.zeiss.com/de/compliance" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;About ZEISS - Compliance&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/de/compliance&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;About ZEISS&#34;}" title="Compliance" aria-label="Compliance">Compliance</a>
+    
+
+    
+        
+    
+        <a class="plain-link " href="https://www.zeiss.com/meditec/de/workflows.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;About ZEISS - ZEISS Workflows&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/meditec/de/workflows.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;About ZEISS&#34;}" title="ZEISS Workflows" aria-label="ZEISS Workflows">ZEISS Workflows</a>
+    
+
+    </div>
+
+            
+            
+        </div>
+    </li>
+
+    </ul>
+
+</div>
+</div>
+
+                        
+                        <div class="grid__column grid__column--33"><div class="accordion" data-tracking-id="Social Media">
+
+    <ul data-breakpoint-max="small" data-module="Accordion" data-js-select="Accordion">
+        
+        
+    <li class="accordion__item
+               " data-js-select="Accordion_item">
+        
+        <button class="accordion__button
+                       " data-js-select="Accordion_button" data-gtm-event-value="Social Media" data-module-section="Footer" data-module-type="Social Media">
+            <span class="accordion__button-container">
+                <span class="accordion__header_info">
+                    
+                    <span class="accordion__header-text">
+                        <p class="accordion__headline hl-xs">Social Media</p>
+                        
+                    </span>
+                </span>
+                <span data-js-select="Accordion_expand_button" class="accordion__icon">
+  <span class="icon icon-symbols-expand-more icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-expand-more"/>
+      </svg>
+    </span>
+  </span>
+</span>
+            </span>
+        </button>
+
+        
+        <div class="accordion__content-container
+                    
+                    
+                    " data-js-select="Accordion_content">
+            
+            
+    <div class="accordion-links">
+        
+    
+        <a class="plain-link " href="https://www.facebook.com/zeissmedicaltechnologyglobal/" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Social Media - Facebook&#34;,&#34;detail&#34;:&#34;https://www.facebook.com/zeissmedicaltechnologyglobal/&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Social Media&#34;}" title="Facebook" aria-label="Facebook">Facebook</a>
+    
+
+    
+        
+    
+        <a class="plain-link " href="https://www.instagram.com/zeissmedicaltechnology/" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Social Media - Instagram&#34;,&#34;detail&#34;:&#34;https://www.instagram.com/zeissmedicaltechnology/&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Social Media&#34;}" title="Instagram" aria-label="Instagram">Instagram</a>
+    
+
+    
+        
+    
+        <a class="plain-link " href="https://www.linkedin.com/company/carl-zeiss-meditec/" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Social Media - LinkedIn&#34;,&#34;detail&#34;:&#34;https://www.linkedin.com/company/carl-zeiss-meditec/&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Social Media&#34;}" title="LinkedIn" aria-label="LinkedIn">LinkedIn</a>
+    
+
+    
+        
+    
+        <a class="plain-link " href="https://www.youtube.com/user/CarlZeissMeditec" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Social Media - YouTube&#34;,&#34;detail&#34;:&#34;https://www.youtube.com/user/CarlZeissMeditec&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Social Media&#34;}" title="YouTube" aria-label="YouTube">YouTube</a>
+    
+
+    
+        
+    
+        <a class="plain-link " href="https://twitter.com/zeissmeditec" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Social Media - X&#34;,&#34;detail&#34;:&#34;https://twitter.com/zeissmeditec&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Social Media&#34;}" title="X" aria-label="X">X</a>
+    
+
+    </div>
+
+            
+            
+        </div>
+    </li>
+
+    </ul>
+
+</div>
+</div>
+                    </div>
+
+                    
+                    <div class="grid__structure footer-tabs" data-module="FooterTabs">
+                        
+                        
+  <div class="footer-tabs__tab" data-tracking-id="SBU Switch">
+    <div class="footer-tabs__tab-title">
+      <div class="footer-tabs__tab-title__eyebrow">ZEISS Bereich wählen</div>
+
+      <div class="footer-tabs__tab-title__selection">ZEISS Gruppe</div>
+
+      
+  <span class="icon icon-symbols-expand-more icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-expand-more"/>
+      </svg>
+    </span>
+  </span>
+
+    </div>
+  </div>
+
+                        <div class="footer-tabs__tab-content-container footer-tabs__website-area"><div class="grid__container grid__container--full-bleed">
+    <div class="footer-tabs__tab-content">
+        
+        <div class="grid__column grid__column--33">
+
+
+
+<ul class="footer-tabs__website-area__list">
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.de/photonics-and-optics/cinematografie.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Cinematography&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/photonics-and-optics/cinematografie.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="Cinematography" aria-label="Cinematography">Cinematography</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.de/photonics-and-optics/jagd.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Hunting&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/photonics-and-optics/jagd.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="Hunting" aria-label="Hunting">Hunting</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.de/photonics-and-optics/naturbeobachtung.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Nature Observation&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/photonics-and-optics/naturbeobachtung.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="Nature Observation" aria-label="Nature Observation">Nature Observation</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.de/planetariums/home.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Planetariums&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/planetariums/home.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="Planetariums" aria-label="Planetariums">Planetariums</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.de/simulation-projection-solutions/home.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Simulation Projection Solutions&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/simulation-projection-solutions/home.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="Simulation Projection Solutions" aria-label="Simulation Projection Solutions">Simulation Projection Solutions</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.de/vision-care/home.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Vision Care&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/vision-care/home.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="Vision Care" aria-label="Vision Care">Vision Care</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+</ul>
+
+
+
+</div>
+
+        
+        <div class="grid__column grid__column--33">
+
+
+
+<ul class="footer-tabs__website-area__list">
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.de/digital-innovation/home.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Digital Solutions &amp;amp; Software Development&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/digital-innovation/home.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="Digital Solutions &amp; Software Development" aria-label="Digital Solutions &amp; Software Development">Digital Solutions &amp; Software Development</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.de/messtechnik/home.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Industrial Quality Solutions&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/messtechnik/home.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="Industrial Quality Solutions" aria-label="Industrial Quality Solutions">Industrial Quality Solutions</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.com/oem-solutions/home.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;OEM Solutions&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/oem-solutions/home.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="OEM Solutions" aria-label="OEM Solutions">OEM Solutions</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.de/mikroskopie/home.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Research Microscopy Solutions&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/mikroskopie/home.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="Research Microscopy Solutions" aria-label="Research Microscopy Solutions">Research Microscopy Solutions</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.de/spectroscopy/home.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Spectroscopy&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/spectroscopy/home.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="Spectroscopy" aria-label="Spectroscopy">Spectroscopy</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.de/corporate/home.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;ZEISS Group&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/corporate/home.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="ZEISS Group" aria-label="ZEISS Group">ZEISS Group</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+</ul>
+
+
+
+</div>
+
+        
+        <div class="grid__column grid__column--33">
+
+
+
+<ul class="footer-tabs__website-area__list">
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.com/extended-reality/en/home.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Extended Reality&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/extended-reality/en/home.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="Extended Reality" aria-label="Extended Reality">Extended Reality</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.de/meditec/home.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Medical Technology&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/meditec/home.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="Medical Technology" aria-label="Medical Technology">Medical Technology</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.de/photonics-and-optics/fotografie.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Photography&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/photonics-and-optics/fotografie.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="Photography" aria-label="Photography">Photography</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.de/semiconductor-manufacturing-technology/home.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Semiconductor Manufacturing Technology&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/semiconductor-manufacturing-technology/home.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="Semiconductor Manufacturing Technology" aria-label="Semiconductor Manufacturing Technology">Semiconductor Manufacturing Technology</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.com/sunlens/de/home.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Sunlens&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/sunlens/de/home.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="Sunlens" aria-label="Sunlens">Sunlens</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+</ul>
+
+
+
+</div>
+
+    </div>
+</div>
+</div>
+
+                        
+                        
+                        
+  <div class="footer-tabs__tab" data-js-select="FooterCountrySwitchTrigger" data-tracking-id="Country / location switch">
+    <div class="footer-tabs__tab-title">
+      <div class="footer-tabs__tab-title__eyebrow">Website auswählen</div>
+
+      <div class="footer-tabs__tab-title__selection">Internationale Website (Deutsch)</div>
+
+      
+  <span class="icon icon-symbols-expand-more icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-expand-more"/>
+      </svg>
+    </span>
+  </span>
+
+    </div>
+  </div>
+
+                        <div class="footer-tabs__tab-content-container footer-tabs__country-switch">
+                            <div class="footer-tabs__tab-content">
+  <div class="footer-country-switch" data-modal-abort-button="Nein" data-modal-continue-button="Ja" data-country-list="https://www.zeiss.com/meditec-ag/de/home/_jcr_content.country-switch.json" data-module="FooterCountrySwitch" data-country-switch-announcement="Sie befinden sich jetzt in der Länderauswahl. Navigieren Sie durch die Liste der für die aktuelle Website verfügbaren Sprachen." id="countrySwitch">
+    
+    
+    
+
+    
+    
+    <div class="accordion">
+
+    <ul data-breakpoint-max="small" data-module="Accordion" data-js-select="Accordion">
+        
+        
+  
+  
+    <li class="accordion__item
+               " data-js-select="Accordion_item">
+        
+        <button class="accordion__button
+                       " data-js-select="Accordion_button">
+            <span class="accordion__button-container">
+                <span class="accordion__header_info">
+                    
+                    <span class="accordion__header-text">
+                        <p class="accordion__headline hl-xs">Sprache auswählen</p>
+                        
+                    </span>
+                </span>
+                <span data-js-select="Accordion_expand_button" class="accordion__icon">
+  <span class="icon icon-symbols-expand-more icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-expand-more"/>
+      </svg>
+    </span>
+  </span>
+</span>
+            </span>
+        </button>
+
+        
+        <div class="accordion__content-container
+                    
+                    
+                    " data-js-select="Accordion_content">
+            
+            
+  <div class="country-switch-list">
+    
+    
+    
+    <div class="country-switch-list__wrapper">
+      <ul class="country-switch-list__group">
+  
+    <li class="country-switch-list__group__item-link text--body-m ">
+      <a aria-label="Seite in Global website (English) öffnen" class="plain-link country-switch-list__link" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;Country / location switch&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Global website (English)&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/meditec-ag/en/home.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Country / location switch&#34;}" data-target-country="XI" href="https://www.zeiss.com/meditec-ag/en/home.html" title="Seite in Global website (English) öffnen">
+        Global website (English)
+      </a>
+    </li>
+  
+    <li class="country-switch-list__group__item-link text--body-m country-switch-list__group__item-link--active">
+      <a aria-label="Seite in Internationale Website (Deutsch) öffnen" class="plain-link country-switch-list__link" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;Country / location switch&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Internationale Website (Deutsch)&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/meditec-ag/de/home.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Country / location switch&#34;}" data-target-country="XI" href="https://www.zeiss.com/meditec-ag/de/home.html" title="Seite in Internationale Website (Deutsch) öffnen">
+        Internationale Website (Deutsch)
+      </a>
+    </li>
+  
+</ul>
+    </div>
+  </div>
+
+            
+            
+        </div>
+    </li>
+
+  
+  
+
+    
+        
+        
+  
+  
+  
+  
+    <li class="accordion__item
+               " data-js-select="Accordion_item">
+        
+        <button class="accordion__button
+                       " data-js-select="Accordion_button">
+            <span class="accordion__button-container">
+                <span class="accordion__header_info">
+                    
+                    <span class="accordion__header-text">
+                        <p class="accordion__headline hl-xs">Standort wählen</p>
+                        
+                    </span>
+                </span>
+                <span data-js-select="Accordion_expand_button" class="accordion__icon">
+  <span class="icon icon-symbols-expand-more icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-expand-more"/>
+      </svg>
+    </span>
+  </span>
+</span>
+            </span>
+        </button>
+
+        
+        <div class="accordion__content-container
+                    
+                    
+                    " data-js-select="Accordion_content">
+            
+            
+  <div class="country-switch-list">
+    
+  </div>
+
+            
+            
+        </div>
+    </li>
+
+
+    </ul>
+</div>
+
+    <div id="country-switch-live-region" class="visually-hidden" aria-live="polite" aria-atomic="true"></div>
+  </div>
+</div>
+                        </div>                        
+                    </div>
+                    
+                    <div class="grid__structure footer__ai-label footer__ai-label--hidden" data-js-select="Footer_ai-label" hidden>
+  
+  
+  <span class="ai-label ai-label--footer-disclaimer" data-module="AiLabel">
+      <span class="ai-label__content-container" role="img">
+          <span class="ai-label__icon" aria-hidden="true">
+              
+  <span class="icon icon-inline-generative-ai">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.96589 1.86613C5.01903 1.72371 5.22093 1.72379 5.27351 1.86613C6.10724 4.11744 7.8818 5.89171 10.1329 6.72551C10.2753 6.77863 10.2752 6.98052 10.1329 7.03313C7.88178 7.86693 6.10723 9.64216 5.27351 11.8935C5.22018 12.0355 5.01852 12.0355 4.96589 11.8935C4.13217 9.64216 2.35763 7.86692 0.106512 7.03313C-0.0354311 6.97975 -0.0355771 6.7781 0.106512 6.72551C2.35763 5.8917 4.13218 4.11746 4.96589 1.86613ZM10.0235 0.0389796C10.0424 -0.0130085 10.1182 -0.0129779 10.1378 0.0389796C10.4497 0.884083 11.1161 1.55033 11.961 1.86222C12.013 1.88115 12.013 1.95689 11.961 1.97648C11.116 2.28843 10.4496 2.95469 10.1378 3.79972C10.1189 3.85194 10.043 3.85196 10.0235 3.79972C9.71159 2.95462 9.04524 2.28837 8.20027 1.97648C8.14849 1.95745 8.14845 1.88182 8.20027 1.86222C9.0453 1.55027 9.71166 0.884019 10.0235 0.0389796Z" fill="currentColor"/>
+</svg>
+
+    </span>
+   </span>
+
+          </span>
+          <span class="ai-label__content" aria-hidden="true">
+              <span class="ai-label__text">The content of this page was created with help of Generative AI</span>
+          </span>
+      </span>
+    </span>
+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="footer-legal-links grid__container grid__container--full-bleed">
+        <div class="grid__structure">
+            <div class="grid__column grid__column--100">
+                <div class="footer-legal-links__background-column"></div>
+                <div class="grid__container">
+                    <div class="grid__structure">
+                        <div class="grid__column grid__column--100">
+    <div class="accordion">
+
+    <ul data-breakpoint-max="small" data-module="Accordion" data-js-select="Accordion">
+        
+        
+    <li class="accordion__item
+               " data-js-select="Accordion_item">
+        
+        <button class="accordion__button
+                       " data-js-select="Accordion_button" data-gtm-event-value="Legal links" data-module-section="Footer" data-module-type="Legal links">
+            <span class="accordion__button-container">
+                <span class="accordion__header_info">
+                    
+                    <span class="accordion__header-text">
+                        <p class="accordion__headline hl-xs">Rechtliches</p>
+                        
+                    </span>
+                </span>
+                <span data-js-select="Accordion_expand_button" class="accordion__icon">
+  <span class="icon icon-symbols-expand-more icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-expand-more"/>
+      </svg>
+    </span>
+  </span>
+</span>
+            </span>
+        </button>
+
+        
+        <div class="accordion__content-container
+                    
+                    
+                    " data-js-select="Accordion_content">
+            
+            
+        
+        <div class="accordion-links" data-tracking-id="Legal links">
+    
+    
+         
+    
+        <a class="plain-link " href="https://www.zeiss.com/meditec-ag/de/presse-und-aktuelles.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Legal links - Kontakt&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/meditec-ag/de/presse-und-aktuelles.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Legal links&#34;}" title="Kontakt" aria-label="Kontakt">Kontakt</a>
+    
+
+    
+         
+    
+        <a class="plain-link " href="https://www.zeiss.com/meditec-ag/de/rechtliches/impressum.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Legal links - Impressum&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/meditec-ag/de/rechtliches/impressum.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Legal links&#34;}" title="Impressum" aria-label="Impressum">Impressum</a>
+    
+
+    
+         
+    
+        <a class="plain-link " href="https://www.zeiss.com/meditec-ag/de/rechtliches/rechtshinweise.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Legal links - Rechtshinweise&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/meditec-ag/de/rechtliches/rechtshinweise.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Legal links&#34;}" title="Rechtshinweise" aria-label="Rechtshinweise">Rechtshinweise</a>
+    
+
+    
+         
+    
+        <a class="plain-link " href="https://www.zeiss.de/privacy" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Legal links - Datenschutzhinweis&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/privacy&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Legal links&#34;}" title="Datenschutzhinweis" aria-label="Datenschutzhinweis">Datenschutzhinweis</a>
+    
+
+    
+         
+    
+        <a class="plain-link " href="https://www.zeiss.de/cookies" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Legal links - Cookie-Hinweis&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/cookies&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Legal links&#34;}" title="Cookie-Hinweis" aria-label="Cookie-Hinweis">Cookie-Hinweis</a>
+    
+
+    
+
+    
+    <a class="plain-link" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;CTA&#34;,&#34;type&#34;:&#34;&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Cookie Consent Manager&#34;,&#34;detail&#34;:&#34;&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Legal links&#34;}" href="#" onclick="OneTrust.ToggleInfoDisplay();">Cookie-Einstellungen</a>
+
+    
+    
+
+
+</div>
+
+        
+        
+    
+            
+            
+        </div>
+    </li>
+
+    </ul>
+</div>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    
+
+</footer>
+
+
+
+
+
+            
+    
+    
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+    
+    
+
+            
+        
+    </body>
+</html>

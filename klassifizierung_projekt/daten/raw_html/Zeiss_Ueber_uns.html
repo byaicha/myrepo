@@ -1,0 +1,3311 @@
+<!DOCTYPE HTML>
+<html lang="de-DE" dir="ltr" data-brand-evolution="true">
+    <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Über uns - Pioniere der wissenschaftlichen Optik | ZEISS Group</title>
+    
+    <meta name="robots" content="index, follow"/>
+    <meta name="description" content="Als Pioniere der wissenschaftlichen Optik fordern wir seit jeher die Grenzen der Vorstellungskraft heraus. Mit unserer Leidenschaft für Spitzenleistung schaffen wir Kundennutzen und inspirieren die Welt, Dinge neu zu sehen."/>
+    <meta name="template" content="all_about-us_002"/>
+    <meta name="page_context_language" content="de"/>
+    <meta name="page_context_country" content="DE"/>
+    <meta name="page_context_locale" content="de_de"/>
+    <meta name="page_context_sbu" content="CBC"/>
+    
+    
+    
+        <meta name="content-page-ref" content="DV_EQEs867Na4bOi9sEPcyGmLDVDy2pXJx7i3sA2y9Dz2XApV4s0oDyVVhFLgK2anmuWWl_PiDqTS8zA-qwgPQ"/>
+<script defer="defer" type="text/javascript" src="/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js"></script>
+<link rel="alternate" href="https://www.zeiss.com/corporate/en/about-zeiss.html" hreflang="x-default"/>
+    
+        <link rel="alternate" href="https://www.zeiss.de/corporate/ueber-zeiss.html" hreflang="de-de"/>
+    
+    
+    
+    
+
+
+    
+    
+
+  <link rel="preload" href="/bin/core/services/userdataprovider/datalayer.json/content/cco/germany/website/de_de/about-us" as="fetch"/>
+  <link rel="preload" href="/bin/core/cached/services/crisis/content.json?context=/content/cco/germany/website/de_de/about-us" as="fetch"/>
+
+  <link rel="preload" href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.all.lc-46fdb7a7ed2ed340c0104cf26e130c58-lc.js" as="script"/>
+
+  
+
+  <link rel="preload" href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/fonts/zeiss_text/ZEISSTextUIVF-Italic.ttf" as="font" type="font/ttf" crossorigin="anonymous"/>
+  <link rel="preload" href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/fonts/zeiss_text/ZEISSTextUIVF-Upright.ttf" as="font" type="font/ttf" crossorigin="anonymous"/>
+  <link rel="preload" href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/fonts/zeiss_head/ZEISSHeadUIVFWeb.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
+
+
+
+    
+    
+
+
+    
+    
+  <!-- OneTrust Cookies Consent (SSR Mode) Notice start -->
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="11dcda2f-5845-4860-b4c1-a3e63d9f163f"></script>
+<script type="text/javascript">
+  function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent (SSR Mode) Notice end -->
+
+
+
+    
+    <script>
+  class UserContext {
+    static #instance
+    #data;
+    constructor() {
+      if (UserContext.#instance) return UserContext.#instance;
+      UserContext.#instance = this;
+      this.#data = UserContext.#fetch();
+    }
+
+    static #fetch() {
+      try {
+        return fetch(
+          "\/bin\/core\/services\/userdataprovider\/datalayer.json\/content\/cco\/germany\/website\/de_de\/about\u002Dus",
+          { credentials: 'include', mode: 'no-cors' })
+          .then((resp) => this.#handleResponse(resp));
+      } catch (e) {
+        console.error('fetching url userdata. Error was: ' + e)
+      }
+    }
+    static #handleResponse(response) {
+      if (!response.ok) throw new Error('non-success status code ' + response.status + 'received.');
+      return response.json();
+    }
+
+    getData() { return this.#data; }
+
+    get data() { return this.getData(); }
+  }
+
+  window.userContext = new UserContext().getData();
+  Object.freeze(window.userContext);
+</script>
+ 
+    <script>
+  class PageContext {
+    static #instance;
+    #data = {
+  "country" : "DE",
+  "language" : "de",
+  "locale" : "de_DE",
+  "sbu" : "CBC",
+  "auth" : {
+    "enabled" : false
+  }
+};
+    #resolveHeaderPromise;
+
+    constructor() {
+      if (PageContext.#instance ) return PageContext.#instance;
+      PageContext.#instance = this;
+      this.header = new Promise((resolve, reject) => this.#resolveHeaderPromise = resolve );
+      this.#attachHeaderEventListener();
+      Object.freeze(this.#data);
+    }
+
+    #appendQueryToUrl(
+      given_url,
+      query=new URLSearchParams(window.location.search)
+    ) {
+      const url = new URL(given_url);
+      query.forEach(
+        (value, param) => url.searchParams.append(param, value)
+      );
+      return url;
+    }
+
+    #attachHeaderEventListener() {
+      document.addEventListener("header\u002Dloaded", (e) => this.#resolveHeader(e));
+    }
+
+    #resolveHeader(e) {
+      this.#resolveHeaderPromise(e.detail);
+    }
+
+    #getLoginUrlAem(keepQuery) {
+      const url = new URL(this.#data.auth.loginUrl.url);
+      return keepQuery ? this.#appendQueryToUrl(url) : url;
+    }
+
+    #getLoginUrlCustomAuth(keepQuery) {
+      const pattern = this.#data.auth.loginUrl.pattern;
+      let returnUrl = this.#data.auth.loginUrl.returnUrl;
+      if ( keepQuery ) returnUrl = this.#appendQueryToUrl(returnUrl);
+
+      return new URL(
+        pattern.replace(
+          "{login_return_url}",
+          encodeURIComponent(returnUrl)
+        )
+      );
+   }
+
+    #getLogoutUrl(keepQuery=true) {
+      if ( !this.#data.auth.enabled ) return undefined;
+      return keepQuery ? this.#appendQueryToUrl(this.#data.auth.logoutUrl) : new URL(this.#data.auth.logoutUrl);
+  }
+
+    #getLoginUrl(keepQuery=true) {
+      if ( !this.#data.auth.enabled ) return undefined;
+
+      if ( this.#data.auth.type == "AEM" ) {
+        return this.#getLoginUrlAem(keepQuery);
+      }
+      if ( this.#data.auth.type == "CUSTOM_AUTH_HANDLER" ) {
+        return this.#getLoginUrlCustomAuth(keepQuery);
+      }
+    }
+    get country() { return this.#data.country }
+    get language() { return this.#data.language }
+    get locale() { return this.#data.locale }
+    get logoutUrl() {return this.#getLogoutUrl()}
+    get loginUrl() {return this.#getLoginUrl()}
+    get sbu() { return this.#data.sbu }
+  }
+
+  window.pageContext = new PageContext();
+  Object.freeze(window.pageContext);
+</script>
+ 
+    
+  
+
+
+  
+  <script>const loadSolutionAppJS = async () => {}</script>
+
+ 
+    <script>
+
+  const createGtmPageLoadEvent = (userdata) => {
+    if (!userdata) throw 'Cannot create page load event, userdata missing';
+
+    const loggedIn = Boolean(userdata?.accountid);
+    const plEvent = {
+      ...{
+  "pageArea" : "web",
+  "pageCountry" : "DE",
+  "pageEnvironment" : "prod_publish",
+  "pageIdentifier" : "main",
+  "pageLanguage" : "de",
+  "pageLocation" : "ALL_About-Us_002",
+  "pageName" : "about-us",
+  "pagePool" : "cco",
+  "productName" : "",
+  "pageTags" : "",
+  "contentHierarchy1" : "about-us"
+},
+      event: 'Page load',
+      userLoginState: loggedIn.toString(),
+      language: userdata?.language,
+      country: userdata?.country
+    };
+
+    if (loggedIn) {
+      plEvent.userId = userdata.accountid;
+      plEvent.zeissid = {};
+      if (userdata.zeissid?.organization) plEvent.zeissid.organisation = userdata.zeissid.organization;
+      if (userdata.zeissid?.organization?.zeisscustomerno) plEvent.zeissid.organisation.zeisscustomerno = userdata.zeissid.organization.zeisscustomerno;
+      if (userdata?.mkto_med_myzeiss) plEvent.mkto_med_myzeiss = userdata.mkto_med_myzeiss;
+    }
+
+    return plEvent;
+  }
+
+  const loadGTM = () => {
+    const delay = 0;
+
+    setTimeout(() => {
+      console.info(`adding GTM after delay of 0ms.`);
+
+      const w = window, d = document, s = "script", l = "dataLayer", i = "GTM-WWQQS7V";
+
+      w[l] = w[l] || [];
+      w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != "dataLayer" ? "&l=" + l : "";
+      j.async = true;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+
+      f.parentNode.insertBefore(j, f)
+    }, delay);
+  };
+
+  userContext.then((userdata) => {
+    const pageLoadEvent = createGtmPageLoadEvent(userdata);
+    Array.isArray(window.dataLayer) ? window.dataLayer.push(pageLoadEvent) : window.dataLayer = [pageLoadEvent];
+    loadGTM();
+  });
+
+</script>
+
+
+
+ 
+    
+  <script>
+    const ENDPOINT_CRISIS_CONFIG = "\/bin\/core\/cached\/services\/crisis\/content.json?context=\/content\/cco\/germany\/website\/de_de\/about\u002Dus";
+    const URL_JUPITER_JS_LIBS = ["\/etc.clientlibs\/zeiss\u002Daem\u002Dapp\/jupiter\/clientlibs\/jupiter\u002Dcomponents.all.lc\u002D46fdb7a7ed2ed340c0104cf26e130c58\u002Dlc.js"];
+
+    const loadCrisisConfig = async () => {
+      try {
+        const response = await fetch(ENDPOINT_CRISIS_CONFIG, {credentials: 'include', mode: 'no-cors'});
+
+        if (!response.ok) throw new Error('non-success status code ' + response.status + ' received.');
+
+        return response.json();
+      }
+      catch (e) {
+        console.error('fetching url' + ENDPOINT_CRISIS_CONFIG + ' failed: ' + e)
+      }
+    }
+
+    const executeJS = async ( url, async=false ) => {
+      const SCRIPT_TAG_NAME = 'script';
+      const ref_node = document.getElementsByTagName(SCRIPT_TAG_NAME)[0];
+
+      let script_node = document.createElement(SCRIPT_TAG_NAME);
+
+      script_node.async = async;
+      script_node.src = url;
+
+      ref_node.parentNode.insertBefore(script_node, ref_node);
+    }
+
+    const loadInitialJupiterJS = async () => {
+      URL_JUPITER_JS_LIBS.forEach( async (js_url)  => { executeJS(js_url, false); } )
+    }
+
+    const bootstrapJS = async () => {
+      const data = await Promise.all([userContext, loadCrisisConfig()]);
+
+      window.userdata = data[0];
+      window.crisisConfig = data[1];
+    }
+
+    bootstrapJS().then(() => {
+      loadInitialJupiterJS();
+      loadSolutionAppJS();
+    });
+  </script>
+
+ 
+
+    
+    <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.zeiss.de/corporate/home.html"},{"@type":"ListItem","position":2,"name":"Über uns","item":"https://www.zeiss.de/corporate/ueber-zeiss.html"}]}
+    </script>
+
+    
+    
+
+
+    
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","@id":"https://www.zeiss.com","url":"https://www.zeiss.com","logo":"https://www.zeiss.de/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols/zeiss-logo.svg"}</script>
+
+    
+    
+
+    <meta property="og:url" content="https://www.zeiss.de/corporate/ueber-zeiss.html"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Über ZEISS"/>
+<meta property="og:description" content="Als Pioniere der wissenschaftlichen Optik fordern wir seit jeher die Grenzen der Vorstellungskraft heraus. Mit unserer Leidenschaft für Spitzenleistung schaffen wir Kundennutzen und inspirieren die Welt, Dinge neu zu sehen."/>
+<meta property="og:locale" content="de_DE"/>
+<meta property="og:image" content="https://www.zeiss.de/content/dam/cco/reference-master/about-us/present/about-us/images/210506_zeiss-international-eyes-website-stage_4.jpg"/>
+
+
+
+    
+    
+
+    
+  <link rel="apple-touch-icon" sizes="180x180" href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/favicons/apple-touch-icon.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/favicons/favicon-32x32.png"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/favicons/favicon-16x16.png"/>
+  <link rel="manifest" href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/favicons/site.webmanifest"/>
+  <link rel="mask-icon" href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/favicons/safari-pinned-tab.svg" color="#0f2db3"/>
+  <meta name="msapplication-TileColor" content="#ffffff"/>
+  <meta name="msapplication-square150x150logo" content="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/favicons/mstile-150x150.png"/>
+  <meta name="theme-color" content="#ffffff"/>
+
+    <link rel="canonical" href="https://www.zeiss.de/corporate/ueber-zeiss.html"/>
+    
+
+  
+<link href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.all.lc-50cbbac2512381d7db3550b845625d74-lc.css" rel="stylesheet" type="text/css">
+
+  
+
+
+
+
+
+
+
+
+
+
+    <link media="print" rel="stylesheet" href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.print.lc-73db7cd60bc53c7dbc630f239b325af1-lc.css" type="text/css">
+
+
+
+    
+    
+    
+
+    
+
+    
+    
+    
+
+</head>
+    <body class="page basicpage no-js
+                 ">
+        <script>document.body.classList.remove('no-js');</script>
+        
+        
+        
+            <noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WWQQS7V" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+
+            
+
+
+
+<header class="main-header header exclude-site-search
+               
+               
+                header--no-campaign" data-module="Header">
+    <a href="#content" class="header__skip-link" data-js-select="Header_skip-link" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Skip Navigation&#34;,&#34;detail&#34;:&#34;&#34;,&#34;moduleSection&#34;:&#34;Header&#34;,&#34;moduleType&#34;:&#34;Navigation&#34;}">
+        <p class="header__skip-link__text">Zum Hauptinhalt wechseln</p>
+    </a>
+    
+    
+
+    
+    
+
+    <div class="header__meta grid__container grid__container--full-bleed" data-js-select="Header_meta">
+        <div class="grid__structure">
+            <div class="grid__column grid__column--100 ">
+                <div class="grid__background-column"></div>
+                <div class="header__flex__container ">
+                    <div class="header__flex__structure">
+                        
+                        <div class="header__website-area-name visible-from-s">
+                            ZEISS Gruppe
+                            <span class="header__target_group_identifier visible-from-m">Deutschland</span>
+                        </div>
+
+                        
+                        <ul class="header__first-level-links-list header__utility-links visible-from-m">
+
+    
+</ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid__container">
+        <div class="grid__structure">
+            <div class="header__navigation-area">
+                <span id="external-link-description" class="visually-hidden" aria-hidden="true">
+                    Öffnet sich in einem neuen Tab
+                </span>
+                
+                <a href="https://www.zeiss.de/corporate/home.html" aria-label="Homepage von ZEISS Gruppe Deutschland" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Logo&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Logo&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/corporate/home.html&#34;,&#34;moduleSection&#34;:&#34;Header&#34;,&#34;moduleType&#34;:&#34;Navigation&#34;}" data-js-select="Header_Logo" class="header__logo">
+                    
+  <span class="icon icon-symbols-zeiss-logo icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-zeiss-logo"/>
+      </svg>
+    </span>
+  </span>
+
+                </a>
+
+                
+                <a href="#" aria-label="Klicken Sie hier, um zur letzten Navigationsebene zurückzukehren" title="Klicken Sie hier, um zur letzten Navigationsebene zurückzukehren" data-js-select="Header_Back-link" class="plain-link header__backlink">
+                    
+  <span class="icon icon-symbols-chevron-left icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-chevron-left"/>
+      </svg>
+    </span>
+  </span>
+
+                    Zurück
+                </a>
+
+                <div class="header__navigation visible-from-l" data-js-select="Header_navigation" data-tracking-id="Navigation">
+                    <div class="header__target_group_identifier hide-from-m">Deutschland</div>
+
+                    <div class="header__first-level-container header__first-level-container--main-navigation" data-js-select="Header_first-level">
+                        
+                        <nav aria-label="Hauptnavigation"><ul class="header__first-level-links-list">
+    <li class="header__first-level-links-list-item">
+    <a class="header__first-level-link     header__first-level-link--lazy" data-track-auto="false" aria-controls="content-cco-germany-website-de_de-about-us" aria-haspopup="true" aria-expanded="false" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;&#34;,&#34;action&#34;:&#34;Expand&#34;,&#34;value&#34;:&#34;Über uns&#34;,&#34;detail&#34;:&#34;&#34;,&#34;moduleSection&#34;:&#34;Header&#34;,&#34;moduleType&#34;:&#34;Navigation&#34;}" data-megamenu="content-cco-germany-website-de_de-about-us" data-megamenu-fetch-url="https://www.zeiss.de/corporate/ueber-zeiss/_jcr_content/megaMenu.fetch.html" href="https://www.zeiss.de/corporate/ueber-zeiss.html" aria-label="Über uns">
+        
+        <span class="header__first-level-link__label">Über uns</span>
+        
+        <span class="header__first-level-link__child-indication" aria-hidden="true">
+  <span class="icon icon-inline-beyond/16px/ChevronExpand">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13.3536 5.85353L8.00004 11.2071L2.64648 5.85353L3.35359 5.14643L8.00004 9.79287L12.6465 5.14643L13.3536 5.85353Z" fill="#FF00CD"/>
+</svg>
+
+    </span>
+   </span>
+</span>
+    </a>
+</li>
+
+    <li class="header__first-level-links-list-item">
+    <a class="header__first-level-link     " data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Produkte und Lösungen&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/corporate/produkte-und-loesungen.html&#34;,&#34;moduleSection&#34;:&#34;Header&#34;,&#34;moduleType&#34;:&#34;Navigation&#34;}" href="https://www.zeiss.de/corporate/produkte-und-loesungen.html" aria-label="Produkte und Lösungen">
+        
+        <span class="header__first-level-link__label">Produkte und Lösungen</span>
+        
+        
+    </a>
+</li>
+
+    <li class="header__first-level-links-list-item">
+    <a class="header__first-level-link     " data-track-auto="true" aria-describedby="external-link-description" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Karriere&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/corporate/zeiss-karriere.html&#34;,&#34;moduleSection&#34;:&#34;Header&#34;,&#34;moduleType&#34;:&#34;Navigation&#34;}" href="https://www.zeiss.de/corporate/zeiss-karriere.html" target="_blank" aria-label="Karriere">
+        
+        <span class="header__first-level-link__label">Karriere</span>
+        
+        
+    </a>
+</li>
+
+</ul>
+</nav>
+                        
+                        
+                        
+                        
+                        <nav class="header__my-zeiss-area" data-js-select="Header_my-zeiss-area" aria-label="Zusätzliche Navigation">
+                            <ul class="header__first-level-links-list" data-tracking-id="Primary utility links">
+    
+    
+
+    
+    
+        <li class="header__first-level-links-list-item">
+    <a class="header__first-level-link     " data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;CTA&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Kontakt&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/corporate/kontakt.html&#34;,&#34;moduleSection&#34;:&#34;Header&#34;,&#34;moduleType&#34;:&#34;Primary Utility Links&#34;}" href="https://www.zeiss.de/corporate/kontakt.html" title="Kontakt" aria-label="Kontakt">
+        
+        <span class="header__first-level-link__label">Kontakt</span>
+        
+        
+    </a>
+</li>
+    
+
+    
+    
+    
+
+</ul>
+                        </nav>
+                    </div>
+
+                    <!--googleoff: all-->
+                    
+                    <nav class="header__first-level-container header__my-zeiss-area--mobile hide-from-l" data-js-select="Header_my-zeiss-area--mobile" aria-label="Zusätzliche Navigation">
+                        <ul class="header__first-level-links-list">
+                            
+    
+    
+
+    
+    
+        <li class="header__first-level-links-list-item">
+    <a class="header__first-level-link     " data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;CTA&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Kontakt&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/corporate/kontakt.html&#34;,&#34;moduleSection&#34;:&#34;Header&#34;,&#34;moduleType&#34;:&#34;Primary Utility Links&#34;}" href="https://www.zeiss.de/corporate/kontakt.html" title="Kontakt" aria-label="Kontakt">
+        
+        <span class="header__first-level-link__label">Kontakt</span>
+        
+        
+    </a>
+</li>
+    
+
+    
+    
+    
+
+
+                            
+                        </ul>
+                    </nav>
+                    
+                    <div class="header__first-level-container header__utility-links-in-navigation hide-from-m" data-js-select="Header_utility-links-mobile">
+                        <ul class="header__first-level-links-list">
+                            
+                        </ul>
+                    </div>
+                    <!--googleon: all-->
+
+                    
+                    <div class="header__first-level-container header__related-websites hide-from-l" data-js-select="Header_related-websites">
+                        <ul class="related-websites">
+                            <li class="header__first-level-links-list-item">
+                                <h3 class="related-websites__headline hl-s">Verwandte ZEISS Websites</h3>
+                            </li>
+                            
+                                <li class="header__first-level-links-list-item">
+    <a class="header__first-level-link     " data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Header&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Related ZEISS Websites - Geschäftsbericht&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/geschaeftsbericht&#34;,&#34;moduleSection&#34;:null,&#34;moduleType&#34;:null}" href="https://www.zeiss.de/geschaeftsbericht" title="Geschäftsbericht" aria-label="Geschäftsbericht">
+        
+        <span class="header__first-level-link__label">Geschäftsbericht</span>
+        
+        
+    </a>
+</li>
+                            
+                                <li class="header__first-level-links-list-item">
+    <a class="header__first-level-link     " data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Header&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Related ZEISS Websites - ZEISS Forum&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/zeissforum&#34;,&#34;moduleSection&#34;:null,&#34;moduleType&#34;:null}" href="https://www.zeiss.de/zeissforum" title="ZEISS Forum" aria-label="ZEISS Forum">
+        
+        <span class="header__first-level-link__label">ZEISS Forum</span>
+        
+        
+    </a>
+</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+                
+                <div class="header__first-level-links-list header__first-level-links-list--action-area">
+                    <div class="header__first-level-links-list-item-group">
+                        
+                        
+                        
+                        <div class="header__first-level-links-list-item">
+    <a class="header__first-level-link header__action-area__search header__first-level-link--icon header__first-level-link--no-label  " data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Header&#34;,&#34;action&#34;:&#34;NavigationClick&#34;,&#34;value&#34;:&#34;Search&#34;,&#34;detail&#34;:&#34;&#34;,&#34;moduleSection&#34;:null,&#34;moduleType&#34;:null}" href="#search" title="Auf Website suchen" aria-label="Auf Website suchen">
+        
+  <span class="icon icon-symbols-search icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-search"/>
+      </svg>
+    </span>
+  </span>
+
+        <span class="header__first-level-link__label"></span>
+        
+        
+    </a>
+
+</div>
+                        
+                        <div class="header__first-level-links-list-item header__first-level-links-list-item--mobile-menu"><button aria-label="Menü öffnen / schließen" type="button" class="main-menu-toggle" data-track-auto="false" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;&#34;,&#34;action&#34;:&#34;Open&#34;,&#34;value&#34;:&#34;Open Mega Menu&#34;,&#34;detail&#34;:&#34;&#34;,&#34;moduleSection&#34;:&#34;Header&#34;,&#34;moduleType&#34;:&#34;Navigation&#34;}" href="#" title="Menü öffnen / schließen">
+  <span class="main-menu-toggle__icon icon">
+    <span class="svg-scale-wrapper">
+      <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <polygon class="top-line" fill="#000000" fill-rule="nonzero" points="3 6 3 8 21 8 21 6"></polygon>
+        <polygon class="center-line__1" fill="#000000" fill-rule="nonzero" points="3 13 21 13 21 11 3 11"></polygon>
+        <polygon class="center-line__2" fill="#000000" fill-rule="nonzero" points="3 13 21 13 21 11 3 11"></polygon>
+        <polygon class="bottom-line" fill="#000000" fill-rule="nonzero" points="3 18 21 18 21 16 3 16"></polygon>
+      </svg>
+    </span>
+  </span>
+</button>
+</div>
+                    </div>
+                    
+                    
+                </div>
+
+                
+                <div class="header__megamenu" data-module="HeaderMegamenu" tabindex="-1">
+    <div class="header__megamenu__backdrop" data-js-select="HeaderMegamenu_backdrop"></div>
+
+    <div class="header__megamenu__menu-container" data-js-select="HeaderMegamenu_menu-container">
+        
+        <div class="grid__container header__megamenu__close-button-container">
+            <div class="grid__structure">
+                <div class="grid__column grid__column--100">
+                    <a aria-label="Mega-Menü mit diesem Link schließen" class="plain-link header__megamenu__close-button" data-js-select="HeaderMegamenu_additional_close" href="#">
+  <span class="icon icon-symbols-close icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-close"/>
+      </svg>
+    </span>
+  </span>
+</a>
+                </div>
+            </div>
+        </div>
+
+        
+        
+            
+
+  <nav class="grid__container header__megamenu__menu" aria-label="Main navigation" data-js-select="HeaderMegamenu_menu" data-megamenu-mode="extended_manual" id="content-cco-germany-website-de_de-about-us">
+    
+  </nav>
+
+
+        
+            
+        
+            
+        
+
+        
+        
+
+
+    </div>
+</div>
+
+            </div>
+        </div>
+
+        <nav class="breadcrumb">
+  <ul class="breadcrumb__list-wrapper">
+    
+    
+
+    
+    <li class="breadcrumb__list-item text--body-s">
+      
+      <a class="plain-link breadcrumb__link-item" data-gtm-eventname="Navigation" data-gtm-eventaction="Click" data-gtm-eventtype="Header" data-gtm-eventvalue="Home" data-gtm-eventdetail="https://www.zeiss.de/corporate/home.html" href="https://www.zeiss.de/corporate/home.html">Home</a>
+    </li>
+  
+    
+    <li class="breadcrumb__list-item--active">
+      <div class="text text--body-s">Über uns</div>
+    </li>
+
+    
+    
+  </ul>
+</nav>
+
+    </div>
+
+    
+    <div class="headerSearch">
+  
+  <div class="search-mindbreeze search--is-loading" data-module="Search" data-tracking-id="Search">
+    <div data-app></div>
+    <script data-search-config type="application/json">
+      {
+        "api_base_path": "https://enterprise-search.prd.core-services.zeiss.com/search/aem/prod/publish/api/v2/",
+        "client_js_url": "https://enterprise-search.prd.core-services.zeiss.com/search/aem/prod/publish/apps/scripts-min/client.js",
+        "suggestion_count": "10",
+        "constraints": "{\"and\":[ {\"not\":[ {\"label\":\"page_context_sbu\",\"regex\":\"^DOC-EXA$\"} ]}, {\"or\":[ {\"label\":\"page_context_locale\",\"regex\":\"^de_de$\"}, {\"label\":\"page_context_locale\",\"regex\":\"^de_xi$\"} ]} ]}",
+        "module_section": "",
+        "module_type": "",
+        "form_url": "https://www.zeiss.de/corporate/z/suche.html",
+        "input_placeholder": "Was dürfen wir heute für Sie finden?",
+        "view_name": "oss-default-sbu-scope-all"
+      }
+    </script>
+  </div>
+
+  
+
+</div>
+
+</header>
+
+
+
+<main id="content">
+    
+    
+    
+    
+
+    
+    <div class="root responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    <div id="container-7eb5920728" class="cmp-container">
+        
+        <div class="metadata container panelcontainer">
+
+
+
+
+</div>
+
+        
+    </div>
+
+</div>
+<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    <div id="container-1600a8e077" class="cmp-container">
+        
+        
+        
+    </div>
+
+</div>
+<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    <div id="container-fbd70fedca" class="cmp-container">
+        
+        
+        
+    </div>
+
+</div>
+<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    <div id="container-9f5c2f2086" class="cmp-container">
+        
+        
+        
+    </div>
+
+</div>
+<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    <div id="container-0d55ff898e" class="cmp-container">
+        
+        
+        
+    </div>
+
+</div>
+<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    <div id="container-e38baa1b8b" class="cmp-container">
+        
+        <div class="scrollAnimation module">
+  
+  
+
+  
+  <div class="scroll-animation" data-module="scrollAnimation" data-target-id="scrollAnimation-452932845" data-tracking-id="scrollAnimation-635713728">
+    
+    <div class="scroll-animation__items-wrapper">
+  
+  
+
+  
+  <div class="scroll-animation__navigation__navigation-wrapper">
+    
+    <a href="#" aria-label="" title="" data-js-select="scroll-animation__nav-toggle-expand-button" class="plain-link scroll-animation__navigation__expand-button">
+      <div class="scroll-animation__navigation__link-wrapper">
+        <span data-js-select="scroll-animation__nav-button-title" class="scroll-animation__navigation__navigation-title">
+           <span data-js-select="scroll-animation__navigation__icon">
+            
+           </span>
+          <span data-js-select="scroll-animation__mobile-navigation-title">Was uns antreibt</span>
+        </span>
+        <i class="scroll-animation__navigation__expand-button-icon">
+  <span class="icon icon-symbols-expand-more icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-expand-more"/>
+      </svg>
+    </span>
+  </span>
+</i>
+      </div>
+    </a>
+
+    
+    <div class="scroll-animation__navigation__navigation-list" data-js-select="scroll-animation__nav-list" data-module-section-value="scrollAnimation-635713728"></div>
+
+    
+    
+    <script data-js-select="scroll-animation__nav-item-template" type="text/template"><a class="plain-link scroll-animation__navigation__navigation-link" data-js-select="scroll-animation__nav-navigation-link" href="#[nav_item_id]" data-id="[nav_item_data_id]">
+  <i class="scroll-animation__nav-icon" data-js-select="scroll-animation__nav-icon"></i>
+  <span data-js-select="scroll-animation__nav-link-item-text">[nav_item_title]</span>
+</a>
+</script>
+
+    
+    <div class="scroll-animation__active-item-border" data-js-select="scroll-animation__active-item-border"></div>
+  </div>
+
+  
+  <section data-js-select="scroll-animation__sliders-wrapper" class="scroll-animation__sliders-wrapper">
+    <h3 hidden>Scroll animation items</h3>
+
+    
+    <div class="scroll-animation__animation-wrapper" data-js-select="scroll-animation__animation-wrapper">
+      <video data-js-select="scroll-animation__video_intro" class="scroll-animation__video active" loop muted playsinline preload="none">
+        <source type="video/mp4;" src="https://www.zeiss.de/content/dam/cco/reference-master/about-us/present/about-us/media/zeiss_about-us-intro.mp4/_jcr_content/renditions/original./zeiss_about-us-intro.mp4"/>
+      </video>
+
+      <video class="scroll-animation__video" data-js-select="scroll-animation__video" playsinline preload="none">
+        <source type="video/mp4;" src="https://www.zeiss.de/content/dam/cco/reference-master/about-us/present/about-us/media/zeiss_about-us-chapter.mp4/_jcr_content/renditions/original./zeiss_about-us-chapter.mp4"/>
+      </video>
+    </div>
+
+    
+    <div class="scroll-animation__slider-wrapper" data-js-select="scroll-animation__slider-wrapper">
+      <div class="scroll-animation__slider-viewport" data-js-select="scroll-animation__slider-viewport">
+        <article class="scroll-animation__item-wrapper scroll-animation__intro-item" id="scroll-animation__slide-0" data-js-select="scroll-animation__slide" data-title="Was uns antreibt" data-start="0" data-end="2.0"><div class="scroll-animation__article-wrapper">
+  
+
+  <div class="scroll-animation__item-image">
+  
+  
+  
+  <figure class="lazy-image  
+                 lazy-image--position-top
+                  " data-js-select="LazyImage" data-module="LazyImage">
+  
+  <div class="lazy-image__image-container" data-js-select="LazyImage_image-container">
+    <noscript>
+      <img class="lazy-image__image" src="https://www.zeiss.de/content/dam/cco/reference-master/about-us/present/about-us/images/zeiss_shaping-the-future.jpg/_jcr_content/renditions/original./zeiss_shaping-the-future.jpg"/>
+    </noscript>
+    <img class="lazy-image__image lazy-image__target-image " data-js-select="LazyImage_image" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{&#34;max&#34;:&#34;https://www.zeiss.de/content/dam/cco/reference-master/about-us/present/about-us/images/zeiss_shaping-the-future.jpg/_jcr_content/renditions/original./zeiss_shaping-the-future.jpg&#34;}"/>
+    
+    
+  </div>
+  <div class="lazy-image__active-image-indicator"></div>
+  
+  
+  <figcaption class="lazy-image__figcaption text--caption" data-js-select="LazyImage_figcaption">
+    
+    
+    
+    
+    
+    
+    
+  </figcaption>
+</figure>
+</div>
+
+  
+
+  
+
+  <div class="scroll-animation__content-wrapper" data-js-select="scroll-animation__content-wrapper">
+    
+    <div class="headline hl--sub-l scroll-animation__headline hl-xxxl">
+  <div class="headline__inner" data-target-id="headline-1734402572">
+    
+    
+    
+    <h1>
+      <span class="headline__main" data-js-select="Headline_main">
+        <span id="headline-1734402572">
+          Was uns antreibt
+        </span>
+        
+      </span>
+      
+    </h1>
+    
+    <span class="headline__sub hl--sub">Als Pioniere der wissenschaftlichen Optik fordern wir seit jeher die Grenzen der Vorstellungskraft heraus.</span>
+  </div>
+
+
+
+    
+
+</div>
+
+
+    
+    <div class="text text--body-m scroll-animation__text">
+
+
+    
+
+</div>
+
+
+    
+    
+
+    
+    
+  </div>
+</div>
+</article>
+        
+<div class="overlay-page" id="overlay-item-21840657" data-module="OverlayPage">
+    
+    <header class="overlay-page__header " data-js-select="OverlayPage_header">
+        <div class="grid__container">
+            <div class="grid__structure">
+                
+                <div class="overlay-page__header-column-headline"><div class="headline hl-xl overlay-page__headline">
+
+
+    
+
+</div>
+</div>
+
+                
+                <div class="overlay-page__header-column-button">
+    
+        <a class="plain-link overlay-page__button-close" data-js-select="OverlayPage_close" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;Overlay&#34;,&#34;action&#34;:&#34;Close&#34;,&#34;value&#34;:&#34;&#34;,&#34;detail&#34;:&#34;&#34;,&#34;moduleSection&#34;:&#34;scrollAnimation-635713728&#34;,&#34;moduleType&#34;:&#34;Scroll Animation&#34;}">
+  <span class="icon icon-symbols-close icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-close"/>
+      </svg>
+    </span>
+  </span>
+</a>
+    
+</div>
+            </div>
+        </div>
+    </header>
+
+    
+    <main class="overlay-page__content" data-js-select="OverlayPage_content" data-disable-popstate-listener="false" data-scroll-container>
+        <div class="overlay-page__content-section">
+            <div class="overlay-page__content-section-non-static">
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    <div id="container-d61964ebfa" class="cmp-container">
+        
+        
+        
+    </div>
+
+</div>
+
+            
+        </div>
+    </main>
+
+</div>
+      
+        <article class="scroll-animation__item-wrapper " id="scroll-animation__slide-1" data-js-select="scroll-animation__slide" data-title="Die Zukunft gestalten" data-start="2.0" data-end="3.1"><div class="scroll-animation__article-wrapper">
+  
+
+  <div class="scroll-animation__item-image">
+  
+  
+  
+  <figure class="lazy-image  
+                 lazy-image--position-top
+                  " data-js-select="LazyImage" data-module="LazyImage">
+  
+  <div class="lazy-image__image-container" data-js-select="LazyImage_image-container">
+    <noscript>
+      <img class="lazy-image__image" src="https://www.zeiss.de/content/dam/cco/reference-master/about-us/present/about-us/images/zeiss_innovative-solutions.jpg/_jcr_content/renditions/original./zeiss_innovative-solutions.jpg"/>
+    </noscript>
+    <img class="lazy-image__image lazy-image__target-image " data-js-select="LazyImage_image" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{&#34;max&#34;:&#34;https://www.zeiss.de/content/dam/cco/reference-master/about-us/present/about-us/images/zeiss_innovative-solutions.jpg/_jcr_content/renditions/original./zeiss_innovative-solutions.jpg&#34;}"/>
+    
+    
+  </div>
+  <div class="lazy-image__active-image-indicator"></div>
+  
+  
+  <figcaption class="lazy-image__figcaption text--caption" data-js-select="LazyImage_figcaption">
+    
+    
+    
+    
+    
+    
+    
+  </figcaption>
+</figure>
+</div>
+
+  
+
+  
+
+  <div class="scroll-animation__content-wrapper" data-js-select="scroll-animation__content-wrapper">
+    
+    <div class="headline hl--sub-l scroll-animation__headline hl-l">
+  <div class="headline__inner" data-target-id="headline-1930916077">
+    
+    
+    
+    <h2>
+      <span class="headline__main" data-js-select="Headline_main">
+        <span id="headline-1930916077">
+          Die Zukunft gestalten
+        </span>
+        
+      </span>
+      
+    </h2>
+    
+    
+  </div>
+
+
+
+    
+
+</div>
+
+
+    
+    <div class="text text--body-m scroll-animation__text">
+    <p>ZEISS ist ein weltweit führendes Technologieunternehmen der optischen und optoelektronischen Industrie. Als vollständig stiftungseigenes Unternehmen ist sich ZEISS bei allen Tätigkeiten seiner Verantwortung, die die Grundlage seines Handelns bildet, bewusst. Als Pioniere der wissenschaftlichen Optik fordern wir seit jeher die Grenzen der Vorstellungskraft heraus. Mit unserer Leidenschaft für Spitzenleistung schaffen wir Kundennutzen und inspirieren die Welt, Dinge neu zu sehen.</p>
+
+
+
+
+    
+
+</div>
+
+
+    
+    
+
+    
+    
+  </div>
+</div>
+</article>
+        
+<div class="overlay-page" id="overlay-item-21840658" data-module="OverlayPage">
+    
+    <header class="overlay-page__header " data-js-select="OverlayPage_header">
+        <div class="grid__container">
+            <div class="grid__structure">
+                
+                <div class="overlay-page__header-column-headline"><div class="headline hl-xl overlay-page__headline">
+
+
+    
+
+</div>
+</div>
+
+                
+                <div class="overlay-page__header-column-button">
+    
+        <a class="plain-link overlay-page__button-close" data-js-select="OverlayPage_close" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;Overlay&#34;,&#34;action&#34;:&#34;Close&#34;,&#34;value&#34;:&#34;&#34;,&#34;detail&#34;:&#34;&#34;,&#34;moduleSection&#34;:&#34;scrollAnimation-635713728&#34;,&#34;moduleType&#34;:&#34;Scroll Animation&#34;}">
+  <span class="icon icon-symbols-close icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-close"/>
+      </svg>
+    </span>
+  </span>
+</a>
+    
+</div>
+            </div>
+        </div>
+    </header>
+
+    
+    <main class="overlay-page__content" data-js-select="OverlayPage_content" data-disable-popstate-listener="false" data-scroll-container>
+        <div class="overlay-page__content-section">
+            <div class="overlay-page__content-section-non-static">
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    <div id="container-6d84816269" class="cmp-container">
+        
+        
+        
+    </div>
+
+</div>
+
+            
+        </div>
+    </main>
+
+</div>
+      
+        <article class="scroll-animation__item-wrapper " id="scroll-animation__slide-2" data-js-select="scroll-animation__slide" data-title="Innovative Lösungen" data-start="3.1" data-end="5.2"><div class="scroll-animation__article-wrapper">
+  
+
+  <div class="scroll-animation__item-image">
+  
+  
+  
+  <figure class="lazy-image  
+                 lazy-image--position-top
+                  " data-js-select="LazyImage" data-module="LazyImage">
+  
+  <div class="lazy-image__image-container" data-js-select="LazyImage_image-container">
+    <noscript>
+      <img class="lazy-image__image" src="https://www.zeiss.de/content/dam/cco/reference-master/about-us/present/about-us/images/zeiss_shaping-future.jpg/_jcr_content/renditions/original./zeiss_shaping-future.jpg"/>
+    </noscript>
+    <img class="lazy-image__image lazy-image__target-image " data-js-select="LazyImage_image" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{&#34;max&#34;:&#34;https://www.zeiss.de/content/dam/cco/reference-master/about-us/present/about-us/images/zeiss_shaping-future.jpg/_jcr_content/renditions/original./zeiss_shaping-future.jpg&#34;}"/>
+    
+    
+  </div>
+  <div class="lazy-image__active-image-indicator"></div>
+  
+  
+  <figcaption class="lazy-image__figcaption text--caption" data-js-select="LazyImage_figcaption">
+    
+    
+    
+    
+    
+    
+    
+  </figcaption>
+</figure>
+</div>
+
+  
+
+  
+
+  <div class="scroll-animation__content-wrapper" data-js-select="scroll-animation__content-wrapper">
+    
+    <div class="headline hl--sub-l scroll-animation__headline hl-l">
+  <div class="headline__inner" data-target-id="headline-1414717523">
+    
+    
+    
+    <h2>
+      <span class="headline__main" data-js-select="Headline_main">
+        <span id="headline-1414717523">
+          Innovative Lösungen
+        </span>
+        
+      </span>
+      
+    </h2>
+    
+    
+  </div>
+
+
+
+    
+
+</div>
+
+
+    
+    <div class="text text--body-m scroll-animation__text">
+    <p>Menschen aus verschiedenen Branchen und Bereichen – wie beispielsweise Halbleiterindustrie, Elektromobilität, Kliniken und Augenheilkunde, Film und Optik sowie Nobelpreisträgerinnen und -träger – verlassen sich auf ZEISS.<br />
+Die optischen Produkte des Unternehmens werden zur Herstellung von Mikrochips, zur Erforschung von Infektionskrankheiten, für das Qualitätsmanagement bei Elektrofahrzeugen und Windturbinen, zur bestmöglichen Behandlung in der Neuro- und Augenchirurgie oder beim Dreh preisgekrönter Filme eingesetzt.</p>
+
+
+
+
+    
+
+</div>
+
+
+    
+    
+
+    
+    <div class="linkGroup container panelcontainer">
+<ul class="link-group__multiple-links">
+  <li class="link-group__multiple-links-content"><div class="button-link button-link--link scroll-animation__link">
+
+     
+     
+     
+     
+  
+    
+      <a class=" button-link--icon    button-link--internal" href="https://www.zeiss.de/corporate/produkte-und-loesungen.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;CTA&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Produkte &amp;amp; Lösungen&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/corporate/produkte-und-loesungen.html&#34;,&#34;moduleSection&#34;:&#34;scrollAnimation-635713728&#34;,&#34;moduleType&#34;:&#34;Scroll Animation&#34;}" title="Produkte &amp; Lösungen" aria-label="gehe zu: Produkte &amp; Lösungen">
+        <span class="button-link__content">
+          
+          
+          <span class="button__text">Produkte &amp; Lösungen</span>
+          
+    
+    
+    
+    
+  <span class="icon icon-symbols-internal-link icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-internal-link"/>
+      </svg>
+    </span>
+  </span>
+
+
+		</span>
+      </a>
+  
+
+
+
+
+    
+
+</div>
+</li>
+
+</ul>
+
+
+
+    
+</div>
+
+  </div>
+</div>
+</article>
+        
+<div class="overlay-page" id="overlay-item-972650030" data-module="OverlayPage">
+    
+    <header class="overlay-page__header " data-js-select="OverlayPage_header">
+        <div class="grid__container">
+            <div class="grid__structure">
+                
+                <div class="overlay-page__header-column-headline"><div class="headline hl-xl overlay-page__headline">
+
+
+    
+
+</div>
+</div>
+
+                
+                <div class="overlay-page__header-column-button">
+    
+        <a class="plain-link overlay-page__button-close" data-js-select="OverlayPage_close" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;Overlay&#34;,&#34;action&#34;:&#34;Close&#34;,&#34;value&#34;:&#34;&#34;,&#34;detail&#34;:&#34;&#34;,&#34;moduleSection&#34;:&#34;scrollAnimation-635713728&#34;,&#34;moduleType&#34;:&#34;Scroll Animation&#34;}">
+  <span class="icon icon-symbols-close icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-close"/>
+      </svg>
+    </span>
+  </span>
+</a>
+    
+</div>
+            </div>
+        </div>
+    </header>
+
+    
+    <main class="overlay-page__content" data-js-select="OverlayPage_content" data-disable-popstate-listener="false" data-scroll-container>
+        <div class="overlay-page__content-section">
+            <div class="overlay-page__content-section-non-static">
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    <div id="container-537a8ec90b" class="cmp-container">
+        
+        
+        
+    </div>
+
+</div>
+
+            
+        </div>
+    </main>
+
+</div>
+      
+        <article class="scroll-animation__item-wrapper " id="scroll-animation__slide-3" data-js-select="scroll-animation__slide" data-title="Ein starkes Fundament" data-start="5.2" data-end="7.1"><div class="scroll-animation__article-wrapper">
+  
+
+  <div class="scroll-animation__item-image">
+  
+  
+  
+  <figure class="lazy-image  
+                 lazy-image--position-top
+                  " data-js-select="LazyImage" data-module="LazyImage">
+  
+  <div class="lazy-image__image-container" data-js-select="LazyImage_image-container">
+    <noscript>
+      <img class="lazy-image__image" src="https://www.zeiss.de/content/dam/cco/reference-master/about-us/present/about-us/images/zeiss_a-strong-foundation.jpg/_jcr_content/renditions/original./zeiss_a-strong-foundation.jpg"/>
+    </noscript>
+    <img class="lazy-image__image lazy-image__target-image " data-js-select="LazyImage_image" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{&#34;max&#34;:&#34;https://www.zeiss.de/content/dam/cco/reference-master/about-us/present/about-us/images/zeiss_a-strong-foundation.jpg/_jcr_content/renditions/original./zeiss_a-strong-foundation.jpg&#34;}"/>
+    
+    
+  </div>
+  <div class="lazy-image__active-image-indicator"></div>
+  
+  
+  <figcaption class="lazy-image__figcaption text--caption" data-js-select="LazyImage_figcaption">
+    
+    
+    
+    
+    
+    
+    
+  </figcaption>
+</figure>
+</div>
+
+  
+
+  
+
+  <div class="scroll-animation__content-wrapper" data-js-select="scroll-animation__content-wrapper">
+    
+    <div class="headline hl--sub-l scroll-animation__headline hl-l">
+  <div class="headline__inner" data-target-id="headline-198749293">
+    
+    
+    
+    <h2>
+      <span class="headline__main" data-js-select="Headline_main">
+        <span id="headline-198749293">
+          Ein starkes Fundament
+        </span>
+        
+      </span>
+      
+    </h2>
+    
+    
+  </div>
+
+
+
+    
+
+</div>
+
+
+    
+    <div class="text text--body-m scroll-animation__text">
+    <p>Das Unternehmen wurde 1846 von Carl Zeiss gegründet, der Präzision, Engagement für Innovation sowie echten Nutzen für Kunden und Gesellschaft als dessen Grundlagen verankerte. 1889 gründete Ernst Abbe im Gedenken an seinen Partner die Carl-Zeiss-Stiftung als Alleininhaberin der Carl Zeiss AG. Noch heute ist die Stiftung ausschließlich der Wissenschaft und dem Fortschritt verpflichtet. Als Pionier im Bereich Unternehmensverantwortung verfolgt ZEISS einen klaren Kurs: Kunden sollen ihre Ziele mit verantwortungsvoll entwickelten und hergestellten Mehrwertlösungen erreichen.</p>
+
+
+
+
+    
+
+</div>
+
+
+    
+    
+
+    
+    <div class="linkGroup container panelcontainer">
+<ul class="link-group__multiple-links">
+  <li class="link-group__multiple-links-content"><div class="button-link button-link--link scroll-animation__link">
+
+     
+     
+     
+     
+  
+    
+      <a class=" button-link--icon    button-link--internal" href="https://www.zeiss.de/corporate/ueber-zeiss/gegenwart/daten-fakten/carl-zeiss-stiftung.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;CTA&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Carl-Zeiss-Stiftung&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/corporate/ueber-zeiss/gegenwart/daten-fakten/carl-zeiss-stiftung.html&#34;,&#34;moduleSection&#34;:&#34;scrollAnimation-635713728&#34;,&#34;moduleType&#34;:&#34;Scroll Animation&#34;}" title="Carl-Zeiss-Stiftung" aria-label="gehe zu: Carl-Zeiss-Stiftung">
+        <span class="button-link__content">
+          
+          
+          <span class="button__text">Carl-Zeiss-Stiftung</span>
+          
+    
+    
+    
+    
+  <span class="icon icon-symbols-internal-link icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-internal-link"/>
+      </svg>
+    </span>
+  </span>
+
+
+		</span>
+      </a>
+  
+
+
+
+
+    
+
+</div>
+</li>
+
+</ul>
+
+
+
+    
+</div>
+
+  </div>
+</div>
+</article>
+        
+<div class="overlay-page" id="overlay-item-972591470" data-module="OverlayPage">
+    
+    <header class="overlay-page__header " data-js-select="OverlayPage_header">
+        <div class="grid__container">
+            <div class="grid__structure">
+                
+                <div class="overlay-page__header-column-headline"><div class="headline hl-xl overlay-page__headline">
+
+
+    
+
+</div>
+</div>
+
+                
+                <div class="overlay-page__header-column-button">
+    
+        <a class="plain-link overlay-page__button-close" data-js-select="OverlayPage_close" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;Overlay&#34;,&#34;action&#34;:&#34;Close&#34;,&#34;value&#34;:&#34;&#34;,&#34;detail&#34;:&#34;&#34;,&#34;moduleSection&#34;:&#34;scrollAnimation-635713728&#34;,&#34;moduleType&#34;:&#34;Scroll Animation&#34;}">
+  <span class="icon icon-symbols-close icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-close"/>
+      </svg>
+    </span>
+  </span>
+</a>
+    
+</div>
+            </div>
+        </div>
+    </header>
+
+    
+    <main class="overlay-page__content" data-js-select="OverlayPage_content" data-disable-popstate-listener="false" data-scroll-container>
+        <div class="overlay-page__content-section">
+            <div class="overlay-page__content-section-non-static">
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    <div id="container-3bd48bbdca" class="cmp-container">
+        
+        
+        
+    </div>
+
+</div>
+
+            
+        </div>
+    </main>
+
+</div>
+      
+        <article class="scroll-animation__item-wrapper " id="scroll-animation__slide-4" data-js-select="scroll-animation__slide" data-title="Einsatz für Nachhaltigkeit" data-start="7.1" data-end="10.0"><div class="scroll-animation__article-wrapper">
+  
+
+  <div class="scroll-animation__item-image">
+  
+  
+  
+  <figure class="lazy-image  
+                 lazy-image--position-top
+                  " data-js-select="LazyImage" data-module="LazyImage">
+  
+  <div class="lazy-image__image-container" data-js-select="LazyImage_image-container">
+    <noscript>
+      <img class="lazy-image__image" src="https://www.zeiss.de/content/dam/cco/reference-master/about-us/present/about-us/images/zeiss_committed-to-sustainability.jpg/_jcr_content/renditions/original./zeiss_committed-to-sustainability.jpg"/>
+    </noscript>
+    <img class="lazy-image__image lazy-image__target-image " data-js-select="LazyImage_image" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{&#34;max&#34;:&#34;https://www.zeiss.de/content/dam/cco/reference-master/about-us/present/about-us/images/zeiss_committed-to-sustainability.jpg/_jcr_content/renditions/original./zeiss_committed-to-sustainability.jpg&#34;}"/>
+    
+    
+  </div>
+  <div class="lazy-image__active-image-indicator"></div>
+  
+  
+  <figcaption class="lazy-image__figcaption text--caption" data-js-select="LazyImage_figcaption">
+    
+    
+    
+    
+    
+    
+    
+  </figcaption>
+</figure>
+</div>
+
+  
+
+  
+
+  <div class="scroll-animation__content-wrapper" data-js-select="scroll-animation__content-wrapper">
+    
+    <div class="headline hl--sub-l scroll-animation__headline hl-l">
+  <div class="headline__inner" data-target-id="headline-297942095">
+    
+    
+    
+    <h2>
+      <span class="headline__main" data-js-select="Headline_main">
+        <span id="headline-297942095">
+          Einsatz für Nachhaltigkeit
+        </span>
+        
+      </span>
+      
+    </h2>
+    
+    
+  </div>
+
+
+
+    
+
+</div>
+
+
+    
+    <div class="text text--body-m scroll-animation__text">
+    <p>Die Stiftung als Inhaberin erwartet nachhaltige Beiträge von ZEISS. Die Dividenden des Unternehmens werden von der Stiftung zur Finanzierung von Wissenschafts- und Forschungsprogrammen in Bereichen eingesetzt, die für die Zukunft der Menschheit von zentraler Bedeutung sind – von der alternden Gesellschaft bis hin zur Kreislaufwirtschaft. Das Ziel von ZEISS ist es, bis zum Geschäftsjahr 2024/25 die Scope-1- und -2-Emissionen weitestgehend zu reduzieren und die noch übrigen Emissionen, die nicht vermieden werden können, zu kompensieren. Konkrete Programme für die MINT-Ausbildung, das öffentliche Gesundheitswesen, Natur- und Klimaschutz sowie soziales Engagement sind Teil der übergeordneten Nachhaltigkeitsstrategie von ZEISS.</p>
+
+
+
+
+    
+
+</div>
+
+
+    
+    
+
+    
+    <div class="linkGroup container panelcontainer">
+<ul class="link-group__multiple-links">
+  <li class="link-group__multiple-links-content"><div class="button-link button-link--link scroll-animation__link">
+
+     
+     
+     
+     
+  
+    
+      <a class=" button-link--icon    button-link--internal" href="https://www.zeiss.de/corporate/ueber-zeiss/gegenwart/nachhaltigkeit.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;CTA&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Nachhaltigkeit bei ZEISS&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/corporate/ueber-zeiss/gegenwart/nachhaltigkeit.html&#34;,&#34;moduleSection&#34;:&#34;scrollAnimation-635713728&#34;,&#34;moduleType&#34;:&#34;Scroll Animation&#34;}" title="Nachhaltigkeit bei ZEISS" aria-label="gehe zu: Nachhaltigkeit bei ZEISS">
+        <span class="button-link__content">
+          
+          
+          <span class="button__text">Nachhaltigkeit bei ZEISS</span>
+          
+    
+    
+    
+    
+  <span class="icon icon-symbols-internal-link icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-internal-link"/>
+      </svg>
+    </span>
+  </span>
+
+
+		</span>
+      </a>
+  
+
+
+
+
+    
+
+</div>
+</li>
+
+</ul>
+
+
+
+    
+</div>
+
+  </div>
+</div>
+</article>
+        
+<div class="overlay-page" id="overlay-item-971848524" data-module="OverlayPage">
+    
+    <header class="overlay-page__header " data-js-select="OverlayPage_header">
+        <div class="grid__container">
+            <div class="grid__structure">
+                
+                <div class="overlay-page__header-column-headline"><div class="headline hl-xl overlay-page__headline">
+
+
+    
+
+</div>
+</div>
+
+                
+                <div class="overlay-page__header-column-button">
+    
+        <a class="plain-link overlay-page__button-close" data-js-select="OverlayPage_close" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;Overlay&#34;,&#34;action&#34;:&#34;Close&#34;,&#34;value&#34;:&#34;&#34;,&#34;detail&#34;:&#34;&#34;,&#34;moduleSection&#34;:&#34;scrollAnimation-635713728&#34;,&#34;moduleType&#34;:&#34;Scroll Animation&#34;}">
+  <span class="icon icon-symbols-close icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-close"/>
+      </svg>
+    </span>
+  </span>
+</a>
+    
+</div>
+            </div>
+        </div>
+    </header>
+
+    
+    <main class="overlay-page__content" data-js-select="OverlayPage_content" data-disable-popstate-listener="false" data-scroll-container>
+        <div class="overlay-page__content-section">
+            <div class="overlay-page__content-section-non-static">
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    <div id="container-770b294de9" class="cmp-container">
+        
+        
+        
+    </div>
+
+</div>
+
+            
+        </div>
+    </main>
+
+</div>
+      
+        <article class="scroll-animation__item-wrapper " id="scroll-animation__slide-5" data-js-select="scroll-animation__slide" data-title="Ein zukunftsorientiertes Portfolio" data-start="10.0" data-end="15.0"><div class="scroll-animation__article-wrapper">
+  
+
+  <div class="scroll-animation__item-image">
+  
+  
+  
+  <figure class="lazy-image  
+                 lazy-image--position-top
+                  " data-js-select="LazyImage" data-module="LazyImage">
+  
+  <div class="lazy-image__image-container" data-js-select="LazyImage_image-container">
+    <noscript>
+      <img class="lazy-image__image" src="https://www.zeiss.de/content/dam/cco/reference-master/about-us/present/about-us/images/zeiss_at-home-across-the-globe.jpg/_jcr_content/renditions/original./zeiss_at-home-across-the-globe.jpg"/>
+    </noscript>
+    <img class="lazy-image__image lazy-image__target-image " data-js-select="LazyImage_image" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{&#34;max&#34;:&#34;https://www.zeiss.de/content/dam/cco/reference-master/about-us/present/about-us/images/zeiss_at-home-across-the-globe.jpg/_jcr_content/renditions/original./zeiss_at-home-across-the-globe.jpg&#34;}"/>
+    
+    
+  </div>
+  <div class="lazy-image__active-image-indicator"></div>
+  
+  
+  <figcaption class="lazy-image__figcaption text--caption" data-js-select="LazyImage_figcaption">
+    
+    
+    
+    
+    
+    
+    
+  </figcaption>
+</figure>
+</div>
+
+  
+
+  
+
+  <div class="scroll-animation__content-wrapper" data-js-select="scroll-animation__content-wrapper">
+    
+    <div class="headline hl--sub-l scroll-animation__headline hl-l">
+  <div class="headline__inner" data-target-id="headline-2022932974">
+    
+    
+    
+    <h2>
+      <span class="headline__main" data-js-select="Headline_main">
+        <span id="headline-2022932974">
+          Ein zukunftsorientiertes Portfolio
+        </span>
+        
+      </span>
+      
+    </h2>
+    
+    
+  </div>
+
+
+
+    
+
+</div>
+
+
+    
+    <div class="text text--body-m scroll-animation__text">
+    <p>Heute arbeiten rund 46.600 Mitarbeitende weltweit in rund 50 Ländern hart daran, die Erwartungen der Kundinnen und Kunden zu erfüllen und zu übertreffen. Sie erwirtschafteten einen Jahresumsatz von insgesamt knapp 12 Milliarden Euro (GJ 2024/25) in den vier ZEISS Sparten Semiconductor Manufacturing Technology, Industrial Quality &amp; Research, Medical Technology und Consumer Markets. Gegenwärtig werden 15 % des Umsatzes in Wissenschaft sowie Forschung und Entwicklung investiert. ZEISS ist der Überzeugung, dass Innovation und Technologie der Schlüssel für eine nachhaltige Zukunft und Lösungen für globale Herausforderungen sind. </p>
+
+
+
+
+    
+
+</div>
+
+
+    
+    
+
+    
+    <div class="linkGroup container panelcontainer">
+<ul class="link-group__multiple-links">
+  <li class="link-group__multiple-links-content"><div class="button-link button-link--link scroll-animation__link">
+
+     
+     
+     
+     
+  
+    
+      <a class=" button-link--icon    button-link--internal" href="https://www.zeiss.de/corporate/ueber-zeiss/zukunft/innovation.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;CTA&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Innovation bei ZEISS&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/corporate/ueber-zeiss/zukunft/innovation.html&#34;,&#34;moduleSection&#34;:&#34;scrollAnimation-635713728&#34;,&#34;moduleType&#34;:&#34;Scroll Animation&#34;}" title="Innovation bei ZEISS" aria-label="Erfahren Sie mehr zu Innovation bei ZEISS">
+        <span class="button-link__content">
+          
+          
+          <span class="button__text">Innovation bei ZEISS</span>
+          
+    
+    
+    
+    
+  <span class="icon icon-symbols-internal-link icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-internal-link"/>
+      </svg>
+    </span>
+  </span>
+
+
+		</span>
+      </a>
+  
+
+
+
+
+    
+
+</div>
+</li>
+
+</ul>
+
+
+
+    
+</div>
+
+  </div>
+</div>
+</article>
+        
+<div class="overlay-page" id="overlay-item-971790029" data-module="OverlayPage">
+    
+    <header class="overlay-page__header " data-js-select="OverlayPage_header">
+        <div class="grid__container">
+            <div class="grid__structure">
+                
+                <div class="overlay-page__header-column-headline"><div class="headline hl-xl overlay-page__headline">
+
+
+    
+
+</div>
+</div>
+
+                
+                <div class="overlay-page__header-column-button">
+    
+        <a class="plain-link overlay-page__button-close" data-js-select="OverlayPage_close" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;Overlay&#34;,&#34;action&#34;:&#34;Close&#34;,&#34;value&#34;:&#34;&#34;,&#34;detail&#34;:&#34;&#34;,&#34;moduleSection&#34;:&#34;scrollAnimation-635713728&#34;,&#34;moduleType&#34;:&#34;Scroll Animation&#34;}">
+  <span class="icon icon-symbols-close icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-close"/>
+      </svg>
+    </span>
+  </span>
+</a>
+    
+</div>
+            </div>
+        </div>
+    </header>
+
+    
+    <main class="overlay-page__content" data-js-select="OverlayPage_content" data-disable-popstate-listener="false" data-scroll-container>
+        <div class="overlay-page__content-section">
+            <div class="overlay-page__content-section-non-static">
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    <div id="container-cbbdd6853e" class="cmp-container">
+        
+        
+        
+    </div>
+
+</div>
+
+            
+        </div>
+    </main>
+
+</div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+</div>
+
+</div>
+
+        
+    </div>
+
+</div>
+<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    <div id="container-53cd6972f2" class="cmp-container">
+        
+        
+        
+    </div>
+
+</div>
+<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    <div id="container-9973d62b24" class="cmp-container">
+        
+        
+        
+    </div>
+
+</div>
+<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    <div id="container-ddb976f504" class="cmp-container">
+        
+        <div class="notificationTile module notification-tile--card-background-dark notification-tile--background-secondary">
+  
+  
+
+  
+  <div class="notification-tile" data-target-id="notificationTile-2018860355" data-tracking-id="notificationTile-236195824">
+  <div class="grid__container">
+    <div class="notification-tile__card grid__structure">
+      <div class="notification-tile__column-left">
+        
+        <div class="headline hl-m hl--sub-m">
+  <div class="headline__inner" data-target-id="headline-1234412542">
+    
+    
+    
+    <h2>
+      <span class="headline__main" data-js-select="Headline_main">
+        <span id="headline-1234412542">
+          Erfahren Sie mehr über ZEISS
+        </span>
+        
+      </span>
+      
+    </h2>
+    
+    
+  </div>
+
+
+
+    
+
+</div>
+
+      </div>
+      <div class="notification-tile__column-right ">
+        
+        <div class="text text--body-l">
+    <p>Entdecken Sie unsere innovativen Lösungen, das Unternehmen in Zahlen und tauchen Sie in die Welt von ZEISS ein.</p>
+
+
+
+
+    
+
+</div>
+
+        <div class="notification-tile__cta">
+          
+          
+          
+          <div class="notification-tile__button">
+            <div class="button-group">
+  
+    <div class="button-link button-link--secondary">
+      
+  
+    
+      <a class="     " href="https://www.zeiss.de/corporate/produkte-und-loesungen.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;CTA&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Produkte &amp;amp; Lösungen&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/corporate/produkte-und-loesungen.html&#34;,&#34;moduleSection&#34;:&#34;notificationTile-236195824&#34;,&#34;moduleType&#34;:&#34;Notification Tile&#34;}" title="ZEISS Produkte &amp; Lösungen" aria-label="ZEISS Produkte &amp; Lösungen">
+        <span class="button-link__content">
+          
+          
+          <span class="button__text">Produkte &amp; Lösungen</span>
+          
+    
+    
+    
+    
+
+		</span>
+      </a>
+  
+
+
+
+    
+
+
+    </div>
+    <div class="button-link button-link--tertiary">
+      
+  
+    
+      <a class="     " href="https://www.zeiss.de/corporate/ueber-zeiss/gegenwart/daten-fakten.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;CTA&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Daten &amp;amp; Fakten&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/corporate/ueber-zeiss/gegenwart/daten-fakten.html&#34;,&#34;moduleSection&#34;:&#34;notificationTile-236195824&#34;,&#34;moduleType&#34;:&#34;Notification Tile&#34;}" title="ZEISS Daten &amp; Fakten" aria-label="ZEISS Daten &amp; Fakten">
+        <span class="button-link__content">
+          
+          
+          <span class="button__text">Daten &amp; Fakten</span>
+          
+    
+    
+    
+    
+
+		</span>
+      </a>
+  
+
+
+
+    
+
+
+    </div>
+  
+</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+        
+    </div>
+
+</div>
+<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    <div id="container-adbc1df88d" class="cmp-container">
+        
+        
+        
+    </div>
+
+</div>
+<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    
+
+    
+    
+
+    
+    <div id="container-b3bfcd257d" class="cmp-container">
+        
+        
+        
+    </div>
+
+</div>
+
+    
+</div>
+</div>
+
+</main>
+
+
+<footer data-module="Footer" class="footer exclude-site-search">
+
+    
+    
+
+    
+    
+
+
+
+    
+    
+
+
+
+    
+    
+
+
+
+    
+    
+
+    
+    <section class="grid__container footer__to-top">
+        <div class="grid__structure">
+            <div class="grid__column grid__column--100"><div class="to-top" data-module="ToTop">
+    <a href="#to-top" class="to-top__link" data-js-select="TopTop_link" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;CTA&#34;,&#34;type&#34;:&#34;&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Back to top&#34;,&#34;detail&#34;:&#34;&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Back to top&#34;}">
+        
+        <span class="to-top__link-text">Zurück nach oben</span>
+        
+        
+  <span class="icon icon-symbols-arrow-upward icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-arrow-upward"/>
+      </svg>
+    </span>
+  </span>
+
+    </a>
+</div>
+</div>
+        </div>
+    </section>
+
+    
+    <section class="footer__related-websites grid__container grid__container--full-bleed visible-from-l">
+        <div class="grid__structure">
+            <div class="grid__column grid__column--100">
+                <div class="footer__background-column"></div>
+
+                <div class="grid__container">
+                    <div class="grid__structure">
+                        <div class="grid__column grid__column--100"><div class="related-websites" data-tracking-id="Related websites">
+    
+    <div class="related-websites__headline hl-s">Verwandte ZEISS Websites</div>
+    
+    
+         
+    <a aria-label="Geschäftsbericht" class="header__first-level-link    " data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Related websites - Geschäftsbericht&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/geschaeftsbericht&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Related Websites&#34;}" href="https://www.zeiss.de/geschaeftsbericht" target="_blank" title="Geschäftsbericht">
+        
+        Geschäftsbericht
+    </a>
+
+    
+         
+    <a aria-label="ZEISS Forum" class="header__first-level-link    " data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Related websites - ZEISS Forum&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/zeissforum&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Related Websites&#34;}" href="https://www.zeiss.de/zeissforum" target="_blank" title="ZEISS Forum">
+        
+        ZEISS Forum
+    </a>
+
+    
+
+</div>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="footer__main-footer grid__container grid__container--full-bleed">
+        <div class="grid__structure">
+            <div class="grid__column grid__column--100">
+                <div class="footer__background-column"></div>
+
+                <div class="grid__container">
+                    
+                    <div class="grid__structure footer__navigation">
+                        
+                        <div class="grid__column grid__column--33"><div class="accordion" data-tracking-id="Frequently used websites">
+
+    <ul data-breakpoint-max="small" data-module="Accordion" data-js-select="Accordion">
+        
+        
+    <li class="accordion__item
+               " data-js-select="Accordion_item">
+        
+        <button class="accordion__button
+                       " data-js-select="Accordion_button" data-gtm-event-value="Frequently used websites" data-module-section="Footer" data-module-type="Frequently used websites">
+            <span class="accordion__button-container">
+                <span class="accordion__header_info">
+                    
+                    <span class="accordion__header-text">
+                        <p class="accordion__headline hl-xs">Häufig verwendet</p>
+                        
+                    </span>
+                </span>
+                <span data-js-select="Accordion_expand_button" class="accordion__icon">
+  <span class="icon icon-symbols-expand-more icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-expand-more"/>
+      </svg>
+    </span>
+  </span>
+</span>
+            </span>
+        </button>
+
+        
+        <div class="accordion__content-container
+                    
+                    
+                    " data-js-select="Accordion_content">
+            
+            
+    <div class="accordion-links">
+        
+    
+        <a class="plain-link " href="https://www.zeiss.de/corporate/ueber-zeiss/gegenwart/nachhaltigkeit.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Frequently used websites - Nachhaltigkeit bei ZEISS&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/corporate/ueber-zeiss/gegenwart/nachhaltigkeit.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Frequently used websites&#34;}" title="Nachhaltigkeit bei ZEISS" aria-label="Nachhaltigkeit bei ZEISS">Nachhaltigkeit bei ZEISS</a>
+    
+
+    
+        
+    
+        <a class="plain-link " href="https://www.zeiss.de/corporate/ueber-zeiss/zukunft/innovation.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Frequently used websites - Innovation bei ZEISS&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/corporate/ueber-zeiss/zukunft/innovation.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Frequently used websites&#34;}" title="Innovation bei ZEISS" aria-label="Innovation bei ZEISS">Innovation bei ZEISS</a>
+    
+
+    
+        
+    
+        <a class="plain-link " href="https://www.zeiss.de/corporate/ueber-zeiss/vergangenheit/geschichte.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Frequently used websites - Geschichte auf einen Blick&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/corporate/ueber-zeiss/vergangenheit/geschichte.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Frequently used websites&#34;}" title="Geschichte auf einen Blick" aria-label="Geschichte auf einen Blick">Geschichte auf einen Blick</a>
+    
+
+    
+        
+    
+        <a class="plain-link " href="https://www.zeiss.de/corporate/ueber-zeiss/gegenwart/daten-fakten/carl-zeiss-stiftung.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Frequently used websites - Carl-Zeiss-Stiftung&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/corporate/ueber-zeiss/gegenwart/daten-fakten/carl-zeiss-stiftung.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Frequently used websites&#34;}" title="Carl-Zeiss-Stiftung" aria-label="Carl-Zeiss-Stiftung">Carl-Zeiss-Stiftung</a>
+    
+
+    </div>
+
+            
+            
+        </div>
+    </li>
+
+    </ul>
+
+</div>
+</div>
+
+                        
+                        <div class="grid__column grid__column--33"><div class="accordion" data-tracking-id="About ZEISS">
+
+    <ul data-breakpoint-max="small" data-module="Accordion" data-js-select="Accordion">
+        
+        
+    <li class="accordion__item
+               " data-js-select="Accordion_item">
+        
+        <button class="accordion__button
+                       " data-js-select="Accordion_button" data-gtm-event-value="About ZEISS" data-module-section="Footer" data-module-type="About ZEISS">
+            <span class="accordion__button-container">
+                <span class="accordion__header_info">
+                    
+                    <span class="accordion__header-text">
+                        <p class="accordion__headline hl-xs">Über ZEISS</p>
+                        
+                    </span>
+                </span>
+                <span data-js-select="Accordion_expand_button" class="accordion__icon">
+  <span class="icon icon-symbols-expand-more icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-expand-more"/>
+      </svg>
+    </span>
+  </span>
+</span>
+            </span>
+        </button>
+
+        
+        <div class="accordion__content-container
+                    
+                    
+                    " data-js-select="Accordion_content">
+            
+            
+    <div class="accordion-links">
+        
+    
+        <a class="plain-link " href="https://www.zeiss.de/corporate/ueber-zeiss.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;About ZEISS - ZEISS im Überblick&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/corporate/ueber-zeiss.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;About ZEISS&#34;}" title="ZEISS im Überblick" aria-label="ZEISS im Überblick">ZEISS im Überblick</a>
+    
+
+    
+        
+    
+        <a class="plain-link " href="https://www.zeiss.de/karriere" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;About ZEISS - Karriere&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/karriere&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;About ZEISS&#34;}" title="Karriere" aria-label="Karriere">Karriere</a>
+    
+
+    
+        
+    
+        <a class="plain-link " href="https://www.zeiss.de/corporate/ueber-zeiss/gegenwart/newsroom.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;About ZEISS - Newsroom&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/corporate/ueber-zeiss/gegenwart/newsroom.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;About ZEISS&#34;}" title="Newsroom" aria-label="Newsroom">Newsroom</a>
+    
+
+    
+        
+    
+        <a class="plain-link " href="https://www.zeiss.com/de/compliance" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;About ZEISS - Compliance&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/de/compliance&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;About ZEISS&#34;}" title="Compliance" aria-label="Compliance">Compliance</a>
+    
+
+    
+        
+    
+        <a class="plain-link " href="https://www.zeiss.de/corporate/rechtliches/barrierefreiheit.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;About ZEISS - Barrierefreiheit&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/corporate/rechtliches/barrierefreiheit.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;About ZEISS&#34;}" title="Barrierefreiheit" aria-label="Barrierefreiheit">Barrierefreiheit</a>
+    
+
+    </div>
+
+            
+            
+        </div>
+    </li>
+
+    </ul>
+
+</div>
+</div>
+
+                        
+                        <div class="grid__column grid__column--33"><div class="accordion" data-tracking-id="Social Media">
+
+    <ul data-breakpoint-max="small" data-module="Accordion" data-js-select="Accordion">
+        
+        
+    <li class="accordion__item
+               " data-js-select="Accordion_item">
+        
+        <button class="accordion__button
+                       " data-js-select="Accordion_button" data-gtm-event-value="Social Media" data-module-section="Footer" data-module-type="Social Media">
+            <span class="accordion__button-container">
+                <span class="accordion__header_info">
+                    
+                    <span class="accordion__header-text">
+                        <p class="accordion__headline hl-xs">Social Media</p>
+                        
+                    </span>
+                </span>
+                <span data-js-select="Accordion_expand_button" class="accordion__icon">
+  <span class="icon icon-symbols-expand-more icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-expand-more"/>
+      </svg>
+    </span>
+  </span>
+</span>
+            </span>
+        </button>
+
+        
+        <div class="accordion__content-container
+                    
+                    
+                    " data-js-select="Accordion_content">
+            
+            
+    <div class="accordion-links">
+        
+    
+        <a class="plain-link " href="https://www.facebook.com/zeissgroup" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Social Media - Facebook&#34;,&#34;detail&#34;:&#34;https://www.facebook.com/zeissgroup&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Social Media&#34;}" title="Facebook" aria-label="Facebook">Facebook</a>
+    
+
+    
+        
+    
+        <a class="plain-link " href="https://www.instagram.com/zeissgroup/" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Social Media - Instagram&#34;,&#34;detail&#34;:&#34;https://www.instagram.com/zeissgroup/&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Social Media&#34;}" title="Instagram" aria-label="Instagram">Instagram</a>
+    
+
+    
+        
+    
+        <a class="plain-link " href="https://www.linkedin.com/company/zeiss/" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Social Media - LinkedIn&#34;,&#34;detail&#34;:&#34;https://www.linkedin.com/company/zeiss/&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Social Media&#34;}" title="LinkedIn" aria-label="LinkedIn">LinkedIn</a>
+    
+
+    
+        
+    
+        <a class="plain-link " href="https://www.youtube.com/user/ZEISSGroup" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Social Media - YouTube&#34;,&#34;detail&#34;:&#34;https://www.youtube.com/user/ZEISSGroup&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Social Media&#34;}" title="YouTube" aria-label="YouTube">YouTube</a>
+    
+
+    
+        
+    
+        <a class="plain-link " href="https://x.com/zeiss_group" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Social Media - X&#34;,&#34;detail&#34;:&#34;https://x.com/zeiss_group&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Social Media&#34;}" title="X" aria-label="X">X</a>
+    
+
+    </div>
+
+            
+            
+        </div>
+    </li>
+
+    </ul>
+
+</div>
+</div>
+                    </div>
+
+                    
+                    <div class="grid__structure footer-tabs" data-module="FooterTabs">
+                        
+                        
+  <div class="footer-tabs__tab" data-tracking-id="SBU Switch">
+    <div class="footer-tabs__tab-title">
+      <div class="footer-tabs__tab-title__eyebrow">ZEISS Bereich wählen</div>
+
+      <div class="footer-tabs__tab-title__selection">ZEISS Group</div>
+
+      
+  <span class="icon icon-symbols-expand-more icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-expand-more"/>
+      </svg>
+    </span>
+  </span>
+
+    </div>
+  </div>
+
+                        <div class="footer-tabs__tab-content-container footer-tabs__website-area"><div class="grid__container grid__container--full-bleed">
+    <div class="footer-tabs__tab-content">
+        
+        <div class="grid__column grid__column--33">
+
+
+
+<ul class="footer-tabs__website-area__list">
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.de/photonics-and-optics/cinematografie.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Cinematography&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/photonics-and-optics/cinematografie.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="Cinematography" aria-label="Cinematography">Cinematography</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.de/photonics-and-optics/jagd.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Hunting&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/photonics-and-optics/jagd.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="Hunting" aria-label="Hunting">Hunting</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.de/photonics-and-optics/naturbeobachtung.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Nature Observation&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/photonics-and-optics/naturbeobachtung.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="Nature Observation" aria-label="Nature Observation">Nature Observation</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.de/planetariums/home.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Planetariums&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/planetariums/home.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="Planetariums" aria-label="Planetariums">Planetariums</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.de/simulation-projection-solutions/home.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Simulation Projection Solutions&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/simulation-projection-solutions/home.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="Simulation Projection Solutions" aria-label="Simulation Projection Solutions">Simulation Projection Solutions</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.de/vision-care/home.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Vision Care&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/vision-care/home.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="Vision Care" aria-label="Vision Care">Vision Care</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+</ul>
+
+
+
+</div>
+
+        
+        <div class="grid__column grid__column--33">
+
+
+
+<ul class="footer-tabs__website-area__list">
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.de/digital-innovation/home.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Digital Solutions &amp;amp; Software Development&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/digital-innovation/home.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="Digital Solutions &amp; Software Development" aria-label="Digital Solutions &amp; Software Development">Digital Solutions &amp; Software Development</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.de/messtechnik/home.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Industrial Quality Solutions&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/messtechnik/home.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="Industrial Quality Solutions" aria-label="Industrial Quality Solutions">Industrial Quality Solutions</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.com/oem-solutions/home.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;OEM Solutions&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/oem-solutions/home.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="OEM Solutions" aria-label="OEM Solutions">OEM Solutions</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.de/mikroskopie/home.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Research Microscopy Solutions&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/mikroskopie/home.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="Research Microscopy Solutions" aria-label="Research Microscopy Solutions">Research Microscopy Solutions</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.de/spectroscopy/home.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Spectroscopy&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/spectroscopy/home.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="Spectroscopy" aria-label="Spectroscopy">Spectroscopy</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link footer-tabs__website-area__link--active" href="https://www.zeiss.de/corporate/home.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;ZEISS Group&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/corporate/home.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="ZEISS Group" aria-label="ZEISS Group">ZEISS Group</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+</ul>
+
+
+
+</div>
+
+        
+        <div class="grid__column grid__column--33">
+
+
+
+<ul class="footer-tabs__website-area__list">
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.com/extended-reality/en/home.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Extended Reality&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/extended-reality/en/home.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="Extended Reality" aria-label="Extended Reality">Extended Reality</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.de/meditec/home.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Medical Technology&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/meditec/home.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="Medical Technology" aria-label="Medical Technology">Medical Technology</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.de/photonics-and-optics/fotografie.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Photography&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/photonics-and-optics/fotografie.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="Photography" aria-label="Photography">Photography</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.de/semiconductor-manufacturing-technology/home.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Semiconductor Manufacturing Technology&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/semiconductor-manufacturing-technology/home.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="Semiconductor Manufacturing Technology" aria-label="Semiconductor Manufacturing Technology">Semiconductor Manufacturing Technology</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+
+  
+
+  
+  <li class="item link">
+    
+        <a class="plain-link footer-tabs__website-area__link " href="https://www.zeiss.com/sunlens/de/home.html" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;ZEISS Area&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Sunlens&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/sunlens/de/home.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;SBU Switch&#34;}" title="Sunlens" aria-label="Sunlens">Sunlens</a>
+    
+
+
+
+    
+
+</li>
+
+
+  
+  
+
+  
+  
+
+
+</ul>
+
+
+
+</div>
+
+    </div>
+</div>
+</div>
+
+                        
+                        
+                        
+  <div class="footer-tabs__tab" data-js-select="FooterCountrySwitchTrigger" data-tracking-id="Country / location switch">
+    <div class="footer-tabs__tab-title">
+      <div class="footer-tabs__tab-title__eyebrow">Website auswählen</div>
+
+      <div class="footer-tabs__tab-title__selection">Deutschland</div>
+
+      
+  <span class="icon icon-symbols-expand-more icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-expand-more"/>
+      </svg>
+    </span>
+  </span>
+
+    </div>
+  </div>
+
+                        <div class="footer-tabs__tab-content-container footer-tabs__country-switch">
+                            <div class="footer-tabs__tab-content">
+  <div class="footer-country-switch" data-modal-abort-button="Nein" data-modal-continue-button="Ja" data-country-list="https://www.zeiss.de/corporate/ueber-zeiss/_jcr_content.country-switch.json" data-module="FooterCountrySwitch" data-country-switch-announcement="Sie befinden sich jetzt in der Länderauswahl. Navigieren Sie durch die Liste der für die aktuelle Website verfügbaren Sprachen." id="countrySwitch">
+    
+    
+    
+
+    
+    
+    <div class="accordion">
+
+    <ul data-breakpoint-max="small" data-module="Accordion" data-js-select="Accordion">
+        
+        
+  
+  
+    <li class="accordion__item
+               " data-js-select="Accordion_item">
+        
+        <button class="accordion__button
+                       " data-js-select="Accordion_button">
+            <span class="accordion__button-container">
+                <span class="accordion__header_info">
+                    
+                    <span class="accordion__header-text">
+                        <p class="accordion__headline hl-xs">Sprache auswählen</p>
+                        
+                    </span>
+                </span>
+                <span data-js-select="Accordion_expand_button" class="accordion__icon">
+  <span class="icon icon-symbols-expand-more icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-expand-more"/>
+      </svg>
+    </span>
+  </span>
+</span>
+            </span>
+        </button>
+
+        
+        <div class="accordion__content-container
+                    
+                    
+                    " data-js-select="Accordion_content">
+            
+            
+  <div class="country-switch-list">
+    
+    
+    
+    <div class="country-switch-list__wrapper">
+      <ul class="country-switch-list__group">
+  
+    <li class="country-switch-list__group__item-link text--body-m ">
+      <a aria-label="Seite in Global website (English) öffnen" class="plain-link country-switch-list__link" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Functional&#34;,&#34;type&#34;:&#34;Country / location switch&#34;,&#34;action&#34;:&#34;Select&#34;,&#34;value&#34;:&#34;Global website (English)&#34;,&#34;detail&#34;:&#34;https://www.zeiss.com/corporate/en/about-zeiss.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Country / location switch&#34;}" data-target-country="XI" href="https://www.zeiss.com/corporate/en/about-zeiss.html" title="Seite in Global website (English) öffnen">
+        Global website (English)
+      </a>
+    </li>
+  
+</ul>
+    </div>
+  </div>
+
+            
+            
+        </div>
+    </li>
+
+  
+  
+
+    
+        
+        
+  
+  
+  
+  
+    <li class="accordion__item
+               " data-js-select="Accordion_item">
+        
+        <button class="accordion__button
+                       " data-js-select="Accordion_button">
+            <span class="accordion__button-container">
+                <span class="accordion__header_info">
+                    
+                    <span class="accordion__header-text">
+                        <p class="accordion__headline hl-xs">Standort wählen</p>
+                        
+                    </span>
+                </span>
+                <span data-js-select="Accordion_expand_button" class="accordion__icon">
+  <span class="icon icon-symbols-expand-more icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-expand-more"/>
+      </svg>
+    </span>
+  </span>
+</span>
+            </span>
+        </button>
+
+        
+        <div class="accordion__content-container
+                    
+                    
+                    " data-js-select="Accordion_content">
+            
+            
+  <div class="country-switch-list">
+    
+  </div>
+
+            
+            
+        </div>
+    </li>
+
+
+    </ul>
+</div>
+
+    <div id="country-switch-live-region" class="visually-hidden" aria-live="polite" aria-atomic="true"></div>
+  </div>
+</div>
+                        </div>                        
+                    </div>
+                    
+                    <div class="grid__structure footer__ai-label footer__ai-label--hidden" data-js-select="Footer_ai-label" hidden>
+  
+  
+  <span class="ai-label ai-label--footer-disclaimer" data-module="AiLabel">
+      <span class="ai-label__content-container" role="img">
+          <span class="ai-label__icon" aria-hidden="true">
+              
+  <span class="icon icon-inline-generative-ai">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.96589 1.86613C5.01903 1.72371 5.22093 1.72379 5.27351 1.86613C6.10724 4.11744 7.8818 5.89171 10.1329 6.72551C10.2753 6.77863 10.2752 6.98052 10.1329 7.03313C7.88178 7.86693 6.10723 9.64216 5.27351 11.8935C5.22018 12.0355 5.01852 12.0355 4.96589 11.8935C4.13217 9.64216 2.35763 7.86692 0.106512 7.03313C-0.0354311 6.97975 -0.0355771 6.7781 0.106512 6.72551C2.35763 5.8917 4.13218 4.11746 4.96589 1.86613ZM10.0235 0.0389796C10.0424 -0.0130085 10.1182 -0.0129779 10.1378 0.0389796C10.4497 0.884083 11.1161 1.55033 11.961 1.86222C12.013 1.88115 12.013 1.95689 11.961 1.97648C11.116 2.28843 10.4496 2.95469 10.1378 3.79972C10.1189 3.85194 10.043 3.85196 10.0235 3.79972C9.71159 2.95462 9.04524 2.28837 8.20027 1.97648C8.14849 1.95745 8.14845 1.88182 8.20027 1.86222C9.0453 1.55027 9.71166 0.884019 10.0235 0.0389796Z" fill="currentColor"/>
+</svg>
+
+    </span>
+   </span>
+
+          </span>
+          <span class="ai-label__content" aria-hidden="true">
+              <span class="ai-label__text">The content of this page was created with help of Generative AI</span>
+          </span>
+      </span>
+    </span>
+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="footer-legal-links grid__container grid__container--full-bleed">
+        <div class="grid__structure">
+            <div class="grid__column grid__column--100">
+                <div class="footer-legal-links__background-column"></div>
+                <div class="grid__container">
+                    <div class="grid__structure">
+                        <div class="grid__column grid__column--100">
+    <div class="accordion">
+
+    <ul data-breakpoint-max="small" data-module="Accordion" data-js-select="Accordion">
+        
+        
+    <li class="accordion__item
+               " data-js-select="Accordion_item">
+        
+        <button class="accordion__button
+                       " data-js-select="Accordion_button" data-gtm-event-value="Legal links" data-module-section="Footer" data-module-type="Legal links">
+            <span class="accordion__button-container">
+                <span class="accordion__header_info">
+                    
+                    <span class="accordion__header-text">
+                        <p class="accordion__headline hl-xs">Rechtliches</p>
+                        
+                    </span>
+                </span>
+                <span data-js-select="Accordion_expand_button" class="accordion__icon">
+  <span class="icon icon-symbols-expand-more icon--symbol">
+    <span class="svg-scale-wrapper" style="padding-bottom: 100%;">
+      <svg focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/etc.clientlibs/zeiss-aem-app/jupiter/clientlibs/jupiter-components.app/resources/assets/icons/symbols-sprite-generated/symbols-sprite.svg#svgsymbol-expand-more"/>
+      </svg>
+    </span>
+  </span>
+</span>
+            </span>
+        </button>
+
+        
+        <div class="accordion__content-container
+                    
+                    
+                    " data-js-select="Accordion_content">
+            
+            
+        
+        <div class="accordion-links" data-tracking-id="Legal links">
+    
+    
+         
+    
+        <a class="plain-link " href="https://www.zeiss.de/corporate/kontakt.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Legal links - Kontakt&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/corporate/kontakt.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Legal links&#34;}" title="Kontakt" aria-label="Kontakt">Kontakt</a>
+    
+
+    
+         
+    
+        <a class="plain-link " href="https://www.zeiss.de/corporate/rechtliches/impressum.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Legal links - Impressum&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/corporate/rechtliches/impressum.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Legal links&#34;}" title="Impressum" aria-label="Impressum">Impressum</a>
+    
+
+    
+         
+    
+        <a class="plain-link " href="https://www.zeiss.de/corporate/rechtliches/rechtshinweise.html" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Internal&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Legal links - Rechtshinweise&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/corporate/rechtliches/rechtshinweise.html&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Legal links&#34;}" title="Rechtshinweise" aria-label="Rechtshinweise">Rechtshinweise</a>
+    
+
+    
+         
+    
+        <a class="plain-link " href="https://www.zeiss.de/privacy" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Legal links - Datenschutzhinweis&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/privacy&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Legal links&#34;}" title="Datenschutzhinweis" aria-label="Datenschutzhinweis">Datenschutzhinweis</a>
+    
+
+    
+         
+    
+        <a class="plain-link " href="https://www.zeiss.de/cookies" target="_blank" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;Navigation&#34;,&#34;type&#34;:&#34;Outbound&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Legal links - Cookie-Hinweis&#34;,&#34;detail&#34;:&#34;https://www.zeiss.de/cookies&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Legal links&#34;}" title="Cookie-Hinweis" aria-label="Cookie-Hinweis">Cookie-Hinweis</a>
+    
+
+    
+
+    
+    <a class="plain-link" data-track-auto="true" data-track-event="{&#34;name&#34;:&#34;CTA&#34;,&#34;type&#34;:&#34;&#34;,&#34;action&#34;:&#34;Click&#34;,&#34;value&#34;:&#34;Cookie Consent Manager&#34;,&#34;detail&#34;:&#34;&#34;,&#34;moduleSection&#34;:&#34;Footer&#34;,&#34;moduleType&#34;:&#34;Legal links&#34;}" href="#" onclick="OneTrust.ToggleInfoDisplay();">Cookie-Einstellungen</a>
+
+    
+    
+
+
+</div>
+
+        
+        
+    
+            
+            
+        </div>
+    </li>
+
+    </ul>
+</div>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    
+
+</footer>
+
+
+
+
+
+            
+    
+    
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+    
+    
+
+            
+        
+    </body>
+</html>

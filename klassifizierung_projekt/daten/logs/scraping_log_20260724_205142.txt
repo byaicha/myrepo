@@ -1,0 +1,1926 @@
+2026-07-24 20:51:42,702 - INFO - ============================================================
+2026-07-24 20:51:42,702 - INFO - START B2B/B2C WEB SCRAPING
+2026-07-24 20:51:42,703 - INFO - ============================================================
+2026-07-24 20:51:42,703 - INFO - Alle Ordner wurden erstellt/geprüft.
+2026-07-24 20:51:42,919 - INFO - Excel-Datei geladen: 130 Unternehmen gefunden
+2026-07-24 20:51:42,924 - INFO - 
+========================================
+2026-07-24 20:51:42,924 - INFO - Verarbeite: SAP 
+2026-07-24 20:51:42,924 - INFO - ========================================
+2026-07-24 20:51:42,924 - INFO - Scrape: SAP - Homepage
+2026-07-24 20:51:45,609 - INFO - Scrape: SAP - Ueber_uns
+2026-07-24 20:51:48,808 - INFO - Dateien gespeichert: SAP_Ueber_uns.html, SAP_Ueber_uns.txt
+2026-07-24 20:51:48,808 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 20:51:48,808 - INFO - Scrape: SAP - Produktseite
+2026-07-24 20:51:51,508 - INFO - Dateien gespeichert: SAP_Produktseite.html, SAP_Produktseite.txt
+2026-07-24 20:51:51,508 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 20:51:51,509 - INFO - 
+========================================
+2026-07-24 20:51:51,510 - INFO - Verarbeite: Siemens 
+2026-07-24 20:51:51,510 - INFO - ========================================
+2026-07-24 20:51:51,510 - INFO - Scrape: Siemens - Homepage
+2026-07-24 20:51:55,867 - INFO - Dateien gespeichert: Siemens_Homepage.html, Siemens_Homepage.txt
+2026-07-24 20:51:55,867 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 20:51:55,867 - INFO - Scrape: Siemens - Ueber_uns
+2026-07-24 20:52:00,660 - INFO - Dateien gespeichert: Siemens_Ueber_uns.html, Siemens_Ueber_uns.txt
+2026-07-24 20:52:00,661 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 20:52:00,661 - INFO - Scrape: Siemens - Produktseite
+2026-07-24 20:52:04,528 - INFO - Dateien gespeichert: Siemens_Produktseite.html, Siemens_Produktseite.txt
+2026-07-24 20:52:04,529 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 20:52:04,532 - INFO - 
+========================================
+2026-07-24 20:52:04,532 - INFO - Verarbeite: Bosch 
+2026-07-24 20:52:04,532 - INFO - ========================================
+2026-07-24 20:52:04,532 - INFO - Scrape: Bosch - Homepage
+2026-07-24 20:52:07,340 - INFO - Dateien gespeichert: Bosch_Homepage.html, Bosch_Homepage.txt
+2026-07-24 20:52:07,340 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 20:52:07,340 - INFO - Scrape: Bosch - Ueber_uns
+2026-07-24 20:52:09,977 - INFO - Dateien gespeichert: Bosch_Ueber_uns.html, Bosch_Ueber_uns.txt
+2026-07-24 20:52:09,977 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 20:52:09,977 - INFO - Scrape: Bosch - Produktseite
+2026-07-24 20:52:12,240 - INFO - Dateien gespeichert: Bosch_Produktseite.html, Bosch_Produktseite.txt
+2026-07-24 20:52:12,241 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 20:52:12,241 - INFO - 
+========================================
+2026-07-24 20:52:12,241 - INFO - Verarbeite: Trumpf 
+2026-07-24 20:52:12,242 - INFO - ========================================
+2026-07-24 20:52:12,242 - INFO - Scrape: Trumpf - Homepage
+2026-07-24 20:52:15,899 - INFO - Dateien gespeichert: Trumpf_Homepage.html, Trumpf_Homepage.txt
+2026-07-24 20:52:15,899 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 20:52:15,900 - INFO - Scrape: Trumpf - Ueber_uns
+2026-07-24 20:52:18,147 - INFO - Dateien gespeichert: Trumpf_Ueber_uns.html, Trumpf_Ueber_uns.txt
+2026-07-24 20:52:18,147 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 20:52:18,147 - INFO - Scrape: Trumpf - Produktseite
+2026-07-24 20:52:21,482 - INFO - Dateien gespeichert: Trumpf_Produktseite.html, Trumpf_Produktseite.txt
+2026-07-24 20:52:21,482 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 20:52:21,483 - INFO - 
+========================================
+2026-07-24 20:52:21,483 - INFO - Verarbeite: Festo 
+2026-07-24 20:52:21,483 - INFO - ========================================
+2026-07-24 20:52:21,483 - INFO - Scrape: Festo - Homepage
+2026-07-24 20:52:21,662 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.festo.com: 403 Client Error: Forbidden for url: https://www.festo.com/
+2026-07-24 20:52:26,768 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.festo.com: 403 Client Error: Forbidden for url: https://www.festo.com/
+2026-07-24 20:52:31,866 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.festo.com: 403 Client Error: Forbidden for url: https://www.festo.com/
+2026-07-24 20:52:31,867 - ERROR - Alle Versuche fehlgeschlagen für https://www.festo.com
+2026-07-24 20:52:31,867 - INFO - Scrape: Festo - Ueber_uns
+2026-07-24 20:52:31,961 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.festo.com/de/de/e/ueber-festo-id_3847: 403 Client Error: Forbidden for url: https://www.festo.com/de/de/e/ueber-festo-id_3847
+2026-07-24 20:52:37,062 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.festo.com/de/de/e/ueber-festo-id_3847: 403 Client Error: Forbidden for url: https://www.festo.com/de/de/e/ueber-festo-id_3847
+2026-07-24 20:52:42,180 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.festo.com/de/de/e/ueber-festo-id_3847: 403 Client Error: Forbidden for url: https://www.festo.com/de/de/e/ueber-festo-id_3847
+2026-07-24 20:52:42,181 - ERROR - Alle Versuche fehlgeschlagen für https://www.festo.com/de/de/e/ueber-festo-id_3847
+2026-07-24 20:52:42,181 - INFO - Scrape: Festo - Produktseite
+2026-07-24 20:52:42,256 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.festo.com/de/de/c/produkte-id_pim1: 403 Client Error: Forbidden for url: https://www.festo.com/de/de/c/produkte-id_pim1
+2026-07-24 20:52:47,450 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.festo.com/de/de/c/produkte-id_pim1: 403 Client Error: Forbidden for url: https://www.festo.com/de/de/c/produkte-id_pim1
+2026-07-24 20:52:52,654 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.festo.com/de/de/c/produkte-id_pim1: 403 Client Error: Forbidden for url: https://www.festo.com/de/de/c/produkte-id_pim1
+2026-07-24 20:52:52,654 - ERROR - Alle Versuche fehlgeschlagen für https://www.festo.com/de/de/c/produkte-id_pim1
+2026-07-24 20:52:52,658 - INFO - 
+========================================
+2026-07-24 20:52:52,658 - INFO - Verarbeite: Phoenix Contact 
+2026-07-24 20:52:52,658 - INFO - ========================================
+2026-07-24 20:52:52,658 - INFO - Scrape: Phoenix Contact - Homepage
+2026-07-24 20:52:52,963 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.phoenixcontact.com: 403 Client Error: Forbidden for url: https://www.phoenixcontact.com/de-de/
+2026-07-24 20:52:58,365 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.phoenixcontact.com: 403 Client Error: Forbidden for url: https://www.phoenixcontact.com/de-de/
+2026-07-24 20:53:03,749 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.phoenixcontact.com: 403 Client Error: Forbidden for url: https://www.phoenixcontact.com/de-de/
+2026-07-24 20:53:03,750 - ERROR - Alle Versuche fehlgeschlagen für https://www.phoenixcontact.com
+2026-07-24 20:53:03,750 - INFO - Scrape: Phoenix Contact - Ueber_uns
+2026-07-24 20:53:13,124 - INFO - Dateien gespeichert: Phoenix_Contact_Ueber_uns.html, Phoenix_Contact_Ueber_uns.txt
+2026-07-24 20:53:13,125 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 20:53:13,125 - INFO - Scrape: Phoenix Contact - Produktseite
+2026-07-24 20:53:22,079 - INFO - Dateien gespeichert: Phoenix_Contact_Produktseite.html, Phoenix_Contact_Produktseite.txt
+2026-07-24 20:53:22,080 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 20:53:22,085 - INFO - 
+========================================
+2026-07-24 20:53:22,085 - INFO - Verarbeite: SICK 
+2026-07-24 20:53:22,086 - INFO - ========================================
+2026-07-24 20:53:22,086 - INFO - Scrape: SICK - Homepage
+2026-07-24 20:53:24,902 - INFO - Scrape: SICK - Ueber_uns
+2026-07-24 20:53:26,992 - INFO - Scrape: SICK - Produktseite
+2026-07-24 20:53:29,611 - INFO - 
+========================================
+2026-07-24 20:53:29,612 - INFO - Verarbeite: SEW-Eurodrive 
+2026-07-24 20:53:29,612 - INFO - ========================================
+2026-07-24 20:53:29,612 - INFO - Scrape: SEW-Eurodrive - Homepage
+2026-07-24 20:53:30,444 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.sew-eurodrive.com/de_de/index.html#: 403 Client Error: Forbidden for url: https://www.sew-eurodrive.com/de_de/index.html
+2026-07-24 20:53:35,591 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.sew-eurodrive.com/de_de/index.html#: 403 Client Error: Forbidden for url: https://www.sew-eurodrive.com/de_de/index.html
+2026-07-24 20:53:40,664 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.sew-eurodrive.com/de_de/index.html#: 403 Client Error: Forbidden for url: https://www.sew-eurodrive.com/de_de/index.html
+2026-07-24 20:53:40,665 - ERROR - Alle Versuche fehlgeschlagen für https://www.sew-eurodrive.com/de_de/index.html#
+2026-07-24 20:53:40,665 - INFO - Scrape: SEW-Eurodrive - Ueber_uns
+2026-07-24 20:53:40,833 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.sew-eurodrive.com/de_de/index.html#mod_introtext: 403 Client Error: Forbidden for url: https://www.sew-eurodrive.com/de_de/index.html#mod_introtext
+2026-07-24 20:53:45,884 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.sew-eurodrive.com/de_de/index.html#mod_introtext: 403 Client Error: Forbidden for url: https://www.sew-eurodrive.com/de_de/index.html#mod_introtext
+2026-07-24 20:53:50,943 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.sew-eurodrive.com/de_de/index.html#mod_introtext: 403 Client Error: Forbidden for url: https://www.sew-eurodrive.com/de_de/index.html#mod_introtext
+2026-07-24 20:53:50,944 - ERROR - Alle Versuche fehlgeschlagen für https://www.sew-eurodrive.com/de_de/index.html#mod_introtext
+2026-07-24 20:53:50,944 - INFO - Scrape: SEW-Eurodrive - Produktseite
+2026-07-24 20:53:51,027 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.sew-eurodrive.com/de_de/index.html#standortekarte: 403 Client Error: Forbidden for url: https://www.sew-eurodrive.com/de_de/index.html#standortekarte
+2026-07-24 20:53:56,077 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.sew-eurodrive.com/de_de/index.html#standortekarte: 403 Client Error: Forbidden for url: https://www.sew-eurodrive.com/de_de/index.html#standortekarte
+2026-07-24 20:54:01,127 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.sew-eurodrive.com/de_de/index.html#standortekarte: 403 Client Error: Forbidden for url: https://www.sew-eurodrive.com/de_de/index.html#standortekarte
+2026-07-24 20:54:01,129 - ERROR - Alle Versuche fehlgeschlagen für https://www.sew-eurodrive.com/de_de/index.html#standortekarte
+2026-07-24 20:54:01,130 - INFO - 
+========================================
+2026-07-24 20:54:01,130 - INFO - Verarbeite: Balluff 
+2026-07-24 20:54:01,130 - INFO - ========================================
+2026-07-24 20:54:01,131 - INFO - Scrape: Balluff - Homepage
+2026-07-24 20:54:01,306 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.balluff.com/de-de: 403 Client Error: Forbidden for url: https://www.balluff.com/de-de
+2026-07-24 20:54:06,387 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.balluff.com/de-de: 403 Client Error: Forbidden for url: https://www.balluff.com/de-de
+2026-07-24 20:54:11,487 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.balluff.com/de-de: 403 Client Error: Forbidden for url: https://www.balluff.com/de-de
+2026-07-24 20:54:11,488 - ERROR - Alle Versuche fehlgeschlagen für https://www.balluff.com/de-de
+2026-07-24 20:54:11,488 - INFO - Scrape: Balluff - Ueber_uns
+2026-07-24 20:54:11,577 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.balluff.com/de-de/unternehmensprofil: 403 Client Error: Forbidden for url: https://www.balluff.com/de-de/unternehmensprofil
+2026-07-24 20:54:16,674 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.balluff.com/de-de/unternehmensprofil: 403 Client Error: Forbidden for url: https://www.balluff.com/de-de/unternehmensprofil
+2026-07-24 20:54:21,791 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.balluff.com/de-de/unternehmensprofil: 403 Client Error: Forbidden for url: https://www.balluff.com/de-de/unternehmensprofil
+2026-07-24 20:54:21,793 - ERROR - Alle Versuche fehlgeschlagen für https://www.balluff.com/de-de/unternehmensprofil
+2026-07-24 20:54:21,793 - INFO - Scrape: Balluff - Produktseite
+2026-07-24 20:54:21,869 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.balluff.com/de-de/produkte: 403 Client Error: Forbidden for url: https://www.balluff.com/de-de/produkte
+2026-07-24 20:54:27,040 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.balluff.com/de-de/produkte: 403 Client Error: Forbidden for url: https://www.balluff.com/de-de/produkte
+2026-07-24 20:54:32,216 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.balluff.com/de-de/produkte: 403 Client Error: Forbidden for url: https://www.balluff.com/de-de/produkte
+2026-07-24 20:54:32,217 - ERROR - Alle Versuche fehlgeschlagen für https://www.balluff.com/de-de/produkte
+2026-07-24 20:54:32,218 - INFO - 
+========================================
+2026-07-24 20:54:32,218 - INFO - Verarbeite: Beckhoff 
+2026-07-24 20:54:32,218 - INFO - ========================================
+2026-07-24 20:54:32,218 - INFO - Scrape: Beckhoff - Homepage
+2026-07-24 20:54:35,484 - INFO - Dateien gespeichert: Beckhoff_Homepage.html, Beckhoff_Homepage.txt
+2026-07-24 20:54:35,484 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 20:54:35,484 - INFO - Scrape: Beckhoff - Ueber_uns
+2026-07-24 20:54:37,822 - INFO - Dateien gespeichert: Beckhoff_Ueber_uns.html, Beckhoff_Ueber_uns.txt
+2026-07-24 20:54:37,823 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 20:54:37,823 - INFO - Scrape: Beckhoff - Produktseite
+2026-07-24 20:54:40,936 - INFO - Dateien gespeichert: Beckhoff_Produktseite.html, Beckhoff_Produktseite.txt
+2026-07-24 20:54:40,936 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 20:54:40,937 - INFO - 
+========================================
+2026-07-24 20:54:40,937 - INFO - Verarbeite: ifm electronic 
+2026-07-24 20:54:40,937 - INFO - ========================================
+2026-07-24 20:54:40,937 - INFO - Scrape: ifm electronic - Homepage
+2026-07-24 20:54:41,129 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.ifm.com/de/de: 403 Client Error: Forbidden for url: https://www.ifm.com/de/de
+2026-07-24 20:54:46,229 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.ifm.com/de/de: 403 Client Error: Forbidden for url: https://www.ifm.com/de/de
+2026-07-24 20:54:51,317 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.ifm.com/de/de: 403 Client Error: Forbidden for url: https://www.ifm.com/de/de
+2026-07-24 20:54:51,319 - ERROR - Alle Versuche fehlgeschlagen für https://www.ifm.com/de/de
+2026-07-24 20:54:51,319 - INFO - Scrape: ifm electronic - Ueber_uns
+2026-07-24 20:54:51,402 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.ifm.com/de/de/shared/unternehmen/ueberblick-ifm/ueber-uns: 403 Client Error: Forbidden for url: https://www.ifm.com/de/de/shared/unternehmen/ueberblick-ifm/ueber-uns
+2026-07-24 20:54:56,490 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.ifm.com/de/de/shared/unternehmen/ueberblick-ifm/ueber-uns: 403 Client Error: Forbidden for url: https://www.ifm.com/de/de/shared/unternehmen/ueberblick-ifm/ueber-uns
+2026-07-24 20:55:01,639 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.ifm.com/de/de/shared/unternehmen/ueberblick-ifm/ueber-uns: 403 Client Error: Forbidden for url: https://www.ifm.com/de/de/shared/unternehmen/ueberblick-ifm/ueber-uns
+2026-07-24 20:55:01,640 - ERROR - Alle Versuche fehlgeschlagen für https://www.ifm.com/de/de/shared/unternehmen/ueberblick-ifm/ueber-uns
+2026-07-24 20:55:01,641 - INFO - Scrape: ifm electronic - Produktseite
+2026-07-24 20:55:01,715 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.ifm.com/de/de/productnews: 403 Client Error: Forbidden for url: https://www.ifm.com/de/de/productnews
+2026-07-24 20:55:06,886 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.ifm.com/de/de/productnews: 403 Client Error: Forbidden for url: https://www.ifm.com/de/de/productnews
+2026-07-24 20:55:12,063 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.ifm.com/de/de/productnews: 403 Client Error: Forbidden for url: https://www.ifm.com/de/de/productnews
+2026-07-24 20:55:12,063 - ERROR - Alle Versuche fehlgeschlagen für https://www.ifm.com/de/de/productnews
+2026-07-24 20:55:12,064 - INFO - 
+========================================
+2026-07-24 20:55:12,065 - INFO - Verarbeite: WAGO 
+2026-07-24 20:55:12,065 - INFO - ========================================
+2026-07-24 20:55:12,065 - INFO - Scrape: WAGO - Homepage
+2026-07-24 20:55:15,212 - INFO - Dateien gespeichert: WAGO_Homepage.html, WAGO_Homepage.txt
+2026-07-24 20:55:15,212 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 20:55:15,212 - INFO - Scrape: WAGO - Ueber_uns
+2026-07-24 20:55:20,393 - INFO - Dateien gespeichert: WAGO_Ueber_uns.html, WAGO_Ueber_uns.txt
+2026-07-24 20:55:20,393 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 20:55:20,393 - INFO - Scrape: WAGO - Produktseite
+2026-07-24 20:55:22,788 - INFO - Dateien gespeichert: WAGO_Produktseite.html, WAGO_Produktseite.txt
+2026-07-24 20:55:22,789 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 20:55:22,789 - INFO - 
+========================================
+2026-07-24 20:55:22,790 - INFO - Verarbeite: KUKA 
+2026-07-24 20:55:22,790 - INFO - ========================================
+2026-07-24 20:55:22,790 - INFO - Scrape: KUKA - Homepage
+2026-07-24 20:55:26,135 - INFO - Dateien gespeichert: KUKA_Homepage.html, KUKA_Homepage.txt
+2026-07-24 20:55:26,135 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 20:55:26,135 - INFO - Scrape: KUKA - Ueber_uns
+2026-07-24 20:55:29,608 - INFO - Dateien gespeichert: KUKA_Ueber_uns.html, KUKA_Ueber_uns.txt
+2026-07-24 20:55:29,608 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 20:55:29,609 - INFO - Scrape: KUKA - Produktseite
+2026-07-24 20:55:32,905 - INFO - Dateien gespeichert: KUKA_Produktseite.html, KUKA_Produktseite.txt
+2026-07-24 20:55:32,906 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 20:55:32,909 - INFO - 
+========================================
+2026-07-24 20:55:32,909 - INFO - Verarbeite: Zeiss 
+2026-07-24 20:55:32,909 - INFO - ========================================
+2026-07-24 20:55:32,910 - INFO - Scrape: Zeiss - Homepage
+2026-07-24 20:55:36,367 - INFO - Dateien gespeichert: Zeiss_Homepage.html, Zeiss_Homepage.txt
+2026-07-24 20:55:36,368 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 20:55:36,368 - INFO - Scrape: Zeiss - Ueber_uns
+2026-07-24 20:55:38,798 - INFO - Dateien gespeichert: Zeiss_Ueber_uns.html, Zeiss_Ueber_uns.txt
+2026-07-24 20:55:38,799 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 20:55:38,799 - INFO - Scrape: Zeiss - Produktseite
+2026-07-24 20:55:41,946 - INFO - Dateien gespeichert: Zeiss_Produktseite.html, Zeiss_Produktseite.txt
+2026-07-24 20:55:41,946 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 20:55:41,946 - INFO - 
+========================================
+2026-07-24 20:55:41,946 - INFO - Verarbeite: Jenoptik 
+2026-07-24 20:55:41,946 - INFO - ========================================
+2026-07-24 20:55:41,947 - INFO - Scrape: Jenoptik - Homepage
+2026-07-24 20:55:45,272 - INFO - Dateien gespeichert: Jenoptik_Homepage.html, Jenoptik_Homepage.txt
+2026-07-24 20:55:45,273 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 20:55:45,273 - INFO - Scrape: Jenoptik - Ueber_uns
+2026-07-24 20:55:48,193 - INFO - Dateien gespeichert: Jenoptik_Ueber_uns.html, Jenoptik_Ueber_uns.txt
+2026-07-24 20:55:48,193 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 20:55:48,193 - INFO - Scrape: Jenoptik - Produktseite
+2026-07-24 20:55:51,205 - INFO - Dateien gespeichert: Jenoptik_Produktseite.html, Jenoptik_Produktseite.txt
+2026-07-24 20:55:51,205 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 20:55:51,206 - INFO - 
+========================================
+2026-07-24 20:55:51,206 - INFO - Verarbeite: Carl Zeiss Meditec 
+2026-07-24 20:55:51,206 - INFO - ========================================
+2026-07-24 20:55:51,206 - INFO - Scrape: Carl Zeiss Meditec - Homepage
+2026-07-24 20:55:54,222 - INFO - Dateien gespeichert: Carl_Zeiss_Meditec_Homepage.html, Carl_Zeiss_Meditec_Homepage.txt
+2026-07-24 20:55:54,222 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 20:55:54,223 - INFO - Scrape: Carl Zeiss Meditec - Ueber_uns
+2026-07-24 20:55:56,966 - INFO - Dateien gespeichert: Carl_Zeiss_Meditec_Ueber_uns.html, Carl_Zeiss_Meditec_Ueber_uns.txt
+2026-07-24 20:55:56,966 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 20:55:56,966 - INFO - Scrape: Carl Zeiss Meditec - Produktseite
+2026-07-24 20:55:59,621 - INFO - Dateien gespeichert: Carl_Zeiss_Meditec_Produktseite.html, Carl_Zeiss_Meditec_Produktseite.txt
+2026-07-24 20:55:59,621 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 20:55:59,622 - INFO - 
+========================================
+2026-07-24 20:55:59,622 - INFO - Verarbeite: Rohde & Schwarz 
+2026-07-24 20:55:59,622 - INFO - ========================================
+2026-07-24 20:55:59,622 - INFO - Scrape: Rohde & Schwarz - Homepage
+2026-07-24 20:56:02,818 - INFO - Dateien gespeichert: Rohde_&_Schwarz_Homepage.html, Rohde_&_Schwarz_Homepage.txt
+2026-07-24 20:56:02,819 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 20:56:02,819 - INFO - Scrape: Rohde & Schwarz - Ueber_uns
+2026-07-24 20:56:05,527 - INFO - Dateien gespeichert: Rohde_&_Schwarz_Ueber_uns.html, Rohde_&_Schwarz_Ueber_uns.txt
+2026-07-24 20:56:05,527 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 20:56:05,527 - INFO - Scrape: Rohde & Schwarz - Produktseite
+2026-07-24 20:56:07,798 - INFO - Dateien gespeichert: Rohde_&_Schwarz_Produktseite.html, Rohde_&_Schwarz_Produktseite.txt
+2026-07-24 20:56:07,798 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 20:56:07,799 - INFO - 
+========================================
+2026-07-24 20:56:07,799 - INFO - Verarbeite: Infineon 
+2026-07-24 20:56:07,799 - INFO - ========================================
+2026-07-24 20:56:07,799 - INFO - Scrape: Infineon - Homepage
+2026-07-24 20:56:11,560 - INFO - Dateien gespeichert: Infineon_Homepage.html, Infineon_Homepage.txt
+2026-07-24 20:56:11,561 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 20:56:11,561 - INFO - Scrape: Infineon - Ueber_uns
+2026-07-24 20:56:15,199 - INFO - Dateien gespeichert: Infineon_Ueber_uns.html, Infineon_Ueber_uns.txt
+2026-07-24 20:56:15,200 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 20:56:15,200 - INFO - Scrape: Infineon - Produktseite
+2026-07-24 20:56:18,007 - INFO - Dateien gespeichert: Infineon_Produktseite.html, Infineon_Produktseite.txt
+2026-07-24 20:56:18,008 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 20:56:18,008 - INFO - 
+========================================
+2026-07-24 20:56:18,008 - INFO - Verarbeite: Intel 
+2026-07-24 20:56:18,008 - INFO - ========================================
+2026-07-24 20:56:18,008 - INFO - Scrape: Intel - Homepage
+2026-07-24 20:56:18,209 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.intel.com: 403 Client Error: Forbidden for url: https://www.intel.com/
+2026-07-24 20:56:23,372 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.intel.com: 403 Client Error: Forbidden for url: https://www.intel.com/
+2026-07-24 20:56:28,472 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.intel.com: 403 Client Error: Forbidden for url: https://www.intel.com/
+2026-07-24 20:56:28,473 - ERROR - Alle Versuche fehlgeschlagen für https://www.intel.com
+2026-07-24 20:56:28,475 - INFO - Scrape: Intel - Ueber_uns
+2026-07-24 20:56:28,669 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.intel.de/content/www/de/de/foundry/overview.html: 403 Client Error: Forbidden for url: https://www.intel.de/content/www/de/de/foundry/overview.html
+2026-07-24 20:56:33,756 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.intel.de/content/www/de/de/foundry/overview.html: 403 Client Error: Forbidden for url: https://www.intel.de/content/www/de/de/foundry/overview.html
+2026-07-24 20:56:38,849 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.intel.de/content/www/de/de/foundry/overview.html: 403 Client Error: Forbidden for url: https://www.intel.de/content/www/de/de/foundry/overview.html
+2026-07-24 20:56:38,849 - ERROR - Alle Versuche fehlgeschlagen für https://www.intel.de/content/www/de/de/foundry/overview.html
+2026-07-24 20:56:38,849 - INFO - Scrape: Intel - Produktseite
+2026-07-24 20:56:38,928 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.intel.de/content/www/de/de/products/overview.html: 403 Client Error: Forbidden for url: https://www.intel.de/content/www/de/de/products/overview.html
+2026-07-24 20:56:44,047 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.intel.de/content/www/de/de/products/overview.html: 403 Client Error: Forbidden for url: https://www.intel.de/content/www/de/de/products/overview.html
+2026-07-24 20:56:49,169 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.intel.de/content/www/de/de/products/overview.html: 403 Client Error: Forbidden for url: https://www.intel.de/content/www/de/de/products/overview.html
+2026-07-24 20:56:49,171 - ERROR - Alle Versuche fehlgeschlagen für https://www.intel.de/content/www/de/de/products/overview.html
+2026-07-24 20:56:49,178 - INFO - 
+========================================
+2026-07-24 20:56:49,178 - INFO - Verarbeite: AMD 
+2026-07-24 20:56:49,178 - INFO - ========================================
+2026-07-24 20:56:49,178 - INFO - Scrape: AMD - Homepage
+2026-07-24 20:56:51,699 - INFO - Dateien gespeichert: AMD_Homepage.html, AMD_Homepage.txt
+2026-07-24 20:56:51,700 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 20:56:51,700 - INFO - Scrape: AMD - Ueber_uns
+2026-07-24 20:56:54,542 - INFO - Dateien gespeichert: AMD_Ueber_uns.html, AMD_Ueber_uns.txt
+2026-07-24 20:56:54,542 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 20:56:54,543 - INFO - Scrape: AMD - Produktseite
+2026-07-24 20:56:57,122 - INFO - Dateien gespeichert: AMD_Produktseite.html, AMD_Produktseite.txt
+2026-07-24 20:56:57,122 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 20:56:57,128 - INFO - 
+========================================
+2026-07-24 20:56:57,128 - INFO - Verarbeite: NVIDIA 
+2026-07-24 20:56:57,128 - INFO - ========================================
+2026-07-24 20:56:57,129 - INFO - Scrape: NVIDIA - Homepage
+2026-07-24 20:57:01,041 - INFO - Dateien gespeichert: NVIDIA_Homepage.html, NVIDIA_Homepage.txt
+2026-07-24 20:57:01,042 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 20:57:01,042 - INFO - Scrape: NVIDIA - Ueber_uns
+2026-07-24 20:57:03,859 - INFO - Dateien gespeichert: NVIDIA_Ueber_uns.html, NVIDIA_Ueber_uns.txt
+2026-07-24 20:57:03,860 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 20:57:03,860 - INFO - Scrape: NVIDIA - Produktseite
+2026-07-24 20:57:06,522 - INFO - Dateien gespeichert: NVIDIA_Produktseite.html, NVIDIA_Produktseite.txt
+2026-07-24 20:57:06,523 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 20:57:06,526 - INFO - 
+========================================
+2026-07-24 20:57:06,526 - INFO - Verarbeite: IBM 
+2026-07-24 20:57:06,526 - INFO - ========================================
+2026-07-24 20:57:06,527 - INFO - Scrape: IBM - Homepage
+2026-07-24 20:57:09,397 - INFO - Dateien gespeichert: IBM_Homepage.html, IBM_Homepage.txt
+2026-07-24 20:57:09,397 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 20:57:09,398 - INFO - Scrape: IBM - Ueber_uns
+2026-07-24 20:57:12,211 - INFO - Dateien gespeichert: IBM_Ueber_uns.html, IBM_Ueber_uns.txt
+2026-07-24 20:57:12,212 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 20:57:12,212 - INFO - Scrape: IBM - Produktseite
+2026-07-24 20:57:14,685 - INFO - Dateien gespeichert: IBM_Produktseite.html, IBM_Produktseite.txt
+2026-07-24 20:57:14,685 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 20:57:14,689 - INFO - 
+========================================
+2026-07-24 20:57:14,689 - INFO - Verarbeite: Oracle 
+2026-07-24 20:57:14,689 - INFO - ========================================
+2026-07-24 20:57:14,689 - INFO - Scrape: Oracle - Homepage
+2026-07-24 20:57:17,630 - INFO - Dateien gespeichert: Oracle_Homepage.html, Oracle_Homepage.txt
+2026-07-24 20:57:17,630 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 20:57:17,630 - INFO - Scrape: Oracle - Ueber_uns
+2026-07-24 20:57:20,283 - INFO - Dateien gespeichert: Oracle_Ueber_uns.html, Oracle_Ueber_uns.txt
+2026-07-24 20:57:20,287 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 20:57:20,287 - INFO - Scrape: Oracle - Produktseite
+2026-07-24 20:57:22,625 - INFO - Dateien gespeichert: Oracle_Produktseite.html, Oracle_Produktseite.txt
+2026-07-24 20:57:22,626 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 20:57:22,630 - INFO - 
+========================================
+2026-07-24 20:57:22,630 - INFO - Verarbeite: Microsoft 
+2026-07-24 20:57:22,630 - INFO - ========================================
+2026-07-24 20:57:22,631 - INFO - Scrape: Microsoft - Homepage
+2026-07-24 20:57:24,973 - INFO - Dateien gespeichert: Microsoft_Homepage.html, Microsoft_Homepage.txt
+2026-07-24 20:57:24,973 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 20:57:24,973 - INFO - Scrape: Microsoft - Ueber_uns
+2026-07-24 20:57:28,232 - INFO - Dateien gespeichert: Microsoft_Ueber_uns.html, Microsoft_Ueber_uns.txt
+2026-07-24 20:57:28,233 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 20:57:28,233 - INFO - Scrape: Microsoft - Produktseite
+2026-07-24 20:57:30,781 - INFO - Dateien gespeichert: Microsoft_Produktseite.html, Microsoft_Produktseite.txt
+2026-07-24 20:57:30,781 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 20:57:30,782 - INFO - 
+========================================
+2026-07-24 20:57:30,782 - INFO - Verarbeite: Google 
+2026-07-24 20:57:30,782 - INFO - ========================================
+2026-07-24 20:57:30,782 - INFO - Scrape: Google - Homepage
+2026-07-24 20:57:33,292 - INFO - Dateien gespeichert: Google_Homepage.html, Google_Homepage.txt
+2026-07-24 20:57:33,292 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 20:57:33,292 - INFO - Scrape: Google - Ueber_uns
+2026-07-24 20:57:36,488 - INFO - Dateien gespeichert: Google_Ueber_uns.html, Google_Ueber_uns.txt
+2026-07-24 20:57:36,488 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 20:57:36,488 - INFO - Scrape: Google - Produktseite
+2026-07-24 20:57:39,795 - INFO - Dateien gespeichert: Google_Produktseite.html, Google_Produktseite.txt
+2026-07-24 20:57:39,795 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 20:57:39,796 - INFO - 
+========================================
+2026-07-24 20:57:39,796 - INFO - Verarbeite: Amazon AWS 
+2026-07-24 20:57:39,796 - INFO - ========================================
+2026-07-24 20:57:39,797 - INFO - Scrape: Amazon AWS - Homepage
+2026-07-24 20:57:43,402 - INFO - Dateien gespeichert: Amazon_AWS_Homepage.html, Amazon_AWS_Homepage.txt
+2026-07-24 20:57:43,402 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 20:57:43,402 - INFO - Scrape: Amazon AWS - Ueber_uns
+2026-07-24 20:57:45,792 - INFO - Dateien gespeichert: Amazon_AWS_Ueber_uns.html, Amazon_AWS_Ueber_uns.txt
+2026-07-24 20:57:45,792 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 20:57:45,792 - INFO - Scrape: Amazon AWS - Produktseite
+2026-07-24 20:57:48,663 - INFO - Dateien gespeichert: Amazon_AWS_Produktseite.html, Amazon_AWS_Produktseite.txt
+2026-07-24 20:57:48,663 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 20:57:48,665 - INFO - 
+========================================
+2026-07-24 20:57:48,665 - INFO - Verarbeite: Salesforce 
+2026-07-24 20:57:48,665 - INFO - ========================================
+2026-07-24 20:57:48,665 - INFO - Scrape: Salesforce - Homepage
+2026-07-24 20:57:52,375 - INFO - Dateien gespeichert: Salesforce_Homepage.html, Salesforce_Homepage.txt
+2026-07-24 20:57:52,375 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 20:57:52,375 - INFO - Scrape: Salesforce - Ueber_uns
+2026-07-24 20:57:55,907 - INFO - Dateien gespeichert: Salesforce_Ueber_uns.html, Salesforce_Ueber_uns.txt
+2026-07-24 20:57:55,908 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 20:57:55,908 - INFO - Scrape: Salesforce - Produktseite
+2026-07-24 20:57:59,075 - INFO - Dateien gespeichert: Salesforce_Produktseite.html, Salesforce_Produktseite.txt
+2026-07-24 20:57:59,076 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 20:57:59,076 - INFO - 
+========================================
+2026-07-24 20:57:59,076 - INFO - Verarbeite: ServiceNow 
+2026-07-24 20:57:59,076 - INFO - ========================================
+2026-07-24 20:57:59,077 - INFO - Scrape: ServiceNow - Homepage
+2026-07-24 20:58:29,215 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.servicenow.com/de/: HTTPSConnectionPool(host='www.servicenow.com', port=443): Read timed out. (read timeout=30)
+2026-07-24 20:59:04,315 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.servicenow.com/de/: HTTPSConnectionPool(host='www.servicenow.com', port=443): Read timed out. (read timeout=30)
+2026-07-24 20:59:27,657 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.servicenow.com/de/: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-07-24 20:59:27,658 - ERROR - Alle Versuche fehlgeschlagen für https://www.servicenow.com/de/
+2026-07-24 20:59:27,659 - INFO - Scrape: ServiceNow - Ueber_uns
+2026-07-24 20:59:57,796 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.servicenow.com/de/company.html#how: HTTPSConnectionPool(host='www.servicenow.com', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:00:32,921 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.servicenow.com/de/company.html#how: HTTPSConnectionPool(host='www.servicenow.com', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:00:56,132 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.servicenow.com/de/company.html#how: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-07-24 21:00:56,134 - ERROR - Alle Versuche fehlgeschlagen für https://www.servicenow.com/de/company.html#how
+2026-07-24 21:00:56,134 - INFO - Scrape: ServiceNow - Produktseite
+2026-07-24 21:01:26,494 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.servicenow.com/de/products-by-category.html: HTTPSConnectionPool(host='www.servicenow.com', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:01:49,949 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.servicenow.com/de/products-by-category.html: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-07-24 21:02:13,363 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.servicenow.com/de/products-by-category.html: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-07-24 21:02:13,366 - ERROR - Alle Versuche fehlgeschlagen für https://www.servicenow.com/de/products-by-category.html
+2026-07-24 21:02:13,382 - INFO - 
+========================================
+2026-07-24 21:02:13,382 - INFO - Verarbeite: Atlassian 
+2026-07-24 21:02:13,382 - INFO - ========================================
+2026-07-24 21:02:13,384 - INFO - Scrape: Atlassian - Homepage
+2026-07-24 21:02:17,234 - INFO - Dateien gespeichert: Atlassian_Homepage.html, Atlassian_Homepage.txt
+2026-07-24 21:02:17,234 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:02:17,234 - INFO - Scrape: Atlassian - Ueber_uns
+2026-07-24 21:02:19,971 - INFO - Dateien gespeichert: Atlassian_Ueber_uns.html, Atlassian_Ueber_uns.txt
+2026-07-24 21:02:19,973 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:02:19,973 - INFO - Scrape: Atlassian - Produktseite
+2026-07-24 21:02:32,765 - INFO - Dateien gespeichert: Atlassian_Produktseite.html, Atlassian_Produktseite.txt
+2026-07-24 21:02:32,765 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:02:32,778 - INFO - 
+========================================
+2026-07-24 21:02:32,778 - INFO - Verarbeite: Adobe 
+2026-07-24 21:02:32,778 - INFO - ========================================
+2026-07-24 21:02:32,779 - INFO - Scrape: Adobe - Homepage
+2026-07-24 21:03:02,875 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.adobe.com/de/: HTTPSConnectionPool(host='www.adobe.com', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:03:37,988 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.adobe.com/de/: HTTPSConnectionPool(host='www.adobe.com', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:04:13,107 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.adobe.com/de/: HTTPSConnectionPool(host='www.adobe.com', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:04:13,109 - ERROR - Alle Versuche fehlgeschlagen für https://www.adobe.com/de/
+2026-07-24 21:04:13,111 - INFO - Scrape: Adobe - Ueber_uns
+2026-07-24 21:04:43,196 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.adobe.com/de/about-adobe.html: HTTPSConnectionPool(host='www.adobe.com', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:05:18,309 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.adobe.com/de/about-adobe.html: HTTPSConnectionPool(host='www.adobe.com', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:05:53,413 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.adobe.com/de/about-adobe.html: HTTPSConnectionPool(host='www.adobe.com', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:05:53,415 - ERROR - Alle Versuche fehlgeschlagen für https://www.adobe.com/de/about-adobe.html
+2026-07-24 21:05:53,415 - INFO - Scrape: Adobe - Produktseite
+2026-07-24 21:06:23,499 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.adobe.com/de/products/catalog.html: HTTPSConnectionPool(host='www.adobe.com', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:06:58,601 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.adobe.com/de/products/catalog.html: HTTPSConnectionPool(host='www.adobe.com', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:07:33,712 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.adobe.com/de/products/catalog.html: HTTPSConnectionPool(host='www.adobe.com', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:07:33,714 - ERROR - Alle Versuche fehlgeschlagen für https://www.adobe.com/de/products/catalog.html
+2026-07-24 21:07:33,728 - INFO - 
+========================================
+2026-07-24 21:07:33,728 - INFO - Verarbeite: Cisco 
+2026-07-24 21:07:33,728 - INFO - ========================================
+2026-07-24 21:07:33,728 - INFO - Scrape: Cisco - Homepage
+2026-07-24 21:07:33,852 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.cisco.com/site/de/de/index.html: 403 Client Error: Forbidden for url: https://www.cisco.com/site/de/de/index.html
+2026-07-24 21:07:38,981 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.cisco.com/site/de/de/index.html: 403 Client Error: Forbidden for url: https://www.cisco.com/site/de/de/index.html
+2026-07-24 21:07:44,100 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.cisco.com/site/de/de/index.html: 403 Client Error: Forbidden for url: https://www.cisco.com/site/de/de/index.html
+2026-07-24 21:07:44,101 - ERROR - Alle Versuche fehlgeschlagen für https://www.cisco.com/site/de/de/index.html
+2026-07-24 21:07:44,101 - INFO - Scrape: Cisco - Ueber_uns
+2026-07-24 21:07:44,189 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.cisco.com/site/de/de/about/index.html: 403 Client Error: Forbidden for url: https://www.cisco.com/site/de/de/about/index.html
+2026-07-24 21:07:49,319 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.cisco.com/site/de/de/about/index.html: 403 Client Error: Forbidden for url: https://www.cisco.com/site/de/de/about/index.html
+2026-07-24 21:07:54,432 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.cisco.com/site/de/de/about/index.html: 403 Client Error: Forbidden for url: https://www.cisco.com/site/de/de/about/index.html
+2026-07-24 21:07:54,432 - ERROR - Alle Versuche fehlgeschlagen für https://www.cisco.com/site/de/de/about/index.html
+2026-07-24 21:07:54,432 - INFO - Scrape: Cisco - Produktseite
+2026-07-24 21:07:54,514 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.cisco.com/site/de/de/products/index.html: 403 Client Error: Forbidden for url: https://www.cisco.com/site/de/de/products/index.html
+2026-07-24 21:07:59,624 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.cisco.com/site/de/de/products/index.html: 403 Client Error: Forbidden for url: https://www.cisco.com/site/de/de/products/index.html
+2026-07-24 21:08:04,761 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.cisco.com/site/de/de/products/index.html: 403 Client Error: Forbidden for url: https://www.cisco.com/site/de/de/products/index.html
+2026-07-24 21:08:04,761 - ERROR - Alle Versuche fehlgeschlagen für https://www.cisco.com/site/de/de/products/index.html
+2026-07-24 21:08:04,762 - INFO - 
+========================================
+2026-07-24 21:08:04,762 - INFO - Verarbeite: Dell 
+2026-07-24 21:08:04,762 - INFO - ========================================
+2026-07-24 21:08:04,762 - INFO - Scrape: Dell - Homepage
+2026-07-24 21:08:07,687 - INFO - Dateien gespeichert: Dell_Homepage.html, Dell_Homepage.txt
+2026-07-24 21:08:07,687 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:08:07,687 - INFO - Scrape: Dell - Ueber_uns
+2026-07-24 21:08:10,879 - INFO - Dateien gespeichert: Dell_Ueber_uns.html, Dell_Ueber_uns.txt
+2026-07-24 21:08:10,880 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:08:10,880 - INFO - Scrape: Dell - Produktseite
+2026-07-24 21:08:13,629 - INFO - Dateien gespeichert: Dell_Produktseite.html, Dell_Produktseite.txt
+2026-07-24 21:08:13,630 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:08:13,633 - INFO - 
+========================================
+2026-07-24 21:08:13,633 - INFO - Verarbeite: HP 
+2026-07-24 21:08:13,633 - INFO - ========================================
+2026-07-24 21:08:13,633 - INFO - Scrape: HP - Homepage
+2026-07-24 21:08:16,710 - INFO - Dateien gespeichert: HP_Homepage.html, HP_Homepage.txt
+2026-07-24 21:08:16,710 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:08:16,710 - INFO - Scrape: HP - Ueber_uns
+2026-07-24 21:08:20,001 - INFO - Dateien gespeichert: HP_Ueber_uns.html, HP_Ueber_uns.txt
+2026-07-24 21:08:20,002 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:08:20,002 - INFO - Scrape: HP - Produktseite
+2026-07-24 21:08:23,707 - INFO - Dateien gespeichert: HP_Produktseite.html, HP_Produktseite.txt
+2026-07-24 21:08:23,708 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:08:23,710 - INFO - 
+========================================
+2026-07-24 21:08:23,710 - INFO - Verarbeite: Lenovo 
+2026-07-24 21:08:23,711 - INFO - ========================================
+2026-07-24 21:08:23,711 - INFO - Scrape: Lenovo - Homepage
+2026-07-24 21:08:26,515 - INFO - Dateien gespeichert: Lenovo_Homepage.html, Lenovo_Homepage.txt
+2026-07-24 21:08:26,515 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:08:26,515 - INFO - Scrape: Lenovo - Ueber_uns
+2026-07-24 21:08:29,895 - INFO - Dateien gespeichert: Lenovo_Ueber_uns.html, Lenovo_Ueber_uns.txt
+2026-07-24 21:08:29,896 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:08:29,896 - INFO - Scrape: Lenovo - Produktseite
+2026-07-24 21:08:33,016 - INFO - Dateien gespeichert: Lenovo_Produktseite.html, Lenovo_Produktseite.txt
+2026-07-24 21:08:33,016 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:08:33,019 - INFO - 
+========================================
+2026-07-24 21:08:33,019 - INFO - Verarbeite: Siemens Healthineers 
+2026-07-24 21:08:33,019 - INFO - ========================================
+2026-07-24 21:08:33,019 - INFO - Scrape: Siemens Healthineers - Homepage
+2026-07-24 21:08:35,422 - INFO - Dateien gespeichert: Siemens_Healthineers_Homepage.html, Siemens_Healthineers_Homepage.txt
+2026-07-24 21:08:35,422 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:08:35,422 - INFO - Scrape: Siemens Healthineers - Ueber_uns
+2026-07-24 21:08:37,916 - INFO - Dateien gespeichert: Siemens_Healthineers_Ueber_uns.html, Siemens_Healthineers_Ueber_uns.txt
+2026-07-24 21:08:37,917 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:08:37,918 - INFO - Scrape: Siemens Healthineers - Produktseite
+2026-07-24 21:08:40,105 - INFO - 
+========================================
+2026-07-24 21:08:40,106 - INFO - Verarbeite: Philips 
+2026-07-24 21:08:40,106 - INFO - ========================================
+2026-07-24 21:08:40,106 - INFO - Scrape: Philips - Homepage
+2026-07-24 21:08:42,743 - INFO - Dateien gespeichert: Philips_Homepage.html, Philips_Homepage.txt
+2026-07-24 21:08:42,743 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:08:42,743 - INFO - Scrape: Philips - Ueber_uns
+2026-07-24 21:08:45,610 - INFO - Dateien gespeichert: Philips_Ueber_uns.html, Philips_Ueber_uns.txt
+2026-07-24 21:08:45,611 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:08:45,611 - INFO - Scrape: Philips - Produktseite
+2026-07-24 21:08:48,708 - INFO - Dateien gespeichert: Philips_Produktseite.html, Philips_Produktseite.txt
+2026-07-24 21:08:48,709 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:08:48,709 - INFO - 
+========================================
+2026-07-24 21:08:48,710 - INFO - Verarbeite: GE HealthCare 
+2026-07-24 21:08:48,710 - INFO - ========================================
+2026-07-24 21:08:48,710 - INFO - Scrape: GE HealthCare - Homepage
+2026-07-24 21:08:51,414 - INFO - Dateien gespeichert: GE_HealthCare_Homepage.html, GE_HealthCare_Homepage.txt
+2026-07-24 21:08:51,415 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:08:51,415 - INFO - Scrape: GE HealthCare - Ueber_uns
+2026-07-24 21:08:54,913 - INFO - Dateien gespeichert: GE_HealthCare_Ueber_uns.html, GE_HealthCare_Ueber_uns.txt
+2026-07-24 21:08:54,914 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:08:54,914 - INFO - Scrape: GE HealthCare - Produktseite
+2026-07-24 21:08:58,983 - INFO - Dateien gespeichert: GE_HealthCare_Produktseite.html, GE_HealthCare_Produktseite.txt
+2026-07-24 21:08:58,984 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:08:58,987 - INFO - 
+========================================
+2026-07-24 21:08:58,987 - INFO - Verarbeite: BASF 
+2026-07-24 21:08:58,987 - INFO - ========================================
+2026-07-24 21:08:58,987 - INFO - Scrape: BASF - Homepage
+2026-07-24 21:09:02,212 - INFO - Dateien gespeichert: BASF_Homepage.html, BASF_Homepage.txt
+2026-07-24 21:09:02,213 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:09:02,213 - INFO - Scrape: BASF - Ueber_uns
+2026-07-24 21:09:06,672 - INFO - Dateien gespeichert: BASF_Ueber_uns.html, BASF_Ueber_uns.txt
+2026-07-24 21:09:06,674 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:09:06,674 - INFO - Scrape: BASF - Produktseite
+2026-07-24 21:09:10,712 - INFO - Dateien gespeichert: BASF_Produktseite.html, BASF_Produktseite.txt
+2026-07-24 21:09:10,712 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:09:10,714 - INFO - 
+========================================
+2026-07-24 21:09:10,714 - INFO - Verarbeite: Bayer 
+2026-07-24 21:09:10,714 - INFO - ========================================
+2026-07-24 21:09:10,714 - INFO - Scrape: Bayer - Homepage
+2026-07-24 21:09:11,222 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.bayer.com/de/: 403 Client Error: Forbidden for url: https://www.bayer.com/de/
+2026-07-24 21:09:16,654 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.bayer.com/de/: 403 Client Error: Forbidden for url: https://www.bayer.com/de/
+2026-07-24 21:09:22,032 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.bayer.com/de/: 403 Client Error: Forbidden for url: https://www.bayer.com/de/
+2026-07-24 21:09:22,033 - ERROR - Alle Versuche fehlgeschlagen für https://www.bayer.com/de/
+2026-07-24 21:09:22,033 - INFO - Scrape: Bayer - Ueber_uns
+2026-07-24 21:09:22,398 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.bayer.com/de/ueber-uns: 403 Client Error: Forbidden for url: https://www.bayer.com/de/ueber-uns
+2026-07-24 21:09:27,813 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.bayer.com/de/ueber-uns: 403 Client Error: Forbidden for url: https://www.bayer.com/de/ueber-uns
+2026-07-24 21:09:33,243 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.bayer.com/de/ueber-uns: 403 Client Error: Forbidden for url: https://www.bayer.com/de/ueber-uns
+2026-07-24 21:09:33,244 - ERROR - Alle Versuche fehlgeschlagen für https://www.bayer.com/de/ueber-uns
+2026-07-24 21:09:33,244 - INFO - Scrape: Bayer - Produktseite
+2026-07-24 21:09:33,650 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.bayer.com/de/produkte/produkte-uebersicht: 403 Client Error: Forbidden for url: https://www.bayer.com/de/produkte/produkte-uebersicht
+2026-07-24 21:09:39,081 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.bayer.com/de/produkte/produkte-uebersicht: 403 Client Error: Forbidden for url: https://www.bayer.com/de/produkte/produkte-uebersicht
+2026-07-24 21:09:44,420 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.bayer.com/de/produkte/produkte-uebersicht: 403 Client Error: Forbidden for url: https://www.bayer.com/de/produkte/produkte-uebersicht
+2026-07-24 21:09:44,421 - ERROR - Alle Versuche fehlgeschlagen für https://www.bayer.com/de/produkte/produkte-uebersicht
+2026-07-24 21:09:44,424 - INFO - 
+========================================
+2026-07-24 21:09:44,425 - INFO - Verarbeite: Evonik 
+2026-07-24 21:09:44,425 - INFO - ========================================
+2026-07-24 21:09:44,425 - INFO - Scrape: Evonik - Homepage
+2026-07-24 21:09:47,973 - INFO - Dateien gespeichert: Evonik_Homepage.html, Evonik_Homepage.txt
+2026-07-24 21:09:47,974 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:09:47,974 - INFO - Scrape: Evonik - Ueber_uns
+2026-07-24 21:09:51,275 - INFO - Dateien gespeichert: Evonik_Ueber_uns.html, Evonik_Ueber_uns.txt
+2026-07-24 21:09:51,276 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:09:51,276 - INFO - Scrape: Evonik - Produktseite
+2026-07-24 21:09:54,994 - INFO - Dateien gespeichert: Evonik_Produktseite.html, Evonik_Produktseite.txt
+2026-07-24 21:09:54,995 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:09:54,995 - INFO - 
+========================================
+2026-07-24 21:09:54,996 - INFO - Verarbeite: Henkel 
+2026-07-24 21:09:54,996 - INFO - ========================================
+2026-07-24 21:09:54,996 - INFO - Scrape: Henkel - Homepage
+2026-07-24 21:09:57,310 - INFO - Dateien gespeichert: Henkel_Homepage.html, Henkel_Homepage.txt
+2026-07-24 21:09:57,311 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:09:57,311 - INFO - Scrape: Henkel - Ueber_uns
+2026-07-24 21:09:59,681 - INFO - Dateien gespeichert: Henkel_Ueber_uns.html, Henkel_Ueber_uns.txt
+2026-07-24 21:09:59,682 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:09:59,682 - INFO - Scrape: Henkel - Produktseite
+2026-07-24 21:10:01,939 - INFO - Dateien gespeichert: Henkel_Produktseite.html, Henkel_Produktseite.txt
+2026-07-24 21:10:01,939 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:10:01,939 - INFO - 
+========================================
+2026-07-24 21:10:01,939 - INFO - Verarbeite: Covestro 
+2026-07-24 21:10:01,939 - INFO - ========================================
+2026-07-24 21:10:01,940 - INFO - Scrape: Covestro - Homepage
+2026-07-24 21:10:04,789 - INFO - Dateien gespeichert: Covestro_Homepage.html, Covestro_Homepage.txt
+2026-07-24 21:10:04,789 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:10:04,789 - INFO - Scrape: Covestro - Ueber_uns
+2026-07-24 21:10:07,404 - INFO - Dateien gespeichert: Covestro_Ueber_uns.html, Covestro_Ueber_uns.txt
+2026-07-24 21:10:07,405 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:10:07,405 - INFO - Scrape: Covestro - Produktseite
+2026-07-24 21:10:09,825 - INFO - Dateien gespeichert: Covestro_Produktseite.html, Covestro_Produktseite.txt
+2026-07-24 21:10:09,826 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:10:09,829 - INFO - 
+========================================
+2026-07-24 21:10:09,829 - INFO - Verarbeite: Lanxess 
+2026-07-24 21:10:09,829 - INFO - ========================================
+2026-07-24 21:10:09,829 - INFO - Scrape: Lanxess - Homepage
+2026-07-24 21:10:12,995 - INFO - Dateien gespeichert: Lanxess_Homepage.html, Lanxess_Homepage.txt
+2026-07-24 21:10:12,995 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:10:12,995 - INFO - Scrape: Lanxess - Ueber_uns
+2026-07-24 21:10:16,031 - INFO - Dateien gespeichert: Lanxess_Ueber_uns.html, Lanxess_Ueber_uns.txt
+2026-07-24 21:10:16,032 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:10:16,032 - INFO - Scrape: Lanxess - Produktseite
+2026-07-24 21:10:20,096 - INFO - Dateien gespeichert: Lanxess_Produktseite.html, Lanxess_Produktseite.txt
+2026-07-24 21:10:20,096 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:10:20,097 - INFO - 
+========================================
+2026-07-24 21:10:20,097 - INFO - Verarbeite: Wacker Chemie 
+2026-07-24 21:10:20,097 - INFO - ========================================
+2026-07-24 21:10:20,097 - INFO - Scrape: Wacker Chemie - Homepage
+2026-07-24 21:10:23,118 - INFO - Scrape: Wacker Chemie - Ueber_uns
+2026-07-24 21:10:25,838 - INFO - Scrape: Wacker Chemie - Produktseite
+2026-07-24 21:10:28,318 - INFO - 
+========================================
+2026-07-24 21:10:28,318 - INFO - Verarbeite: Boehringer Ingelheim 
+2026-07-24 21:10:28,318 - INFO - ========================================
+2026-07-24 21:10:28,318 - INFO - Scrape: Boehringer Ingelheim - Homepage
+2026-07-24 21:10:31,336 - INFO - Scrape: Boehringer Ingelheim - Ueber_uns
+2026-07-24 21:10:34,126 - INFO - Scrape: Boehringer Ingelheim - Produktseite
+2026-07-24 21:10:37,176 - INFO - 
+========================================
+2026-07-24 21:10:37,176 - INFO - Verarbeite: Roche 
+2026-07-24 21:10:37,176 - INFO - ========================================
+2026-07-24 21:10:37,176 - INFO - Scrape: Roche - Homepage
+2026-07-24 21:10:39,947 - INFO - Dateien gespeichert: Roche_Homepage.html, Roche_Homepage.txt
+2026-07-24 21:10:39,948 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:10:39,948 - INFO - Scrape: Roche - Ueber_uns
+2026-07-24 21:10:42,798 - INFO - Dateien gespeichert: Roche_Ueber_uns.html, Roche_Ueber_uns.txt
+2026-07-24 21:10:42,799 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:10:42,799 - INFO - Scrape: Roche - Produktseite
+2026-07-24 21:10:45,123 - INFO - Dateien gespeichert: Roche_Produktseite.html, Roche_Produktseite.txt
+2026-07-24 21:10:45,124 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:10:45,124 - INFO - 
+========================================
+2026-07-24 21:10:45,125 - INFO - Verarbeite: Novartis 
+2026-07-24 21:10:45,125 - INFO - ========================================
+2026-07-24 21:10:45,126 - INFO - Scrape: Novartis - Homepage
+2026-07-24 21:10:47,560 - INFO - Dateien gespeichert: Novartis_Homepage.html, Novartis_Homepage.txt
+2026-07-24 21:10:47,561 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:10:47,561 - INFO - Scrape: Novartis - Ueber_uns
+2026-07-24 21:10:49,834 - INFO - Dateien gespeichert: Novartis_Ueber_uns.html, Novartis_Ueber_uns.txt
+2026-07-24 21:10:49,834 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:10:49,835 - INFO - Scrape: Novartis - Produktseite
+2026-07-24 21:10:52,423 - INFO - Dateien gespeichert: Novartis_Produktseite.html, Novartis_Produktseite.txt
+2026-07-24 21:10:52,423 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:10:52,425 - INFO - 
+========================================
+2026-07-24 21:10:52,425 - INFO - Verarbeite: Pfizer 
+2026-07-24 21:10:52,425 - INFO - ========================================
+2026-07-24 21:10:52,425 - INFO - Scrape: Pfizer - Homepage
+2026-07-24 21:10:55,665 - INFO - Dateien gespeichert: Pfizer_Homepage.html, Pfizer_Homepage.txt
+2026-07-24 21:10:55,665 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:10:55,665 - INFO - Scrape: Pfizer - Ueber_uns
+2026-07-24 21:10:58,562 - INFO - Dateien gespeichert: Pfizer_Ueber_uns.html, Pfizer_Ueber_uns.txt
+2026-07-24 21:10:58,562 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:10:58,562 - INFO - Scrape: Pfizer - Produktseite
+2026-07-24 21:11:01,598 - INFO - Dateien gespeichert: Pfizer_Produktseite.html, Pfizer_Produktseite.txt
+2026-07-24 21:11:01,598 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:11:01,599 - INFO - 
+========================================
+2026-07-24 21:11:01,599 - INFO - Verarbeite: Sanofi 
+2026-07-24 21:11:01,599 - INFO - ========================================
+2026-07-24 21:11:01,599 - INFO - Scrape: Sanofi - Homepage
+2026-07-24 21:11:04,794 - INFO - Dateien gespeichert: Sanofi_Homepage.html, Sanofi_Homepage.txt
+2026-07-24 21:11:04,794 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:11:04,795 - INFO - Scrape: Sanofi - Ueber_uns
+2026-07-24 21:11:08,132 - INFO - Dateien gespeichert: Sanofi_Ueber_uns.html, Sanofi_Ueber_uns.txt
+2026-07-24 21:11:08,132 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:11:08,132 - INFO - Scrape: Sanofi - Produktseite
+2026-07-24 21:11:11,689 - INFO - Dateien gespeichert: Sanofi_Produktseite.html, Sanofi_Produktseite.txt
+2026-07-24 21:11:11,689 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:11:11,693 - INFO - 
+========================================
+2026-07-24 21:11:11,693 - INFO - Verarbeite: AbbVie 
+2026-07-24 21:11:11,693 - INFO - ========================================
+2026-07-24 21:11:11,693 - INFO - Scrape: AbbVie - Homepage
+2026-07-24 21:11:11,816 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.abbvie.de: 403 Client Error: Forbidden for url: https://www.abbvie.de/
+2026-07-24 21:11:16,908 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.abbvie.de: 403 Client Error: Forbidden for url: https://www.abbvie.de/
+2026-07-24 21:11:22,080 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.abbvie.de: 403 Client Error: Forbidden for url: https://www.abbvie.de/
+2026-07-24 21:11:22,080 - ERROR - Alle Versuche fehlgeschlagen für https://www.abbvie.de
+2026-07-24 21:11:22,081 - INFO - Scrape: AbbVie - Ueber_uns
+2026-07-24 21:11:22,168 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.abbvie.de/ueber-uns.html: 403 Client Error: Forbidden for url: https://www.abbvie.de/ueber-uns.html
+2026-07-24 21:11:27,275 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.abbvie.de/ueber-uns.html: 403 Client Error: Forbidden for url: https://www.abbvie.de/ueber-uns.html
+2026-07-24 21:11:32,367 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.abbvie.de/ueber-uns.html: 403 Client Error: Forbidden for url: https://www.abbvie.de/ueber-uns.html
+2026-07-24 21:11:32,368 - ERROR - Alle Versuche fehlgeschlagen für https://www.abbvie.de/ueber-uns.html
+2026-07-24 21:11:32,368 - INFO - Scrape: AbbVie - Produktseite
+2026-07-24 21:11:32,524 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.abbvie.com/patients/products.html: 403 Client Error: Forbidden for url: https://www.abbvie.com/patients/products.html
+2026-07-24 21:11:37,638 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.abbvie.com/patients/products.html: 403 Client Error: Forbidden for url: https://www.abbvie.com/patients/products.html
+2026-07-24 21:11:42,742 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.abbvie.com/patients/products.html: 403 Client Error: Forbidden for url: https://www.abbvie.com/patients/products.html
+2026-07-24 21:11:42,743 - ERROR - Alle Versuche fehlgeschlagen für https://www.abbvie.com/patients/products.html
+2026-07-24 21:11:42,747 - INFO - 
+========================================
+2026-07-24 21:11:42,747 - INFO - Verarbeite: Abbott 
+2026-07-24 21:11:42,747 - INFO - ========================================
+2026-07-24 21:11:42,748 - INFO - Scrape: Abbott - Homepage
+2026-07-24 21:11:45,486 - INFO - Dateien gespeichert: Abbott_Homepage.html, Abbott_Homepage.txt
+2026-07-24 21:11:45,486 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:11:45,487 - INFO - Scrape: Abbott - Ueber_uns
+2026-07-24 21:11:50,572 - INFO - Dateien gespeichert: Abbott_Ueber_uns.html, Abbott_Ueber_uns.txt
+2026-07-24 21:11:50,572 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:11:50,572 - INFO - Scrape: Abbott - Produktseite
+2026-07-24 21:11:52,938 - INFO - Dateien gespeichert: Abbott_Produktseite.html, Abbott_Produktseite.txt
+2026-07-24 21:11:52,939 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:11:52,939 - INFO - 
+========================================
+2026-07-24 21:11:52,939 - INFO - Verarbeite: Thermo Fisher 
+2026-07-24 21:11:52,939 - INFO - ========================================
+2026-07-24 21:11:52,939 - INFO - Scrape: Thermo Fisher - Homepage
+2026-07-24 21:11:55,962 - INFO - Dateien gespeichert: Thermo_Fisher_Homepage.html, Thermo_Fisher_Homepage.txt
+2026-07-24 21:11:55,962 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:11:55,962 - INFO - Scrape: Thermo Fisher - Ueber_uns
+2026-07-24 21:11:59,153 - INFO - Dateien gespeichert: Thermo_Fisher_Ueber_uns.html, Thermo_Fisher_Ueber_uns.txt
+2026-07-24 21:11:59,153 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:11:59,153 - INFO - Scrape: Thermo Fisher - Produktseite
+2026-07-24 21:12:01,552 - INFO - Dateien gespeichert: Thermo_Fisher_Produktseite.html, Thermo_Fisher_Produktseite.txt
+2026-07-24 21:12:01,552 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:12:01,553 - INFO - 
+========================================
+2026-07-24 21:12:01,553 - INFO - Verarbeite: 3M 
+2026-07-24 21:12:01,553 - INFO - ========================================
+2026-07-24 21:12:01,553 - INFO - Scrape: 3M - Homepage
+2026-07-24 21:12:31,657 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.3mdeutschland.de/3M/de_DE/unternehmen-de/: HTTPSConnectionPool(host='www.3mdeutschland.de', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:13:06,768 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.3mdeutschland.de/3M/de_DE/unternehmen-de/: HTTPSConnectionPool(host='www.3mdeutschland.de', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:13:41,884 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.3mdeutschland.de/3M/de_DE/unternehmen-de/: HTTPSConnectionPool(host='www.3mdeutschland.de', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:13:41,886 - ERROR - Alle Versuche fehlgeschlagen für https://www.3mdeutschland.de/3M/de_DE/unternehmen-de/
+2026-07-24 21:13:41,887 - INFO - Scrape: 3M - Ueber_uns
+2026-07-24 21:14:11,987 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.3mdeutschland.de/3M/de_DE/about-3m/: HTTPSConnectionPool(host='www.3mdeutschland.de', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:14:47,095 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.3mdeutschland.de/3M/de_DE/about-3m/: HTTPSConnectionPool(host='www.3mdeutschland.de', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:15:22,217 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.3mdeutschland.de/3M/de_DE/about-3m/: HTTPSConnectionPool(host='www.3mdeutschland.de', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:15:22,219 - ERROR - Alle Versuche fehlgeschlagen für https://www.3mdeutschland.de/3M/de_DE/about-3m/
+2026-07-24 21:15:22,219 - INFO - Scrape: 3M - Produktseite
+2026-07-24 21:15:52,311 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.3mdeutschland.de/3M/de_DE/p/: HTTPSConnectionPool(host='www.3mdeutschland.de', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:16:27,418 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.3mdeutschland.de/3M/de_DE/p/: HTTPSConnectionPool(host='www.3mdeutschland.de', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:17:02,550 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.3mdeutschland.de/3M/de_DE/p/: HTTPSConnectionPool(host='www.3mdeutschland.de', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:17:02,551 - ERROR - Alle Versuche fehlgeschlagen für https://www.3mdeutschland.de/3M/de_DE/p/
+2026-07-24 21:17:02,568 - INFO - 
+========================================
+2026-07-24 21:17:02,568 - INFO - Verarbeite: Schott 
+2026-07-24 21:17:02,569 - INFO - ========================================
+2026-07-24 21:17:02,570 - INFO - Scrape: Schott - Homepage
+2026-07-24 21:17:05,501 - INFO - Dateien gespeichert: Schott_Homepage.html, Schott_Homepage.txt
+2026-07-24 21:17:05,502 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:17:05,502 - INFO - Scrape: Schott - Ueber_uns
+2026-07-24 21:17:08,793 - INFO - Dateien gespeichert: Schott_Ueber_uns.html, Schott_Ueber_uns.txt
+2026-07-24 21:17:08,793 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:17:08,793 - INFO - Scrape: Schott - Produktseite
+2026-07-24 21:17:12,107 - INFO - Dateien gespeichert: Schott_Produktseite.html, Schott_Produktseite.txt
+2026-07-24 21:17:12,107 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:17:12,108 - INFO - 
+========================================
+2026-07-24 21:17:12,108 - INFO - Verarbeite: Voith 
+2026-07-24 21:17:12,108 - INFO - ========================================
+2026-07-24 21:17:12,108 - INFO - Scrape: Voith - Homepage
+2026-07-24 21:17:14,676 - INFO - Dateien gespeichert: Voith_Homepage.html, Voith_Homepage.txt
+2026-07-24 21:17:14,677 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:17:14,677 - INFO - Scrape: Voith - Ueber_uns
+2026-07-24 21:17:17,279 - INFO - Dateien gespeichert: Voith_Ueber_uns.html, Voith_Ueber_uns.txt
+2026-07-24 21:17:17,280 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:17:17,280 - INFO - Scrape: Voith - Produktseite
+2026-07-24 21:17:19,632 - INFO - Dateien gespeichert: Voith_Produktseite.html, Voith_Produktseite.txt
+2026-07-24 21:17:19,633 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:17:19,633 - INFO - 
+========================================
+2026-07-24 21:17:19,633 - INFO - Verarbeite: Linde 
+2026-07-24 21:17:19,634 - INFO - ========================================
+2026-07-24 21:17:19,634 - INFO - Scrape: Linde - Homepage
+2026-07-24 21:17:22,812 - INFO - Scrape: Linde - Ueber_uns
+2026-07-24 21:17:26,645 - INFO - Scrape: Linde - Produktseite
+2026-07-24 21:17:31,387 - INFO - 
+========================================
+2026-07-24 21:17:31,388 - INFO - Verarbeite: BMW 
+2026-07-24 21:17:31,388 - INFO - ========================================
+2026-07-24 21:17:31,388 - INFO - Scrape: BMW - Homepage
+2026-07-24 21:18:01,475 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.bmw.de/: HTTPSConnectionPool(host='www.bmw.de', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:18:36,575 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.bmw.de/: HTTPSConnectionPool(host='www.bmw.de', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:19:11,669 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.bmw.de/: HTTPSConnectionPool(host='www.bmw.de', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:19:11,671 - ERROR - Alle Versuche fehlgeschlagen für https://www.bmw.de/
+2026-07-24 21:19:11,672 - INFO - Scrape: BMW - Ueber_uns
+2026-07-24 21:19:41,842 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.bmw.de/de/faszination-bmw/ueber-bmw.html: HTTPSConnectionPool(host='www.bmw.de', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:20:16,984 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.bmw.de/de/faszination-bmw/ueber-bmw.html: HTTPSConnectionPool(host='www.bmw.de', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:20:52,146 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.bmw.de/de/faszination-bmw/ueber-bmw.html: HTTPSConnectionPool(host='www.bmw.de', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:20:52,151 - ERROR - Alle Versuche fehlgeschlagen für https://www.bmw.de/de/faszination-bmw/ueber-bmw.html
+2026-07-24 21:20:52,153 - INFO - Scrape: BMW - Produktseite
+2026-07-24 21:21:22,293 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.bmw.de/de/neufahrzeuge/3er/limousine/ueberblick.html: HTTPSConnectionPool(host='www.bmw.de', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:21:57,418 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.bmw.de/de/neufahrzeuge/3er/limousine/ueberblick.html: HTTPSConnectionPool(host='www.bmw.de', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:22:32,526 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.bmw.de/de/neufahrzeuge/3er/limousine/ueberblick.html: HTTPSConnectionPool(host='www.bmw.de', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:22:32,528 - ERROR - Alle Versuche fehlgeschlagen für https://www.bmw.de/de/neufahrzeuge/3er/limousine/ueberblick.html
+2026-07-24 21:22:32,549 - INFO - 
+========================================
+2026-07-24 21:22:32,549 - INFO - Verarbeite: Volkswagen 
+2026-07-24 21:22:32,550 - INFO - ========================================
+2026-07-24 21:22:32,550 - INFO - Scrape: Volkswagen - Homepage
+2026-07-24 21:22:35,303 - INFO - Dateien gespeichert: Volkswagen_Homepage.html, Volkswagen_Homepage.txt
+2026-07-24 21:22:35,303 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:22:35,303 - INFO - Scrape: Volkswagen - Ueber_uns
+2026-07-24 21:22:38,028 - INFO - Dateien gespeichert: Volkswagen_Ueber_uns.html, Volkswagen_Ueber_uns.txt
+2026-07-24 21:22:38,029 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:22:38,029 - INFO - Scrape: Volkswagen - Produktseite
+2026-07-24 21:22:40,472 - INFO - Dateien gespeichert: Volkswagen_Produktseite.html, Volkswagen_Produktseite.txt
+2026-07-24 21:22:40,473 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:22:40,473 - INFO - 
+========================================
+2026-07-24 21:22:40,473 - INFO - Verarbeite: Porsche 
+2026-07-24 21:22:40,473 - INFO - ========================================
+2026-07-24 21:22:40,473 - INFO - Scrape: Porsche - Homepage
+2026-07-24 21:22:43,677 - INFO - Dateien gespeichert: Porsche_Homepage.html, Porsche_Homepage.txt
+2026-07-24 21:22:43,678 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:22:43,678 - INFO - Scrape: Porsche - Ueber_uns
+2026-07-24 21:22:47,413 - INFO - Scrape: Porsche - Produktseite
+2026-07-24 21:22:51,153 - INFO - Dateien gespeichert: Porsche_Produktseite.html, Porsche_Produktseite.txt
+2026-07-24 21:22:51,153 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:22:51,156 - INFO - 
+========================================
+2026-07-24 21:22:51,156 - INFO - Verarbeite: Tesla 
+2026-07-24 21:22:51,156 - INFO - ========================================
+2026-07-24 21:22:51,156 - INFO - Scrape: Tesla - Homepage
+2026-07-24 21:22:51,276 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.tesla.com/de_de: 403 Client Error: Forbidden for url: https://www.tesla.com/de_de
+2026-07-24 21:22:56,378 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.tesla.com/de_de: 403 Client Error: Forbidden for url: https://www.tesla.com/de_de
+2026-07-24 21:23:01,570 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.tesla.com/de_de: 403 Client Error: Forbidden for url: https://www.tesla.com/de_de
+2026-07-24 21:23:01,571 - ERROR - Alle Versuche fehlgeschlagen für https://www.tesla.com/de_de
+2026-07-24 21:23:01,572 - INFO - Scrape: Tesla - Ueber_uns
+2026-07-24 21:23:01,657 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.tesla.com/de_de/about: 403 Client Error: Forbidden for url: https://www.tesla.com/de_de/about
+2026-07-24 21:23:06,825 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.tesla.com/de_de/about: 403 Client Error: Forbidden for url: https://www.tesla.com/de_de/about
+2026-07-24 21:23:12,040 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.tesla.com/de_de/about: 403 Client Error: Forbidden for url: https://www.tesla.com/de_de/about
+2026-07-24 21:23:12,040 - ERROR - Alle Versuche fehlgeschlagen für https://www.tesla.com/de_de/about
+2026-07-24 21:23:12,040 - INFO - Scrape: Tesla - Produktseite
+2026-07-24 21:23:12,159 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.tesla.com/de_de/modely: 403 Client Error: Forbidden for url: https://www.tesla.com/de_de/modely
+2026-07-24 21:23:17,329 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.tesla.com/de_de/modely: 403 Client Error: Forbidden for url: https://www.tesla.com/de_de/modely
+2026-07-24 21:23:22,544 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.tesla.com/de_de/modely: 403 Client Error: Forbidden for url: https://www.tesla.com/de_de/modely
+2026-07-24 21:23:22,544 - ERROR - Alle Versuche fehlgeschlagen für https://www.tesla.com/de_de/modely
+2026-07-24 21:23:22,548 - INFO - 
+========================================
+2026-07-24 21:23:22,548 - INFO - Verarbeite: Volvo Cars 
+2026-07-24 21:23:22,548 - INFO - ========================================
+2026-07-24 21:23:22,548 - INFO - Scrape: Volvo Cars - Homepage
+2026-07-24 21:23:22,758 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.volvocars.com: 403 Client Error: Forbidden for url: https://www.volvocars.com/
+2026-07-24 21:23:27,920 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.volvocars.com: 403 Client Error: Forbidden for url: https://www.volvocars.com/
+2026-07-24 21:23:33,084 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.volvocars.com: 403 Client Error: Forbidden for url: https://www.volvocars.com/
+2026-07-24 21:23:33,085 - ERROR - Alle Versuche fehlgeschlagen für https://www.volvocars.com
+2026-07-24 21:23:33,085 - INFO - Scrape: Volvo Cars - Ueber_uns
+2026-07-24 21:23:33,178 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.volvocars.com/de/sustainability/: 403 Client Error: Forbidden for url: https://www.volvocars.com/de/sustainability/
+2026-07-24 21:23:38,317 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.volvocars.com/de/sustainability/: 403 Client Error: Forbidden for url: https://www.volvocars.com/de/sustainability/
+2026-07-24 21:23:43,576 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.volvocars.com/de/sustainability/: 403 Client Error: Forbidden for url: https://www.volvocars.com/de/sustainability/
+2026-07-24 21:23:43,577 - ERROR - Alle Versuche fehlgeschlagen für https://www.volvocars.com/de/sustainability/
+2026-07-24 21:23:43,577 - INFO - Scrape: Volvo Cars - Produktseite
+2026-07-24 21:23:43,768 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.volvocars.com/de/inventory/: 403 Client Error: Forbidden for url: https://www.volvocars.com/de/inventory/
+2026-07-24 21:23:48,922 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.volvocars.com/de/inventory/: 403 Client Error: Forbidden for url: https://www.volvocars.com/de/inventory/
+2026-07-24 21:23:54,031 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.volvocars.com/de/inventory/: 403 Client Error: Forbidden for url: https://www.volvocars.com/de/inventory/
+2026-07-24 21:23:54,031 - ERROR - Alle Versuche fehlgeschlagen für https://www.volvocars.com/de/inventory/
+2026-07-24 21:23:54,038 - INFO - 
+========================================
+2026-07-24 21:23:54,038 - INFO - Verarbeite: MAN 
+2026-07-24 21:23:54,038 - INFO - ========================================
+2026-07-24 21:23:54,038 - INFO - Scrape: MAN - Homepage
+2026-07-24 21:23:54,141 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.man.eu: 406 Client Error: Not Acceptable for url: https://www.man.eu/
+2026-07-24 21:23:59,242 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.man.eu: 406 Client Error: Not Acceptable for url: https://www.man.eu/
+2026-07-24 21:24:04,324 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.man.eu: 406 Client Error: Not Acceptable for url: https://www.man.eu/
+2026-07-24 21:24:04,325 - ERROR - Alle Versuche fehlgeschlagen für https://www.man.eu
+2026-07-24 21:24:04,325 - INFO - Scrape: MAN - Ueber_uns
+2026-07-24 21:24:04,478 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.man.eu/de/de/ueber-uns/unternehmen/man-deutschland/man-deutschland.html: 406 Client Error: Not Acceptable for url: https://www.man.eu/de/de/ueber-uns/unternehmen/man-deutschland/man-deutschland.html
+2026-07-24 21:24:09,559 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.man.eu/de/de/ueber-uns/unternehmen/man-deutschland/man-deutschland.html: 406 Client Error: Not Acceptable for url: https://www.man.eu/de/de/ueber-uns/unternehmen/man-deutschland/man-deutschland.html
+2026-07-24 21:24:14,643 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.man.eu/de/de/ueber-uns/unternehmen/man-deutschland/man-deutschland.html: 406 Client Error: Not Acceptable for url: https://www.man.eu/de/de/ueber-uns/unternehmen/man-deutschland/man-deutschland.html
+2026-07-24 21:24:14,644 - ERROR - Alle Versuche fehlgeschlagen für https://www.man.eu/de/de/ueber-uns/unternehmen/man-deutschland/man-deutschland.html
+2026-07-24 21:24:14,644 - INFO - Scrape: MAN - Produktseite
+2026-07-24 21:24:14,709 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.man.eu/de/de/services-zubehoer/serviceuebersicht.html: 406 Client Error: Not Acceptable for url: https://www.man.eu/de/de/services-zubehoer/serviceuebersicht.html
+2026-07-24 21:24:19,809 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.man.eu/de/de/services-zubehoer/serviceuebersicht.html: 406 Client Error: Not Acceptable for url: https://www.man.eu/de/de/services-zubehoer/serviceuebersicht.html
+2026-07-24 21:24:24,931 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.man.eu/de/de/services-zubehoer/serviceuebersicht.html: 406 Client Error: Not Acceptable for url: https://www.man.eu/de/de/services-zubehoer/serviceuebersicht.html
+2026-07-24 21:24:24,932 - ERROR - Alle Versuche fehlgeschlagen für https://www.man.eu/de/de/services-zubehoer/serviceuebersicht.html
+2026-07-24 21:24:24,932 - INFO - 
+========================================
+2026-07-24 21:24:24,933 - INFO - Verarbeite: Scania 
+2026-07-24 21:24:24,933 - INFO - ========================================
+2026-07-24 21:24:24,933 - INFO - Scrape: Scania - Homepage
+2026-07-24 21:24:27,490 - INFO - Dateien gespeichert: Scania_Homepage.html, Scania_Homepage.txt
+2026-07-24 21:24:27,490 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:24:27,490 - INFO - Scrape: Scania - Ueber_uns
+2026-07-24 21:24:30,229 - INFO - Dateien gespeichert: Scania_Ueber_uns.html, Scania_Ueber_uns.txt
+2026-07-24 21:24:30,229 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:24:30,229 - INFO - Scrape: Scania - Produktseite
+2026-07-24 21:24:33,915 - INFO - Dateien gespeichert: Scania_Produktseite.html, Scania_Produktseite.txt
+2026-07-24 21:24:33,915 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:24:33,916 - INFO - 
+========================================
+2026-07-24 21:24:33,916 - INFO - Verarbeite: DHL 
+2026-07-24 21:24:33,916 - INFO - ========================================
+2026-07-24 21:24:33,917 - INFO - Scrape: DHL - Homepage
+2026-07-24 21:25:04,067 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.dhl.com: HTTPSConnectionPool(host='www.dhl.com', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:25:39,174 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.dhl.com: HTTPSConnectionPool(host='www.dhl.com', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:26:14,390 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.dhl.com: HTTPSConnectionPool(host='www.dhl.com', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:26:14,391 - ERROR - Alle Versuche fehlgeschlagen für https://www.dhl.com
+2026-07-24 21:26:14,392 - INFO - Scrape: DHL - Ueber_uns
+2026-07-24 21:26:44,520 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.dhl.com/de-de/home/ueber-uns.html: HTTPSConnectionPool(host='www.dhl.com', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:27:19,644 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.dhl.com/de-de/home/ueber-uns.html: HTTPSConnectionPool(host='www.dhl.com', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:27:54,772 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.dhl.com/de-de/home/ueber-uns.html: HTTPSConnectionPool(host='www.dhl.com', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:27:54,774 - ERROR - Alle Versuche fehlgeschlagen für https://www.dhl.com/de-de/home/ueber-uns.html
+2026-07-24 21:27:54,774 - INFO - Scrape: DHL - Produktseite
+2026-07-24 21:28:24,864 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.dhl.com/de-de/home/supply-chain.html: HTTPSConnectionPool(host='www.dhl.com', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:28:59,978 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.dhl.com/de-de/home/supply-chain.html: HTTPSConnectionPool(host='www.dhl.com', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:29:35,102 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.dhl.com/de-de/home/supply-chain.html: HTTPSConnectionPool(host='www.dhl.com', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:29:35,104 - ERROR - Alle Versuche fehlgeschlagen für https://www.dhl.com/de-de/home/supply-chain.html
+2026-07-24 21:29:35,122 - INFO - 
+========================================
+2026-07-24 21:29:35,122 - INFO - Verarbeite: DB Schenker 
+2026-07-24 21:29:35,122 - INFO - ========================================
+2026-07-24 21:29:35,123 - INFO - Scrape: DB Schenker - Homepage
+2026-07-24 21:29:38,454 - INFO - Dateien gespeichert: DB_Schenker_Homepage.html, DB_Schenker_Homepage.txt
+2026-07-24 21:29:38,454 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:29:38,454 - INFO - Scrape: DB Schenker - Ueber_uns
+2026-07-24 21:29:41,319 - INFO - Dateien gespeichert: DB_Schenker_Ueber_uns.html, DB_Schenker_Ueber_uns.txt
+2026-07-24 21:29:41,320 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:29:41,320 - INFO - Scrape: DB Schenker - Produktseite
+2026-07-24 21:29:44,430 - INFO - Dateien gespeichert: DB_Schenker_Produktseite.html, DB_Schenker_Produktseite.txt
+2026-07-24 21:29:44,430 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:29:44,431 - INFO - 
+========================================
+2026-07-24 21:29:44,431 - INFO - Verarbeite: Maersk 
+2026-07-24 21:29:44,431 - INFO - ========================================
+2026-07-24 21:29:44,431 - INFO - Scrape: Maersk - Homepage
+2026-07-24 21:29:47,574 - INFO - Dateien gespeichert: Maersk_Homepage.html, Maersk_Homepage.txt
+2026-07-24 21:29:47,575 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:29:47,575 - INFO - Scrape: Maersk - Ueber_uns
+2026-07-24 21:29:50,727 - INFO - Dateien gespeichert: Maersk_Ueber_uns.html, Maersk_Ueber_uns.txt
+2026-07-24 21:29:50,727 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:29:50,727 - INFO - Scrape: Maersk - Produktseite
+2026-07-24 21:29:53,145 - INFO - Dateien gespeichert: Maersk_Produktseite.html, Maersk_Produktseite.txt
+2026-07-24 21:29:53,146 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:29:53,149 - INFO - 
+========================================
+2026-07-24 21:29:53,149 - INFO - Verarbeite: Kühne + Nagel 
+2026-07-24 21:29:53,149 - INFO - ========================================
+2026-07-24 21:29:53,149 - INFO - Scrape: Kühne + Nagel - Homepage
+2026-07-24 21:29:55,819 - INFO - Dateien gespeichert: Kühne_+_Nagel_Homepage.html, Kühne_+_Nagel_Homepage.txt
+2026-07-24 21:29:55,820 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:29:55,820 - INFO - Scrape: Kühne + Nagel - Ueber_uns
+2026-07-24 21:29:58,341 - INFO - Dateien gespeichert: Kühne_+_Nagel_Ueber_uns.html, Kühne_+_Nagel_Ueber_uns.txt
+2026-07-24 21:29:58,341 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:29:58,342 - INFO - Scrape: Kühne + Nagel - Produktseite
+2026-07-24 21:30:01,388 - INFO - Dateien gespeichert: Kühne_+_Nagel_Produktseite.html, Kühne_+_Nagel_Produktseite.txt
+2026-07-24 21:30:01,388 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:30:01,389 - INFO - 
+========================================
+2026-07-24 21:30:01,389 - INFO - Verarbeite: Lufthansa 
+2026-07-24 21:30:01,389 - INFO - ========================================
+2026-07-24 21:30:01,389 - INFO - Scrape: Lufthansa - Homepage
+2026-07-24 21:30:01,506 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.lufthansa.com: 403 Client Error: Forbidden for url: https://www.lufthansa.com/
+2026-07-24 21:30:06,601 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.lufthansa.com: 403 Client Error: Forbidden for url: https://www.lufthansa.com/
+2026-07-24 21:30:11,698 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.lufthansa.com: 403 Client Error: Forbidden for url: https://www.lufthansa.com/
+2026-07-24 21:30:11,698 - ERROR - Alle Versuche fehlgeschlagen für https://www.lufthansa.com
+2026-07-24 21:30:11,699 - INFO - Scrape: Lufthansa - Ueber_uns
+2026-07-24 21:30:11,771 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.lufthansa.com/de/de/lufthansa-group-star-alliance-and-partner-airlines: 403 Client Error: Forbidden for url: https://www.lufthansa.com/de/de/lufthansa-group-star-alliance-and-partner-airlines
+2026-07-24 21:30:16,868 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.lufthansa.com/de/de/lufthansa-group-star-alliance-and-partner-airlines: 403 Client Error: Forbidden for url: https://www.lufthansa.com/de/de/lufthansa-group-star-alliance-and-partner-airlines
+2026-07-24 21:30:21,980 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.lufthansa.com/de/de/lufthansa-group-star-alliance-and-partner-airlines: 403 Client Error: Forbidden for url: https://www.lufthansa.com/de/de/lufthansa-group-star-alliance-and-partner-airlines
+2026-07-24 21:30:21,981 - ERROR - Alle Versuche fehlgeschlagen für https://www.lufthansa.com/de/de/lufthansa-group-star-alliance-and-partner-airlines
+2026-07-24 21:30:21,981 - INFO - Scrape: Lufthansa - Produktseite
+2026-07-24 21:30:22,053 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.lufthansa.com/de/de/homepage: 403 Client Error: Forbidden for url: https://www.lufthansa.com/de/de/homepage
+2026-07-24 21:30:27,137 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.lufthansa.com/de/de/homepage: 403 Client Error: Forbidden for url: https://www.lufthansa.com/de/de/homepage
+2026-07-24 21:30:32,231 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.lufthansa.com/de/de/homepage: 403 Client Error: Forbidden for url: https://www.lufthansa.com/de/de/homepage
+2026-07-24 21:30:32,231 - ERROR - Alle Versuche fehlgeschlagen für https://www.lufthansa.com/de/de/homepage
+2026-07-24 21:30:32,235 - INFO - 
+========================================
+2026-07-24 21:30:32,235 - INFO - Verarbeite: Apple 
+2026-07-24 21:30:32,235 - INFO - ========================================
+2026-07-24 21:30:32,236 - INFO - Scrape: Apple - Homepage
+2026-07-24 21:30:34,489 - INFO - Dateien gespeichert: Apple_Homepage.html, Apple_Homepage.txt
+2026-07-24 21:30:34,490 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:30:34,490 - INFO - Scrape: Apple - Ueber_uns
+2026-07-24 21:30:36,874 - INFO - Dateien gespeichert: Apple_Ueber_uns.html, Apple_Ueber_uns.txt
+2026-07-24 21:30:36,874 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:30:36,874 - INFO - Scrape: Apple - Produktseite
+2026-07-24 21:30:39,839 - INFO - Dateien gespeichert: Apple_Produktseite.html, Apple_Produktseite.txt
+2026-07-24 21:30:39,839 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:30:39,840 - INFO - 
+========================================
+2026-07-24 21:30:39,840 - INFO - Verarbeite: Samsung 
+2026-07-24 21:30:39,840 - INFO - ========================================
+2026-07-24 21:30:39,840 - INFO - Scrape: Samsung - Homepage
+2026-07-24 21:30:43,573 - INFO - Dateien gespeichert: Samsung_Homepage.html, Samsung_Homepage.txt
+2026-07-24 21:30:43,573 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:30:43,573 - INFO - Scrape: Samsung - Ueber_uns
+2026-07-24 21:30:45,913 - INFO - Dateien gespeichert: Samsung_Ueber_uns.html, Samsung_Ueber_uns.txt
+2026-07-24 21:30:45,913 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:30:45,913 - INFO - Scrape: Samsung - Produktseite
+2026-07-24 21:30:48,357 - INFO - Dateien gespeichert: Samsung_Produktseite.html, Samsung_Produktseite.txt
+2026-07-24 21:30:48,358 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:30:48,361 - INFO - 
+========================================
+2026-07-24 21:30:48,361 - INFO - Verarbeite: LG 
+2026-07-24 21:30:48,361 - INFO - ========================================
+2026-07-24 21:30:48,362 - INFO - Scrape: LG - Homepage
+2026-07-24 21:30:52,195 - INFO - Dateien gespeichert: LG_Homepage.html, LG_Homepage.txt
+2026-07-24 21:30:52,196 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:30:52,196 - INFO - Scrape: LG - Ueber_uns
+2026-07-24 21:30:55,502 - INFO - Dateien gespeichert: LG_Ueber_uns.html, LG_Ueber_uns.txt
+2026-07-24 21:30:55,502 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:30:55,502 - INFO - Scrape: LG - Produktseite
+2026-07-24 21:30:58,541 - INFO - Dateien gespeichert: LG_Produktseite.html, LG_Produktseite.txt
+2026-07-24 21:30:58,542 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:30:58,542 - INFO - 
+========================================
+2026-07-24 21:30:58,542 - INFO - Verarbeite: Dyson 
+2026-07-24 21:30:58,542 - INFO - ========================================
+2026-07-24 21:30:58,542 - INFO - Scrape: Dyson - Homepage
+2026-07-24 21:31:01,813 - INFO - Dateien gespeichert: Dyson_Homepage.html, Dyson_Homepage.txt
+2026-07-24 21:31:01,814 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:31:01,814 - INFO - Scrape: Dyson - Ueber_uns
+2026-07-24 21:31:04,959 - INFO - Dateien gespeichert: Dyson_Ueber_uns.html, Dyson_Ueber_uns.txt
+2026-07-24 21:31:04,959 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:31:04,959 - INFO - Scrape: Dyson - Produktseite
+2026-07-24 21:31:08,613 - INFO - Dateien gespeichert: Dyson_Produktseite.html, Dyson_Produktseite.txt
+2026-07-24 21:31:08,613 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:31:08,614 - INFO - 
+========================================
+2026-07-24 21:31:08,614 - INFO - Verarbeite: Miele 
+2026-07-24 21:31:08,615 - INFO - ========================================
+2026-07-24 21:31:08,615 - INFO - Scrape: Miele - Homepage
+2026-07-24 21:31:10,917 - INFO - Dateien gespeichert: Miele_Homepage.html, Miele_Homepage.txt
+2026-07-24 21:31:10,919 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:31:10,920 - INFO - Scrape: Miele - Ueber_uns
+2026-07-24 21:31:13,795 - INFO - Dateien gespeichert: Miele_Ueber_uns.html, Miele_Ueber_uns.txt
+2026-07-24 21:31:13,795 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:31:13,795 - INFO - Scrape: Miele - Produktseite
+2026-07-24 21:31:16,570 - INFO - Dateien gespeichert: Miele_Produktseite.html, Miele_Produktseite.txt
+2026-07-24 21:31:16,571 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:31:16,573 - INFO - 
+========================================
+2026-07-24 21:31:16,573 - INFO - Verarbeite: MediaMarkt 
+2026-07-24 21:31:16,573 - INFO - ========================================
+2026-07-24 21:31:16,573 - INFO - Scrape: MediaMarkt - Homepage
+2026-07-24 21:31:19,325 - INFO - Dateien gespeichert: MediaMarkt_Homepage.html, MediaMarkt_Homepage.txt
+2026-07-24 21:31:19,325 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:31:19,326 - INFO - Scrape: MediaMarkt - Ueber_uns
+2026-07-24 21:31:21,863 - INFO - Dateien gespeichert: MediaMarkt_Ueber_uns.html, MediaMarkt_Ueber_uns.txt
+2026-07-24 21:31:21,863 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:31:21,863 - INFO - Scrape: MediaMarkt - Produktseite
+2026-07-24 21:31:24,647 - INFO - Dateien gespeichert: MediaMarkt_Produktseite.html, MediaMarkt_Produktseite.txt
+2026-07-24 21:31:24,647 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:31:24,647 - INFO - 
+========================================
+2026-07-24 21:31:24,647 - INFO - Verarbeite: Saturn 
+2026-07-24 21:31:24,647 - INFO - ========================================
+2026-07-24 21:31:24,647 - INFO - Scrape: Saturn - Homepage
+2026-07-24 21:31:27,324 - INFO - Dateien gespeichert: Saturn_Homepage.html, Saturn_Homepage.txt
+2026-07-24 21:31:27,324 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:31:27,324 - INFO - Scrape: Saturn - Ueber_uns
+2026-07-24 21:31:31,196 - INFO - Dateien gespeichert: Saturn_Ueber_uns.html, Saturn_Ueber_uns.txt
+2026-07-24 21:31:31,196 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:31:31,196 - INFO - Scrape: Saturn - Produktseite
+2026-07-24 21:31:33,451 - INFO - Dateien gespeichert: Saturn_Produktseite.html, Saturn_Produktseite.txt
+2026-07-24 21:31:33,452 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:31:33,454 - INFO - 
+========================================
+2026-07-24 21:31:33,454 - INFO - Verarbeite: IKEA 
+2026-07-24 21:31:33,454 - INFO - ========================================
+2026-07-24 21:31:33,454 - INFO - Scrape: IKEA - Homepage
+2026-07-24 21:31:37,171 - INFO - Dateien gespeichert: IKEA_Homepage.html, IKEA_Homepage.txt
+2026-07-24 21:31:37,171 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:31:37,172 - INFO - Scrape: IKEA - Ueber_uns
+2026-07-24 21:31:40,075 - INFO - Dateien gespeichert: IKEA_Ueber_uns.html, IKEA_Ueber_uns.txt
+2026-07-24 21:31:40,075 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:31:40,075 - INFO - Scrape: IKEA - Produktseite
+2026-07-24 21:31:44,281 - INFO - Dateien gespeichert: IKEA_Produktseite.html, IKEA_Produktseite.txt
+2026-07-24 21:31:44,281 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:31:44,282 - INFO - 
+========================================
+2026-07-24 21:31:44,282 - INFO - Verarbeite: XXXLutz 
+2026-07-24 21:31:44,282 - INFO - ========================================
+2026-07-24 21:31:44,282 - INFO - Scrape: XXXLutz - Homepage
+2026-07-24 21:31:44,399 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.xxxlutz.de: 403 Client Error: Forbidden for url: https://www.xxxlutz.de/
+2026-07-24 21:31:49,512 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.xxxlutz.de: 403 Client Error: Forbidden for url: https://www.xxxlutz.de/
+2026-07-24 21:31:54,603 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.xxxlutz.de: 403 Client Error: Forbidden for url: https://www.xxxlutz.de/
+2026-07-24 21:31:54,604 - ERROR - Alle Versuche fehlgeschlagen für https://www.xxxlutz.de
+2026-07-24 21:31:54,604 - INFO - Scrape: XXXLutz - Ueber_uns
+2026-07-24 21:31:54,687 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.xxxlutz.de/c/unternehmen: 403 Client Error: Forbidden for url: https://www.xxxlutz.de/c/unternehmen
+2026-07-24 21:31:59,791 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.xxxlutz.de/c/unternehmen: 403 Client Error: Forbidden for url: https://www.xxxlutz.de/c/unternehmen
+2026-07-24 21:32:04,888 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.xxxlutz.de/c/unternehmen: 403 Client Error: Forbidden for url: https://www.xxxlutz.de/c/unternehmen
+2026-07-24 21:32:04,889 - ERROR - Alle Versuche fehlgeschlagen für https://www.xxxlutz.de/c/unternehmen
+2026-07-24 21:32:04,889 - INFO - Scrape: XXXLutz - Produktseite
+2026-07-24 21:32:04,988 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.xxxlutz.de: 403 Client Error: Forbidden for url: https://www.xxxlutz.de/
+2026-07-24 21:32:10,122 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.xxxlutz.de: 403 Client Error: Forbidden for url: https://www.xxxlutz.de/
+2026-07-24 21:32:15,245 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.xxxlutz.de: 403 Client Error: Forbidden for url: https://www.xxxlutz.de/
+2026-07-24 21:32:15,245 - ERROR - Alle Versuche fehlgeschlagen für https://www.xxxlutz.de
+2026-07-24 21:32:15,249 - INFO - 
+========================================
+2026-07-24 21:32:15,249 - INFO - Verarbeite: Höffner 
+2026-07-24 21:32:15,249 - INFO - ========================================
+2026-07-24 21:32:15,249 - INFO - Scrape: Höffner - Homepage
+2026-07-24 21:32:18,221 - INFO - Dateien gespeichert: Höffner_Homepage.html, Höffner_Homepage.txt
+2026-07-24 21:32:18,222 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:32:18,222 - INFO - Scrape: Höffner - Ueber_uns
+2026-07-24 21:32:21,060 - INFO - Dateien gespeichert: Höffner_Ueber_uns.html, Höffner_Ueber_uns.txt
+2026-07-24 21:32:21,060 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:32:21,060 - INFO - Scrape: Höffner - Produktseite
+2026-07-24 21:32:23,465 - INFO - Dateien gespeichert: Höffner_Produktseite.html, Höffner_Produktseite.txt
+2026-07-24 21:32:23,465 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:32:23,466 - INFO - 
+========================================
+2026-07-24 21:32:23,466 - INFO - Verarbeite: Otto 
+2026-07-24 21:32:23,466 - INFO - ========================================
+2026-07-24 21:32:23,466 - INFO - Scrape: Otto - Homepage
+2026-07-24 21:32:26,123 - INFO - Scrape: Otto - Ueber_uns
+2026-07-24 21:32:28,583 - INFO - Dateien gespeichert: Otto_Ueber_uns.html, Otto_Ueber_uns.txt
+2026-07-24 21:32:28,583 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:32:28,583 - INFO - Scrape: Otto - Produktseite
+2026-07-24 21:32:31,424 - INFO - Dateien gespeichert: Otto_Produktseite.html, Otto_Produktseite.txt
+2026-07-24 21:32:31,425 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:32:31,426 - INFO - 
+========================================
+2026-07-24 21:32:31,426 - INFO - Verarbeite: Zalando 
+2026-07-24 21:32:31,426 - INFO - ========================================
+2026-07-24 21:32:31,426 - INFO - Scrape: Zalando - Homepage
+2026-07-24 21:32:31,715 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.zalando.de: 403 Client Error: Forbidden for url: https://www.zalando.de/
+2026-07-24 21:32:36,886 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.zalando.de: 403 Client Error: Forbidden for url: https://www.zalando.de/
+2026-07-24 21:32:42,062 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.zalando.de: 403 Client Error: Forbidden for url: https://www.zalando.de/
+2026-07-24 21:32:42,064 - ERROR - Alle Versuche fehlgeschlagen für https://www.zalando.de
+2026-07-24 21:32:42,064 - INFO - Scrape: Zalando - Ueber_uns
+2026-07-24 21:32:44,791 - INFO - Dateien gespeichert: Zalando_Ueber_uns.html, Zalando_Ueber_uns.txt
+2026-07-24 21:32:44,792 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:32:44,792 - INFO - Scrape: Zalando - Produktseite
+2026-07-24 21:32:44,964 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.zalando.de: 403 Client Error: Forbidden for url: https://www.zalando.de/
+2026-07-24 21:32:50,192 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.zalando.de: 403 Client Error: Forbidden for url: https://www.zalando.de/
+2026-07-24 21:32:55,375 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.zalando.de: 403 Client Error: Forbidden for url: https://www.zalando.de/
+2026-07-24 21:32:55,375 - ERROR - Alle Versuche fehlgeschlagen für https://www.zalando.de
+2026-07-24 21:32:55,379 - INFO - 
+========================================
+2026-07-24 21:32:55,379 - INFO - Verarbeite: About You 
+2026-07-24 21:32:55,379 - INFO - ========================================
+2026-07-24 21:32:55,379 - INFO - Scrape: About You - Homepage
+2026-07-24 21:32:58,169 - INFO - Dateien gespeichert: About_You_Homepage.html, About_You_Homepage.txt
+2026-07-24 21:32:58,170 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:32:58,170 - INFO - Scrape: About You - Ueber_uns
+2026-07-24 21:33:01,370 - INFO - Dateien gespeichert: About_You_Ueber_uns.html, About_You_Ueber_uns.txt
+2026-07-24 21:33:01,370 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:33:01,370 - INFO - Scrape: About You - Produktseite
+2026-07-24 21:33:03,669 - INFO - Dateien gespeichert: About_You_Produktseite.html, About_You_Produktseite.txt
+2026-07-24 21:33:03,669 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:33:03,670 - INFO - 
+========================================
+2026-07-24 21:33:03,670 - INFO - Verarbeite: H&M 
+2026-07-24 21:33:03,670 - INFO - ========================================
+2026-07-24 21:33:03,670 - INFO - Scrape: H&M - Homepage
+2026-07-24 21:33:03,801 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.hm.com: 403 Client Error: Forbidden for url: https://www.hm.com/
+2026-07-24 21:33:08,909 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.hm.com: 403 Client Error: Forbidden for url: https://www.hm.com/
+2026-07-24 21:33:14,027 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.hm.com: 403 Client Error: Forbidden for url: https://www.hm.com/
+2026-07-24 21:33:14,027 - ERROR - Alle Versuche fehlgeschlagen für https://www.hm.com
+2026-07-24 21:33:14,028 - INFO - Scrape: H&M - Ueber_uns
+2026-07-24 21:33:17,191 - INFO - Dateien gespeichert: H&M_Ueber_uns.html, H&M_Ueber_uns.txt
+2026-07-24 21:33:17,192 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:33:17,192 - INFO - Scrape: H&M - Produktseite
+2026-07-24 21:33:17,326 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.hm.com: 403 Client Error: Forbidden for url: https://www.hm.com/
+2026-07-24 21:33:22,452 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.hm.com: 403 Client Error: Forbidden for url: https://www.hm.com/
+2026-07-24 21:33:27,578 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.hm.com: 403 Client Error: Forbidden for url: https://www.hm.com/
+2026-07-24 21:33:27,579 - ERROR - Alle Versuche fehlgeschlagen für https://www.hm.com
+2026-07-24 21:33:27,581 - INFO - 
+========================================
+2026-07-24 21:33:27,581 - INFO - Verarbeite: Zara 
+2026-07-24 21:33:27,581 - INFO - ========================================
+2026-07-24 21:33:27,581 - INFO - Scrape: Zara - Homepage
+2026-07-24 21:33:30,591 - INFO - Scrape: Zara - Ueber_uns
+2026-07-24 21:33:33,466 - INFO - Scrape: Zara - Produktseite
+2026-07-24 21:33:36,071 - INFO - 
+========================================
+2026-07-24 21:33:36,072 - INFO - Verarbeite: Adidas 
+2026-07-24 21:33:36,072 - INFO - ========================================
+2026-07-24 21:33:36,072 - INFO - Scrape: Adidas - Homepage
+2026-07-24 21:33:36,337 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.adidas.de: 403 Client Error: Forbidden for url: https://www.adidas.de/
+2026-07-24 21:34:11,421 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.adidas.de: HTTPSConnectionPool(host='www.adidas.de', port=443): Read timed out. (read timeout=30)
+2026-07-24 21:34:16,855 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.adidas.de: 403 Client Error: Forbidden for url: https://www.adidas.de/
+2026-07-24 21:34:16,855 - ERROR - Alle Versuche fehlgeschlagen für https://www.adidas.de
+2026-07-24 21:34:16,856 - INFO - Scrape: Adidas - Ueber_uns
+2026-07-24 21:34:20,095 - INFO - Scrape: Adidas - Produktseite
+2026-07-24 21:34:20,787 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.adidas.de: 403 Client Error: Forbidden for url: https://www.adidas.de/
+2026-07-24 21:34:25,995 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.adidas.de: 403 Client Error: Forbidden for url: https://www.adidas.de/
+2026-07-24 21:34:31,229 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.adidas.de: 403 Client Error: Forbidden for url: https://www.adidas.de/
+2026-07-24 21:34:31,230 - ERROR - Alle Versuche fehlgeschlagen für https://www.adidas.de
+2026-07-24 21:34:31,234 - INFO - 
+========================================
+2026-07-24 21:34:31,234 - INFO - Verarbeite: Puma 
+2026-07-24 21:34:31,234 - INFO - ========================================
+2026-07-24 21:34:31,234 - INFO - Scrape: Puma - Homepage
+2026-07-24 21:34:34,453 - INFO - Dateien gespeichert: Puma_Homepage.html, Puma_Homepage.txt
+2026-07-24 21:34:34,454 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:34:34,454 - INFO - Scrape: Puma - Ueber_uns
+2026-07-24 21:34:36,913 - INFO - Dateien gespeichert: Puma_Ueber_uns.html, Puma_Ueber_uns.txt
+2026-07-24 21:34:36,913 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:34:36,913 - INFO - Scrape: Puma - Produktseite
+2026-07-24 21:34:39,495 - INFO - Dateien gespeichert: Puma_Produktseite.html, Puma_Produktseite.txt
+2026-07-24 21:34:39,495 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:34:39,496 - INFO - 
+========================================
+2026-07-24 21:34:39,496 - INFO - Verarbeite: Decathlon 
+2026-07-24 21:34:39,496 - INFO - ========================================
+2026-07-24 21:34:39,496 - INFO - Scrape: Decathlon - Homepage
+2026-07-24 21:34:39,610 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.decathlon.de: 403 Client Error: Forbidden for url: https://www.decathlon.de/
+2026-07-24 21:34:44,692 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.decathlon.de: 403 Client Error: Forbidden for url: https://www.decathlon.de/
+2026-07-24 21:34:49,797 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.decathlon.de: 403 Client Error: Forbidden for url: https://www.decathlon.de/
+2026-07-24 21:34:49,799 - ERROR - Alle Versuche fehlgeschlagen für https://www.decathlon.de
+2026-07-24 21:34:49,800 - INFO - Scrape: Decathlon - Ueber_uns
+2026-07-24 21:34:52,142 - INFO - Dateien gespeichert: Decathlon_Ueber_uns.html, Decathlon_Ueber_uns.txt
+2026-07-24 21:34:52,142 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:34:52,142 - INFO - Scrape: Decathlon - Produktseite
+2026-07-24 21:34:52,242 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.decathlon.de: 403 Client Error: Forbidden for url: https://www.decathlon.de/
+2026-07-24 21:34:57,338 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.decathlon.de: 403 Client Error: Forbidden for url: https://www.decathlon.de/
+2026-07-24 21:35:02,445 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.decathlon.de: 403 Client Error: Forbidden for url: https://www.decathlon.de/
+2026-07-24 21:35:02,445 - ERROR - Alle Versuche fehlgeschlagen für https://www.decathlon.de
+2026-07-24 21:35:02,448 - INFO - 
+========================================
+2026-07-24 21:35:02,448 - INFO - Verarbeite: Haribo 
+2026-07-24 21:35:02,449 - INFO - ========================================
+2026-07-24 21:35:02,449 - INFO - Scrape: Haribo - Homepage
+2026-07-24 21:35:04,659 - INFO - Dateien gespeichert: Haribo_Homepage.html, Haribo_Homepage.txt
+2026-07-24 21:35:04,660 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:35:04,660 - INFO - Scrape: Haribo - Ueber_uns
+2026-07-24 21:35:07,599 - INFO - Dateien gespeichert: Haribo_Ueber_uns.html, Haribo_Ueber_uns.txt
+2026-07-24 21:35:07,600 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:35:07,600 - INFO - Scrape: Haribo - Produktseite
+2026-07-24 21:35:10,257 - INFO - Dateien gespeichert: Haribo_Produktseite.html, Haribo_Produktseite.txt
+2026-07-24 21:35:10,257 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:35:10,258 - INFO - 
+========================================
+2026-07-24 21:35:10,258 - INFO - Verarbeite: Ferrero 
+2026-07-24 21:35:10,258 - INFO - ========================================
+2026-07-24 21:35:10,258 - INFO - Scrape: Ferrero - Homepage
+2026-07-24 21:35:12,892 - INFO - Dateien gespeichert: Ferrero_Homepage.html, Ferrero_Homepage.txt
+2026-07-24 21:35:12,892 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:35:12,892 - INFO - Scrape: Ferrero - Ueber_uns
+2026-07-24 21:35:15,114 - INFO - Dateien gespeichert: Ferrero_Ueber_uns.html, Ferrero_Ueber_uns.txt
+2026-07-24 21:35:15,114 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:35:15,114 - INFO - Scrape: Ferrero - Produktseite
+2026-07-24 21:35:18,097 - INFO - Dateien gespeichert: Ferrero_Produktseite.html, Ferrero_Produktseite.txt
+2026-07-24 21:35:18,097 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:35:18,098 - INFO - 
+========================================
+2026-07-24 21:35:18,099 - INFO - Verarbeite: Mars 
+2026-07-24 21:35:18,099 - INFO - ========================================
+2026-07-24 21:35:18,099 - INFO - Scrape: Mars - Homepage
+2026-07-24 21:35:20,557 - INFO - Dateien gespeichert: Mars_Homepage.html, Mars_Homepage.txt
+2026-07-24 21:35:20,558 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:35:20,558 - INFO - Scrape: Mars - Ueber_uns
+2026-07-24 21:35:23,802 - INFO - Dateien gespeichert: Mars_Ueber_uns.html, Mars_Ueber_uns.txt
+2026-07-24 21:35:23,802 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:35:23,802 - INFO - Scrape: Mars - Produktseite
+2026-07-24 21:35:26,689 - INFO - Dateien gespeichert: Mars_Produktseite.html, Mars_Produktseite.txt
+2026-07-24 21:35:26,689 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:35:26,690 - INFO - 
+========================================
+2026-07-24 21:35:26,690 - INFO - Verarbeite: Nestlé 
+2026-07-24 21:35:26,690 - INFO - ========================================
+2026-07-24 21:35:26,690 - INFO - Scrape: Nestlé - Homepage
+2026-07-24 21:35:26,844 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.nestle.de: 403 Client Error: Forbidden for url: https://www.nestle.de/
+2026-07-24 21:35:31,942 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.nestle.de: 403 Client Error: Forbidden for url: https://www.nestle.de/
+2026-07-24 21:35:37,066 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.nestle.de: 403 Client Error: Forbidden for url: https://www.nestle.de/
+2026-07-24 21:35:37,066 - ERROR - Alle Versuche fehlgeschlagen für https://www.nestle.de
+2026-07-24 21:35:37,067 - INFO - Scrape: Nestlé - Ueber_uns
+2026-07-24 21:35:37,169 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.nestle.de/unternehmen: 403 Client Error: Forbidden for url: https://www.nestle.de/unternehmen
+2026-07-24 21:35:42,272 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.nestle.de/unternehmen: 403 Client Error: Forbidden for url: https://www.nestle.de/unternehmen
+2026-07-24 21:35:47,399 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.nestle.de/unternehmen: 403 Client Error: Forbidden for url: https://www.nestle.de/unternehmen
+2026-07-24 21:35:47,399 - ERROR - Alle Versuche fehlgeschlagen für https://www.nestle.de/unternehmen
+2026-07-24 21:35:47,400 - INFO - Scrape: Nestlé - Produktseite
+2026-07-24 21:35:47,482 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.nestle.de/marken: 403 Client Error: Forbidden for url: https://www.nestle.de/marken
+2026-07-24 21:35:52,605 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.nestle.de/marken: 403 Client Error: Forbidden for url: https://www.nestle.de/marken
+2026-07-24 21:35:57,718 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.nestle.de/marken: 403 Client Error: Forbidden for url: https://www.nestle.de/marken
+2026-07-24 21:35:57,719 - ERROR - Alle Versuche fehlgeschlagen für https://www.nestle.de/marken
+2026-07-24 21:35:57,722 - INFO - 
+========================================
+2026-07-24 21:35:57,723 - INFO - Verarbeite: Dr. Oetker 
+2026-07-24 21:35:57,723 - INFO - ========================================
+2026-07-24 21:35:57,723 - INFO - Scrape: Dr. Oetker - Homepage
+2026-07-24 21:36:00,785 - INFO - Dateien gespeichert: Dr._Oetker_Homepage.html, Dr._Oetker_Homepage.txt
+2026-07-24 21:36:00,785 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:36:00,785 - INFO - Scrape: Dr. Oetker - Ueber_uns
+2026-07-24 21:36:03,296 - INFO - Dateien gespeichert: Dr._Oetker_Ueber_uns.html, Dr._Oetker_Ueber_uns.txt
+2026-07-24 21:36:03,296 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:36:03,296 - INFO - Scrape: Dr. Oetker - Produktseite
+2026-07-24 21:36:06,221 - INFO - Dateien gespeichert: Dr._Oetker_Produktseite.html, Dr._Oetker_Produktseite.txt
+2026-07-24 21:36:06,221 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:36:06,221 - INFO - 
+========================================
+2026-07-24 21:36:06,221 - INFO - Verarbeite: Bahlsen 
+2026-07-24 21:36:06,221 - INFO - ========================================
+2026-07-24 21:36:06,221 - INFO - Scrape: Bahlsen - Homepage
+2026-07-24 21:36:08,954 - INFO - Scrape: Bahlsen - Ueber_uns
+2026-07-24 21:36:12,101 - INFO - Scrape: Bahlsen - Produktseite
+2026-07-24 21:36:14,577 - INFO - 
+========================================
+2026-07-24 21:36:14,578 - INFO - Verarbeite: Coca-Cola 
+2026-07-24 21:36:14,578 - INFO - ========================================
+2026-07-24 21:36:14,578 - INFO - Scrape: Coca-Cola - Homepage
+2026-07-24 21:36:17,555 - INFO - Scrape: Coca-Cola - Ueber_uns
+2026-07-24 21:36:20,537 - INFO - Scrape: Coca-Cola - Produktseite
+2026-07-24 21:36:23,538 - INFO - 
+========================================
+2026-07-24 21:36:23,538 - INFO - Verarbeite: PepsiCo 
+2026-07-24 21:36:23,539 - INFO - ========================================
+2026-07-24 21:36:23,539 - INFO - Scrape: PepsiCo - Homepage
+2026-07-24 21:36:27,955 - INFO - Dateien gespeichert: PepsiCo_Homepage.html, PepsiCo_Homepage.txt
+2026-07-24 21:36:27,955 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:36:27,955 - INFO - Scrape: PepsiCo - Ueber_uns
+2026-07-24 21:36:37,613 - INFO - Dateien gespeichert: PepsiCo_Ueber_uns.html, PepsiCo_Ueber_uns.txt
+2026-07-24 21:36:37,613 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:36:37,614 - INFO - Scrape: PepsiCo - Produktseite
+2026-07-24 21:36:41,405 - INFO - Dateien gespeichert: PepsiCo_Produktseite.html, PepsiCo_Produktseite.txt
+2026-07-24 21:36:41,405 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:36:41,408 - INFO - 
+========================================
+2026-07-24 21:36:41,408 - INFO - Verarbeite: Red Bull 
+2026-07-24 21:36:41,408 - INFO - ========================================
+2026-07-24 21:36:41,408 - INFO - Scrape: Red Bull - Homepage
+2026-07-24 21:36:41,540 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.redbull.com: 403 Client Error: Forbidden for url: https://www.redbull.com/
+2026-07-24 21:36:46,633 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.redbull.com: 403 Client Error: Forbidden for url: https://www.redbull.com/
+2026-07-24 21:36:51,769 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.redbull.com: 403 Client Error: Forbidden for url: https://www.redbull.com/
+2026-07-24 21:36:51,769 - ERROR - Alle Versuche fehlgeschlagen für https://www.redbull.com
+2026-07-24 21:36:51,770 - INFO - Scrape: Red Bull - Ueber_uns
+2026-07-24 21:36:52,007 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.redbull.com/de-de/energydrink/red-bull-unternehmen: 403 Client Error: Forbidden for url: https://www.redbull.com/de-de/energydrink/red-bull-unternehmen
+2026-07-24 21:36:57,284 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.redbull.com/de-de/energydrink/red-bull-unternehmen: 403 Client Error: Forbidden for url: https://www.redbull.com/de-de/energydrink/red-bull-unternehmen
+2026-07-24 21:37:02,392 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.redbull.com/de-de/energydrink/red-bull-unternehmen: 403 Client Error: Forbidden for url: https://www.redbull.com/de-de/energydrink/red-bull-unternehmen
+2026-07-24 21:37:02,392 - ERROR - Alle Versuche fehlgeschlagen für https://www.redbull.com/de-de/energydrink/red-bull-unternehmen
+2026-07-24 21:37:02,393 - INFO - Scrape: Red Bull - Produktseite
+2026-07-24 21:37:02,476 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.redbull.com/de-de/energydrink: 403 Client Error: Forbidden for url: https://www.redbull.com/de-de/energydrink
+2026-07-24 21:37:07,606 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.redbull.com/de-de/energydrink: 403 Client Error: Forbidden for url: https://www.redbull.com/de-de/energydrink
+2026-07-24 21:37:12,717 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.redbull.com/de-de/energydrink: 403 Client Error: Forbidden for url: https://www.redbull.com/de-de/energydrink
+2026-07-24 21:37:12,718 - ERROR - Alle Versuche fehlgeschlagen für https://www.redbull.com/de-de/energydrink
+2026-07-24 21:37:12,721 - INFO - 
+========================================
+2026-07-24 21:37:12,721 - INFO - Verarbeite: Aldi 
+2026-07-24 21:37:12,721 - INFO - ========================================
+2026-07-24 21:37:12,721 - INFO - Scrape: Aldi - Homepage
+2026-07-24 21:37:16,065 - INFO - Dateien gespeichert: Aldi_Homepage.html, Aldi_Homepage.txt
+2026-07-24 21:37:16,065 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:37:16,065 - INFO - Scrape: Aldi - Ueber_uns
+2026-07-24 21:37:18,230 - INFO - Scrape: Aldi - Produktseite
+2026-07-24 21:37:21,184 - INFO - 
+========================================
+2026-07-24 21:37:21,184 - INFO - Verarbeite: Lidl 
+2026-07-24 21:37:21,184 - INFO - ========================================
+2026-07-24 21:37:21,185 - INFO - Scrape: Lidl - Homepage
+2026-07-24 21:37:24,270 - INFO - Dateien gespeichert: Lidl_Homepage.html, Lidl_Homepage.txt
+2026-07-24 21:37:24,270 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:37:24,270 - INFO - Scrape: Lidl - Ueber_uns
+2026-07-24 21:37:27,240 - INFO - Dateien gespeichert: Lidl_Ueber_uns.html, Lidl_Ueber_uns.txt
+2026-07-24 21:37:27,240 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:37:27,240 - INFO - Scrape: Lidl - Produktseite
+2026-07-24 21:37:29,450 - INFO - Dateien gespeichert: Lidl_Produktseite.html, Lidl_Produktseite.txt
+2026-07-24 21:37:29,451 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:37:29,451 - INFO - 
+========================================
+2026-07-24 21:37:29,451 - INFO - Verarbeite: Edeka 
+2026-07-24 21:37:29,451 - INFO - ========================================
+2026-07-24 21:37:29,451 - INFO - Scrape: Edeka - Homepage
+2026-07-24 21:37:29,587 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.edeka.de: 403 Client Error: Forbidden for url: https://www.edeka.de/
+2026-07-24 21:37:34,698 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.edeka.de: 403 Client Error: Forbidden for url: https://www.edeka.de/
+2026-07-24 21:37:39,805 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.edeka.de: 403 Client Error: Forbidden for url: https://www.edeka.de/
+2026-07-24 21:37:39,806 - ERROR - Alle Versuche fehlgeschlagen für https://www.edeka.de
+2026-07-24 21:37:39,807 - INFO - Scrape: Edeka - Ueber_uns
+2026-07-24 21:37:42,253 - INFO - Dateien gespeichert: Edeka_Ueber_uns.html, Edeka_Ueber_uns.txt
+2026-07-24 21:37:42,253 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:37:42,253 - INFO - Scrape: Edeka - Produktseite
+2026-07-24 21:37:45,047 - INFO - Dateien gespeichert: Edeka_Produktseite.html, Edeka_Produktseite.txt
+2026-07-24 21:37:45,048 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:37:45,050 - INFO - 
+========================================
+2026-07-24 21:37:45,050 - INFO - Verarbeite: REWE 
+2026-07-24 21:37:45,050 - INFO - ========================================
+2026-07-24 21:37:45,051 - INFO - Scrape: REWE - Homepage
+2026-07-24 21:37:48,461 - INFO - Dateien gespeichert: REWE_Homepage.html, REWE_Homepage.txt
+2026-07-24 21:37:48,462 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:37:48,462 - INFO - Scrape: REWE - Ueber_uns
+2026-07-24 21:37:48,591 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.rewe-group.com/de/unternehmen/: 403 Client Error: Forbidden for url: https://www.rewe-group.com/de/unternehmen/
+2026-07-24 21:37:53,693 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.rewe-group.com/de/unternehmen/: 403 Client Error: Forbidden for url: https://www.rewe-group.com/de/unternehmen/
+2026-07-24 21:37:58,798 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.rewe-group.com/de/unternehmen/: 403 Client Error: Forbidden for url: https://www.rewe-group.com/de/unternehmen/
+2026-07-24 21:37:58,799 - ERROR - Alle Versuche fehlgeschlagen für https://www.rewe-group.com/de/unternehmen/
+2026-07-24 21:37:58,800 - INFO - Scrape: REWE - Produktseite
+2026-07-24 21:38:01,791 - INFO - Dateien gespeichert: REWE_Produktseite.html, REWE_Produktseite.txt
+2026-07-24 21:38:01,791 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:38:01,792 - INFO - 
+========================================
+2026-07-24 21:38:01,792 - INFO - Verarbeite: Kaufland 
+2026-07-24 21:38:01,792 - INFO - ========================================
+2026-07-24 21:38:01,792 - INFO - Scrape: Kaufland - Homepage
+2026-07-24 21:38:01,923 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.kaufland.de: 403 Client Error: Forbidden for url: https://www.kaufland.de/
+2026-07-24 21:38:07,056 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.kaufland.de: 403 Client Error: Forbidden for url: https://www.kaufland.de/
+2026-07-24 21:38:12,195 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.kaufland.de: 403 Client Error: Forbidden for url: https://www.kaufland.de/
+2026-07-24 21:38:12,195 - ERROR - Alle Versuche fehlgeschlagen für https://www.kaufland.de
+2026-07-24 21:38:12,197 - INFO - Scrape: Kaufland - Ueber_uns
+2026-07-24 21:38:12,280 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.kaufland.de/i/ueber-uns/~4G9hTyqKhmZkcIMSJHekcK/: 403 Client Error: Forbidden for url: https://www.kaufland.de/i/ueber-uns/~4G9hTyqKhmZkcIMSJHekcK/
+2026-07-24 21:38:17,394 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.kaufland.de/i/ueber-uns/~4G9hTyqKhmZkcIMSJHekcK/: 403 Client Error: Forbidden for url: https://www.kaufland.de/i/ueber-uns/~4G9hTyqKhmZkcIMSJHekcK/
+2026-07-24 21:38:22,512 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.kaufland.de/i/ueber-uns/~4G9hTyqKhmZkcIMSJHekcK/: 403 Client Error: Forbidden for url: https://www.kaufland.de/i/ueber-uns/~4G9hTyqKhmZkcIMSJHekcK/
+2026-07-24 21:38:22,512 - ERROR - Alle Versuche fehlgeschlagen für https://www.kaufland.de/i/ueber-uns/~4G9hTyqKhmZkcIMSJHekcK/
+2026-07-24 21:38:22,513 - INFO - Scrape: Kaufland - Produktseite
+2026-07-24 21:38:22,605 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.kaufland.de: 403 Client Error: Forbidden for url: https://www.kaufland.de/
+2026-07-24 21:38:27,815 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.kaufland.de: 403 Client Error: Forbidden for url: https://www.kaufland.de/
+2026-07-24 21:38:33,020 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.kaufland.de: 403 Client Error: Forbidden for url: https://www.kaufland.de/
+2026-07-24 21:38:33,020 - ERROR - Alle Versuche fehlgeschlagen für https://www.kaufland.de
+2026-07-24 21:38:33,023 - INFO - 
+========================================
+2026-07-24 21:38:33,023 - INFO - Verarbeite: dm 
+2026-07-24 21:38:33,023 - INFO - ========================================
+2026-07-24 21:38:33,023 - INFO - Scrape: dm - Homepage
+2026-07-24 21:38:35,760 - INFO - Scrape: dm - Ueber_uns
+2026-07-24 21:38:38,219 - INFO - Scrape: dm - Produktseite
+2026-07-24 21:38:40,584 - INFO - 
+========================================
+2026-07-24 21:38:40,584 - INFO - Verarbeite: Rossmann 
+2026-07-24 21:38:40,585 - INFO - ========================================
+2026-07-24 21:38:40,585 - INFO - Scrape: Rossmann - Homepage
+2026-07-24 21:38:40,838 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.rossmann.de: 403 Client Error: Forbidden for url: https://www.rossmann.de/de/
+2026-07-24 21:38:45,978 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.rossmann.de: 403 Client Error: Forbidden for url: https://www.rossmann.de/de/
+2026-07-24 21:38:51,139 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.rossmann.de: 403 Client Error: Forbidden for url: https://www.rossmann.de/de/
+2026-07-24 21:38:51,139 - ERROR - Alle Versuche fehlgeschlagen für https://www.rossmann.de
+2026-07-24 21:38:51,140 - INFO - Scrape: Rossmann - Ueber_uns
+2026-07-24 21:38:54,105 - INFO - Dateien gespeichert: Rossmann_Ueber_uns.html, Rossmann_Ueber_uns.txt
+2026-07-24 21:38:54,105 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:38:54,105 - INFO - Scrape: Rossmann - Produktseite
+2026-07-24 21:38:54,297 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.rossmann.de: 403 Client Error: Forbidden for url: https://www.rossmann.de/de/
+2026-07-24 21:38:59,453 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.rossmann.de: 403 Client Error: Forbidden for url: https://www.rossmann.de/de/
+2026-07-24 21:39:04,591 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.rossmann.de: 403 Client Error: Forbidden for url: https://www.rossmann.de/de/
+2026-07-24 21:39:04,591 - ERROR - Alle Versuche fehlgeschlagen für https://www.rossmann.de
+2026-07-24 21:39:04,593 - INFO - 
+========================================
+2026-07-24 21:39:04,593 - INFO - Verarbeite: Douglas 
+2026-07-24 21:39:04,593 - INFO - ========================================
+2026-07-24 21:39:04,593 - INFO - Scrape: Douglas - Homepage
+2026-07-24 21:39:04,704 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.douglas.de: 400 Client Error: Bad Request for url: https://www.douglas.de/
+2026-07-24 21:39:09,774 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.douglas.de: 400 Client Error: Bad Request for url: https://www.douglas.de/
+2026-07-24 21:39:14,921 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.douglas.de: 400 Client Error: Bad Request for url: https://www.douglas.de/
+2026-07-24 21:39:14,922 - ERROR - Alle Versuche fehlgeschlagen für https://www.douglas.de
+2026-07-24 21:39:14,922 - INFO - Scrape: Douglas - Ueber_uns
+2026-07-24 21:39:17,956 - INFO - Dateien gespeichert: Douglas_Ueber_uns.html, Douglas_Ueber_uns.txt
+2026-07-24 21:39:17,956 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:39:17,956 - INFO - Scrape: Douglas - Produktseite
+2026-07-24 21:39:18,066 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.douglas.de/de: 400 Client Error: Bad Request for url: https://www.douglas.de/de
+2026-07-24 21:39:23,130 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.douglas.de/de: 400 Client Error: Bad Request for url: https://www.douglas.de/de
+2026-07-24 21:39:28,185 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.douglas.de/de: 400 Client Error: Bad Request for url: https://www.douglas.de/de
+2026-07-24 21:39:28,186 - ERROR - Alle Versuche fehlgeschlagen für https://www.douglas.de/de
+2026-07-24 21:39:28,187 - INFO - 
+========================================
+2026-07-24 21:39:28,187 - INFO - Verarbeite: Sephora 
+2026-07-24 21:39:28,187 - INFO - ========================================
+2026-07-24 21:39:28,187 - INFO - Scrape: Sephora - Homepage
+2026-07-24 21:39:28,556 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.sephora.com: 403 Client Error: Forbidden for url: https://www.sephora.de/
+2026-07-24 21:39:33,797 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.sephora.com: 403 Client Error: Forbidden for url: https://www.sephora.de/
+2026-07-24 21:39:39,042 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.sephora.com: 403 Client Error: Forbidden for url: https://www.sephora.de/
+2026-07-24 21:39:39,043 - ERROR - Alle Versuche fehlgeschlagen für https://www.sephora.com
+2026-07-24 21:39:39,044 - INFO - Scrape: Sephora - Ueber_uns
+2026-07-24 21:39:41,404 - INFO - Scrape: Sephora - Produktseite
+2026-07-24 21:39:41,561 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.sephora.com: 403 Client Error: Forbidden for url: https://www.sephora.de/
+2026-07-24 21:39:46,738 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.sephora.com: 403 Client Error: Forbidden for url: https://www.sephora.de/
+2026-07-24 21:39:51,890 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.sephora.com: 403 Client Error: Forbidden for url: https://www.sephora.de/
+2026-07-24 21:39:51,890 - ERROR - Alle Versuche fehlgeschlagen für https://www.sephora.com
+2026-07-24 21:39:51,892 - INFO - 
+========================================
+2026-07-24 21:39:51,892 - INFO - Verarbeite: Nivea 
+2026-07-24 21:39:51,892 - INFO - ========================================
+2026-07-24 21:39:51,892 - INFO - Scrape: Nivea - Homepage
+2026-07-24 21:39:54,887 - INFO - Dateien gespeichert: Nivea_Homepage.html, Nivea_Homepage.txt
+2026-07-24 21:39:54,888 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:39:54,888 - INFO - Scrape: Nivea - Ueber_uns
+2026-07-24 21:39:57,412 - INFO - Dateien gespeichert: Nivea_Ueber_uns.html, Nivea_Ueber_uns.txt
+2026-07-24 21:39:57,412 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:39:57,412 - INFO - Scrape: Nivea - Produktseite
+2026-07-24 21:39:59,587 - INFO - Dateien gespeichert: Nivea_Produktseite.html, Nivea_Produktseite.txt
+2026-07-24 21:39:59,587 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:39:59,588 - INFO - 
+========================================
+2026-07-24 21:39:59,588 - INFO - Verarbeite: HelloFresh 
+2026-07-24 21:39:59,588 - INFO - ========================================
+2026-07-24 21:39:59,588 - INFO - Scrape: HelloFresh - Homepage
+2026-07-24 21:40:02,789 - INFO - Dateien gespeichert: HelloFresh_Homepage.html, HelloFresh_Homepage.txt
+2026-07-24 21:40:02,789 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:40:02,790 - INFO - Scrape: HelloFresh - Ueber_uns
+2026-07-24 21:40:05,221 - INFO - Dateien gespeichert: HelloFresh_Ueber_uns.html, HelloFresh_Ueber_uns.txt
+2026-07-24 21:40:05,221 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:40:05,222 - INFO - Scrape: HelloFresh - Produktseite
+2026-07-24 21:40:08,285 - INFO - Dateien gespeichert: HelloFresh_Produktseite.html, HelloFresh_Produktseite.txt
+2026-07-24 21:40:08,285 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:40:08,285 - INFO - 
+========================================
+2026-07-24 21:40:08,286 - INFO - Verarbeite: FlixBus 
+2026-07-24 21:40:08,286 - INFO - ========================================
+2026-07-24 21:40:08,286 - INFO - Scrape: FlixBus - Homepage
+2026-07-24 21:40:11,062 - INFO - Dateien gespeichert: FlixBus_Homepage.html, FlixBus_Homepage.txt
+2026-07-24 21:40:11,062 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:40:11,062 - INFO - Scrape: FlixBus - Ueber_uns
+2026-07-24 21:40:13,329 - INFO - Dateien gespeichert: FlixBus_Ueber_uns.html, FlixBus_Ueber_uns.txt
+2026-07-24 21:40:13,329 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:40:13,329 - INFO - Scrape: FlixBus - Produktseite
+2026-07-24 21:40:15,593 - INFO - Dateien gespeichert: FlixBus_Produktseite.html, FlixBus_Produktseite.txt
+2026-07-24 21:40:15,594 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:40:15,594 - INFO - 
+========================================
+2026-07-24 21:40:15,594 - INFO - Verarbeite: Booking.com 
+2026-07-24 21:40:15,594 - INFO - ========================================
+2026-07-24 21:40:15,595 - INFO - Scrape: Booking.com - Homepage
+2026-07-24 21:40:17,895 - INFO - Dateien gespeichert: Booking.com_Homepage.html, Booking.com_Homepage.txt
+2026-07-24 21:40:17,895 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:40:17,895 - INFO - Scrape: Booking.com - Ueber_uns
+2026-07-24 21:40:20,891 - INFO - Dateien gespeichert: Booking.com_Ueber_uns.html, Booking.com_Ueber_uns.txt
+2026-07-24 21:40:20,891 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:40:20,892 - INFO - Scrape: Booking.com - Produktseite
+2026-07-24 21:40:23,492 - INFO - Dateien gespeichert: Booking.com_Produktseite.html, Booking.com_Produktseite.txt
+2026-07-24 21:40:23,493 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:40:23,493 - INFO - 
+========================================
+2026-07-24 21:40:23,493 - INFO - Verarbeite: Airbnb 
+2026-07-24 21:40:23,494 - INFO - ========================================
+2026-07-24 21:40:23,494 - INFO - Scrape: Airbnb - Homepage
+2026-07-24 21:40:26,494 - INFO - Dateien gespeichert: Airbnb_Homepage.html, Airbnb_Homepage.txt
+2026-07-24 21:40:26,494 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:40:26,494 - INFO - Scrape: Airbnb - Ueber_uns
+2026-07-24 21:40:29,309 - INFO - Dateien gespeichert: Airbnb_Ueber_uns.html, Airbnb_Ueber_uns.txt
+2026-07-24 21:40:29,309 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:40:29,309 - INFO - Scrape: Airbnb - Produktseite
+2026-07-24 21:40:31,991 - INFO - Dateien gespeichert: Airbnb_Produktseite.html, Airbnb_Produktseite.txt
+2026-07-24 21:40:31,992 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:40:31,993 - INFO - 
+========================================
+2026-07-24 21:40:31,993 - INFO - Verarbeite: TUI 
+2026-07-24 21:40:31,993 - INFO - ========================================
+2026-07-24 21:40:31,993 - INFO - Scrape: TUI - Homepage
+2026-07-24 21:40:34,654 - INFO - Dateien gespeichert: TUI_Homepage.html, TUI_Homepage.txt
+2026-07-24 21:40:34,654 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:40:34,654 - INFO - Scrape: TUI - Ueber_uns
+2026-07-24 21:40:37,271 - INFO - Dateien gespeichert: TUI_Ueber_uns.html, TUI_Ueber_uns.txt
+2026-07-24 21:40:37,271 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:40:37,271 - INFO - Scrape: TUI - Produktseite
+2026-07-24 21:40:39,561 - INFO - Dateien gespeichert: TUI_Produktseite.html, TUI_Produktseite.txt
+2026-07-24 21:40:39,561 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:40:39,562 - INFO - 
+========================================
+2026-07-24 21:40:39,562 - INFO - Verarbeite: Check24 
+2026-07-24 21:40:39,562 - INFO - ========================================
+2026-07-24 21:40:39,562 - INFO - Scrape: Check24 - Homepage
+2026-07-24 21:40:42,889 - INFO - Scrape: Check24 - Ueber_uns
+2026-07-24 21:40:45,192 - INFO - Dateien gespeichert: Check24_Ueber_uns.html, Check24_Ueber_uns.txt
+2026-07-24 21:40:45,193 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:40:45,193 - INFO - Scrape: Check24 - Produktseite
+2026-07-24 21:40:48,338 - INFO - 
+========================================
+2026-07-24 21:40:48,339 - INFO - Verarbeite: Verivox 
+2026-07-24 21:40:48,339 - INFO - ========================================
+2026-07-24 21:40:48,339 - INFO - Scrape: Verivox - Homepage
+2026-07-24 21:40:51,495 - INFO - Dateien gespeichert: Verivox_Homepage.html, Verivox_Homepage.txt
+2026-07-24 21:40:51,496 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:40:51,496 - INFO - Scrape: Verivox - Ueber_uns
+2026-07-24 21:40:54,101 - INFO - Dateien gespeichert: Verivox_Ueber_uns.html, Verivox_Ueber_uns.txt
+2026-07-24 21:40:54,101 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:40:54,101 - INFO - Scrape: Verivox - Produktseite
+2026-07-24 21:40:56,889 - INFO - Dateien gespeichert: Verivox_Produktseite.html, Verivox_Produktseite.txt
+2026-07-24 21:40:56,890 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:40:56,890 - INFO - 
+========================================
+2026-07-24 21:40:56,890 - INFO - Verarbeite: ING 
+2026-07-24 21:40:56,890 - INFO - ========================================
+2026-07-24 21:40:56,890 - INFO - Scrape: ING - Homepage
+2026-07-24 21:41:09,939 - INFO - Dateien gespeichert: ING_Homepage.html, ING_Homepage.txt
+2026-07-24 21:41:09,939 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:41:09,939 - INFO - Scrape: ING - Ueber_uns
+2026-07-24 21:41:20,552 - INFO - Dateien gespeichert: ING_Ueber_uns.html, ING_Ueber_uns.txt
+2026-07-24 21:41:20,552 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:41:20,552 - INFO - Scrape: ING - Produktseite
+2026-07-24 21:41:30,931 - INFO - Dateien gespeichert: ING_Produktseite.html, ING_Produktseite.txt
+2026-07-24 21:41:30,931 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:41:30,932 - INFO - 
+========================================
+2026-07-24 21:41:30,932 - INFO - Verarbeite: Deutsche Bank 
+2026-07-24 21:41:30,933 - INFO - ========================================
+2026-07-24 21:41:30,933 - INFO - Scrape: Deutsche Bank - Homepage
+2026-07-24 21:41:34,017 - INFO - Dateien gespeichert: Deutsche_Bank_Homepage.html, Deutsche_Bank_Homepage.txt
+2026-07-24 21:41:34,017 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:41:34,018 - INFO - Scrape: Deutsche Bank - Ueber_uns
+2026-07-24 21:41:37,106 - INFO - Dateien gespeichert: Deutsche_Bank_Ueber_uns.html, Deutsche_Bank_Ueber_uns.txt
+2026-07-24 21:41:37,106 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:41:37,106 - INFO - Scrape: Deutsche Bank - Produktseite
+2026-07-24 21:41:40,402 - INFO - Dateien gespeichert: Deutsche_Bank_Produktseite.html, Deutsche_Bank_Produktseite.txt
+2026-07-24 21:41:40,402 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:41:40,403 - INFO - 
+========================================
+2026-07-24 21:41:40,403 - INFO - Verarbeite: Commerzbank 
+2026-07-24 21:41:40,403 - INFO - ========================================
+2026-07-24 21:41:40,403 - INFO - Scrape: Commerzbank - Homepage
+2026-07-24 21:41:43,632 - INFO - Dateien gespeichert: Commerzbank_Homepage.html, Commerzbank_Homepage.txt
+2026-07-24 21:41:43,632 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:41:43,632 - INFO - Scrape: Commerzbank - Ueber_uns
+2026-07-24 21:41:46,295 - INFO - Dateien gespeichert: Commerzbank_Ueber_uns.html, Commerzbank_Ueber_uns.txt
+2026-07-24 21:41:46,295 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:41:46,295 - INFO - Scrape: Commerzbank - Produktseite
+2026-07-24 21:41:49,187 - INFO - Dateien gespeichert: Commerzbank_Produktseite.html, Commerzbank_Produktseite.txt
+2026-07-24 21:41:49,187 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:41:49,188 - INFO - 
+========================================
+2026-07-24 21:41:49,188 - INFO - Verarbeite: Sparkasse 
+2026-07-24 21:41:49,188 - INFO - ========================================
+2026-07-24 21:41:49,188 - INFO - Scrape: Sparkasse - Homepage
+2026-07-24 21:41:51,548 - INFO - Dateien gespeichert: Sparkasse_Homepage.html, Sparkasse_Homepage.txt
+2026-07-24 21:41:51,548 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:41:51,548 - INFO - Scrape: Sparkasse - Ueber_uns
+2026-07-24 21:41:54,491 - INFO - Dateien gespeichert: Sparkasse_Ueber_uns.html, Sparkasse_Ueber_uns.txt
+2026-07-24 21:41:54,491 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:41:54,491 - INFO - Scrape: Sparkasse - Produktseite
+2026-07-24 21:41:57,471 - INFO - Dateien gespeichert: Sparkasse_Produktseite.html, Sparkasse_Produktseite.txt
+2026-07-24 21:41:57,471 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:41:57,472 - INFO - 
+========================================
+2026-07-24 21:41:57,472 - INFO - Verarbeite: Allianz 
+2026-07-24 21:41:57,472 - INFO - ========================================
+2026-07-24 21:41:57,473 - INFO - Scrape: Allianz - Homepage
+2026-07-24 21:42:00,215 - INFO - Dateien gespeichert: Allianz_Homepage.html, Allianz_Homepage.txt
+2026-07-24 21:42:00,215 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:42:00,215 - INFO - Scrape: Allianz - Ueber_uns
+2026-07-24 21:42:02,479 - INFO - Dateien gespeichert: Allianz_Ueber_uns.html, Allianz_Ueber_uns.txt
+2026-07-24 21:42:02,479 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:42:02,479 - INFO - Scrape: Allianz - Produktseite
+2026-07-24 21:42:05,910 - INFO - Dateien gespeichert: Allianz_Produktseite.html, Allianz_Produktseite.txt
+2026-07-24 21:42:05,910 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:42:05,910 - INFO - 
+========================================
+2026-07-24 21:42:05,910 - INFO - Verarbeite: AXA 
+2026-07-24 21:42:05,910 - INFO - ========================================
+2026-07-24 21:42:05,910 - INFO - Scrape: AXA - Homepage
+2026-07-24 21:42:09,308 - INFO - Dateien gespeichert: AXA_Homepage.html, AXA_Homepage.txt
+2026-07-24 21:42:09,308 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:42:09,308 - INFO - Scrape: AXA - Ueber_uns
+2026-07-24 21:42:11,776 - INFO - Dateien gespeichert: AXA_Ueber_uns.html, AXA_Ueber_uns.txt
+2026-07-24 21:42:11,776 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:42:11,776 - INFO - Scrape: AXA - Produktseite
+2026-07-24 21:42:14,603 - INFO - Dateien gespeichert: AXA_Produktseite.html, AXA_Produktseite.txt
+2026-07-24 21:42:14,604 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:42:14,604 - INFO - 
+========================================
+2026-07-24 21:42:14,605 - INFO - Verarbeite: Deloitte 
+2026-07-24 21:42:14,605 - INFO - ========================================
+2026-07-24 21:42:14,605 - INFO - Scrape: Deloitte - Homepage
+2026-07-24 21:42:17,306 - INFO - Dateien gespeichert: Deloitte_Homepage.html, Deloitte_Homepage.txt
+2026-07-24 21:42:17,306 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:42:17,307 - INFO - Scrape: Deloitte - Ueber_uns
+2026-07-24 21:42:19,950 - INFO - Dateien gespeichert: Deloitte_Ueber_uns.html, Deloitte_Ueber_uns.txt
+2026-07-24 21:42:19,950 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:42:19,950 - INFO - Scrape: Deloitte - Produktseite
+2026-07-24 21:42:22,900 - INFO - Dateien gespeichert: Deloitte_Produktseite.html, Deloitte_Produktseite.txt
+2026-07-24 21:42:22,901 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:42:22,901 - INFO - 
+========================================
+2026-07-24 21:42:22,901 - INFO - Verarbeite: EY 
+2026-07-24 21:42:22,902 - INFO - ========================================
+2026-07-24 21:42:22,902 - INFO - Scrape: EY - Homepage
+2026-07-24 21:42:25,667 - INFO - Dateien gespeichert: EY_Homepage.html, EY_Homepage.txt
+2026-07-24 21:42:25,668 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:42:25,668 - INFO - Scrape: EY - Ueber_uns
+2026-07-24 21:42:30,580 - INFO - Dateien gespeichert: EY_Ueber_uns.html, EY_Ueber_uns.txt
+2026-07-24 21:42:30,580 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:42:30,580 - INFO - Scrape: EY - Produktseite
+2026-07-24 21:42:36,660 - INFO - Dateien gespeichert: EY_Produktseite.html, EY_Produktseite.txt
+2026-07-24 21:42:36,660 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:42:36,662 - INFO - 
+========================================
+2026-07-24 21:42:36,662 - INFO - Verarbeite: KPMG 
+2026-07-24 21:42:36,662 - INFO - ========================================
+2026-07-24 21:42:36,662 - INFO - Scrape: KPMG - Homepage
+2026-07-24 21:42:39,502 - INFO - Dateien gespeichert: KPMG_Homepage.html, KPMG_Homepage.txt
+2026-07-24 21:42:39,502 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:42:39,502 - INFO - Scrape: KPMG - Ueber_uns
+2026-07-24 21:42:43,561 - INFO - Dateien gespeichert: KPMG_Ueber_uns.html, KPMG_Ueber_uns.txt
+2026-07-24 21:42:43,561 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:42:43,561 - INFO - Scrape: KPMG - Produktseite
+2026-07-24 21:42:47,039 - INFO - Dateien gespeichert: KPMG_Produktseite.html, KPMG_Produktseite.txt
+2026-07-24 21:42:47,039 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:42:47,040 - INFO - 
+========================================
+2026-07-24 21:42:47,040 - INFO - Verarbeite: Accenture 
+2026-07-24 21:42:47,040 - INFO - ========================================
+2026-07-24 21:42:47,040 - INFO - Scrape: Accenture - Homepage
+2026-07-24 21:42:49,707 - INFO - Dateien gespeichert: Accenture_Homepage.html, Accenture_Homepage.txt
+2026-07-24 21:42:49,707 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:42:49,708 - INFO - Scrape: Accenture - Ueber_uns
+2026-07-24 21:42:52,491 - INFO - Dateien gespeichert: Accenture_Ueber_uns.html, Accenture_Ueber_uns.txt
+2026-07-24 21:42:52,491 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:42:52,492 - INFO - Scrape: Accenture - Produktseite
+2026-07-24 21:42:54,766 - INFO - Dateien gespeichert: Accenture_Produktseite.html, Accenture_Produktseite.txt
+2026-07-24 21:42:54,767 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:42:54,768 - INFO - 
+========================================
+2026-07-24 21:42:54,768 - INFO - Verarbeite: Capgemini 
+2026-07-24 21:42:54,768 - INFO - ========================================
+2026-07-24 21:42:54,768 - INFO - Scrape: Capgemini - Homepage
+2026-07-24 21:42:57,170 - INFO - Dateien gespeichert: Capgemini_Homepage.html, Capgemini_Homepage.txt
+2026-07-24 21:42:57,170 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:42:57,171 - INFO - Scrape: Capgemini - Ueber_uns
+2026-07-24 21:43:00,594 - INFO - Dateien gespeichert: Capgemini_Ueber_uns.html, Capgemini_Ueber_uns.txt
+2026-07-24 21:43:00,594 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:43:00,594 - INFO - Scrape: Capgemini - Produktseite
+2026-07-24 21:43:03,611 - INFO - Dateien gespeichert: Capgemini_Produktseite.html, Capgemini_Produktseite.txt
+2026-07-24 21:43:03,611 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:43:03,612 - INFO - 
+========================================
+2026-07-24 21:43:03,612 - INFO - Verarbeite: BearingPoint 
+2026-07-24 21:43:03,612 - INFO - ========================================
+2026-07-24 21:43:03,612 - INFO - Scrape: BearingPoint - Homepage
+2026-07-24 21:43:06,895 - INFO - Dateien gespeichert: BearingPoint_Homepage.html, BearingPoint_Homepage.txt
+2026-07-24 21:43:06,895 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:43:06,895 - INFO - Scrape: BearingPoint - Ueber_uns
+2026-07-24 21:43:10,541 - INFO - Dateien gespeichert: BearingPoint_Ueber_uns.html, BearingPoint_Ueber_uns.txt
+2026-07-24 21:43:10,542 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:43:10,542 - INFO - Scrape: BearingPoint - Produktseite
+2026-07-24 21:43:13,113 - INFO - Dateien gespeichert: BearingPoint_Produktseite.html, BearingPoint_Produktseite.txt
+2026-07-24 21:43:13,113 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:43:13,114 - INFO - 
+========================================
+2026-07-24 21:43:13,114 - INFO - Verarbeite: Roland Berger 
+2026-07-24 21:43:13,114 - INFO - ========================================
+2026-07-24 21:43:13,114 - INFO - Scrape: Roland Berger - Homepage
+2026-07-24 21:43:16,182 - INFO - Dateien gespeichert: Roland_Berger_Homepage.html, Roland_Berger_Homepage.txt
+2026-07-24 21:43:16,182 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:43:16,182 - INFO - Scrape: Roland Berger - Ueber_uns
+2026-07-24 21:43:19,179 - INFO - Dateien gespeichert: Roland_Berger_Ueber_uns.html, Roland_Berger_Ueber_uns.txt
+2026-07-24 21:43:19,179 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:43:19,180 - INFO - Scrape: Roland Berger - Produktseite
+2026-07-24 21:43:21,736 - INFO - Dateien gespeichert: Roland_Berger_Produktseite.html, Roland_Berger_Produktseite.txt
+2026-07-24 21:43:21,737 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:43:21,737 - INFO - 
+========================================
+2026-07-24 21:43:21,737 - INFO - Verarbeite: Continental 
+2026-07-24 21:43:21,737 - INFO - ========================================
+2026-07-24 21:43:21,737 - INFO - Scrape: Continental - Homepage
+2026-07-24 21:43:24,896 - INFO - Dateien gespeichert: Continental_Homepage.html, Continental_Homepage.txt
+2026-07-24 21:43:24,896 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:43:24,896 - INFO - Scrape: Continental - Ueber_uns
+2026-07-24 21:43:27,695 - INFO - Dateien gespeichert: Continental_Ueber_uns.html, Continental_Ueber_uns.txt
+2026-07-24 21:43:27,695 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:43:27,695 - INFO - Scrape: Continental - Produktseite
+2026-07-24 21:43:30,103 - INFO - Dateien gespeichert: Continental_Produktseite.html, Continental_Produktseite.txt
+2026-07-24 21:43:30,104 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:43:30,104 - INFO - 
+========================================
+2026-07-24 21:43:30,105 - INFO - Verarbeite: Schaeffler 
+2026-07-24 21:43:30,105 - INFO - ========================================
+2026-07-24 21:43:30,105 - INFO - Scrape: Schaeffler - Homepage
+2026-07-24 21:43:30,313 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.schaeffler.com/de/: 403 Client Error: Forbidden for url: https://www.schaeffler.com/de/
+2026-07-24 21:43:35,417 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.schaeffler.com/de/: 403 Client Error: Forbidden for url: https://www.schaeffler.com/de/
+2026-07-24 21:43:40,575 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.schaeffler.com/de/: 403 Client Error: Forbidden for url: https://www.schaeffler.com/de/
+2026-07-24 21:43:40,575 - ERROR - Alle Versuche fehlgeschlagen für https://www.schaeffler.com/de/
+2026-07-24 21:43:40,577 - INFO - Scrape: Schaeffler - Ueber_uns
+2026-07-24 21:43:40,666 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.schaeffler.com/de/konzern/: 403 Client Error: Forbidden for url: https://www.schaeffler.com/de/konzern/
+2026-07-24 21:43:45,769 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.schaeffler.com/de/konzern/: 403 Client Error: Forbidden for url: https://www.schaeffler.com/de/konzern/
+2026-07-24 21:43:50,904 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.schaeffler.com/de/konzern/: 403 Client Error: Forbidden for url: https://www.schaeffler.com/de/konzern/
+2026-07-24 21:43:50,905 - ERROR - Alle Versuche fehlgeschlagen für https://www.schaeffler.com/de/konzern/
+2026-07-24 21:43:50,905 - INFO - Scrape: Schaeffler - Produktseite
+2026-07-24 21:43:51,002 - WARNING - Versuch 1/3 fehlgeschlagen für https://www.schaeffler.com/de/sparten-produkte/: 403 Client Error: Forbidden for url: https://www.schaeffler.com/de/sparten-produkte/
+2026-07-24 21:43:56,119 - WARNING - Versuch 2/3 fehlgeschlagen für https://www.schaeffler.com/de/sparten-produkte/: 403 Client Error: Forbidden for url: https://www.schaeffler.com/de/sparten-produkte/
+2026-07-24 21:44:01,252 - WARNING - Versuch 3/3 fehlgeschlagen für https://www.schaeffler.com/de/sparten-produkte/: 403 Client Error: Forbidden for url: https://www.schaeffler.com/de/sparten-produkte/
+2026-07-24 21:44:01,253 - ERROR - Alle Versuche fehlgeschlagen für https://www.schaeffler.com/de/sparten-produkte/
+2026-07-24 21:44:01,268 - INFO - 
+========================================
+2026-07-24 21:44:01,268 - INFO - Verarbeite: ZF Friedrichshafen 
+2026-07-24 21:44:01,268 - INFO - ========================================
+2026-07-24 21:44:01,269 - INFO - Scrape: ZF Friedrichshafen - Homepage
+2026-07-24 21:44:03,905 - INFO - Dateien gespeichert: ZF_Friedrichshafen_Homepage.html, ZF_Friedrichshafen_Homepage.txt
+2026-07-24 21:44:03,905 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:44:03,905 - INFO - Scrape: ZF Friedrichshafen - Ueber_uns
+2026-07-24 21:44:06,547 - INFO - Dateien gespeichert: ZF_Friedrichshafen_Ueber_uns.html, ZF_Friedrichshafen_Ueber_uns.txt
+2026-07-24 21:44:06,548 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:44:06,548 - INFO - Scrape: ZF Friedrichshafen - Produktseite
+2026-07-24 21:44:09,025 - INFO - Dateien gespeichert: ZF_Friedrichshafen_Produktseite.html, ZF_Friedrichshafen_Produktseite.txt
+2026-07-24 21:44:09,025 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:44:09,026 - INFO - 
+========================================
+2026-07-24 21:44:09,026 - INFO - Verarbeite: Leoni 
+2026-07-24 21:44:09,026 - INFO - ========================================
+2026-07-24 21:44:09,026 - INFO - Scrape: Leoni - Homepage
+2026-07-24 21:44:11,413 - INFO - Dateien gespeichert: Leoni_Homepage.html, Leoni_Homepage.txt
+2026-07-24 21:44:11,413 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:44:11,413 - INFO - Scrape: Leoni - Ueber_uns
+2026-07-24 21:44:13,596 - INFO - Dateien gespeichert: Leoni_Ueber_uns.html, Leoni_Ueber_uns.txt
+2026-07-24 21:44:13,596 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:44:13,596 - INFO - Scrape: Leoni - Produktseite
+2026-07-24 21:44:16,095 - INFO - Dateien gespeichert: Leoni_Produktseite.html, Leoni_Produktseite.txt
+2026-07-24 21:44:16,095 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:44:16,095 - INFO - 
+========================================
+2026-07-24 21:44:16,095 - INFO - Verarbeite: Knorr-Bremse 
+2026-07-24 21:44:16,095 - INFO - ========================================
+2026-07-24 21:44:16,095 - INFO - Scrape: Knorr-Bremse - Homepage
+2026-07-24 21:44:19,223 - INFO - Dateien gespeichert: Knorr-Bremse_Homepage.html, Knorr-Bremse_Homepage.txt
+2026-07-24 21:44:19,224 - INFO - ✓ Erfolg: Homepage gespeichert
+2026-07-24 21:44:19,224 - INFO - Scrape: Knorr-Bremse - Ueber_uns
+2026-07-24 21:44:22,134 - INFO - Dateien gespeichert: Knorr-Bremse_Ueber_uns.html, Knorr-Bremse_Ueber_uns.txt
+2026-07-24 21:44:22,135 - INFO - ✓ Erfolg: Ueber_uns gespeichert
+2026-07-24 21:44:22,135 - INFO - Scrape: Knorr-Bremse - Produktseite
+2026-07-24 21:44:25,068 - INFO - Dateien gespeichert: Knorr-Bremse_Produktseite.html, Knorr-Bremse_Produktseite.txt
+2026-07-24 21:44:25,069 - INFO - ✓ Erfolg: Produktseite gespeichert
+2026-07-24 21:44:25,071 - INFO - 
+============================================================
+2026-07-24 21:44:25,071 - INFO - SCRAPING ZUSAMMENFASSUNG
+2026-07-24 21:44:25,071 - INFO - ============================================================
+2026-07-24 21:44:25,071 - INFO - Gesamtseiten: 390
+2026-07-24 21:44:25,071 - INFO - Erfolgreich: 273
+2026-07-24 21:44:25,071 - INFO - Fehlgeschlagen: 117
+2026-07-24 21:44:25,071 - INFO - 
+Fehlgeschlagene Seiten:
+2026-07-24 21:44:25,071 - INFO -   - SAP: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,071 - INFO -   - Festo: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,071 - INFO -   - Festo: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,071 - INFO -   - Festo: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,072 - INFO -   - Phoenix Contact: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,072 - INFO -   - SICK: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,072 - INFO -   - SICK: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,072 - INFO -   - SICK: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,072 - INFO -   - SEW-Eurodrive: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,072 - INFO -   - SEW-Eurodrive: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,072 - INFO -   - SEW-Eurodrive: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,072 - INFO -   - Balluff: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,072 - INFO -   - Balluff: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,072 - INFO -   - Balluff: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,072 - INFO -   - ifm electronic: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,072 - INFO -   - ifm electronic: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,072 - INFO -   - ifm electronic: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,072 - INFO -   - Intel: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,072 - INFO -   - Intel: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,072 - INFO -   - Intel: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,072 - INFO -   - ServiceNow: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,072 - INFO -   - ServiceNow: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,072 - INFO -   - ServiceNow: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,072 - INFO -   - Adobe: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,072 - INFO -   - Adobe: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,072 - INFO -   - Adobe: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,072 - INFO -   - Cisco: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,072 - INFO -   - Cisco: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,072 - INFO -   - Cisco: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,073 - INFO -   - Siemens Healthineers: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,073 - INFO -   - Bayer: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,073 - INFO -   - Bayer: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,073 - INFO -   - Bayer: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,073 - INFO -   - Wacker Chemie: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,073 - INFO -   - Wacker Chemie: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,073 - INFO -   - Wacker Chemie: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,073 - INFO -   - Boehringer Ingelheim: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,073 - INFO -   - Boehringer Ingelheim: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,073 - INFO -   - Boehringer Ingelheim: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,073 - INFO -   - AbbVie: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,073 - INFO -   - AbbVie: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,073 - INFO -   - AbbVie: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,073 - INFO -   - 3M: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,073 - INFO -   - 3M: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,073 - INFO -   - 3M: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,073 - INFO -   - Linde: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,073 - INFO -   - Linde: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,073 - INFO -   - Linde: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,073 - INFO -   - BMW: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,073 - INFO -   - BMW: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,073 - INFO -   - BMW: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,073 - INFO -   - Porsche: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,074 - INFO -   - Tesla: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,074 - INFO -   - Tesla: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,074 - INFO -   - Tesla: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,074 - INFO -   - Volvo Cars: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,074 - INFO -   - Volvo Cars: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,074 - INFO -   - Volvo Cars: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,074 - INFO -   - MAN: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,074 - INFO -   - MAN: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,074 - INFO -   - MAN: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,074 - INFO -   - DHL: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,074 - INFO -   - DHL: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,074 - INFO -   - DHL: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,074 - INFO -   - Lufthansa: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,074 - INFO -   - Lufthansa: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,074 - INFO -   - Lufthansa: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,074 - INFO -   - XXXLutz: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,074 - INFO -   - XXXLutz: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,074 - INFO -   - XXXLutz: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,074 - INFO -   - Otto: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,074 - INFO -   - Zalando: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,074 - INFO -   - Zalando: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,074 - INFO -   - H&M: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,074 - INFO -   - H&M: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,074 - INFO -   - Zara: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,074 - INFO -   - Zara: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,075 - INFO -   - Zara: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,075 - INFO -   - Adidas: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,075 - INFO -   - Adidas: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,075 - INFO -   - Adidas: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,075 - INFO -   - Decathlon: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,075 - INFO -   - Decathlon: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,075 - INFO -   - Nestlé: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,075 - INFO -   - Nestlé: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,075 - INFO -   - Nestlé: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,075 - INFO -   - Bahlsen: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,075 - INFO -   - Bahlsen: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,075 - INFO -   - Bahlsen: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,075 - INFO -   - Coca-Cola: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,075 - INFO -   - Coca-Cola: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,075 - INFO -   - Coca-Cola: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,075 - INFO -   - Red Bull: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,075 - INFO -   - Red Bull: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,075 - INFO -   - Red Bull: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,075 - INFO -   - Aldi: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,075 - INFO -   - Aldi: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,075 - INFO -   - Edeka: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,075 - INFO -   - REWE: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,075 - INFO -   - Kaufland: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,075 - INFO -   - Kaufland: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,076 - INFO -   - Kaufland: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,076 - INFO -   - dm: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,076 - INFO -   - dm: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,076 - INFO -   - dm: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,076 - INFO -   - Rossmann: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,076 - INFO -   - Rossmann: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,076 - INFO -   - Douglas: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,076 - INFO -   - Douglas: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,076 - INFO -   - Sephora: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,076 - INFO -   - Sephora: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,076 - INFO -   - Sephora: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,076 - INFO -   - Check24: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,076 - INFO -   - Check24: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,076 - INFO -   - Schaeffler: Homepage (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,076 - INFO -   - Schaeffler: Ueber_uns (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,076 - INFO -   - Schaeffler: Produktseite (Scraping fehlgeschlagen)
+2026-07-24 21:44:25,077 - INFO - 
+Daten gespeichert in:
+2026-07-24 21:44:25,077 - INFO -   - Roh-HTML: /Users/nana-aicha/Desktop/Spezialisierungsmodul /klassifizierung_projekt/daten/raw_html
+2026-07-24 21:44:25,077 - INFO -   - Saubere Texte: /Users/nana-aicha/Desktop/Spezialisierungsmodul /klassifizierung_projekt/daten/cleaned_text
+2026-07-24 21:44:25,077 - INFO -   - Logs: /Users/nana-aicha/Desktop/Spezialisierungsmodul /klassifizierung_projekt/daten/logs
+2026-07-24 21:44:25,078 - INFO - 
+Scraping abgeschlossen!

@@ -1,0 +1,1032 @@
+ <!DOCTYPE html> <html lang="de-DE"> <head> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> <meta charset="utf-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no"> <meta name="apple-mobile-web-app-capable" content="yes" /> <meta name="mobile-web-app-capable" content="yes"> <link rel="stylesheet" href="/Assets/styles/inline.min.css?rev=9" /> <noscript id="deferred-styles"><link rel="stylesheet" href="/Assets/styles/styles.min.css?rev=9"></noscript> <title>
+	Home
+</title>  <!-- Open Graph Meta --> <meta property="og:title" content="Home" />    <meta property="og:image" content="http://www.northerneurope.pepsico.com/assets/images/logos/pepsico-og-image.png" /> <meta property="og:description" /> <!-- /Open Graph Meta --> <!-- twitter card --> <meta name="twitter:card" content="summary_large_image" /> <meta name=twitter:title content="Home" /> <meta name="twitter:image" content="http://www.northerneurope.pepsico.com/assets/images/logos/pepsico-og-image.png" /> <meta name="twitter:description" /> <!-- twitter card --> <script src="https://player.vimeo.com/api/player.js"></script> <script src="https://players.brightcove.net/6415862108001/default_default/index.min.js"></script> <script src="/assets/scripts/fontfaceobserver.min.js"></script> <!-- Render Blocking Scripts --> <script type="text/javascript">
+        // Optimise font loading
+        var html = document.documentElement;
+        if (sessionStorage.fontsLoaded === true) {
+            html.classList.add('wf-active');
+            alert('here');
+        } else {
+            html.classList.add('wf-inactive');
+            // Fontfaceobserver
+            var OpenSansLight = new FontFaceObserver('Open Sans', { weight: 300 });
+            var OpenSansReg = new FontFaceObserver('Open Sans', { weight: 400 });
+            var MontserratReg = new FontFaceObserver('Montserrat', { weight: 400 });
+
+
+            var GraphikReg = new FontFaceObserver('Graphik LC Web', { weight: 400 });
+            Promise.all([GraphikReg.load(), OpenSansLight.load(), OpenSansReg.load(), MontserratReg.load()]).then(function () {
+                html.classList.remove('wf-inactive');
+                html.classList.add('wf-active');
+                sessionStorage.fontsLoaded = true;
+            }).catch(function (error) {
+                html.classList.remove('wf-inactive');
+                html.classList.add('wf-timeout');
+                sessionStorage.fontsLoaded = false;
+            });
+        };
+
+        //Google Tag Manager dataLayer
+        dataLayer = [];
+
+    </script> <!-- Favicons --> <link href='/assets/images/icons/favicons/favicon-512.png' rel='icon' type='image/png' sizes='512x512' /> <!--  <link href='/assets/images/icons/favicons/favicon-228.png' rel='icon' type='image/png' sizes='228x228' />
+     <link href='/assets/images/icons/favicons/favicon-196.png' rel='icon' type='image/png' sizes='196x196' />
+     <link href='/assets/images/icons/favicons/favicon-195.png' rel='icon' type='image/png' sizes='195x195' />
+     <link href='/assets/images/icons/favicons/favicon-194.png' rel='icon' type='image/png' sizes='194x194' /> --> <link href='/assets/images/icons/favicons/favicon-192.png' rel='icon' type='image/png' sizes='192x192' /> <link href='/assets/images/icons/favicons/favicon-180.png' rel='apple-touch-icon' sizes='180x180' /> <!--  <link href='/assets/images/icons/favicons/favicon-167.png' rel='apple-touch-icon' sizes='167x167' />
+     <link href='/assets/images/icons/favicons/favicon-152.png' rel='apple-touch-icon' sizes='152x152' />
+     <link href='/assets/images/icons/favicons/favicon-144.png' rel='icon' sizes='144x144' />
+     <link href='/assets/images/icons/favicons/favicon-128.png' rel='icon' sizes='128x128' />
+     <link href='/assets/images/icons/favicons/favicon-120.png' rel='apple-touch-icon' sizes='120x120' /> --> <link href='/assets/images/icons/favicons/favicon-96.png' rel='apple-touch-icon' sizes='96x96' /> <!--    <link href='/assets/images/icons/favicons/favicon-76.png' rel='apple-touch-icon' sizes='76x76' />
+       <link href='/assets/images/icons/favicons/favicon-72.png' rel='apple-touch-icon' sizes='72x72' />
+       <link href='/assets/images/icons/favicons/favicon-60.png' rel='apple-touch-icon' sizes='60x60' />
+        <link href='/assets/images/icons/favicons/favicon-57.png' rel='apple-touch-icon' sizes='57x57' /> --> <link href='/assets/images/icons/favicons/favicon-32.png' rel='icon' sizes='32x32' type='image/png' /> <link href='/assets/images/icons/favicons/favicon-16.png' rel='icon' sizes='16x16' type='image/png' /> <!-- <link href='/assets/images/icons/favicons/favicon-16.png' rel='icon' sizes='16x16' type='image/png' /> --> <!-- /Favicons --> <script src="/Assets/scripts/jquery.min.js"></script> <!-- Conditional <picture> element polyfill --> <script>function loadPicturefill(src) { var js = document.createElement('script'); js.src = src; js.onload = function () { console.log('Picture Element not supported. "Picturefill" polyfill implemented.') }; js.onerror = function () { throw new Error('Failed to load script ' + src) }; document.head.appendChild(js) }; if (!window.HTMLPictureElement) { loadPicturefill('/assets/scripts/picturefill.min.js') };</script> <!-- /Conditional <picture> element polyfill --> <!-- Conditional IntersectionObserver polyfill --> <script>function loadIntersectionObserverPolyfill(src) { var js = document.createElement('script'); js.src = src; js.onload = function () { console.log('IntersectionObserver not supported. Polyfill implemented.') }; js.onerror = function () { throw new Error('Failed to load script ' + src) }; document.head.appendChild(js) }; var hasIntersectionObserver = !!window.IntersectionObserver; if (!hasIntersectionObserver) { loadIntersectionObserverPolyfill('/assets/scripts/intersection-observer.min.js') };</script> <!-- /Conditional IntersectionObserver polyfill --> <!-- Google Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7L4NVZD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <!-- End Google Tag Manager (noscript) --> <meta property="og:url" content="https://northerneurope.pepsico.com/de-de" /><meta property="og:type" content="website" /><meta property="og:site_name" content="Northern Europe" /><style type="text/css" media="all">/* When header turns white — recolor paths */
+.wrapper.cf.white_header .head_logo svg path:nth-of-type(1),
+.wrapper.cf.white_header .head_logo svg path:nth-of-type(2),
+.wrapper.cf.white_header .head_logo svg path:nth-of-type(3),
+.wrapper.cf.white_header .head_logo svg path:nth-of-type(4),
+.wrapper.cf.white_header .head_logo svg path:nth-of-type(5) {
+  fill: #02355A !important; /* Dark blue for 'PEPSICO' text */
+}
+
+.wrapper.cf.white_header .head_logo svg path:nth-of-type(6) { fill: #5E910D !important; } /* Dark green arc */
+.wrapper.cf.white_header .head_logo svg path:nth-of-type(7) { fill: #EB9F0A !important; } /* Small orange spot */
+.wrapper.cf.white_header .head_logo svg path:nth-of-type(8) { fill: #71A8E3 !important; } /* Blue swirl */
+.wrapper.cf.white_header .head_logo svg path:nth-of-type(9) { fill: #8EBC29 !important; } /* Light green arc */
+.wrapper.cf.white_header .head_logo svg path:nth-of-type(10) { fill: #EB9F0A !important; } /* Orange circle */
+.wrapper.cf.white_header .head_logo svg path:nth-of-type(11) { fill: #EB9F0A !important; } /* Orange large shape */
+
+
+p.my-auto-thar.search-resl-item-cat-md.search-resl-item-cat-sm {
+    font-family: 'Gilroy', sans-serif !important;
+}
+a.my-auto-thar.search-resl-item-title-md.search-resl-item-title-sm {
+    font-family: 'Gilroy', sans-serif !important;
+}
+p.my-auto-thar.search-resl-item-para.d-block-thar-mssr.d-sm-none-thar-mssr.pr-30-thar {
+    font-family: 'Gilroy', sans-serif !important;
+}
+
+.d-flex-thar.flex-column-thar * {
+  font-family: "Gilroy", sans-serif !important;
+}
+</style><script type="text/javascript">
+$(document).ready(function(){
+$('footer.footer .footer__auxilliaries a[aria-label="Datenschutz"]').attr('target','_blank');
+});
+</script><script type="text/javascript">
+$(document).ready(function(){
+  $('.footer__auxilliaries').find("a[aria-label*='Modern Slavery Statement']" ).attr("target","_blank");
+})
+</script><style type="text/css" media="all">.trustarc-banner {z-index: 100001;}
+#teconsent > a {
+ color: #ffffff;
+}
+
+@media screen and (min-width: 280px) and (max-width: 767px){
+  #teconsent{
+    margin-left: 0px !important;
+  }
+  
+
+</style><style type="text/css" media="all">@media screen and (min-width: 992px){
+.header__lang .header__lang--content {
+  background-color: darkgray;
+}
+}
+
+@media screen and (max-width: 1023px){
+#TransDiv.white_header .head_right_nav .mobi_dropdown .header__lang:hover .header__lang--content{
+  background-color: #FFF;
+}
+}</style><meta name="Generator" content="Sitefinity 14.4.8134.0 DX" /><link rel="canonical" href="https://northerneurope.pepsico.com/de-de" /></head> <body> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W7L4NVZD');</script> <!-- End Google Tag Manager --> <header> </header> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W7L4NVZD');</script> <!-- End Google Tag Manager --> <main role="main">  
+<div class="row" data-sf-element="Row">
+    <div id="Contentplaceholder1_T0F69A969027_Col00" class="sf_colsIn col-lg-12" data-sf-element="Column 1" data-placeholder-label="Column 1">
+
+    <div class="tranparent">
+
+            <img class="hero-large--lg" src="https://www.northerneurope.pepsico.com/images/northeuropelibraries/homepage/pepsico-homepage-header-v2.jpg" />
+
+
+        <div class="ban_trans_text">
+            <h2>
+                
+                Mehr <a class="Leadershipyellowbar">Freude</a> schaffen mit jedem Schluck und jedem Bissen
+                
+            </h2>
+        </div>
+        <div id="TransDiv" class="wrapper cf transparent_header transparent_nav_header">
+            <div class="head_logo">
+                <a href="/de-de/home" class="navheader_logo" aria-label="PepsiCo Home Logo">
+                    <svg tabindex="0" class="headsvg" xmlns="http://www.w3.org/2000/svg" fill="none" height="80" viewBox="0 0 270 80" width="263">
+                        <g clip-path="url(#clip0_11004_3888)">
+                            <path d="M92.4308 32.3933C92.2608 30.6433 90.8008 29.2733 89.0008 29.2733H82.3408V58.1534C82.3408 60.0534 83.8808 61.5934 85.7808 61.5934H92.4508V50.4333C93.8808 52.5534 96.1508 53.9634 99.3708 53.9634C105.441 53.9634 109.501 48.7734 109.501 40.5534C109.501 32.3334 104.001 28.6933 99.2808 28.6933C96.1308 28.6933 93.8908 30.0133 92.4208 32.3933H92.4308ZM95.8208 47.3633C93.4708 47.3633 92.2308 44.5833 92.2308 41.1633C92.2308 37.7433 93.4708 34.9633 95.8208 34.9633C98.1708 34.9633 99.4108 37.7433 99.4108 41.1633C99.4108 44.5833 98.1708 47.3633 95.8208 47.3633Z" fill="white" />
+                            <path d="M157.471 28.6933C154.321 28.6933 152.081 30.0133 150.611 32.3933C150.441 30.6433 148.981 29.2733 147.181 29.2733H140.511V36.6833C140.511 43.2133 132.531 47.3334 127.291 47.3334C124.031 47.3334 122.371 46.2334 121.401 44.3633C127.461 45.5933 136.901 43.7434 136.901 36.8334C136.901 31.5833 131.951 28.6833 124.841 28.6833C116.481 28.6833 111.221 33.9634 111.241 41.1934C111.261 48.8134 116.931 53.9334 126.211 53.9334C131.071 53.9334 136.901 51.8134 140.511 47.4133V58.1434C140.511 60.0434 142.051 61.5834 143.951 61.5834H150.621V50.4034C152.051 52.5234 154.321 53.9334 157.541 53.9334C163.611 53.9334 167.671 48.7434 167.671 40.5233C167.671 32.3033 162.181 28.6833 157.461 28.6833L157.471 28.6933ZM126.001 34.8733C127.701 34.8733 129.391 35.3834 129.391 36.8734C129.391 39.3034 125.131 40.0934 120.981 39.5834C120.831 36.8633 122.921 34.8733 126.011 34.8733H126.001ZM154.001 47.3734C151.651 47.3734 150.411 44.5934 150.411 41.1734C150.411 37.7534 151.651 34.9733 154.001 34.9733C156.351 34.9733 157.591 37.7534 157.591 41.1734C157.591 44.5934 156.351 47.3734 154.001 47.3734Z" fill="white" />
+                            <path d="M201.531 29.2833H194.861V49.8433C194.861 51.7434 196.401 53.2834 198.301 53.2834H204.971V32.7233C204.971 30.8233 203.431 29.2833 201.531 29.2833Z" fill="white" />
+                            <path d="M248.511 28.7033C241.871 28.7033 236.601 32.5233 235.051 37.9533C232.491 43.8734 227.971 47.2034 223.091 47.2034C219.461 47.2034 217.121 44.9034 217.121 40.8633C217.121 37.9933 218.171 34.8733 221.261 34.8733C222.961 34.8733 224.871 36.1033 224.521 39.1833C228.721 40.0833 231.521 38.8633 231.521 35.6133C231.521 31.1433 226.151 28.7033 220.651 28.7033C212.291 28.7033 207.031 33.9834 207.051 41.2134C207.071 48.8334 212.741 53.9534 222.021 53.9534C226.651 53.9534 232.411 51.2034 235.741 46.5134C237.841 50.9634 242.641 53.9534 248.511 53.9534C256.461 53.9534 262.441 48.4833 262.441 41.3233C262.441 34.1633 256.471 28.6933 248.511 28.6933V28.7033ZM248.511 47.5434C246.161 47.5434 244.921 44.7633 244.921 41.3433C244.921 37.9233 246.161 35.1433 248.511 35.1433C250.861 35.1433 252.101 37.9233 252.101 41.3433C252.101 44.7633 250.861 47.5434 248.511 47.5434Z" fill="white" />
+                            <path d="M192.351 45.8734C192.351 37.2434 179.261 38.9333 179.261 36.3233C179.261 34.5533 184.531 34.1834 189.461 37.7634C191.021 36.7534 191.571 34.9734 191.511 33.7433C191.361 30.6433 187.651 28.6933 180.911 28.6933C173.681 28.6933 169.271 32.3433 169.271 36.3633C169.271 45.1634 182.351 43.4533 182.351 46.5933C182.351 48.3633 176.071 49.1034 170.981 45.0834L168.041 50.6534C170.751 52.5734 174.701 53.9334 179.801 53.9334C187.211 53.9334 192.351 50.8334 192.351 45.8633V45.8734Z" fill="white" />
+                            <path clip-rule="evenodd" d="M62.3898 63.1501C62.9998 62.0801 61.7198 61.0401 60.6798 61.6901C51.4098 67.5201 39.9598 69.9101 28.3898 67.5001C17.7098 65.2801 8.74983 59.3401 2.57983 51.3301C1.82983 50.3501 0.259831 50.8901 0.459831 52.1101C3.14983 68.3501 17.4998 80.5001 34.4098 79.9801C46.4598 79.6101 56.8198 72.9001 62.3898 63.1501Z" fill="white" fill-rule="evenodd" />
+                            <path clip-rule="evenodd" d="M11.0305 24.6001C10.9005 24.8701 10.5705 24.9901 10.2905 24.8701C5.69047 22.8501 2.48047 18.2601 2.48047 12.9201C2.48047 10.8901 2.94047 8.97012 3.77047 7.26012C3.90047 6.99012 4.23047 6.87012 4.51047 6.99012C9.11047 9.01012 12.3205 13.6001 12.3205 18.9401C12.3205 20.9701 11.8605 22.8901 11.0305 24.6001Z" fill="white" fill-rule="evenodd" />
+                            <path d="M56.8703 39.4599C57.3003 33.5499 56.2803 27.0299 51.4203 23.0799C49.1203 21.4799 47.5703 18.7799 47.7703 15.9299C48.2103 9.77987 54.5803 6.63987 59.7103 9.61987C60.8803 10.2899 61.8603 11.2799 62.7103 12.3699C69.2703 20.8199 65.4203 33.8299 57.3503 39.7299C57.1403 39.8799 56.8503 39.7299 56.8703 39.4699V39.4599Z" fill="white" />
+                            <path d="M38.7502 54.68C37.1102 54.11 35.7402 53.21 34.6102 52.05C34.4902 51.92 34.4302 51.86 34.4002 51.84C34.2202 51.72 34.0002 51.81 33.9502 52.02C33.9502 52.05 33.9502 52.13 33.9502 52.28V64.03C34.7702 64.09 35.6002 64.11 36.4402 64.11C44.4102 64.11 51.7802 61.55 57.7702 57.21C61.6802 54.38 64.9202 50.59 67.1202 46.11C67.2502 45.85 67.1602 45.53 66.9202 45.37C64.3902 43.71 61.3602 42.74 58.1102 42.74C57.5202 42.74 56.9402 42.77 56.3702 42.83C54.6802 50.64 49.7102 55.33 42.9502 55.33C41.4002 55.33 40.0102 55.11 38.7702 54.68H38.7502Z" fill="white" />
+                            <path d="M37.9998 46.0799C34.7398 46.0799 33.0098 42.1799 33.0098 37.3799C33.0098 32.5799 34.7298 28.6799 37.9998 28.6799C41.2698 28.6799 42.9898 32.5799 42.9898 37.3799C42.9898 42.1799 41.2698 46.0799 37.9998 46.0799Z" fill="white" />
+                            <path d="M33.75 24.4001C35.78 21.5101 38.76 19.9201 42.81 19.9201C43.38 19.9201 43.97 19.9601 44.55 20.0401C44.61 17.1801 44.39 14.3701 43.9 11.6601C43.61 10.0601 43.24 8.4901 42.77 6.9601C42.08 4.6601 41.19 2.4401 40.13 0.320103C40 0.0701027 39.71 -0.0598973 39.44 0.0201027C25.67 3.9801 15.2 15.9401 13.54 30.6601C10.58 28.5201 7.13 26.9501 3.33 26.1401C2.44 25.9501 1.56 25.8101 0.67 25.7101C0.32 25.6701 0.02 25.9501 0.02 26.2901C0 26.7601 0 27.2201 0 27.6801C0 41.6001 7.81 53.7001 19.29 59.8301V21.0201C19.29 20.8501 19.42 20.7201 19.59 20.7201H28.93C31.25 20.7201 33.19 22.3101 33.75 24.4001Z" fill="white" />
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <nav id="main-nav" class="blue_nav">
+                <ul class="second-nav">
+                            <li class="whoweare active">
+                                    <a href="#" tabindex="0">Über uns </a> <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g id="1-Atoms/icons/caret/down" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g id="Group" transform="translate(7.000000, 9.000000)" fill="#ffffff" fill-rule="nonzero">
+                                                <g id="Path">
+                                                    <polygon transform="translate(4.765172, 3.000000) rotate(-90.000000) translate(-4.765172, -3.000000) " points="1.7651715 3 6.53034301 7.7651715 7.7651715 6.53034301 4.2348285 3 7.7651715 -0.530343008 6.53034301 -1.7651715"></polygon>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                    <div class="ul_outer">
+                                        <div class="Headerclassclose">
+                                            <div class="SecondnavClose">
+                                                <span>
+                                                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                        <title>1-Atoms/icons/close@3x</title>
+                                                        <g id="1-Atoms/icons/close" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                            <path d="M19.0470219,4 L20,4.95297806 L12.952,12 L20,19.0470219 L19.0470219,20 L12,12.952 L4.95297806,20 L4,19.0470219 L11.048,12 L4,4.95297806 L4.95297806,4 L12,11.048 L19.0470219,4 Z" id="Combined-Shape" fill="#000000"></path>
+                                                        </g>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <ul class="heading"><li><h1>&Uuml;ber uns</h1></li></ul><ul><li><h2>&Uuml;ber uns</h2></li><li><a href="/de-de/who-we-are/about-pepsico-in-northern-europe" sfref="" data-sf-ec-immutable="">PepsiCo in Nordeuropa</a></li><li><a href="/de-de/who-we-are/mission-and-vision" sfref="" data-sf-ec-immutable="">Mission &amp; Vision</a></li><!--<li><a href="/de-de/who-we-are/our-leadership" sfref="" data-sf-ec-immutable="">Gesch&auml;ftsleitung</a></li>-->
+</ul><ul><li><h2>Unsere Verpflichtung</h2></li><li><a href="/de-de/who-we-are/our-commitments/global-code-of-conduct" sfref="" data-sf-ec-immutable="">Globaler Verhaltenskodex</a></li><li><a href="/de-de/our-impact/sustainability/pepsico-positive" data-sf-ec-immutable="">PepsiCo Positive</a></li></ul><ul><li><h2>Mehr erfahren</h2></li><li><a href="/de-de/careers" sfref="" data-sf-ec-immutable="">Karriere</a></li></ul>
+                                    </div>
+
+                            </li>
+                            <li class="ourimpacts active">
+                                    <a href="#" tabindex="0">Unser Beitrag </a> <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g id="1-Atoms/icons/caret/down" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g id="Group" transform="translate(7.000000, 9.000000)" fill="#ffffff" fill-rule="nonzero">
+                                                <g id="Path">
+                                                    <polygon transform="translate(4.765172, 3.000000) rotate(-90.000000) translate(-4.765172, -3.000000) " points="1.7651715 3 6.53034301 7.7651715 7.7651715 6.53034301 4.2348285 3 7.7651715 -0.530343008 6.53034301 -1.7651715"></polygon>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                    <div class="ul_outer">
+                                        <div class="Headerclassclose">
+                                            <div class="SecondnavClose">
+                                                <span>
+                                                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                        <title>1-Atoms/icons/close@3x</title>
+                                                        <g id="1-Atoms/icons/close" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                            <path d="M19.0470219,4 L20,4.95297806 L12.952,12 L20,19.0470219 L19.0470219,20 L12,12.952 L4.95297806,20 L4,19.0470219 L11.048,12 L4,4.95297806 L4.95297806,4 L12,11.048 L19.0470219,4 Z" id="Combined-Shape" fill="#000000"></path>
+                                                        </g>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <ul class="heading"><li><h1>Unser Beitrag</h1></li></ul><ul><li><h2>Nachhaltigkeit</h2></li><li><a href="/de-de/our-impact/sustainability/pepsico-positive" sfref="" data-sf-ec-immutable="">PepsiCo Positive</a></li></ul><ul><li><h2>Soziales Engagement</h2></li><li><a href="/de-de/our-impact/community/pepsico-foundation" sfref="" data-sf-ec-immutable="">PepsiCo Foundation</a></li></ul>
+                                    </div>
+
+                            </li>
+                            <li class="no-arw">
+                                    <a href="/de-de/our-brands" tabindex="0">Unsere Marken</a>
+
+                            </li>
+                            <li class="no-arw">
+                                    <a href="/de-de/our-stories" tabindex="0">Unsere Stories</a>
+
+                            </li>
+                            <li class="devices">
+                                    <a href="#" tabindex="0">Ressourcen </a> <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g id="1-Atoms/icons/caret/down" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g id="Group" transform="translate(7.000000, 9.000000)" fill="#ffffff" fill-rule="nonzero">
+                                                <g id="Path">
+                                                    <polygon transform="translate(4.765172, 3.000000) rotate(-90.000000) translate(-4.765172, -3.000000) " points="1.7651715 3 6.53034301 7.7651715 7.7651715 6.53034301 4.2348285 3 7.7651715 -0.530343008 6.53034301 -1.7651715"></polygon>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                    <div class="ul_outer">
+                                        <div class="Headerclassclose">
+                                            <div class="SecondnavClose">
+                                                <span>
+                                                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                        <title>1-Atoms/icons/close@3x</title>
+                                                        <g id="1-Atoms/icons/close" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                            <path d="M19.0470219,4 L20,4.95297806 L12.952,12 L20,19.0470219 L19.0470219,20 L12,12.952 L4.95297806,20 L4,19.0470219 L11.048,12 L4,4.95297806 L4.95297806,4 L12,11.048 L19.0470219,4 Z" id="Combined-Shape" fill="#000000"></path>
+                                                        </g>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <ul class="heading"><li><h1>Ressourcen</h1></li></ul><ul class="right_border"><li><a href="#" data-sf-ec-immutable="">Kontakt <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1"><title>Kontakt</title>
+ <g id="1-Atoms/icons/caret/right" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Group" transform="translate(7.000000, 9.000000)" fill="#727579" fill-rule="nonzero"><g id="1-Atoms/icons/carrot-down/black" transform="translate(5.000000, 3.000000) scale(1, -1) rotate(-90.000000) translate(-5.000000, -3.000000) "><polygon id="Path" transform="translate(4.765172, 3.000000) rotate(-90.000000) translate(-4.765172, -3.000000) " points="1.7651715 3 6.53034301 7.7651715 7.7651715 6.53034301 4.2348285 3 7.7651715 -0.530343008 6.53034301 -1.7651715"></polygon></g>
+ </g>
+ </g>
+ </svg>
+ </a>
+ <ul><li><a href="/de-de/contact" sfref="" data-sf-ec-immutable="">Kontakt</a></li></ul></li><li><a href="#" data-sf-ec-immutable="">Karriere <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1"><title>Karriere</title>
+ <g id="1-Atoms/icons/caret/right" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Group" transform="translate(7.000000, 9.000000)" fill="#727579" fill-rule="nonzero"><g id="1-Atoms/icons/carrot-down/black" transform="translate(5.000000, 3.000000) scale(1, -1) rotate(-90.000000) translate(-5.000000, -3.000000) "><polygon id="Path" transform="translate(4.765172, 3.000000) rotate(-90.000000) translate(-4.765172, -3.000000) " points="1.7651715 3 6.53034301 7.7651715 7.7651715 6.53034301 4.2348285 3 7.7651715 -0.530343008 6.53034301 -1.7651715"></polygon></g>
+ </g>
+ </g>
+ </svg>
+ </a>
+ <ul><li><a href="/de-de/careers" sfref="" data-sf-ec-immutable="">Karriere</a></li><li><a href="https://www.linkedin.com/company/pepsico" data-sf-ec-immutable="" target="_blank">PepsiCo LinkedIn<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12px" height="13px" viewBox="0 0 12 13" version="1.1" style="margin-left:10px;"><title>PepsiCo LinkedIn</title>
+ <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="1.-Atoms" transform="translate(-687.000000, -1740.000000)" fill="#727579" fill-rule="nonzero"><g id="Group" transform="translate(681.000000, 1734.000000)"><g id="Asset-15-Copy-2" transform="translate(12.322357, 12.383765) rotate(-180.000000) translate(-12.322357, -12.383765) translate(2.752379, 2.813788)"><polygon id="Path" transform="translate(9.569977, 9.569977) rotate(-45.000000) translate(-9.569977, -9.569977) " points="5.4400943 8.55878276 8.5288338 5.46085058 7.10396885 4.03598564 1.56997724 9.56997724 7.10396885 15.1039688 8.5288338 13.6699112 5.4400943 10.5811717 17.5699772 10.5811717 17.5699772 8.55878276" fill="#000000"></polygon></g>
+ </g>
+ </g>
+ </g>
+ </svg></a>
+ </li><li><a href="https://www.instagram.com/pepsicojobs/" data-sf-ec-immutable="" target="_blank">PepsiCo Careers Instagram<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12px" height="13px" viewBox="0 0 12 13" version="1.1" style="margin-left:10px;"><title>PepsiCo Careers Instagram</title>
+ <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="1.-Atoms" transform="translate(-687.000000, -1740.000000)" fill="#727579" fill-rule="nonzero"><g id="Group" transform="translate(681.000000, 1734.000000)"><g id="Asset-15-Copy-2" transform="translate(12.322357, 12.383765) rotate(-180.000000) translate(-12.322357, -12.383765) translate(2.752379, 2.813788)"><polygon id="Path" transform="translate(9.569977, 9.569977) rotate(-45.000000) translate(-9.569977, -9.569977) " points="5.4400943 8.55878276 8.5288338 5.46085058 7.10396885 4.03598564 1.56997724 9.56997724 7.10396885 15.1039688 8.5288338 13.6699112 5.4400943 10.5811717 17.5699772 10.5811717 17.5699772 8.55878276" fill="#000000"></polygon></g>
+ </g>
+ </g>
+ </g>
+ </svg></a>
+ </li></ul></li><li><a href="#" data-sf-ec-immutable="">Pressebereich <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1"><title>Pressebereich</title>
+ <g id="1-Atoms/icons/caret/right" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Group" transform="translate(7.000000, 9.000000)" fill="#727579" fill-rule="nonzero"><g id="1-Atoms/icons/carrot-down/black" transform="translate(5.000000, 3.000000) scale(1, -1) rotate(-90.000000) translate(-5.000000, -3.000000) "><polygon id="Path" transform="translate(4.765172, 3.000000) rotate(-90.000000) translate(-4.765172, -3.000000) " points="1.7651715 3 6.53034301 7.7651715 7.7651715 6.53034301 4.2348285 3 7.7651715 -0.530343008 6.53034301 -1.7651715"></polygon></g>
+ </g>
+ </g>
+ </svg>
+ </a>
+ <ul><li><a href="/de-de/our-stories" data-sf-ec-immutable="" data-sf-marked="">Unsere Stories</a></li><li><a href="/de-de/our-stories/press-releases" data-sf-ec-immutable="" data-sf-marked="">Pressemitteilungen</a></li><li><a href="https://www.northerneurope.pepsico.com/de-de/contact" sfref="" data-sf-ec-immutable="">Medienkontakt</a></li></ul></li><li><a href="#" data-sf-ec-immutable="">Kunden- &amp; Verbraucher:innen <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1"><title>Kunden- &amp; Verbraucher:innen</title>
+ <g id="1-Atoms/icons/caret/right" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Group" transform="translate(7.000000, 9.000000)" fill="#727579" fill-rule="nonzero"><g id="1-Atoms/icons/carrot-down/black" transform="translate(5.000000, 3.000000) scale(1, -1) rotate(-90.000000) translate(-5.000000, -3.000000) "><polygon id="Path" transform="translate(4.765172, 3.000000) rotate(-90.000000) translate(-4.765172, -3.000000) " points="1.7651715 3 6.53034301 7.7651715 7.7651715 6.53034301 4.2348285 3 7.7651715 -0.530343008 6.53034301 -1.7651715"></polygon></g>
+ </g>
+ </g>
+ </svg>
+ </a>
+ <ul><li><a href="/de-de/contact" sfref="" data-sf-ec-immutable="">Kundenservice</a></li></ul></li><li><a href="#" data-sf-ec-immutable="">N&auml;hrwertangaben <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1"><title>N&auml;hrwertangaben</title>
+ <g id="1-Atoms/icons/caret/right" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Group" transform="translate(7.000000, 9.000000)" fill="#727579" fill-rule="nonzero"><g id="1-Atoms/icons/carrot-down/black" transform="translate(5.000000, 3.000000) scale(1, -1) rotate(-90.000000) translate(-5.000000, -3.000000) "><polygon id="Path" transform="translate(4.765172, 3.000000) rotate(-90.000000) translate(-4.765172, -3.000000) " points="1.7651715 3 6.53034301 7.7651715 7.7651715 6.53034301 4.2348285 3 7.7651715 -0.530343008 6.53034301 -1.7651715"></polygon></g>
+ </g>
+ </g>
+ </svg>
+ </a>
+ <ul><li style="width:130%;"><a href="https://www.pepsicoproductchecker.nl/" data-sf-ec-immutable="" target="_blank">PepsiCo Product Checker Netherlands <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12px" height="13px" viewBox="0 0 12 13" version="1.1" style="margin-left:10px;"><title>PepsiCo Product Checker Netherlands</title>
+ <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="1.-Atoms" transform="translate(-687.000000, -1740.000000)" fill="#727579" fill-rule="nonzero"><g id="Group" transform="translate(681.000000, 1734.000000)"><g id="Asset-15-Copy-2" transform="translate(12.322357, 12.383765) rotate(-180.000000) translate(-12.322357, -12.383765) translate(2.752379, 2.813788)"><polygon id="Path" transform="translate(9.569977, 9.569977) rotate(-45.000000) translate(-9.569977, -9.569977) " points="5.4400943 8.55878276 8.5288338 5.46085058 7.10396885 4.03598564 1.56997724 9.56997724 7.10396885 15.1039688 8.5288338 13.6699112 5.4400943 10.5811717 17.5699772 10.5811717 17.5699772 8.55878276" fill="#000000"></polygon></g>
+ </g>
+ </g>
+ </g>
+ </svg></a>
+ </li><li style="width:130%;"><a href="https://www.pepsicoproductchecker.be/" data-sf-ec-immutable="" target="_blank">PepsiCo Product Checker Belgium <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12px" height="13px" viewBox="0 0 12 13" version="1.1" style="margin-left:10px;"><title>PepsiCo Product Checker Belgium</title>
+ <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="1.-Atoms" transform="translate(-687.000000, -1740.000000)" fill="#727579" fill-rule="nonzero"><g id="Group" transform="translate(681.000000, 1734.000000)"><g id="Asset-15-Copy-2" transform="translate(12.322357, 12.383765) rotate(-180.000000) translate(-12.322357, -12.383765) translate(2.752379, 2.813788)"><polygon id="Path" transform="translate(9.569977, 9.569977) rotate(-45.000000) translate(-9.569977, -9.569977) " points="5.4400943 8.55878276 8.5288338 5.46085058 7.10396885 4.03598564 1.56997724 9.56997724 7.10396885 15.1039688 8.5288338 13.6699112 5.4400943 10.5811717 17.5699772 10.5811717 17.5699772 8.55878276" fill="#000000"></polygon></g>
+ </g>
+ </g>
+ </g>
+ </svg></a>
+ </li></ul></li><li><a href="#" data-sf-ec-immutable="">Social Media <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1"><title>Social Media</title>
+ <g id="1-Atoms/icons/caret/right" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Group" transform="translate(7.000000, 9.000000)" fill="#727579" fill-rule="nonzero"><g id="1-Atoms/icons/carrot-down/black" transform="translate(5.000000, 3.000000) scale(1, -1) rotate(-90.000000) translate(-5.000000, -3.000000) "><polygon id="Path" transform="translate(4.765172, 3.000000) rotate(-90.000000) translate(-4.765172, -3.000000) " points="1.7651715 3 6.53034301 7.7651715 7.7651715 6.53034301 4.2348285 3 7.7651715 -0.530343008 6.53034301 -1.7651715"></polygon></g>
+ </g>
+ </g>
+ </svg>
+ </a>
+ <ul><li style="width:130%;"><a href="https://www.instagram.com/pepsi.de/?hl=de" data-sf-ec-immutable="" target="_blank">Pepsi Instagram <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12px" height="13px" viewBox="0 0 12 13" version="1.1" style="margin-left:10px;"><title>PepsiCo Netherlands YouTube</title>
+ <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="1.-Atoms" transform="translate(-687.000000, -1740.000000)" fill="#727579" fill-rule="nonzero"><g id="Group" transform="translate(681.000000, 1734.000000)"><g id="Asset-15-Copy-2" transform="translate(12.322357, 12.383765) rotate(-180.000000) translate(-12.322357, -12.383765) translate(2.752379, 2.813788)"><polygon id="Path" transform="translate(9.569977, 9.569977) rotate(-45.000000) translate(-9.569977, -9.569977) " points="5.4400943 8.55878276 8.5288338 5.46085058 7.10396885 4.03598564 1.56997724 9.56997724 7.10396885 15.1039688 8.5288338 13.6699112 5.4400943 10.5811717 17.5699772 10.5811717 17.5699772 8.55878276" fill="#000000"></polygon></g>
+ </g>
+ </g>
+ </g>
+ </svg></a>
+ </li><li style="width:130%;"><a href="https://www.facebook.com/pepsi.de" data-sf-ec-immutable="" target="_blank">Pepsi Facebook <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12px" height="13px" viewBox="0 0 12 13" version="1.1" style="margin-left:10px;"><title>Facebook Pepsi Germany</title>
+ <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="1.-Atoms" transform="translate(-687.000000, -1740.000000)" fill="#727579" fill-rule="nonzero"><g id="Group" transform="translate(681.000000, 1734.000000)"><g id="Asset-15-Copy-2" transform="translate(12.322357, 12.383765) rotate(-180.000000) translate(-12.322357, -12.383765) translate(2.752379, 2.813788)"><polygon id="Path" transform="translate(9.569977, 9.569977) rotate(-45.000000) translate(-9.569977, -9.569977) " points="5.4400943 8.55878276 8.5288338 5.46085058 7.10396885 4.03598564 1.56997724 9.56997724 7.10396885 15.1039688 8.5288338 13.6699112 5.4400943 10.5811717 17.5699772 10.5811717 17.5699772 8.55878276" fill="#000000"></polygon></g>
+ </g>
+ </g>
+ </g>
+ </svg></a>
+ </li><li style="width:130%;"><a href="https://www.instagram.com/rockstargermany/?hl=de" data-sf-ec-immutable="" target="_blank">Rockstar Energy Instagram <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12px" height="13px" viewBox="0 0 12 13" version="1.1" style="margin-left:10px;"><title>Instagram Pepsi Germany</title>
+ <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="1.-Atoms" transform="translate(-687.000000, -1740.000000)" fill="#727579" fill-rule="nonzero"><g id="Group" transform="translate(681.000000, 1734.000000)"><g id="Asset-15-Copy-2" transform="translate(12.322357, 12.383765) rotate(-180.000000) translate(-12.322357, -12.383765) translate(2.752379, 2.813788)"><polygon id="Path" transform="translate(9.569977, 9.569977) rotate(-45.000000) translate(-9.569977, -9.569977) " points="5.4400943 8.55878276 8.5288338 5.46085058 7.10396885 4.03598564 1.56997724 9.56997724 7.10396885 15.1039688 8.5288338 13.6699112 5.4400943 10.5811717 17.5699772 10.5811717 17.5699772 8.55878276" fill="#000000"></polygon></g>
+ </g>
+ </g>
+ </g>
+ </svg></a>
+ </li><li><a href="https://www.instagram.com/lays_deutschland/" data-sf-ec-immutable="" target="_blank">Lay's Instagram <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12px" height="13px" viewBox="0 0 12 13" version="1.1" style="margin-left:10px;"><title>Instagram PepsiCo BeLux</title>
+ <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="1.-Atoms" transform="translate(-687.000000, -1740.000000)" fill="#727579" fill-rule="nonzero"><g id="Group" transform="translate(681.000000, 1734.000000)"><g id="Asset-15-Copy-2" transform="translate(12.322357, 12.383765) rotate(-180.000000) translate(-12.322357, -12.383765) translate(2.752379, 2.813788)"><polygon id="Path" transform="translate(9.569977, 9.569977) rotate(-45.000000) translate(-9.569977, -9.569977) " points="5.4400943 8.55878276 8.5288338 5.46085058 7.10396885 4.03598564 1.56997724 9.56997724 7.10396885 15.1039688 8.5288338 13.6699112 5.4400943 10.5811717 17.5699772 10.5811717 17.5699772 8.55878276" fill="#000000"></polygon></g>
+ </g>
+ </g>
+ </g>
+ </svg></a>
+ </li><li style="width:130%;"><a href="https://www.instagram.com/doritos.de/?hl=de" data-sf-ec-immutable="" target="_blank">Doritos Instagram <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12px" height="13px" viewBox="0 0 12 13" version="1.1" style="margin-left:10px;"><title>Instagram PepsiCo Netherlands</title>
+ <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="1.-Atoms" transform="translate(-687.000000, -1740.000000)" fill="#727579" fill-rule="nonzero"><g id="Group" transform="translate(681.000000, 1734.000000)"><g id="Asset-15-Copy-2" transform="translate(12.322357, 12.383765) rotate(-180.000000) translate(-12.322357, -12.383765) translate(2.752379, 2.813788)"><polygon id="Path" transform="translate(9.569977, 9.569977) rotate(-45.000000) translate(-9.569977, -9.569977) " points="5.4400943 8.55878276 8.5288338 5.46085058 7.10396885 4.03598564 1.56997724 9.56997724 7.10396885 15.1039688 8.5288338 13.6699112 5.4400943 10.5811717 17.5699772 10.5811717 17.5699772 8.55878276" fill="#000000"></polygon></g>
+ </g>
+ </g>
+ </g>
+ </svg></a>
+ </li><li style="width:130%;"><a href="https://www.youtube.com/user/PepsiColaDE" data-sf-ec-immutable="" target="_blank">Pepsi YouTube <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12px" height="13px" viewBox="0 0 12 13" version="1.1" style="margin-left:10px;"><title>LinkedIn PepsiCo</title>
+ <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="1.-Atoms" transform="translate(-687.000000, -1740.000000)" fill="#727579" fill-rule="nonzero"><g id="Group" transform="translate(681.000000, 1734.000000)"><g id="Asset-15-Copy-2" transform="translate(12.322357, 12.383765) rotate(-180.000000) translate(-12.322357, -12.383765) translate(2.752379, 2.813788)"><polygon id="Path" transform="translate(9.569977, 9.569977) rotate(-45.000000) translate(-9.569977, -9.569977) " points="5.4400943 8.55878276 8.5288338 5.46085058 7.10396885 4.03598564 1.56997724 9.56997724 7.10396885 15.1039688 8.5288338 13.6699112 5.4400943 10.5811717 17.5699772 10.5811717 17.5699772 8.55878276" fill="#000000"></polygon></g>
+ </g>
+ </g>
+ </g>
+ </svg></a>
+ </li><li><a href="https://www.youtube.com/channel/UCtM9Fnj14CPk1tpZHVcKnpQ" data-sf-ec-immutable="" target="_blank">Lay's YouTube<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12px" height="13px" viewBox="0 0 12 13" version="1.1" style="margin-left:10px;"><title>Twitter PepsiCo BeLux</title>
+ <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="1.-Atoms" transform="translate(-687.000000, -1740.000000)" fill="#727579" fill-rule="nonzero"><g id="Group" transform="translate(681.000000, 1734.000000)"><g id="Asset-15-Copy-2" transform="translate(12.322357, 12.383765) rotate(-180.000000) translate(-12.322357, -12.383765) translate(2.752379, 2.813788)"><polygon id="Path" transform="translate(9.569977, 9.569977) rotate(-45.000000) translate(-9.569977, -9.569977) " points="5.4400943 8.55878276 8.5288338 5.46085058 7.10396885 4.03598564 1.56997724 9.56997724 7.10396885 15.1039688 8.5288338 13.6699112 5.4400943 10.5811717 17.5699772 10.5811717 17.5699772 8.55878276" fill="#000000"></polygon></g>
+ </g>
+ </g>
+ </g>
+ </svg></a>
+ </li><li><a href="https://www.linkedin.com/company/pepsico/?originalSubdomain=de" data-sf-ec-immutable="" target="_blank">PepsiCo LinkedIN<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12px" height="13px" viewBox="0 0 12 13" version="1.1" style="margin-left:10px;"><title>Twitter PepsiCo Netherlands</title>
+ <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="1.-Atoms" transform="translate(-687.000000, -1740.000000)" fill="#727579" fill-rule="nonzero"><g id="Group" transform="translate(681.000000, 1734.000000)"><g id="Asset-15-Copy-2" transform="translate(12.322357, 12.383765) rotate(-180.000000) translate(-12.322357, -12.383765) translate(2.752379, 2.813788)"><polygon id="Path" transform="translate(9.569977, 9.569977) rotate(-45.000000) translate(-9.569977, -9.569977) " points="5.4400943 8.55878276 8.5288338 5.46085058 7.10396885 4.03598564 1.56997724 9.56997724 7.10396885 15.1039688 8.5288338 13.6699112 5.4400943 10.5811717 17.5699772 10.5811717 17.5699772 8.55878276" fill="#000000"></polygon></g>
+ </g>
+ </g>
+ </g>
+ </svg></a>
+ </li></ul></li></ul>
+                                    </div>
+
+                            </li>
+
+                </ul>
+
+                <ul class="display_mobi">
+
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M7.86452 0C3.52107 0 0 3.57066 0 7.97529C0 12.3799 3.52107 15.9506 7.86452 15.9506C12.208 15.9506 15.729 12.3799 15.729 7.97529C15.7229 3.57325 12.2054 0.00623962 7.86452 0ZM14.4667 7.36355H11.6739C11.6739 5.38646 11.1903 3.44024 10.2663 1.69928C12.6113 2.62835 14.2374 4.82115 14.4667 7.36355ZM7.86452 14.7271C6.70272 14.7271 5.44037 12.1329 5.30632 8.59836H10.4227C10.2887 12.1329 9.00957 14.7271 7.86452 14.7271ZM5.30632 7.36355C5.44037 3.81772 6.70272 1.24614 7.86452 1.24614C9.02633 1.24614 10.2887 3.81772 10.4227 7.36355H5.30632ZM5.45713 1.69928C4.54287 3.4428 4.06887 5.38887 4.07749 7.36355H1.28469C1.50782 4.82743 3.12228 2.63573 5.45713 1.69928ZM1.26235 8.59836H4.05515C4.04559 10.5732 4.51965 12.5195 5.43479 14.2626C3.09829 13.3284 1.48294 11.1355 1.26235 8.59836ZM10.2663 14.2626C11.1791 12.5285 11.655 10.5924 11.6516 8.62668H14.4444C14.2014 11.1435 12.5874 13.3097 10.2663 14.2343V14.2626Z" fill="#000000" />
+                        </svg><a href="/de-de/global-sites" tabindex="0" aria-label="PepsiCo Country">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M7.86452 0C3.52107 0 0 3.57066 0 7.97529C0 12.3799 3.52107 15.9506 7.86452 15.9506C12.208 15.9506 15.729 12.3799 15.729 7.97529C15.7229 3.57325 12.2054 0.00623962 7.86452 0ZM14.4667 7.36355H11.6739C11.6739 5.38646 11.1903 3.44024 10.2663 1.69928C12.6113 2.62835 14.2374 4.82115 14.4667 7.36355ZM7.86452 14.7271C6.70272 14.7271 5.44037 12.1329 5.30632 8.59836H10.4227C10.2887 12.1329 9.00957 14.7271 7.86452 14.7271ZM5.30632 7.36355C5.44037 3.81772 6.70272 1.24614 7.86452 1.24614C9.02633 1.24614 10.2887 3.81772 10.4227 7.36355H5.30632ZM5.45713 1.69928C4.54287 3.4428 4.06887 5.38887 4.07749 7.36355H1.28469C1.50782 4.82743 3.12228 2.63573 5.45713 1.69928ZM1.26235 8.59836H4.05515C4.04559 10.5732 4.51965 12.5195 5.43479 14.2626C3.09829 13.3284 1.48294 11.1355 1.26235 8.59836ZM10.2663 14.2626C11.1791 12.5285 11.655 10.5924 11.6516 8.62668H14.4444C14.2014 11.1435 12.5874 13.3097 10.2663 14.2343V14.2626Z" fill="#000000" />
+                            </svg> L&#228;nderauswahl
+                        </a>
+                    </li>
+                    <li><a href="/de-de/contact" tabindex="0" aria-label="PepsiCo Contact">Kontakt</a></li>
+                    <li class="mobile-dropdown">
+
+
+<!-- Start : Header Language Toggle -->
+    <div class="header__lang">
+        <div class="header__lang--contain">
+            <div class="header__inline--icon">
+                <a href="#" class="multiLang">
+                    <svg class="global-sites__svg-map" viewBox="0 0 500 500">
+                        <polyline class="header__svg-globe-path" points="187.1,124.3 312.9,250 187.1,375.7"></polyline>
+                    </svg>
+
+                </a>
+
+
+            </div>
+            <a class="header__select--text" style="margin: 0.3em 0 0 0.3em;" id="selectText">Deutsch</a>
+
+        </div>
+        <div class="header__lang--content">
+                <a class="header__lang--content-mob" onclick="redirectLink(this, event);" href="https://www.northerneurope.pepsico.com/home">ENGLISH</a>
+                <a class="header__lang--content-mob" onclick="redirectLink(this, event);" href="https://www.northerneurope.pepsico.com/de-de/home">Deutsch</a>
+        </div>
+    </div>
+<!-- Start : Header Language Toggle -->
+                    </li>
+
+                </ul>
+            </nav>
+            <a class="toggle"><span></span></a>
+            <div class="head_right_nav">
+                <ul>
+                    <li class="mobi_dropdown">
+
+
+<!-- Start : Header Language Toggle -->
+    <div class="header__lang">
+        <div class="header__lang--contain">
+            <div class="header__inline--icon">
+                <a href="#" class="multiLang">
+                    <svg class="global-sites__svg-map" viewBox="0 0 500 500">
+                        <polyline class="header__svg-globe-path" points="187.1,124.3 312.9,250 187.1,375.7"></polyline>
+                    </svg>
+
+                </a>
+
+
+            </div>
+            <a class="header__select--text" style="margin: 0.3em 0 0 0.3em;" id="selectText">Deutsch</a>
+
+        </div>
+        <div class="header__lang--content">
+                <a class="header__lang--content-mob" onclick="redirectLink(this, event);" href="https://www.northerneurope.pepsico.com/home">ENGLISH</a>
+                <a class="header__lang--content-mob" onclick="redirectLink(this, event);" href="https://www.northerneurope.pepsico.com/de-de/home">Deutsch</a>
+        </div>
+    </div>
+<!-- Start : Header Language Toggle -->
+                    </li>
+                    <li class="cont_act"><a href="/de-de/contact" tabindex="0" aria-label="PepsiCo Contact">Kontakt</a></li>
+
+                    <li class="us">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M7.86452 0C3.52107 0 0 3.57066 0 7.97529C0 12.3799 3.52107 15.9506 7.86452 15.9506C12.208 15.9506 15.729 12.3799 15.729 7.97529C15.7229 3.57325 12.2054 0.00623962 7.86452 0ZM14.4667 7.36355H11.6739C11.6739 5.38646 11.1903 3.44024 10.2663 1.69928C12.6113 2.62835 14.2374 4.82115 14.4667 7.36355ZM7.86452 14.7271C6.70272 14.7271 5.44037 12.1329 5.30632 8.59836H10.4227C10.2887 12.1329 9.00957 14.7271 7.86452 14.7271ZM5.30632 7.36355C5.44037 3.81772 6.70272 1.24614 7.86452 1.24614C9.02633 1.24614 10.2887 3.81772 10.4227 7.36355H5.30632ZM5.45713 1.69928C4.54287 3.4428 4.06887 5.38887 4.07749 7.36355H1.28469C1.50782 4.82743 3.12228 2.63573 5.45713 1.69928ZM1.26235 8.59836H4.05515C4.04559 10.5732 4.51965 12.5195 5.43479 14.2626C3.09829 13.3284 1.48294 11.1355 1.26235 8.59836ZM10.2663 14.2626C11.1791 12.5285 11.655 10.5924 11.6516 8.62668H14.4444C14.2014 11.1435 12.5874 13.3097 10.2663 14.2343V14.2626Z" fill="#ffffff" />
+                        </svg> <a href="/de-de/global-sites" tabindex="0">L&#228;nderauswahl</a>
+                    </li>
+                    <li class="sea_rch_icon">
+
+                        <a id="MainSiteSearchOpen" href="#" style="text-decoration:none;" tabindex="0" aria-label="PepsiCo Search">
+
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+                                <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="1.-Atoms" transform="translate(-81.000000, -1671.000000)" fill="#ffffff" fill-rule="nonzero">
+                                        <g id="Group" transform="translate(77.000000, 1667.000000)">
+                                            <g id="Asset-9" transform="translate(4.000000, 4.000000)">
+                                                <path d="M15.9279278,15.0443016 L11.0623197,10.1956863 C11.9782073,9.07841674 12.4732921,7.67534248 12.4613944,6.23069721 C12.4613944,2.78957816 9.67181625,0 6.23069721,0 C2.78957816,0 0,2.78957816 0,6.23069721 C0,9.67181625 2.78957816,12.4613944 6.23069721,12.4613944 C7.67674786,12.4701039 9.07997802,11.9709549 10.1956863,11.0509911 L15.0612944,15.9165992 L15.9279278,15.0443016 Z M1.24613944,6.23069721 C1.2492695,3.47467629 3.48600268,1.24301699 6.2420236,1.24614258 C8.99804451,1.24927475 11.2297048,3.48600697 11.2265804,6.24202788 C11.2234494,8.9980488 8.98671812,11.22971 6.23069721,11.2265868 C3.47597049,11.2203369 1.24613944,8.985431 1.24613944,6.23069721 Z" id="Shape"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div style="height: 550px;"></div>
+    </div>
+
+    </div>
+</div>
+<div id="Contentplaceholder1_T0F69A969005_Col00" class="sf_colsIn container" data-sf-element="Container" data-placeholder-label="Widget container"><div class="spacer mt-5"></div>
+
+
+
+</div>
+<div id="Contentplaceholder1_T0F69A969009_Col00" class="sf_colsIn container-fluid" data-sf-element="Container" data-placeholder-label="Full width widget container">
+</div>
+
+<section id="press-release-carousel" class="our-story-carousel">
+    <section class="our-story-imagesWrap press-release-imagesWrap">
+        <div class="our-story-images_home">
+
+                <div id="press-release-imageSlide" class="our-story-imageSlide" style="background-color: #EB9F0A;">
+                    <div class="our-story-textBody">
+
+                        <h4 style="color: #000;">
+
+                            Marken &amp; Programme,Unternehmenskultur
+                        </h4>
+
+                        <h2 style="color: #000;">75 Jahre Pepsi in Deutschland: Ikonische Retro-Designs feiern Markentradition</h2>
+
+                                <small style="color: #000;"> Jul 2, 2026 </small>
+
+
+                        <p id="pressReleaseCarouselDesc" style="color: #000;"></p>
+
+
+                            <a href="/de-de/our-stories/press-release/75-jahre-pepsi-in-deutschland-ikonische-retro-designs-feiern-markentradition" style="color: #000;">
+                                Lesen Sie mehr <svg width="25px" height="13px" viewBox="0 0 16 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="1.-Atoms" transform="translate(-257.000000, -1675.000000)" fill="#000" fill-rule="nonzero">
+                                            <g id="Group" transform="translate(253.000000, 1667.000000)">
+                                                <g id="Asset-16" transform="translate(4.000000, 8.000000)">
+                                                    <polygon id="Path" points="11.7386335 0 10.6850793 1.05355425 12.968913 3.34418512 0 3.34418512 0 4.83955245 12.968913 4.83955245 10.6782822 7.12338619 11.7386335 8.18373757 15.8305023 4.09186878"></polygon>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a>
+                    </div>
+                </div>
+                <div id="press-release-imageSlide" class="our-story-imageSlide" style="background-color: #2B660F;">
+                    <div class="our-story-textBody">
+
+                        <h4 style="color: #FFF;">
+
+                            Marken &amp; Programme
+                        </h4>
+
+                        <h2 style="color: #FFF;">Mit Energie in den Sommer: Rockstar Energy launcht neue Mocktails f&#252;r gemeinsame Genussmomente</h2>
+
+                                <small style="color: #FFF;"> Jun 25, 2026 </small>
+
+
+                        <p id="pressReleaseCarouselDesc" style="color: #FFF;"></p>
+
+
+                            <a href="/de-de/our-stories/press-release/mit-energie-in-den-sommer-rockstar-energy-launcht-neue-mocktails-f&#252;r-gemeinsame-genussmomente" style="color: #FFF;">
+                                Lesen Sie mehr <svg width="25px" height="13px" viewBox="0 0 16 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="1.-Atoms" transform="translate(-257.000000, -1675.000000)" fill="#FFF" fill-rule="nonzero">
+                                            <g id="Group" transform="translate(253.000000, 1667.000000)">
+                                                <g id="Asset-16" transform="translate(4.000000, 8.000000)">
+                                                    <polygon id="Path" points="11.7386335 0 10.6850793 1.05355425 12.968913 3.34418512 0 3.34418512 0 4.83955245 12.968913 4.83955245 10.6782822 7.12338619 11.7386335 8.18373757 15.8305023 4.09186878"></polygon>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a>
+                    </div>
+                </div>
+                <div id="press-release-imageSlide" class="our-story-imageSlide" style="background-color: #02355A;">
+                    <div class="our-story-textBody">
+
+                        <h4 style="color: #FFF;">
+
+                            Marken &amp; Programme
+                        </h4>
+
+                        <h2 style="color: #FFF;">The Killers rocken die UEFA Champions League Final Kick Off Show presented by Pepsi&#174;</h2>
+
+                                <small style="color: #FFF;"> Mai 29, 2026 </small>
+
+
+                        <p id="pressReleaseCarouselDesc" style="color: #FFF;"></p>
+
+
+                            <a href="/de-de/our-stories/press-release/the-killers-rocken-die-uefa-champions-league-final-kick-off-show-presented-by-pepsi" style="color: #FFF;">
+                                Lesen Sie mehr <svg width="25px" height="13px" viewBox="0 0 16 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="1.-Atoms" transform="translate(-257.000000, -1675.000000)" fill="#FFF" fill-rule="nonzero">
+                                            <g id="Group" transform="translate(253.000000, 1667.000000)">
+                                                <g id="Asset-16" transform="translate(4.000000, 8.000000)">
+                                                    <polygon id="Path" points="11.7386335 0 10.6850793 1.05355425 12.968913 3.34418512 0 3.34418512 0 4.83955245 12.968913 4.83955245 10.6782822 7.12338619 11.7386335 8.18373757 15.8305023 4.09186878"></polygon>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a>
+                    </div>
+                </div>
+                <div id="press-release-imageSlide" class="our-story-imageSlide" style="background-color: #3680CE;">
+                    <div class="our-story-textBody">
+
+                        <h4 style="color: #FFF;">
+
+                            Marken &amp; Programme
+                        </h4>
+
+                        <h2 style="color: #FFF;">Erfrischend. Pink. Anders: Lipton launcht mit „Sensations“ eine neue Generation Ice Tea</h2>
+
+                                <small style="color: #FFF;"> Mai 12, 2026 </small>
+
+
+                        <p id="pressReleaseCarouselDesc" style="color: #FFF;"></p>
+
+
+                            <a href="/de-de/our-stories/press-release/erfrischend-pink-anders-lipton-launcht-mit-sensations-eine-neue-generation-ice-tea" style="color: #FFF;">
+                                Lesen Sie mehr <svg width="25px" height="13px" viewBox="0 0 16 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="1.-Atoms" transform="translate(-257.000000, -1675.000000)" fill="#FFF" fill-rule="nonzero">
+                                            <g id="Group" transform="translate(253.000000, 1667.000000)">
+                                                <g id="Asset-16" transform="translate(4.000000, 8.000000)">
+                                                    <polygon id="Path" points="11.7386335 0 10.6850793 1.05355425 12.968913 3.34418512 0 3.34418512 0 4.83955245 12.968913 4.83955245 10.6782822 7.12338619 11.7386335 8.18373757 15.8305023 4.09186878"></polygon>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a>
+                    </div>
+                </div>
+                <div id="press-release-imageSlide" class="our-story-imageSlide" style="background-color: #FFF;">
+                    <div class="our-story-textBody">
+
+                        <h4 style="color: ;">
+
+                            Marken &amp; Programme
+                        </h4>
+
+                        <h2 style="color: ;">Pepsi&#174; vereint globale Stars zur &quot;Pepsi Football Nation&quot; – einer Plattform, auf der Fans die Regeln definieren</h2>
+
+                                <small style="color: ;"> Apr 20, 2026 </small>
+
+
+                        <p id="pressReleaseCarouselDesc" style="color: ;"></p>
+
+
+                            <a href="/de-de/our-stories/press-release/pepsi-vereint-globale-stars-zur-pepsi-football-nation-einer-plattform-auf-der-fans-die-regeln-definieren" style="color: ;">
+                                Lesen Sie mehr <svg width="25px" height="13px" viewBox="0 0 16 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="1.-Atoms" transform="translate(-257.000000, -1675.000000)" fill="" fill-rule="nonzero">
+                                            <g id="Group" transform="translate(253.000000, 1667.000000)">
+                                                <g id="Asset-16" transform="translate(4.000000, 8.000000)">
+                                                    <polygon id="Path" points="11.7386335 0 10.6850793 1.05355425 12.968913 3.34418512 0 3.34418512 0 4.83955245 12.968913 4.83955245 10.6782822 7.12338619 11.7386335 8.18373757 15.8305023 4.09186878"></polygon>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <section class="our-story-textWrap_home press-release-textWrap_home">
+        <div class="our-story-texts_home">
+
+                <div id="press-release-textSlide" class="our-story-textSlide" data-toggle="modal" data-target="#StoryVideoModal1">
+                    <img src="https://www.northerneurope.pepsico.com/images/northeuropelibraries/about-pepsico/keyvisualretro_720x760.jpg" alt="75 Jahre Pepsi in Deutschland: Ikonische Retro-Designs feiern Markentradition" />
+
+                </div>
+                <div id="press-release-textSlide" class="our-story-textSlide" data-toggle="modal" data-target="#StoryVideoModal2">
+                    <img src="https://www.northerneurope.pepsico.com/images/northeuropelibraries/about-pepsico/rockstar_mocktails_design-center-pepsico_720x760.jpg" alt="Mit Energie in den Sommer: Rockstar Energy launcht neue Mocktails f&#252;r gemeinsame Genussmomente" />
+
+                </div>
+                <div id="press-release-textSlide" class="our-story-textSlide" data-toggle="modal" data-target="#StoryVideoModal3">
+                    <img src="https://www.northerneurope.pepsico.com/images/northeuropelibraries/about-pepsico/the_killers_ucl_final1_720x760.jpg" alt="The Killers rocken die UEFA Champions League Final Kick Off Show presented by Pepsi&#174;" />
+
+                </div>
+                <div id="press-release-textSlide" class="our-story-textSlide" data-toggle="modal" data-target="#StoryVideoModal4">
+                    <img src="https://www.northerneurope.pepsico.com/images/northeuropelibraries/about-pepsico/pinkstatc_ripple_range_kv_portrait_03_rgb_v2-1.jpg" alt="Erfrischend. Pink. Anders: Lipton launcht mit „Sensations“ eine neue Generation Ice Tea" />
+
+                </div>
+                <div id="press-release-textSlide" class="our-story-textSlide" data-toggle="modal" data-target="#StoryVideoModal5">
+                    <img src="https://www.northerneurope.pepsico.com/images/northeuropelibraries/about-pepsico/pfn-sir-david-beckham_720x760.jpg" alt="Pepsi&#174; vereint globale Stars zur &quot;Pepsi Football Nation&quot; – einer Plattform, auf der Fans die Regeln definieren" />
+
+                </div>
+        </div>
+    </section>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="Contentplaceholder1_T0F69A969007_Col00" class="sf_colsIn container" data-sf-element="Container" data-placeholder-label="Widget container"><div class="spacer mt-5"></div>
+
+</div>
+<div id="Contentplaceholder1_T0F69A969010_Col00" class="sf_colsIn container-fluid" data-sf-element="Container" data-placeholder-label="Full width widget container">
+
+            <div class="w-100-thar position-relative-thar">
+                <div class="position-absolute-thar w-100-thar d-flex-thar justify-content-center-thar bt-lg-60 b-md-30 b-sm-30 px-20-textov">
+                    <div class="d-flex-thar flex-column-thar w-50-textov-md w-100-textov-sm tc-textov-md tl-textov-sm">
+                        <div class="mb-10-textov">
+                            <p class="textov-sec1 my-auto-thar">PepsiCo Positive</p>
+                        </div>
+                        <div class="mb-10-textov">
+                            <p class="textov-sec2-md textov-sec2-sm">Aufbau einer st&#228;rkeren, nachhaltigeren Zukunft</p>
+                        </div>
+                                                    <div>
+                                <a href="/de-de/our-impact/sustainability/pepsico-positive" target="_self" class="textov-sec3 my-auto-thar">
+                                    Nachhaltigkeit
+                                    <svg width="25px" height="14px" viewBox="0 0 16 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g id="1.-Atoms" transform="translate(-257.000000, -1675.000000)" fill="#fff" fill-rule="nonzero">
+                                                <g id="Group" transform="translate(253.000000, 1667.000000)">
+                                                    <g id="Asset-16" transform="translate(4.000000, 8.000000)">
+                                                        <polygon id="Path" points="11.7386335 0 10.6850793 1.05355425 12.968913 3.34418512 0 3.34418512 0 4.83955245 12.968913 4.83955245 10.6782822 7.12338619 11.7386335 8.18373757 15.8305023 4.09186878"></polygon>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </a>
+                            </div>
+                                                                    </div>
+                </div>
+                <div class="textov-img-wr w-10i-textov-md w-100-textov-sm">
+
+                        <img class="imagewithtextover-large" src="https://www.northerneurope.pepsico.com/images/northeuropelibraries/homepage/nwe-ca-202212_pepsico_veurne_093-v1.png">
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+</div>
+<div id="Contentplaceholder1_T0F69A969011_Col00" class="sf_colsIn container" data-sf-element="Container" data-placeholder-label="Widget container"><div class="spacer mt-5"></div>
+
+</div>
+<div id="Contentplaceholder1_T0F69A969012_Col00" class="sf_colsIn container-fluid" data-sf-element="Container" data-placeholder-label="Full width widget container"><div class="row" data-sf-element="Row">
+    <div id="Contentplaceholder1_C016_Col00" class="sf_colsIn col-md-10 px-0-thar mx-auto-thar" data-sf-element="Column 1" data-placeholder-label="Column 1"><div class="row" data-sf-element="Row">
+    <div id="Contentplaceholder1_C007_Col00" class="sf_colsIn col-lg-6" data-sf-element="Column 1" data-placeholder-label="Column 1">
+
+<div class="ts_cards_sec mt-md-50-acrds">
+    <div class="row-thar mx-0-thar">
+        <div class="col col-md-12 ts_cards px-0-thar">
+
+                <div class="iac-innerWrap">
+                    <a href="https://www.pepsico.com/our-impact/inclusion-for-growth"><img src="https://www.northerneurope.pepsico.com/images/northeuropelibraries/homepage/nwe-grad-dev-prog-emma-gfh-magazine-v1.jpg" aria-label="Inklusion" /></a>
+                    <h2>Inklusion</h2>
+                </div>
+            <p> Bei PepsiCo gibt es Chancen für alle </p>
+
+            <a target="_blank" href="https://www.pepsico.com/our-impact/inclusion-for-growth">
+                Inklusion
+                <svg width="25px" height="16px" viewBox="0 0 16 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <title>1-Atoms/icons/arrow/right@3x</title>
+                    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="1.-Atoms" transform="translate(-257.000000, -1675.000000)" fill="#000000" fill-rule="nonzero">
+                            <g id="Group" transform="translate(253.000000, 1667.000000)">
+                                <g id="Asset-16" transform="translate(4.000000, 8.000000)">
+                                    <polygon id="Path" points="11.7386335 0 10.6850793 1.05355425 12.968913 3.34418512 0 3.34418512 0 4.83955245 12.968913 4.83955245 10.6782822 7.12338619 11.7386335 8.18373757 15.8305023 4.09186878"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </a>
+        </div>
+    </div>
+</div><div class="spacer mt-5"></div>
+
+    </div>
+    <div id="Contentplaceholder1_C007_Col01" class="sf_colsIn col-lg-6" data-sf-element="Column 2" data-placeholder-label="Column 2">
+
+<div class="ts_cards_sec mt-md-50-acrds">
+    <div class="row-thar mx-0-thar">
+        <div class="col col-md-12 ts_cards px-0-thar">
+
+                <div class="iac-innerWrap">
+                    <a href="/de-de/our-brands"><img src="https://www.northerneurope.pepsico.com/images/northeuropelibraries/homepage/nwe-talent-capture13606-1-v1.jpg" aria-label="Unsere Marken" /></a>
+                    <h2>Unsere Marken</h2>
+                </div>
+            <p> Erfahre mehr &uuml;ber unsere Produkte </p>
+
+            <a target="_self" href="/de-de/our-brands">
+                Finde deinen Favoriten
+                <svg width="25px" height="16px" viewBox="0 0 16 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <title>1-Atoms/icons/arrow/right@3x</title>
+                    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="1.-Atoms" transform="translate(-257.000000, -1675.000000)" fill="#000000" fill-rule="nonzero">
+                            <g id="Group" transform="translate(253.000000, 1667.000000)">
+                                <g id="Asset-16" transform="translate(4.000000, 8.000000)">
+                                    <polygon id="Path" points="11.7386335 0 10.6850793 1.05355425 12.968913 3.34418512 0 3.34418512 0 4.83955245 12.968913 4.83955245 10.6782822 7.12338619 11.7386335 8.18373757 15.8305023 4.09186878"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </a>
+        </div>
+    </div>
+</div><div class="spacer mt-5"></div>
+
+    </div>
+</div>
+
+    </div>
+</div>
+
+</div>
+<div id="Contentplaceholder1_T0F69A969013_Col00" class="sf_colsIn container" data-sf-element="Container" data-placeholder-label="Widget container"><div class="spacer mt-5"></div>
+
+</div>
+<div id="Contentplaceholder1_T0F69A969014_Col00" class="sf_colsIn container-fluid" data-sf-element="Container" data-placeholder-label="Full width widget container">
+</div>
+
+
+
+
+<!-- Tharun's Code Start -->
+<div class="row-thar m-0-thar w-100-thar section_#FFF" style="background-color:#02355A;color:#FFF;">
+    <!-- Text Left -->
+            <!-- Image Enabled -->
+            <div class="px-0-thar col-md-6-mp col-sm-12-mp max-hw-mp max-h-col">
+                <img src="https://www.northerneurope.pepsico.com/images/northeuropelibraries/homepage/nwe-talent-capture19321-v1.jpg" alt="NWE-talent-Capture19321-v1">
+            </div>
+        <!-- Text Section -->
+        <div class="px-0-thar col-md-6-mp col-sm-12-mp max-h-col">
+            <div class="m-auto-thar w-66-thar h-100-thar y-pad-md-mp min-p-mp d-flex-thar flex-column-thar align-items-start-thar justify-content-center-md-mp">
+                <!-- Icon Enabled -->
+
+                <div class="mp-content-wrapper"><h4>Arbeite mit uns</h4><h2>Karriere</h2><p>Werde Teil unserer Talent-Community</p></div>
+                    <a href="/de-de/careers"  class="mp-link-lg mp-link-md mp-link-sm m-0-thar" style="color: #FFF;">
+                        Karrierem&#246;glichkeiten bei PepsiCo entdecken
+                        <svg width="25px" height="13px" viewBox="0 0 16 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="1.-Atoms" transform="translate(-257.000000, -1675.000000)" fill="#FFF" fill-rule="nonzero">
+                                    <g id="Group" transform="translate(253.000000, 1667.000000)">
+                                        <g id="Asset-16" transform="translate(4.000000, 8.000000)">
+                                            <polygon id="Path" points="11.7386335 0 10.6850793 1.05355425 12.968913 3.34418512 0 3.34418512 0 4.83955245 12.968913 4.83955245 10.6782822 7.12338619 11.7386335 8.18373757 15.8305023 4.09186878"></polygon>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                            </div>
+        </div>
+</div>
+<!-- Tharun's Code End -->
+<div id="Contentplaceholder1_T0F69A969015_Col00" class="sf_colsIn container" data-sf-element="Container" data-placeholder-label="Widget container">
+</div>
+<div id="Contentplaceholder1_T0F69A969016_Col00" class="sf_colsIn container-fluid" data-sf-element="Container" data-placeholder-label="Full width widget container">
+</div>
+<div id="Contentplaceholder1_T0F69A969017_Col00" class="sf_colsIn container" data-sf-element="Container" data-placeholder-label="Widget container">
+</div>
+<div id="Contentplaceholder1_T0F69A969018_Col00" class="sf_colsIn container-fluid" data-sf-element="Container" data-placeholder-label="Full width widget container">
+</div>
+<div id="Contentplaceholder1_T0F69A969019_Col00" class="sf_colsIn container" data-sf-element="Container" data-placeholder-label="Widget container">
+</div>
+<div id="Contentplaceholder1_T0F69A969020_Col00" class="sf_colsIn container-fluid" data-sf-element="Container" data-placeholder-label="Full width widget container">
+</div>
+<div id="Contentplaceholder1_T0F69A969021_Col00" class="sf_colsIn container" data-sf-element="Container" data-placeholder-label="Widget container">
+</div>
+<div id="Contentplaceholder1_T0F69A969022_Col00" class="sf_colsIn container-fluid" data-sf-element="Container" data-placeholder-label="Full width widget container">
+</div>
+
+
+
+
+
+
+
+
+<form action="/de-de/search-results" method="post">
+    <div id="MainSiteSearchBar" class="mainSearchBar-mssd d-none-thar w-100-thar">
+        <div class="p-md-30-mssd p-sm-15-mssd bb-search-mssd d-flex-thar align-items-center-thar justify-content-between-thar">
+            <div class="w-100-thar d-flex-thar align-items-center-thar">
+                <svg class="ml-lg-50-mssd mr-md-20-mssd mr-sm-10-mssd" width="20px" height="20px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="1.-Atoms" transform="translate(-81.000000, -1671.000000)" fill="#000000" fill-rule="nonzero">
+                            <g id="Group" transform="translate(77.000000, 1667.000000)">
+                                <g id="Asset-9" transform="translate(4.000000, 4.000000)">
+                                    <path d="M15.9279278,15.0443016 L11.0623197,10.1956863 C11.9782073,9.07841674 12.4732921,7.67534248 12.4613944,6.23069721 C12.4613944,2.78957816 9.67181625,0 6.23069721,0 C2.78957816,0 0,2.78957816 0,6.23069721 C0,9.67181625 2.78957816,12.4613944 6.23069721,12.4613944 C7.67674786,12.4701039 9.07997802,11.9709549 10.1956863,11.0509911 L15.0612944,15.9165992 L15.9279278,15.0443016 Z M1.24613944,6.23069721 C1.2492695,3.47467629 3.48600268,1.24301699 6.2420236,1.24614258 C8.99804451,1.24927475 11.2297048,3.48600697 11.2265804,6.24202788 C11.2234494,8.9980488 8.98671812,11.22971 6.23069721,11.2265868 C3.47597049,11.2203369 1.24613944,8.985431 1.24613944,6.23069721 Z" id="Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+                <input tabindex="0" id="MainSiteSearchInput" class="w-100-thar search-inp-op search-query-mssd-md search-query-mssd-sm" type="search"
+                       placeholder="Suche PepsiCo" name="searchTerm"
+                       aria-label="Suche PepsiCo" autocomplete="off"
+                       data-module="autosuggest"
+                       data-autosuggest-endpoint="/data/GetPepsicoSearchAutoSuggest"
+                       data-current-culture="de-DE" 
+                       data-results-type="autoSuggest"
+                       data-results-page=/de-de/search-results>
+            </div>
+            <div class="d-flex-thar align-items-center-thar mr-lg-50-mssd">
+
+                <button id="MainSiteSearchClear" type="reset" class="search-clear-md search-clear-sm d-none-thar" aria-label="L&#246;schen" tabindex="0">L&#246;schen</button>
+                <div class="d-flex-thar">
+                    <div class="search-clear-divider-md search-clear-divider-sm"></div>
+                    <div class="d-flex-thar align-items-center-thar">
+                        <button tabindex="0" id="MainSiteSearchClose" type="button" class="d-flex-thar search-close-mssd my-auto-thar" data-dismiss="modal" aria-label="Schlie&#223;en">
+                            <span class="d-block-op d-none-sm-op mr-md-10-mssd my-auto-thar">Schlie&#223;en</span>
+                            <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <title>1-Atoms/icons/close@3x</title>
+                                <g id="1-Atoms/icons/close" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <path d="M19.0470219,4 L20,4.95297806 L12.952,12 L20,19.0470219 L19.0470219,20 L12,12.952 L4.95297806,20 L4,19.0470219 L11.048,12 L4,4.95297806 L4.95297806,4 L12,11.048 L19.0470219,4 Z" id="Combined-Shape" fill="#000000" />
+                                </g>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+
+
+
+
+ </main> <footer> <script type="application/json" id="PersonalizationTracker">
+	{"IsPagePersonalizationTarget":false,"IsUrlPersonalizationTarget":false,"PageId":"bf9ad1b2-8d47-4adb-83d6-52d03cd7311e"}
+</script><script type="text/javascript" src="/WebResource.axd?d=NjxTqR2bqTw1rewxxlkHPhmY5Gpksf-eleRo7rdyod-JXIqMREBQwNiZsOO5jZizrQkA1LcU7cEAvz0OardE2Q5idLgIszg4d4TT9o75UY77yNmHnowZFEaOxWyYmA_EZZhvGsUATJyEebFtSuR80AN5xBIxE2j6dVhOBJyJlyN8ESxf3YK06tT_jYefZmEXCugnw3wgLkDtwdTNV1CIlD8mt6yeIrFGyVWJNn3OMnY1&amp;t=638987823811137003">
+
+</script><script type="text/javascript">
+<!-- Font + Color Changes -->
+
+window.addEventListener('load', () => {
+
+    // === FONT CHANGES ===
+    function applyGilroy() {
+        const allElements = document.querySelectorAll("body *");
+        allElements.forEach(el => {
+            el.style.setProperty('font-family', '"Gilroy", sans-serif', 'important');
+        });
+    }
+
+    // Apply immediately
+    applyGilroy();
+
+    // Retry for dynamically added elements
+    let tries = 0;
+    const interval = setInterval(() => {
+        applyGilroy();
+        tries++;
+        if (tries > 6) clearInterval(interval);
+    }, 500);
+
+});
+
+// === COLOR CHANGES ===
+document.addEventListener("DOMContentLoaded", function () {
+
+    function replaceColors() {
+        // Map old colors → new background + new text color
+        var colorMap = {
+            "#313859": { bg: "#02355A", text: "#FFFFFF" }, // Purple → Blue 500
+            "#004C97": { bg: "#155798", text: "#FFFFFF" }, // Blue → Blue 400
+            "#01A7DF": { bg: "#3680CE", text: "#000000" }, // Light Blue → Blue 300
+            "#568302": { bg: "#2B660F", text: "#FFFFFF" }, // Green → Green 400
+            "#C6404D": { bg: "#5E910D", text: "#000000" }, // Red → Green 300
+            "#FFC107": { bg: "#EB9F0A", text: "#000000" }, // Yellow → Yellow 300
+            "#C05535": { bg: "#D48101", text: "#000000" }  // Orange → Yellow 350
+        };
+
+        function normalizeColor(color) {
+            var ctx = document.createElement("canvas").getContext("2d");
+            ctx.fillStyle = color;
+            return ctx.fillStyle.toUpperCase();
+        }
+
+        document.querySelectorAll("*").forEach(function (el) {
+            //  Skip color changes inside specific sections
+            if (
+                el.closest(".blue_nav_header") ||
+                el.closest(".heading h1") ||
+                el.closest(".second-nav")  
+            ) return;
+
+            var styles = window.getComputedStyle(el);
+
+            // Replace background colors
+            var currentBg = normalizeColor(styles.backgroundColor);
+            if (colorMap[currentBg]) {
+                el.style.backgroundColor = colorMap[currentBg].bg;
+                el.style.color = colorMap[currentBg].text;
+            }
+
+            // Replace border colors
+            ["borderColor", "borderTopColor", "borderRightColor", "borderBottomColor", "borderLeftColor"].forEach(function (prop) {
+                var borderCol = normalizeColor(styles[prop]);
+                if (colorMap[borderCol]) {
+                    el.style[prop] = colorMap[borderCol].bg;
+                }
+            });
+
+            // Replace text color directly if it matches
+            var currentText = normalizeColor(styles.color);
+            if (colorMap[currentText]) {
+                el.style.color = colorMap[currentText].text;
+            }
+        });
+    }
+
+    replaceColors();
+});
+
+
+</script> <!-- MODULE: MAIN SITE FOOTER --> <footer class="footer" role="contentinfo"> <div class="container"> <div class="footer__logo-btp"> <a href="/de-de/home" class="footer__logo" aria-label="PEPSICO"> <svg tabindex="0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 270 80"> <g clip-path="url(#clip0_11004_3888)"> <path d="M92.4308 32.3933C92.2608 30.6433 90.8008 29.2733 89.0008 29.2733H82.3408V58.1534C82.3408 60.0534 83.8808 61.5934 85.7808 61.5934H92.4508V50.4333C93.8808 52.5534 96.1508 53.9634 99.3708 53.9634C105.441 53.9634 109.501 48.7734 109.501 40.5534C109.501 32.3334 104.001 28.6933 99.2808 28.6933C96.1308 28.6933 93.8908 30.0133 92.4208 32.3933H92.4308ZM95.8208 47.3633C93.4708 47.3633 92.2308 44.5833 92.2308 41.1633C92.2308 37.7433 93.4708 34.9633 95.8208 34.9633C98.1708 34.9633 99.4108 37.7433 99.4108 41.1633C99.4108 44.5833 98.1708 47.3633 95.8208 47.3633Z" fill="white" /> <path d="M157.471 28.6933C154.321 28.6933 152.081 30.0133 150.611 32.3933C150.441 30.6433 148.981 29.2733 147.181 29.2733H140.511V36.6833C140.511 43.2133 132.531 47.3334 127.291 47.3334C124.031 47.3334 122.371 46.2334 121.401 44.3633C127.461 45.5933 136.901 43.7434 136.901 36.8334C136.901 31.5833 131.951 28.6833 124.841 28.6833C116.481 28.6833 111.221 33.9634 111.241 41.1934C111.261 48.8134 116.931 53.9334 126.211 53.9334C131.071 53.9334 136.901 51.8134 140.511 47.4133V58.1434C140.511 60.0434 142.051 61.5834 143.951 61.5834H150.621V50.4034C152.051 52.5234 154.321 53.9334 157.541 53.9334C163.611 53.9334 167.671 48.7434 167.671 40.5233C167.671 32.3033 162.181 28.6833 157.461 28.6833L157.471 28.6933ZM126.001 34.8733C127.701 34.8733 129.391 35.3834 129.391 36.8734C129.391 39.3034 125.131 40.0934 120.981 39.5834C120.831 36.8633 122.921 34.8733 126.011 34.8733H126.001ZM154.001 47.3734C151.651 47.3734 150.411 44.5934 150.411 41.1734C150.411 37.7534 151.651 34.9733 154.001 34.9733C156.351 34.9733 157.591 37.7534 157.591 41.1734C157.591 44.5934 156.351 47.3734 154.001 47.3734Z" fill="white" /> <path d="M201.531 29.2833H194.861V49.8433C194.861 51.7434 196.401 53.2834 198.301 53.2834H204.971V32.7233C204.971 30.8233 203.431 29.2833 201.531 29.2833Z" fill="white" /> <path d="M248.511 28.7033C241.871 28.7033 236.601 32.5233 235.051 37.9533C232.491 43.8734 227.971 47.2034 223.091 47.2034C219.461 47.2034 217.121 44.9034 217.121 40.8633C217.121 37.9933 218.171 34.8733 221.261 34.8733C222.961 34.8733 224.871 36.1033 224.521 39.1833C228.721 40.0833 231.521 38.8633 231.521 35.6133C231.521 31.1433 226.151 28.7033 220.651 28.7033C212.291 28.7033 207.031 33.9834 207.051 41.2134C207.071 48.8334 212.741 53.9534 222.021 53.9534C226.651 53.9534 232.411 51.2034 235.741 46.5134C237.841 50.9634 242.641 53.9534 248.511 53.9534C256.461 53.9534 262.441 48.4833 262.441 41.3233C262.441 34.1633 256.471 28.6933 248.511 28.6933V28.7033ZM248.511 47.5434C246.161 47.5434 244.921 44.7633 244.921 41.3433C244.921 37.9233 246.161 35.1433 248.511 35.1433C250.861 35.1433 252.101 37.9233 252.101 41.3433C252.101 44.7633 250.861 47.5434 248.511 47.5434Z" fill="white" /> <path d="M192.351 45.8734C192.351 37.2434 179.261 38.9333 179.261 36.3233C179.261 34.5533 184.531 34.1834 189.461 37.7634C191.021 36.7534 191.571 34.9734 191.511 33.7433C191.361 30.6433 187.651 28.6933 180.911 28.6933C173.681 28.6933 169.271 32.3433 169.271 36.3633C169.271 45.1634 182.351 43.4533 182.351 46.5933C182.351 48.3633 176.071 49.1034 170.981 45.0834L168.041 50.6534C170.751 52.5734 174.701 53.9334 179.801 53.9334C187.211 53.9334 192.351 50.8334 192.351 45.8633V45.8734Z" fill="white" /> <path clip-rule="evenodd" d="M62.3898 63.1501C62.9998 62.0801 61.7198 61.0401 60.6798 61.6901C51.4098 67.5201 39.9598 69.9101 28.3898 67.5001C17.7098 65.2801 8.74983 59.3401 2.57983 51.3301C1.82983 50.3501 0.259831 50.8901 0.459831 52.1101C3.14983 68.3501 17.4998 80.5001 34.4098 79.9801C46.4598 79.6101 56.8198 72.9001 62.3898 63.1501Z" fill="white" fill-rule="evenodd" /> <path clip-rule="evenodd" d="M11.0305 24.6001C10.9005 24.8701 10.5705 24.9901 10.2905 24.8701C5.69047 22.8501 2.48047 18.2601 2.48047 12.9201C2.48047 10.8901 2.94047 8.97012 3.77047 7.26012C3.90047 6.99012 4.23047 6.87012 4.51047 6.99012C9.11047 9.01012 12.3205 13.6001 12.3205 18.9401C12.3205 20.9701 11.8605 22.8901 11.0305 24.6001Z" fill="white" fill-rule="evenodd" /> <path d="M56.8703 39.4599C57.3003 33.5499 56.2803 27.0299 51.4203 23.0799C49.1203 21.4799 47.5703 18.7799 47.7703 15.9299C48.2103 9.77987 54.5803 6.63987 59.7103 9.61987C60.8803 10.2899 61.8603 11.2799 62.7103 12.3699C69.2703 20.8199 65.4203 33.8299 57.3503 39.7299C57.1403 39.8799 56.8503 39.7299 56.8703 39.4699V39.4599Z" fill="white" /> <path d="M38.7502 54.68C37.1102 54.11 35.7402 53.21 34.6102 52.05C34.4902 51.92 34.4302 51.86 34.4002 51.84C34.2202 51.72 34.0002 51.81 33.9502 52.02C33.9502 52.05 33.9502 52.13 33.9502 52.28V64.03C34.7702 64.09 35.6002 64.11 36.4402 64.11C44.4102 64.11 51.7802 61.55 57.7702 57.21C61.6802 54.38 64.9202 50.59 67.1202 46.11C67.2502 45.85 67.1602 45.53 66.9202 45.37C64.3902 43.71 61.3602 42.74 58.1102 42.74C57.5202 42.74 56.9402 42.77 56.3702 42.83C54.6802 50.64 49.7102 55.33 42.9502 55.33C41.4002 55.33 40.0102 55.11 38.7702 54.68H38.7502Z" fill="white" /> <path d="M37.9998 46.0799C34.7398 46.0799 33.0098 42.1799 33.0098 37.3799C33.0098 32.5799 34.7298 28.6799 37.9998 28.6799C41.2698 28.6799 42.9898 32.5799 42.9898 37.3799C42.9898 42.1799 41.2698 46.0799 37.9998 46.0799Z" fill="white" /> <path d="M33.75 24.4001C35.78 21.5101 38.76 19.9201 42.81 19.9201C43.38 19.9201 43.97 19.9601 44.55 20.0401C44.61 17.1801 44.39 14.3701 43.9 11.6601C43.61 10.0601 43.24 8.4901 42.77 6.9601C42.08 4.6601 41.19 2.4401 40.13 0.320103C40 0.0701027 39.71 -0.0598973 39.44 0.0201027C25.67 3.9801 15.2 15.9401 13.54 30.6601C10.58 28.5201 7.13 26.9501 3.33 26.1401C2.44 25.9501 1.56 25.8101 0.67 25.7101C0.32 25.6701 0.02 25.9501 0.02 26.2901C0 26.7601 0 27.2201 0 27.6801C0 41.6001 7.81 53.7001 19.29 59.8301V21.0201C19.29 20.8501 19.42 20.7201 19.59 20.7201H28.93C31.25 20.7201 33.19 22.3101 33.75 24.4001Z" fill="white" /> </g> </svg> </a> <button class="back-to-top__button" data-function="back-to-top" aria-label="Back to top">
+                    Zur&#252;ck zum Anfang
+                    <span> <svg viewBox="0 0 32 32"> <path d="M27.414 12.586l-10-10c-0.781-0.781-2.047-0.781-2.828 0l-10 10c-0.781 0.781-0.781 2.047 0 2.828s2.047 0.781 2.828 0l6.586-6.586v19.172c0 1.105 0.895 2 2 2s2-0.895 2-2v-19.172l6.586 6.586c0.39 0.39 0.902 0.586 1.414 0.586s1.024-0.195 1.414-0.586c0.781-0.781 0.781-2.047 0-2.828z"></path> </svg> </span> </button> </div> <div class="footer__links"> <ul class="footer__links-list"><li class="footer__link"><a href="https://northerneurope.pepsico.com/de-de/careers">Karrieren</a> </li><li class="footer__link"><a href="https://northerneurope.pepsico.com/de-de/global-sites">L&auml;nderauswahl</a> </li></ul><ul class="footer__links-list"><li class="footer__link"><a href="https://northerneurope.pepsico.com/de-de/sitemap">Sitemap</a> </li></ul> </div> <div class="footer__social-links"> <a class="social-link social-link--facebook" href="https://www.facebook.com/pepsi.de" target="_blank" aria-label="facebook" tabindex="0"> <svg class=footer__social viewBox="0 0 24 24"> <g id="1-Atoms/icons/social/facebook" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <path d="M12.5416667,20 L12.5416667,13.8020833 L10.4583333,13.8020833 L10.4583333,11.3854167 L12.5416667,11.3854167 L12.5416667,9.60416667 C12.5416667,7.54166667 13.8125,6.41666667 15.65625,6.41666667 C16.53125,6.41666667 17.2916667,6.47916667 17.5104167,6.51041667 L17.5104167,8.66666667 L16.2395833,8.67708333 C15.2291667,8.67708333 15.0416667,9.14583333 15.0416667,9.84375 L15.0416667,11.3854167 L17.4270833,11.3854167 L17.1145833,13.8020833 L15.0416667,13.8020833 L15.0416667,20 L19.1145833,20 C19.6041667,20 20,19.6041667 20,19.1145833 L20,4.88541667 C20,4.39583333 19.6041667,4 19.1145833,4 L4.88541667,4 C4.39583333,4 4,4.39583333 4,4.88541667 L4,19.1145833 C4,19.6041667 4.39583333,20 4.88541667,20 L12.5416667,20 Z" id="" fill="#000000" fill-rule="nonzero"></path> </g> </svg></a> <a class="social-link social-link--linkedin" href="https://www.linkedin.com/company/pepsico/" target="_blank" aria-label="linkedin" tabindex="0"><svg class=footer__social viewBox="0 0 24 24"> <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <path d="M17,20 C18.65625,20 20,18.65625 20,17 L20,7 C20,5.34375 18.65625,4 17,4 L7,4 C5.34375,4 4,5.34375 4,7 L4,17 C4,18.65625 5.34375,20 7,20 L17,20 Z M7.66666667,9.1875 L7.65625,9.1875 C6.84375,9.1875 6.32291667,8.625 6.32291667,7.9375 C6.32291667,7.22916667 6.86458333,6.6875 7.6875,6.6875 C8.51041667,6.6875 9.02083333,7.22916667 9.03125,7.9375 C9.03125,8.625 8.51041667,9.1875 7.66666667,9.1875 Z M8.875,17.3958333 L6.46875,17.3958333 L6.46875,10.1666667 L8.875,10.1666667 L8.875,17.3958333 Z M12.603249,11.1875645 L12.5833333,11.21875 C12.8958333,10.71875 13.46875,10 14.7604167,10 C16.34375,10 17.53125,11.03125 17.53125,13.25 L17.53125,17.3958333 L15.125,17.3958333 L15.125,13.53125 C15.125,12.5520833 14.78125,11.8958333 13.9166667,11.8958333 C13.25,11.8958333 12.8541667,12.34375 12.6770833,12.7708333 C12.6145833,12.9270833 12.6041667,13.1458333 12.6041667,13.3541667 L12.6041667,17.3958333 L10.1979167,17.3958333 C10.205303,15.8471591 10.2091977,14.626708 10.2108385,13.665841 L10.2109129,11.7427019 C10.2108139,11.6988007 10.2107078,11.6560919 10.2105951,11.6145442 L10.2098445,11.3789411 C10.2076567,10.7864884 10.2040744,10.4752797 10.2014058,10.3173474 L10.2004524,10.2650576 C10.2000016,10.2422552 10.199593,10.2242791 10.199242,10.2102856 L10.1983765,10.17941 C10.1983028,10.1771195 10.1982373,10.1751777 10.1981804,10.1735536 L10.1979167,10.1666667 L12.6041667,10.1666667 L12.603249,11.1875645 Z" id="" fill="#000000" fill-rule="nonzero"></path> </g> </svg></a> <a class="social-link social-link--instagram" href="https://www.instagram.com/pepsi.de/" target="_blank" aria-label="instagram" tabindex="0"> <svg class=footer__social viewBox="0 0 24 24"> <g id="1-Atoms/icons/social/instagram" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <path d="M15.3018146,19.9472699 C16.5829604,19.884775 17.7182846,19.5931321 18.6557084,18.6557084 C19.5931321,17.7182846 19.884775,16.5829604 19.9472699,15.3018146 C20.0097648,14.1977378 19.999349,13.1040768 19.999349,12 C19.999349,10.8959232 20.0097648,9.80226219 19.9472699,8.69818537 C19.884775,7.41703963 19.5931321,6.28171536 18.6557084,5.34429164 C17.7182846,4.40686793 16.5829604,4.115225 15.3018146,4.05273008 C14.1977378,3.99023517 13.1040768,4.00065099 12,4.00065099 C10.8959232,4.00065099 9.80226219,3.99023517 8.69818537,4.05273008 C7.41703963,4.115225 6.28171536,4.40686793 5.34429164,5.34429164 C4.40686793,6.28171536 4.115225,7.41703963 4.05273008,8.69818537 C4.0058589,9.52624298 4,10.3484417 4,11.1735699 L4.00065099,12 C4.00065099,13.1040768 3.99023517,14.1977378 4.05273008,15.3018146 C4.115225,16.5829604 4.40686793,17.7182846 5.34429164,18.6557084 C6.28171536,19.5931321 7.41703963,19.884775 8.69818537,19.9472699 C9.80226219,20.0097648 10.8959232,19.999349 12,19.999349 C13.1040768,19.999349 14.1977378,20.0097648 15.3018146,19.9472699 Z M12,18.561966 C10.8334283,18.561966 8.3336317,18.6557084 7.28163398,18.2390756 C6.91708032,18.0932541 6.64626902,17.9161852 6.36504191,17.6349581 C6.08381479,17.353731 5.90674587,17.0829197 5.7609244,16.718366 C5.34429164,15.6663683 5.43803401,13.1665717 5.43803401,12 C5.43803401,10.8334283 5.34429164,8.3336317 5.7609244,7.28163398 C5.90674587,6.91708032 6.08381479,6.64626902 6.36504191,6.36504191 C6.64626902,6.08381479 6.91708032,5.90674587 7.28163398,5.7609244 C8.3336317,5.34429164 10.8334283,5.43803401 12,5.43803401 C13.1665717,5.43803401 15.6663683,5.34429164 16.718366,5.7609244 C17.0829197,5.90674587 17.353731,6.08381479 17.6349581,6.36504191 C17.9161852,6.64626902 18.0932541,6.91708032 18.2390756,7.28163398 C18.6557084,8.3336317 18.561966,10.8334283 18.561966,12 C18.561966,13.1665717 18.6557084,15.6663683 18.2390756,16.718366 C18.0932541,17.0829197 17.9161852,17.353731 17.6349581,17.6349581 C17.353731,17.9161852 17.0829197,18.0932541 16.718366,18.2390756 C15.6663683,18.6557084 13.1665717,18.561966 12,18.561966 Z M16.2704858,8.68776955 C16.8016926,8.68776955 17.2287412,8.26072097 17.2287412,7.7295142 C17.2287412,7.19830743 16.8016926,6.77125885 16.2704858,6.77125885 C15.739279,6.77125885 15.3122304,7.19830743 15.3122304,7.7295142 C15.3122304,8.26072097 15.739279,8.68776955 16.2704858,8.68776955 Z M12,16.1038327 C14.2706485,16.1038327 16.1038327,14.2706485 16.1038327,12 C16.1038327,9.72935145 14.2706485,7.8961673 12,7.8961673 C9.72935145,7.8961673 7.8961673,9.72935145 7.8961673,12 C7.8961673,14.2706485 9.72935145,16.1038327 12,16.1038327 Z M12,14.6664497 C10.5313695,14.6664497 9.33355033,13.4686305 9.33355033,12 C9.33355033,10.5313695 10.5313695,9.33355033 12,9.33355033 C13.4686305,9.33355033 14.6664497,10.5313695 14.6664497,12 C14.6664497,13.4686305 13.4686305,14.6664497 12,14.6664497 Z" id="" fill="#000000" fill-rule="nonzero"></path> </g> </svg></a> </div> <div class="footer__auxilliaries"> <span class="footer__copyright">&copy; PepsiCo <span id="footer__copyright-year">20</span></span> <script>document.getElementById("footer__copyright-year").innerHTML = new Date().getYear() + 1900;</script> <a aria-label="Nutzungsbedingungen" href="/de-de/legal/terms-of-use" tabindex="0">Nutzungsbedingungen</a> <a aria-label="Datenschutz" href="https://pepsicoprivacypolicy.com/de/home" tabindex="0">Datenschutz</a> <a aria-label="Erkl&#228;rung zur Barrierefreiheit" href="/de-de/legal/accessibility-statement" tabindex="0">Erkl&#228;rung zur Barrierefreiheit</a> <a aria-label="Impressum" href="/de-de/legal/purchase-terms" tabindex="0">Impressum</a> <a aria-label="PepsiCo AGB" href="/de-de/legal/pepsico-agb" tabindex="0">PepsiCo AGB</a> </div> <div class="footer__more-sites"> <ul class="more-sites__list"><li><a href="https://www.pepsicoproductchecker.nl/" data-sf-ec-immutable="" data-sf-marked="" target="_blank">PepsiCo Product Checker Netherlands</a></li><li><a href="https://www.pepsicoproductchecker.be/" data-sf-ec-immutable="" data-sf-marked="" target="_blank">PepsiCo Product Checker Belgium</a></li><li><a href="https://externalinnovation.pepsico.com/" data-sf-ec-immutable="" data-sf-marked="" target="_blank">Ideen bei PepsiCo einreichen</a></li></ul> </div> </div> </footer> <!-- MODULE: MAIN SITE FOOTER --> </footer> <script>
+        // Load deferred styles
+        var loadDeferredStyles = function () {
+            var a = document.getElementById("deferred-styles");
+            var b = document.createRange().createContextualFragment(a.textContent);
+            document.head.appendChild(b);
+            document.head.removeChild(a);
+        };
+        var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+            webkitRequestAnimationFrame || msRequestAnimationFrame;
+        if (raf) raf(function () { window.setTimeout(loadDeferredStyles, 0); });
+        else window.addEventListener('load', loadDeferredStyles);
+
+    </script> <script src="/Assets/scripts/vendor.min.js"></script> <script src="/Assets/scripts/scripts.min.js"></script> <!--No Track Consent--> <script>
+
+        function deleteCookie(cookieName) {
+            document.cookie = cookieName + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+        }
+
+        function loadAndTrack() {
+            if (window.TrackingConsentManager != undefined) {
+                if (!window.TrackingConsentManager.canTrackCurrentUser()) {
+                    console.log("No consent")
+                    deleteCookie('_ga');
+                    deleteCookie('_gat');
+                    deleteCookie('_gid');
+                }
+
+                return;
+            }
+        }
+        window.addEventListener('load', loadAndTrack);
+
+
+        function redirectLink(e, event) {
+            document.getElementById("selectText").innerHTML = "";
+            document.getElementById("selectText").innerHTML = e.innerHTML;
+            window.location = e.href;
+            event.preventDefault();
+        }
+    </script> <!--No Track Consent--> <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1309197500" async></script></body> </html>
