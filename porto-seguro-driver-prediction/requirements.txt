@@ -1,0 +1,11 @@
+pandas>=2.2
+numpy>=2.0
+scipy>=1.14
+scikit-learn>=1.5
+matplotlib>=3.9
+seaborn>=0.13
+xgboost>=3.0
+lightgbm>=4.5
+catboost>=1.2
+imbalanced-learn>=0.14
+jupyter>=1.1
