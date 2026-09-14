@@ -1,0 +1,6 @@
+pandas>=2.2
+requests>=2.32
+beautifulsoup4>=4.12
+scikit-learn>=1.5
+openpyxl>=3.1
+

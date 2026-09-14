@@ -1,0 +1,10 @@
+.DS_Store
+.idea/
+.venv/
+__pycache__/
+*.py[cod]
+~$*
+data/raw_html/
+data/cleaned_text/
+logs/
+
